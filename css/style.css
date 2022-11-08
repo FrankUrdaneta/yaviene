@@ -15126,7 +15126,7 @@ html.tablet .chat {
 }
 
 html.rd-navbar-fixed-linked .page {
-	padding-top: 56px;
+	padding-top: 0;
 }
 
 /*
@@ -17719,6 +17719,15 @@ html.rd-navbar-fixed-linked .page {
 @media (max-width: 767.98px) {
 	.swiper-slide-caption {
 		padding-bottom: 80px;
+	}
+	.forma{
+		position: relative;
+		top: 0;
+	}
+	.rd-navbar-corporate.rd-navbar-static .rd-navbar-nav-wrap {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
 	}
 }
 

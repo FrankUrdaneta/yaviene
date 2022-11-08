@@ -9,6 +9,11 @@
     <meta charset="utf-8">
     
     <link rel="icon" href="images/yaviene.ico" type="image/x-icon">
+    <!--Animated-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <!-- Stylesheets-->
     
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat:400,500,600,700%7CPoppins:400%7CTeko:300,400">
@@ -20,11 +25,14 @@
 </head>
 <body>
   <!--chatbot-->
+  <!-- chat-icon="https://i.ibb.co/vBrLy3H/chatbot1.gif"  -->
   <div class="chatsito">
 <df-messenger class="messenger"
   intent="WELCOME"
-  chat-title="YAVIENE"
+  chat-title="YA VIENE"
+  
   agent-id="302faf8f-53d9-44ba-8186-1175f711490d"
+  
   language-code="es"
 ></df-messenger></div>
   <!-- <iframe class="fixed-bottom float-right" width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/302faf8f-53d9-44ba-8186-1175f711490d"></iframe> -->
@@ -40,12 +48,30 @@
         </div>
       </div>
       <div class="page">
-        <!-- Page Header-->
-        <header class="section page-header">
+       
+        
+          <!-- prueba Menu-->
+          <header class="section page-header">
+          
           <!-- RD Navbar-->
           <div class="rd-navbar-wrap">
             <nav class="rd-navbar rd-navbar-corporate" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px" data-xxl-stick-up-offset="106px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
               <div class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1" data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></div>
+              <div class="rd-navbar-aside-outer">
+              <div class="rd-navbar-aside">
+                <!-- RD Navbar Panel-->
+                <div class="rd-navbar-panel">
+                  <!-- RD Navbar Toggle-->
+                  <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                  <!-- RD Navbar Brand-->
+                  <h3  class="animate__lightSpeedInRight">Ya Viene</h3>
+                  </div>
+                  
+                </div>
+              
+              
+              </div>
+
               <div class="rd-navbar-main-outer">
                 <div class="rd-navbar-main">
                   <div class="rd-navbar-nav-wrap">
@@ -67,7 +93,9 @@
                     </ul>
                   </div>
                 </div>
-              </div>
+                </div>
+              
+            
             </nav>
           </div>
         </header>
@@ -163,25 +191,25 @@
                         <button type="submit" class="button button-secondary button-pipaluk">Buscar Pasajes</button>
                       </div> -->
                     </form>
-                    <form class="row g-3">
-                      <div class="col-auto">
+                    <form class="row g-3 mx-auto">
+                      <div class="col-lg-2 col-sm-6">
                         <label for="inputtext" class="visually-hidden">ORIGEN  <i class="fa fa-map-marker" aria-hidden="true"></i></label>
                         <input type="text"  class="form-control" id="staticEmail2" placeholder="Cordoba">
                       </div>
-                      <div class="col-auto">
+                      <div class="col-lg-2 col-sm-6">
                         <label for="inputtext" class="">DESTINO <i class="fa fa-globe" aria-hidden="true"></i></label>
                         <input type="text" class="form-control" id="input" placeholder="Destino">
                       </div>
-                      <div class="col-auto">
-                        <label for="inputtext" class="visually-hidden">CANTIDAD DE PASAJEROS</label>
+                      <div class="col-lg-2 col-sm-6">
+                        <label for="inputtext" class="visually-hidden">PASAJEROS</label>
                         <i class="icon fa fa-user-o"  aria-hidden="true"></i>
                         <input type="number" class="form-control" min="1" id="input" placeholder="1 Adulto">
                       </div>
-                      <div class="col-auto">
+                      <div class="col-lg-2 col-sm-6">
                         <label for="inputtext" class="visually-hidden">FECHA DE VIAJE <i class="fa fa-calendar" aria-hidden="true"></i></label>
                         <input type="date"  class="form-control" id="staticEmail2" placeholder="Cordoba">
                       </div>
-                      <div class="col-auto">
+                      <div class="col-lg-3 col-sm-6">
                         
                         <button type="submit" id="comprar" class="button button-secondary button-pipaluk">Buscar Pasajes</button>
                       </div>
