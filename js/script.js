@@ -1389,21 +1389,26 @@
 			}
 		}
 	});
+	
+var app = document.getElementById('app');
+
+var typewriter = new Typewriter(app, {
+    loop: true
+});
+
+typewriter.typeString('Viene')
+    .pauseFor(2500)
+    .deleteAll()
+    .typeString('Llegamos')
+    .pauseFor(2500)
+    .deleteChars(8)
+    .typeString('<strong>altered!</strong>')
+    .pauseFor(2500)
+    .start();
 }());
 
 
-const dfMessenger = document.querySelector('df-messenger');
-const payload = [
-  {
-    "type": "info",
-    "title": "Info item title",
-    "subtitle": "Info item subtitle",
-    "image": {
-      "src": {
-        "rawUrl": "https://example.com/images/logo.png"
-      }
-    },
-    "actionLink": "https://example.com"
-  }];
-dfMessenger.renderCustomCard(payload);
+
+
+
 

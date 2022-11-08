@@ -3352,8 +3352,8 @@ input[type="button"].btn-block {
 		padding-left: 0;
 	}
 	.list-inline > li {
-		display: block!important;
-	}
+	display: block!important;
+}
 }
 
 @media (min-width: 576px) {
@@ -8071,8 +8071,6 @@ html.tablet .chat {
 	color: white;
 	border-radius: 10px;
 	background-color: #009ee2;
-	padding-top: 50px;
-	padding-bottom: 50px;
 	border-bottom: 2px solid #11263a;
 	position:absolute;
 	left: auto;
@@ -8081,6 +8079,7 @@ html.tablet .chat {
 	opacity: 0.95;
 	padding-bottom: 20px;
 	padding-left: 30px;
+	padding-right: 20px;
 	padding-top: 0px;
 	font-size: 1rem;
 }

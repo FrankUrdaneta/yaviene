@@ -12367,6 +12367,15 @@ html [class*='section-'].section-top-0 {
 		overflow: hidden;
 		text-overflow: ellipsis;
 	}
+	.forma{
+		position: relative;
+		top: 0;
+		padding-top: 0;
+		margin-top: 0;
+	}
+	.page{
+		min-height: 65vh;
+	}
 }
 
 .grid-demonstration-fullwidth {
@@ -17747,6 +17756,10 @@ html.rd-navbar-fixed-linked .page {
 	.swiper-slider-classic p {
 		display: none;
 	}
+	.forma{
+		position: relative;
+		top: 0;
+	}
 }
 
 .swiper-slider-classic .swiper-pagination-bullet {
@@ -18025,6 +18038,10 @@ html.rd-navbar-fixed-linked .page {
 @media (max-width: 575.98px) {
 	.swiper-slider-modern .swiper-slide {
 		background-position: 30% 50%;
+	}
+	.forma{
+		position: relative;
+		top: 0;
 	}
 }
 
@@ -18412,7 +18429,7 @@ html.rd-navbar-fixed-linked .page {
 
 @media (min-width: 1200px) {
 	.swiper-slider-corporate.swiper-container-horizontal {
-		min-height: 35.3125vw;
+		min-height: 28.3125vw;
 	}
 }
 
@@ -19081,6 +19098,7 @@ html.rd-navbar-fixed-linked .page {
 	[data-isotope-layout] .thumbnail {
 		max-width: none;
 	}
+	
 }
 
 .isotope-filters {
