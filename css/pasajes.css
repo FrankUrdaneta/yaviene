@@ -1,0 +1,13 @@
+.card-group{
+    margin-top: 1px;
+    margin-bottom: 15px!important;
+    border-radius: 10px;
+    display: wrap;
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.card{
+    border: none;
+}

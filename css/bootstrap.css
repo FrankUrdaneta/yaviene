@@ -8173,3 +8173,18 @@ iframe{
 	display: none!important;
 }
 
+.buscarPasajes{
+	list-style: none;
+	color: white;
+}
+.buscarPasajes:hover{
+	color: #009ee2;
+	
+}
+#comprar:hover{
+	color: #009ee2;
+	
+}
+#comprar{
+	color:white;
+}

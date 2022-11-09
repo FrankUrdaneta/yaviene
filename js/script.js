@@ -1390,21 +1390,21 @@
 		}
 	});
 	
-var app = document.getElementById('app');
+// var app = document.getElementById('app');
 
-var typewriter = new Typewriter(app, {
-    loop: true
-});
+// var typewriter = new Typewriter(app, {
+//     loop: true
+// });
 
-typewriter.typeString('Viene')
-    .pauseFor(2500)
-    .deleteAll()
-    .typeString('Llegamos')
-    .pauseFor(2500)
-    .deleteChars(8)
-    .typeString('<strong>altered!</strong>')
-    .pauseFor(2500)
-    .start();
+// typewriter.typeString('Viene')
+//     .pauseFor(2500)
+//     .deleteAll()
+//     .typeString('Llegamos')
+//     .pauseFor(2500)
+//     .deleteChars(8)
+//     .typeString('<strong>altered!</strong>')
+//     .pauseFor(2500)
+//     .start();
 }());
 
 
