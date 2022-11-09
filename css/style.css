@@ -482,6 +482,9 @@ a[href*='tel'], a[href*='mailto'] {
 	.block-center-header {
 		background-color: #009ee2;
 	}
+	.page{
+		min-height: 45vh!important;
+	}
 }
 
 /*
@@ -9208,6 +9211,9 @@ textarea.textarea-lg {
 	.product-title {
 		font-size: 20px;
 	}
+	.page{
+		min-height: 40vh!important;
+	}
 }
 
 @media (min-width: 992px) {
@@ -12378,6 +12384,22 @@ html [class*='section-'].section-top-0 {
 	}
 }
 
+@media (max-width: 3000.98px) {
+	.grid-demonstration p {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	.forma{
+		position: relative;
+		top: 0;
+		padding-top: 0;
+		margin-top: 0;
+	}
+	.page{
+		min-height: 52vh;
+	}
+}
 .grid-demonstration-fullwidth {
 	line-height: 1.86;
 }
@@ -17761,6 +17783,22 @@ html.rd-navbar-fixed-linked .page {
 		top: 0;
 	}
 }
+
+@media (max-height: 3000px) {
+	.swiper-slider-classic {
+		min-height: 260px;
+	}
+	.swiper-slider-classic p {
+		display: none;
+	}
+	.forma{
+		position: relative;
+		top: 0;
+	}
+	.page{
+		min-height: 4vh!important;
+	}
+} 
 
 .swiper-slider-classic .swiper-pagination-bullet {
 	position: relative;
