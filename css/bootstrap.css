@@ -8071,7 +8071,7 @@ html.tablet .chat {
 	font-weight: bold;
 	color: white;
 	border-radius: 10px;
-	background-color: #009ee2;
+	background:linear-gradient(90deg, rgba(0,153,226,1) 0%, rgba(9,71,121,1) 35%, rgba(0,255,235,1) 100%);;
 	border-bottom: 2px solid #11263a;
 	position:absolute;
 	left: auto;

@@ -6,8 +6,33 @@
     padding: 0;
     margin-left: 10px;
     margin-right: 10px;
-    
+    height:auto!important;
 }
 .card{
     border: none;
+    
 }
+.btn-success{
+    border-radius: 5px;
+    background-color: #198754;
+    color: white;
+}
+
+/* estilo tarjeta boton compra caja */
+/* .encabezado { //crear linea diagonal
+    width: 10%;
+    height: 40px;
+    display: flex;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .encabezado::after {
+    content: "";
+    position: absolute;
+    
+    width: 10%;
+    height: 40px;
+    background: rgba(0, 125, 204, .95);
+    transform: skew(40deg);
+  } */
