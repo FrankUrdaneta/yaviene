@@ -1,0 +1,93 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #009ee2;
+}
+
+
+.btn{
+    width: 100%;
+}
+
+#close{
+    position: absolute;
+    top: -30px;
+    right: 10px;
+    font-size: 25px;
+    color: #009ee2;
+    cursor: pointer;
+}
+
+.pop-up-wrap .show{
+    transform: scale(1);
+    opacity: 1;
+}
+
+
+/*probar aqui*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+}
+
+.texto{
+    margin: 30px auto;
+    width: 80%;
+}
+
+.texto p, h1{
+    margin-bottom: 30px;
+}
+
+.texto p{
+    font-size: 20px;
+}
+
+.btn-abrir{
+    background: #0063a5;
+    color:#fff;
+    padding: 10px;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+}
+
+/* VENTANA MODAL */
+
+
+
+.pop-up-wrap{
+    /* background: linear-gradient(90deg, rgba(10,39,52,1) 0%, rgba(0,1,3,1) 87%, rgba(0,39,255,1) 100%); */
+    background: linear-gradient(90deg, rgba(0,39,255,1) 4%, rgba(0,1,3,1) 18%, rgba(13,17,45,1) 100%);
+    border-radius: 10px;
+    position: fixed;
+    z-index: 160!important;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 75%!important;
+    transform: scale(0.6);
+    opacity: 0;
+    margin-left: 20%;
+    transition: .3s ease all;
+    margin-top: 60px;
+    /* box-shadow: 5px 2px 2px 1px #9fa3a5; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pop-up.show{
+    visibility: visible;
+}
+
+.pop-up-wrap.show{
+    
+    transform: scale(1);
+    opacity: 1;
+}
+

@@ -53,12 +53,12 @@ comprar.addEventListener('click',()=>{
     </div>
     <div class="card">
       <div class="card-body">
-        <h6 class="card-title">${salida}</h6>
+        <h6 class="card-title"><i class="icon fa fa-arrow-right" aria-hidden="true"></i>${salida}</h6>
       </div>
     </div>
     <div class="card">
       <div class="card-body">
-        <h6 class="card-title">${llegada}</h6>
+        <h6 class="card-title"><i class="icon fa fa-map-marker" aria-hidden="true"></i>${llegada}</h6>
       </div>
     </div>
     <div class="card">
