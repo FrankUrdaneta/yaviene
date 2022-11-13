@@ -8183,9 +8183,9 @@ iframe{
 	
 }
 #comprar:hover{
-	color: #009ee2;
+	color: #009ee2!important;
 	
 }
 #comprar{
-	color:white;
+	color:white!important;
 }

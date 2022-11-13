@@ -9,7 +9,7 @@
     <meta charset="utf-8">
     
     <link rel="icon" href="images/yaviene.ico" type="image/x-icon">
-    <!--Animated-->
+    
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -24,17 +24,11 @@
     <link rel="stylesheet" href="css/pasajes.css"/>
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
   </head>
-</head>
+
 <body>
   <!--chatbot-->
   <!-- chat-icon="https://i.ibb.co/vBrLy3H/chatbot1.gif"  -->
-  <div class="chatsito">
-<df-messenger class="messenger"
-  intent="WELCOME"
-  chat-title="YA VIENE"
-  agent-id="302faf8f-53d9-44ba-8186-1175f711490d"
-  language-code="es"
-></df-messenger></div>
+  
   <!-- <iframe class="fixed-bottom float-right" width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/302faf8f-53d9-44ba-8186-1175f711490d"></iframe> -->
   <!-- <div id="diangocambio">
     <img id="chat" class="chat" src="./images/chatbot1.gif"/>
@@ -46,13 +40,10 @@
           </div>
           <p>Loading...</p>
         </div>
-      </div>
+    </div>
       <div class="page">
-       
-        
           <!-- prueba Menu-->
           <header class="section page-header">
-          
           <!-- RD Navbar-->
           <div class="rd-navbar-wrap">
             <nav class="rd-navbar rd-navbar-corporate" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px" data-xxl-stick-up-offset="106px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
@@ -103,41 +94,51 @@
         </header>
         <!-- Swiper-->
        <!--cards header-->
-       <div class="card-group shadow-lg p-3 mb-5 bg-body rounded">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Empresa</h5>
+       <div class="forma mt-2">
+        <form class="forma2">
+          <div class="row g-3">
+            <div class="col-auto">
+            <label for="inputtext" class=""><h5 class="text-white">PASAJES <i class="icon fa fa-ticket" aria-hidden="true"></i>  </h5></label>
           </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Salida</h5>
+          <div class="col-auto">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+              <label class="form-check-label" for="exampleRadios1">
+                Ida
+              </label>
+            </div>
+            <div class="col-auto">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" checked>
+              <label class="form-check-label" for="exampleRadios2">
+                Ida y Vuelta
+              </label>
+            </div>
           </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Llegada</h5>
+          
+        </form>
+        <form class="row g-3 mx-auto">
+          <div class="col-lg-2 col-sm-6">
+            <label for="inputtext" class=""><i class="icon fa fa-dot-circle-o" style="color:white" aria-hidden="true"></i> ORIGEN  </label>
+            <input type="text"  class="form-control" id="button" placeholder="Cordoba">
           </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Comodidad</h5>
+          <div class="col-lg-2 col-sm-6">
+            <label for="inputtext" class=""><i class="icon fa fa-map-marker" style="color:white" aria-hidden="true"></i> DESTINO </label>
+            <input type="text" class="form-control" id="input" placeholder="Destino">
           </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Informacion</h5>
+          <div class="col-lg-2 col-sm-6">
+            <label for="inputtext" class="">PASAJEROS</label>
+            <i class="icon fa fa-users" aria-hidden="true"></i>
+            <input type="number" class="form-control" min="1" id="input" placeholder="1">
           </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Precio</h5>
-           
+          <div class="col-lg-2 col-sm-6">
+            <label for="inputtext" class="">FECHA DE VIAJE <i class="icon fa fa-calendar" aria-hidden="true"></i></label>
+            <input type="date"  class="form-control" id="staticEmail2" placeholder="Cordoba">
           </div>
-        </div>
-      </div>
-      <!--Cards cajas-->
-      <div class="card-group border-danger shadow-lg p-3 mb-5 bg-body rounded">
+          <div class="col-lg-3 col-sm-6">
+           <button  id="comprar"  class="button button-secondary button-pipaluk">Buscar Pasajes</button>
+          </div>
+        </form>
+      </div> 
+      <div class="card-group shadow-lg p-3 mb-5 bg-body boleto">
         <div class="card ">
           <div class="card-body">
             <img class="card-img-top" src="./images/logosEmpresas/ersa.png" alt="Card image cap">
@@ -145,238 +146,217 @@
         </div>
         <div class="card">
           <div class="card-body">
-            <h6 class="card-title">Salida</h6>
+            <h6 class="card-title font-weight-bold"><i class="icon fa fa-dot-circle-o" style="color:black" aria-hidden="true"></i> Cordoba -Terminal</h6>
+            <p class="card-title pasaje">Lunes 2022-11-15 16:00 Hs</p>
           </div>
         </div>
+        
         <div class="card">
           <div class="card-body">
-            <h6 class="card-title">Llegada</h6>
+            <h6 class="card-text font-weight-bold"><i class="icon fa fa-map-marker" style="color:black" aria-hidden="true"></i> Carlos Paz-Terminal</h6>
+            <p class="card-text pasaje">Martes 2022-11-16 6:00 Hs</p>
           </div>
         </div>
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-title">Cama</h6>
+        
+        <div class="card price">
+          <div class="card-body mb-0">
+            <h5 class="card-title text-white font-weight-bold mb-0">$ 11500</h5>
+            <p class="card-title font-weight-bold pasaje">Por Persona</p>
+            <a href="#!" class="btn btn-primary ov-btn-grow-skew">Comprar</a>
           </div>
         </div>
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-title">Duracion: 14:50hs.
-              Pasajes: 1</h6>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-text"><span class="text-italic">Ars</span> 11500</h6>
-            <a href="#!" class="btn btn-primary">Comprar</a>
-          </div>
-        </div>
-      </div>
+      </div> 
 
-      <!--********empresa 2-->
-      <div class="card-group border-danger shadow-lg p-3 mb-5 bg-body rounded">
-        <div class="card">
+      <div class="card-group  shadow-lg p-3 mb-5 bg-body boleto">
+        <div class="card ">
           <div class="card-body">
             <img class="card-img-top" src="./images/logosEmpresas/fonobus.jpg.crdownload" alt="Card image cap">
           </div>
         </div>
         <div class="card">
           <div class="card-body">
-            <h6 class="card-title">Salida</h6>
+            <h6 class="card-title font-weight-bold"><i class="icon fa fa-dot-circle-o" style="color:black" aria-hidden="true"></i> Cordoba -Terminal</h6>
+            <p class="card-title pasaje">Lunes 2022-11-15 16:00 Hs</p>
           </div>
         </div>
+        
         <div class="card">
           <div class="card-body">
-            <h6 class="card-title">Llegada</h6>
+            <h6 class="card-text font-weight-bold"><i class="icon fa fa-map-marker" style="color:black" aria-hidden="true"></i> Carlos Paz-Terminal</h6>
+            <p class="card-text pasaje">Martes 2022-11-16 6:00 Hs</p>
           </div>
         </div>
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-title">Cama</h6>
+        
+        <div class="card price">
+          <div class="card-body mb-0">
+            <h5 class="card-text text-white font-weight-bold mb-0">$ 9500</h5>
+            <p class="card-title font-weight-bold pasaje">Por Persona</p>
+            <a href="#!" class="btn btn-primary ov-btn-grow-skew">Comprar</a>
           </div>
         </div>
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-title">Duracion: 14:50hs.
-              Pasajes: 1</h6>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-text">10500</h6>
-            <a href="#!" class="btn btn-primary">Comprar</a>
-          </div>
-        </div>
-      </div>
-      <!--3-->
-      <div class="card-group border-danger shadow-lg p-3 mb-5 bg-body rounded">
-        <div class="card">
-          <div class="card-body">
-            <img class="card-img-top" src="./images/logosEmpresas/lumasa.png" alt="Card image cap">
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-title">Salida</h6>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-title">Llegada</h6>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-title">Cama</h6>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-title">Duracion: 14:50hs.
-              Pasajes: 1</h6>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-text">12500</h6>
-            <a href="#!" class="btn btn-primary">Comprar</a>
-          </div>
-        </div>
-      </div>
-      <!--4 prueba-->
-      <div class="card-group border-danger shadow-lg p-3 mb-5 bg-body rounded">
-        <div class="card">
+      </div> 
+
+      <div class="card-group  shadow-lg p-3 mb-5 bg-body boleto">
+        <div class="card ">
           <div class="card-body">
             <img class="card-img-top" src="./images/logosEmpresas/transbus.png" alt="Card image cap">
           </div>
         </div>
         <div class="card">
           <div class="card-body">
-            <h6 class="card-title">Salida</h6>
+            <h6 class="card-title font-weight-bold"><i class="icon fa fa-dot-circle-o" style="color:black" aria-hidden="true"></i> Cordoba -Terminal</h6>
+            <p class="card-title pasaje">Lunes 2022-11-15 16:00 Hs</p>
           </div>
         </div>
+        
         <div class="card">
           <div class="card-body">
-            <h6 class="card-title">Llegada</h6>
+            <h6 class="card-text font-weight-bold"><i class="icon fa fa-map-marker" style="color:black" aria-hidden="true"></i> Carlos Paz-Terminal</h6>
+            <p class="card-text pasaje">Martes 2022-11-16 6:00 Hs</p>
           </div>
         </div>
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-title">Cama</h6>
+        
+        <div class="card price">
+          <div class="card-body mb-0">
+            <h5 class="card-text text-white font-weight-bold mb-0">$ 10500</h5>
+            <p class="card-title font-weight-bold pasaje">Por Persona</p>
+            <a href="#!" class="btn btn-primary ov-btn-grow-skew">Comprar</a>
           </div>
         </div>
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-title">Duracion: 14:50hs.
-              Pasajes: 1</h6>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-text">9500</h6>
-            <a href="#!" class="btn btn-primary">Comprar</a>
-          </div>
-        </div>
-      </div>
+      </div> 
 
-      <!--coata-->
-      <div class="card-group border-danger shadow-lg p-3 mb-5 bg-body rounded">
-        <div class="card">
-          <div class="card-body">
-            <img class="card-img-top" src="./images/logosEmpresas/coata.png" alt="Card image cap">
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-title">Salida</h6>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-title">Llegada</h6>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-title">Cama</h6>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-title">Duracion: 14:50hs.
-              Pasajes: 1</h6>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-text">10500</h6>
-            <a href="#!" class="btn btn-primary">Comprar</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="card-group border-danger shadow-lg p-3 mb-5 bg-body rounded">
-        <div class="card">
+      <div class="card-group  shadow-lg p-3 mb-5 bg-body boleto">
+        <div class="card ">
           <div class="card-body">
             <img class="card-img-top" src="./images/logosEmpresas/buseslep.png" alt="Card image cap">
           </div>
         </div>
         <div class="card">
           <div class="card-body">
-            <h6 class="card-title">Salida</h6>
+            <h6 class="card-title font-weight-bold"><i class="icon fa fa-dot-circle-o" style="color:black" aria-hidden="true"></i> Cordoba -Terminal</h6>
+            <p class="card-title pasaje">Lunes 2022-11-15 16:00 Hs</p>
           </div>
         </div>
+        
         <div class="card">
           <div class="card-body">
-            <h6 class="card-title">Llegada</h6>
+            <h6 class="card-text"><i class="icon fa fa-map-marker" style="color:black" aria-hidden="true"></i> Carlos Paz-Terminal</h6>
+            <p class="card-text pasaje">Martes 2022-11-16 6:00 Hs</p>
           </div>
         </div>
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-title">Cama</h6>
+        
+        <div class="card price">
+          <div class="card-body mb-0">
+            <h5 class="card-text text-white  font-weight-bold mb-0">$ 11500</h5>
+            <p class="card-title font-weight-bold pasaje">Por Persona</p>
+            <a href="#!" class="btn btn-primary ov-btn-grow-skew">Comprar</a>
           </div>
         </div>
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-title">Duracion: 14:50hs.
-              Pasajes: 1</h6>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-text">10500</h6>
-            <a href="#!" class="btn btn-primary">Comprar</a>
-          </div>
-        </div>
-      </div>
+      </div> 
+    </section>
        <!--Inicio Footer-->
-          <div class="footer-corporate-bottom-panel">
-            <div class="container">
-              <div class="row justfy-content-xl-space-berween row-10 align-items-md-center2">
-                <div class="col-sm-6 col-md-4 text-sm-right text-md-center">
-                  <div>
-                    <ul class="list-inline list-inline-sm footer-social-list-2">
-                      <li><a class="icon fa fa-facebook" href="#"></a></li>
-                      <li><a class="icon fa fa-twitter" href="#"></a></li>
-                      <li><a class="icon fa fa-google-plus" href="#"></a></li>
-                      <li><a class="icon fa fa-instagram" href="#"></a></li>
+
+       <!-- Page Footer-->
+       <footer class="section footer-corporate context-dark">
+        <div class="footer-corporate-inset">
+          <div class="container">
+            <div class="row row-40 justify-content-lg-between">
+              <div class="col-sm-6 col-md-12 col-lg-3 col-xl-4">
+                <div class="oh-desktop">
+                  <div class="wow slideInRight" data-wow-delay="0s">
+                    <h6 class="text-spacing-100 text-uppercase">Contactanos</h6>
+                    <ul class="footer-contacts d-inline-block d-sm-block">
+                      <li>
+                        <div class="unit">
+                          <div class="unit-left"><span class="icon fa fa-phone"></span></div>
+                          <div class="unit-body"><a class="link-phone" href="tel:#">+549 999 9999999</a></div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="unit">
+                          <div class="unit-left"><span class="icon fa fa-envelope"></span></div>
+                          <div class="unit-body"><a class="link-aemail" href="mailto:#">info@globalvisum.com</a></div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="unit">
+                          <div class="unit-left"><span class="icon fa fa-location-arrow"></span></div>
+                          <div class="unit-body"><a class="link-location" href="#">Agustin Garzon 1691 Cordoba Argentina</a></div>
+                        </div>
+                      </li>
                     </ul>
                   </div>
                 </div>
-                <div class="col-sm-6 col-md-4 order-sm-first">
-                  <!-- Rights-->
-                  <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span></span>Todos los derechos Reservados <a href="">Micronauta</a></p>
+              </div>
+              <div class="col-sm-6 col-md-5 col-lg-3 col-xl-4">
+                <div class="oh-desktop">
+                  <div class="wow slideInDown" data-wow-delay="0s">
+                    <h6 class="text-spacing-100 text-uppercase">Noticias Populares</h6>
+                    <!-- Post Minimal 2-->
+                    <article class="post post-minimal-2">
+                      <p class="post-minimal-2-title"><a href="#">Su guía personal de los 5 mejores lugares para visitar en la Tierra</a></p>
+                     
+                    </article>
+                  </div>
                 </div>
-                <div class="col-sm-6 col-md-4 text-md-right">
-                  <p class="rights"><a href="#">Politica de Privacidad</a></p>
+              </div>
+              <div class="col-sm-11 col-md-7 col-lg-5 col-xl-4">
+                <div class="oh-desktop">
+                  <div class="wow slideInLeft" data-wow-delay="0s">
+                    <h6 class="text-spacing-100 text-uppercase">Enlaces Rapidos</h6>
+                    <ul class="row-6 list-0 list-marked list-marked-md list-marked-secondary list-custom-2">
+                      <li><a href="about.html">Sobre Nosotros</a></li>
+                      <li><a href="#">Nuestros viajes</a></li>
+                      <li><a href="#">Nuestro Equipo</a></li>
+                      <li><a href="#">Galeria</a></li>
+                      
+                    </ul>
+                    <div class="group-md group-middle justify-content-sm-start"><a class="button button-secondary button-pipaluk" href="#maps">Contactanos</a></div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </footer>
+        </div>
+        <div class="footer-corporate-bottom-panel">
+          <div class="container">
+            <div class="row justfy-content-xl-space-berween row-10 align-items-md-center2">
+              <div class="col-sm-6 col-md-4 text-sm-right text-md-center">
+                <div>
+                  <ul class="list-inline list-inline-sm footer-social-list-2">
+                    <li><a class="icon fa fa-facebook" href="#"></a></li>
+                    <li><a class="icon fa fa-twitter" href="#"></a></li>
+                    <li><a class="icon fa fa-google-plus" href="#"></a></li>
+                    <li><a class="icon fa fa-instagram" href="#"></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 order-sm-first">
+                <!-- Rights-->
+                <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span></span>Todos los derechos Reservados <a href="#">Micronauta</a></p>
+              </div>
+              <div class="col-sm-6 col-md-4 text-md-right">
+                <p class="rights"><a href="#">Politica de Privacidad</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+          
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="js/typerWrite.js"></script>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key=Tu_API_Key"></script>
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="js/typerWrite.js"></script>
+    <script src="js/pasajes.js"></script>
+    <script src="js/login.js"></script>
     <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 </body>
 </html>
