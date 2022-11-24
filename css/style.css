@@ -4206,6 +4206,8 @@ hr {
 	padding: 14px 35px 15px;
 	border: none;
 	z-index: 1;
+	
+	
 }
 
 .button-pipaluk::before {
@@ -9214,6 +9216,7 @@ textarea.textarea-lg {
 	.page{
 		min-height: 40vh!important;
 	}
+	
 }
 
 @media (min-width: 992px) {
@@ -9758,6 +9761,7 @@ h5 + .list-popular-product {
 	.mobile [class*='product-image-marker']::after {
 		animation: item1A 1s ease infinite;
 	}
+	
 }
 
 @keyframes item1B {
@@ -12378,6 +12382,7 @@ html [class*='section-'].section-top-0 {
 		top: 0;
 		padding-top: 0;
 		margin-top: 0;
+		
 	}
 	.page{
 		min-height: 65vh;
@@ -12399,6 +12404,7 @@ html [class*='section-'].section-top-0 {
 	.page{
 		min-height: 52vh;
 	}
+	
 }
 .grid-demonstration-fullwidth {
 	line-height: 1.86;

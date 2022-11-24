@@ -23,11 +23,11 @@
     <link rel="stylesheet" href="css/login.css" />
     <link rel="stylesheet" href="css/pasajes.css">
   </head>
-</head>
+
 <body>
   <!--chatbot-->
   <!-- chat-icon="https://i.ibb.co/vBrLy3H/chatbot1.gif"  -->
-  <div class="chatsito">
+  <!-- <div class="chatsito">
 <df-messenger class="messenger"
   intent="WELCOME"
   chat-title="YA VIENE"
@@ -35,7 +35,7 @@
   agent-id="302faf8f-53d9-44ba-8186-1175f711490d"
   
   language-code="es"
-></df-messenger></div>
+></df-messenger></div> -->
   <!-- <iframe class="fixed-bottom float-right" width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/302faf8f-53d9-44ba-8186-1175f711490d"></iframe> -->
   <!-- <div id="diangocambio">
     <img id="chat" class="chat" src="./images/chatbot1.gif"/>
@@ -49,59 +49,7 @@
         </div>
       </div>
       <div class="page">
-       <!--Login-->
-       <section class="pop-up vh-100 ">
-        <div class="pop-up-wrap container py-5 h-100 ">
-          <div class="row d-flex align-items-center justify-content-center h-100">
-            <div class="col-sm-12 col-md-8 col-lg-7 col-xl-6 ">
-              <img src="./images/login3.png">
-              <!-- <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.svg"
-                class="img-fluid " alt="Phone image"> -->
-            </div>
-            
-            <div class="col-sm-12 col-md-7 col-lg-5 col-xl- offset-xl-1 ">
-                
-              <form>
-                
-                <!-- Email input -->
-                <div><i class="icon far fa-times-circle" id="close"></i></div>
-                <div class="form-outline mb-4">
-                  <input type="email" id="form1Example13" class="form-control form-control-lg" placeholder="Email " />
-                </div>
-      
-                <!-- Password input -->
-                <div class="form-outline mb-4">
-                  <input type="password" id="form1Example23" class="form-control form-control-lg" placeholder="Contraseña" />
-                  
-                </div>
-      
-                <div class="d-flex justify-content-around align-items-center mb-4">
-                  <!-- Checkbox -->
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="form1Example3" checked />
-                    <label class="form-check-label" for="form1Example3"> Recordarme </label>
-                  </div>
-                  <a href="#!">Olvidaste tu contraseña?</a>
-                </div>
-      
-                <!-- Submit button -->
-                <button type="submit" class="btn btn-primary btn-lg btn-block">Iniciar sesion</button>
-      
-                <div class="divider d-flex align-items-center my-4">
-                  <p class="text-center fw-bold mx-3 mb-0 text-muted">O</p>
-                </div>
-      
-                <a class="redes btn btn-primary btn-lg btn-block" style="background-color: #3b5998" href="#!"
-                  role="button">
-                  <i class="icon fab fa-facebook-f me-2"></i>Continua con Facebook
-                </a>
-                <a class="redes btn btn-lg btn-block btn-primary" style="background-color: #dd4b39;"
-                  type="submit"><i class="icon fab fa-google me-2"></i> Continua con google</a>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
+       
           <!-- prueba Menu-->
           <header class="section page-header">
           
@@ -141,14 +89,13 @@
                     <ul class="rd-navbar-nav">
                       <li class="rd-nav-item active"><img src="https://cordoba.gob.ar/wp-content/uploads/2022/08/cba-capital.svg">
                       </li>
-                      
                     </ul>
                   </div>
                 </div>
                 </div>
-              
-            
             </nav>
+            <div id="buscador" class="fixed-top"></div>
+
           </div>
         </header>
         <!-- Swiper-->
@@ -203,52 +150,6 @@
         </section>
         <!-- Section Box Categories-->
         
-                  <div class="forma">
-                    
-                    <form class="forma1">
-                      <div class="row g-3">
-                        <div class="col-auto">
-                        <label for="inputtext" class="visually-hidden"><h5 class="text-white">PASAJES <i class="icon fa fa-ticket" aria-hidden="true"></i>  </h5></label>
-                      </div>
-                      <div class="col-auto">
-                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                          <label class="form-check-label" for="exampleRadios1">
-                            Ida
-                          </label>
-                        </div>
-                        <div class="col-auto">
-                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" checked>
-                          <label class="form-check-label" for="exampleRadios2">
-                            Ida y Vuelta
-                          </label>
-                        </div>
-                      </div>
-                      
-                    </form>
-                    <form class="row g-3 mx-auto">
-                      <div class="col-lg-2 col-sm-6">
-                        <label for="inputtext" class="visually-hidden">ORIGEN  <i class="icon fa fa-map-marker" aria-hidden="true"></i></label>
-                        <input type="text"  class="form-control" id="button" placeholder="Cordoba">
-                      </div>
-                      <div class="col-lg-2 col-sm-6">
-                        <label for="inputtext" class="">DESTINO <i class="icon fa fa-globe" aria-hidden="true"></i></label>
-                        <input type="text" class="form-control" id="input" placeholder="Destino">
-                      </div>
-                      <div class="col-lg-2 col-sm-6">
-                        <label for="inputtext" class="visually-hidden">PASAJEROS</label>
-                        <i class="icon fa fa-users" aria-hidden="true"></i>
-                        <input type="number" class="form-control" min="1" id="input" placeholder="1">
-                      </div>
-                      <div class="col-lg-2 col-sm-6">
-                        <label for="inputtext" class="visually-hidden">FECHA DE VIAJE <i class="icon fa fa-calendar" aria-hidden="true"></i></label>
-                        <input type="date"  class="form-control" id="staticEmail2" placeholder="Cordoba">
-                      </div>
-                      <div class="col-lg-3 col-sm-6">
-                       <a href="./pasajes.html"><button  id="comprar"  class="button button-secondary button-pipaluk">Buscar Pasajes</button></a>
-                      </div>
-                    </form>
-                  </div> 
-                  <div id="verPasaje"></div>
         <!-- Discover New Horizons-->
         <section class="section section-sm section-first bg-default text-md-left descubre">
           <div class="container">
@@ -576,5 +477,6 @@
     <script src="js/pasajes.js"></script>
     <script src="js/login.js"></script>
     <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <script src="./js/buscador_pasajes.js"></script>
 </body>
 </html>

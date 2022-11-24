@@ -1,0 +1,12 @@
+#map{
+    height: 65%;
+    width: 37.5%;
+    display: flex;
+    position: absolute;
+    right: 5px;
+    top: 240px;
+    border-radius: 10px;
+    border-top: 2px solid #007FFF ;
+    border-right: 2px solid #007FFF ;
+}
+

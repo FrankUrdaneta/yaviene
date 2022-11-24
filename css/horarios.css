@@ -1,15 +1,15 @@
 .card-group{
-    margin-top: 1px;
+    margin-top: 5px;
     margin-bottom: 10px!important;
     border-radius: 10px;
     padding: 0;
-    margin-left: auto!important;
+    margin-left: 10px;
     margin-right: 4px!important;
     height:1%!important;
     display: flex;
     justify-content: center;
-    align-items: center; 
-    width: 98%;
+    align-items: left; 
+    width: 61%;
 }
 .card{
     border: none;
@@ -72,100 +72,7 @@
     padding: 0px!important;
   }
 
-  .invertirSentido{
-    background-color: white;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+  /* estilos mapa */
+  .pasajeIcon{
+    font-size: 25px;
   }
-  
-  .origenInput{
-    padding: 0;
-    border: none!important;
-  }
-  
-
-
-
-
-  .origenIcono{
-    background-color: white;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    z-index: 100;
-    left: 2%;
-  }
-
-  .botonBuscarPasajes{
-    border-radius: 5px;
-    height: 130%;
-    position: relative;
-    top: -22%;
-  }
-  
-  @media (max-width: 991px){
-    .botonBuscarPasajes{
-      top: 5%;
-      left: -17.5%;
-      width: 71.5%;
-    }
-    #buscador{
-      top: 5%!important;
-    }
-  }
-
-  @media (max-width: 599px){
-    .botonBuscarPasajes{
-      top: 5%;
-      left: -6.5%;
-      width: 79%;
-    }
-    #buscador{
-      top: 5%!important;
-    }
-  }
-
-  @media (max-width: 767px){
-    .botonBuscarPasajes{
-      top: 5%;
-      left: -18%;
-      width: 74%;
-    }
-    #buscador{
-      top: 5%!important;
-    }
-  }
-  @media (max-width: 575px){
-    .botonBuscarPasajes{
-      top: 5%;
-      left: -17.5%;
-      width: 71%;
-    }
-    #buscador{
-      top: 4.5%!important;
-    }
-  }
-  
-@media (max-width: 3000px){
-  #buscador{
-    top: 5%!important;
-  }
-}
-  
-@media (max-width: 1500px){
-  #buscador{
-    top: 7.5%!important;
-  }
-}
-@media (max-width: 1199px){
-  #buscador{
-    top: 5%!important;
-  }
-}

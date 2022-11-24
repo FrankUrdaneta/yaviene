@@ -8072,13 +8072,14 @@ html.tablet .chat {
 	font-weight: bold;
 	color: white;
 	border-radius: 10px;
-	background:linear-gradient(90deg, rgba(0,153,226,1) 0%, rgba(9,71,121,1) 35%, rgba(0,255,235,1) 100%);;
+	background: linear-gradient(to right bottom, #007FFF, #0059B2 120%);
+	
 	border-bottom: 2px solid #11263a;
 	position:absolute;
 	left: auto;
 	top: 400px;
 	z-index: 100;
-	opacity: 0.95;
+	opacity: 0.9;
 	padding-bottom: 20px;
 	padding-left: 30px;
 	padding-right: 20px;
@@ -8106,14 +8107,9 @@ html.tablet .chat {
 	color:#009ee2!important ;
 	padding-top: 0!important;
 	margin: 0;
+	margin-top: 15px;
 }
-#comprar{
-	background-color: white!important;
-	border: 2px solid white;
-	margin-right: 50px;
-	border-radius: 5px;
-	
-}
+
 
 iframe{
 	position: fixed;
@@ -8182,10 +8178,4 @@ iframe{
 	color: #009ee2;
 	
 }
-#comprar:hover{
-	color: #009ee2!important;
-	
-}
-#comprar{
-	color:white!important;
-}
+

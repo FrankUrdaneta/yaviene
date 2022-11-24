@@ -46,13 +46,13 @@ $(document).on('change', '#'+searchInput, function () {
 
 //geolocalizacion con metodo getCurrentPosition 3 paramet
 
-const button=document.getElementById('button')
+// const button=document.getElementById('button')
 
-button.addEventListener('click',()=>{
-    const geolocation=navigator.geolocation
+// button.addEventListener('click',()=>{
+//     const geolocation=navigator.geolocation
 
-    geolocation.getCurrentPosition(getPosition, error, options)
-})
+//     geolocation.getCurrentPosition(getPosition, error, options)
+// })
 
 const options={
     enableHightAccuracy: true,

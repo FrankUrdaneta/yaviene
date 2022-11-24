@@ -21,9 +21,16 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/pasajes.css"/>
+    <link rel="stylesheet" href="css/horarios.css"/>
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
-  </head>
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+    crossorigin=""
+  />
+  <link rel="stylesheet" href="./css/mapa.css" />
+</head>
 
 <body>
   <!--chatbot-->
@@ -88,56 +95,16 @@
                 </div>
                 </div>
               
-            
+                
             </nav>
+            
           </div>
         </header>
         <!-- Swiper-->
-       <!--cards header-->
-       <div class="forma mt-2">
-        <form class="forma2">
-          <div class="row g-3">
-            <div class="col-auto">
-            <label for="inputtext" class=""><h5 class="text-white">PASAJES <i class="icon fa fa-ticket" aria-hidden="true"></i>  </h5></label>
-          </div>
-          <div class="col-auto">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-              <label class="form-check-label" for="exampleRadios1">
-                Ida
-              </label>
-            </div>
-            <div class="col-auto">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" checked>
-              <label class="form-check-label" for="exampleRadios2">
-                Ida y Vuelta
-              </label>
-            </div>
-          </div>
-          
-        </form>
-        <form class="row g-3 mx-auto">
-          <div class="col-lg-2 col-sm-6">
-            <label for="inputtext" class=""><i class="icon fa fa-dot-circle-o" style="color:white" aria-hidden="true"></i> ORIGEN  </label>
-            <input type="text"  class="form-control" id="button" placeholder="Cordoba">
-          </div>
-          <div class="col-lg-2 col-sm-6">
-            <label for="inputtext" class=""><i class="icon fa fa-map-marker" style="color:white" aria-hidden="true"></i> DESTINO </label>
-            <input type="text" class="form-control" id="input" placeholder="Destino">
-          </div>
-          <div class="col-lg-2 col-sm-6">
-            <label for="inputtext" class="">PASAJEROS</label>
-            <i class="icon fa fa-users" aria-hidden="true"></i>
-            <input type="number" class="form-control" min="1" id="input" placeholder="1">
-          </div>
-          <div class="col-lg-2 col-sm-6">
-            <label for="inputtext" class="">FECHA DE VIAJE <i class="icon fa fa-calendar" aria-hidden="true"></i></label>
-            <input type="date"  class="form-control" id="staticEmail2" placeholder="Cordoba">
-          </div>
-          <div class="col-lg-3 col-sm-6">
-           <button  id="comprar"  class="button button-secondary button-pipaluk">Buscar Pasajes</button>
-          </div>
-        </form>
-      </div> 
+       <!--Buscador de pasajes-->
+       <div id="buscador" ></div>
+
+
       <div class="card-group shadow-lg p-3 mb-5 bg-body boleto">
         <div class="card ">
           <div class="card-body">
@@ -166,7 +133,7 @@
           </div>
         </div>
       </div> 
-
+      
       <div class="card-group shadow-lg p-3 mb-5 bg-body boleto">
         <div class="card ">
           <div class="card-body">
@@ -254,10 +221,12 @@
         </div>
       </div> 
     </section>
+    <!--Prueba mapa-->
+
        <!--Inicio Footer-->
 
        <!-- Page Footer-->
-       <footer class="section footer-corporate context-dark">
+       <footer class="section footer-corporate context-dark ">
         <div class="footer-corporate-inset">
           <div class="container">
             <div class="row row-40 justify-content-lg-between">
@@ -348,9 +317,7 @@
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="js/typerWrite.js"></script>
     <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key=Tu_API_Key"></script>
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
@@ -358,7 +325,6 @@
     <script src="js/pasajes.js"></script>
     <script src="js/login.js"></script>
     <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-
     <!--leaflet-->
     <script
       src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
@@ -366,5 +332,6 @@
       crossorigin=""
     ></script>
     <script src="./js/mapa.js"></script>
+    <script src="./js/buscador_pasajes.js"></script>
 </body>
 </html>
