@@ -6779,7 +6779,7 @@ textarea.textarea-lg {
 }
 
 .thumbnail-classic-title-wrap .icon:hover {
-	color: #50ba87;
+	color: #fb8989;
 }
 
 .thumbnail-classic-title {
@@ -8330,7 +8330,7 @@ textarea.textarea-lg {
 }
 
 .footer-social-list .icon:hover {
-	color: #009ee2;
+	color: #fb8989;
 }
 
 .footer-social-list .icon::after {
@@ -9577,7 +9577,7 @@ h5 + .list-popular-product {
 }
 
 .social-list .icon:hover {
-	color: #009ee2;
+	color: #fb8989;
 }
 
 .box-rating .icon {
@@ -9597,6 +9597,10 @@ h5 + .list-popular-product {
 	display: inline-block;
 	margin-right: 5px;
 	font-size: 50%;
+}
+
+a:hover{
+	color: #fb8989!important;
 }
 
 .box-radio {

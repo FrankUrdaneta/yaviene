@@ -248,4 +248,7 @@
 .inputOrigen:focus{
   border-bottom: 4px solid #fb8989;
 }
+.inputOrigen:hover{
+  border-bottom: 4px solid #89d7fb;
+}
 
