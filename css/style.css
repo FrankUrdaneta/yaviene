@@ -13593,6 +13593,7 @@ html.tablet .chat {
 	transition: 0.35s all cubic-bezier(0.65, 0.05, 0.36, 1);
 }
 
+
 .rd-navbar--no-transition, .rd-navbar--no-transition * {
 	transition: none !important;
 }
@@ -17357,6 +17358,7 @@ html.rd-navbar-fixed-linked .page {
 	width: 100%;
 	/* Fix of Webkit flickering */
 	z-index: 1;
+	top:100px;
 }
 
 .swiper-container-no-flexbox .swiper-slide {
@@ -17756,6 +17758,7 @@ html.rd-navbar-fixed-linked .page {
 @media (max-width: 767.98px) {
 	.swiper-slide-caption {
 		padding-bottom: 80px;
+		
 	}
 	.forma{
 		position: relative;
@@ -18254,6 +18257,7 @@ html.rd-navbar-fixed-linked .page {
 	.swiper-slider-creative h4 {
 		font-size: 30px;
 	}
+	
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -18290,6 +18294,24 @@ html.rd-navbar-fixed-linked .page {
 @media (min-width: 1200px) {
 	.swiper-slider-creative h1 {
 		font-size: 110px;
+	}
+}
+@media (min-width: 1200px) and (max-width: 1500px) {
+	.forma{
+		position: relative!important;
+		top: -27px!important;
+	}
+}
+@media (min-width: 1501px) and (max-width: 3000px) {
+	.forma{
+		position: relative!important;
+		top: -3px!important;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	.forma{
+		position: relative!important;
+		top: -3px!important;
 	}
 }
 

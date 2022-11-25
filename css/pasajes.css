@@ -73,18 +73,34 @@
   }
 
   .invertirSentido{
-    background-color: white;
+    
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
-    
+    background-color:#fb8989
   }
   
   .origenInput{
     padding: 0;
     border: none!important;
+    display: flex;
+    
+    
+  }
+  .invertirDestino{
+    border-radius: 5px;
+    width: 40%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: -10%!important;
+    position: relative;
+    z-index: 100;
+    left: 2%;
+    background-color:#fb8989
   }
   
 
@@ -108,6 +124,8 @@
     height: 130%;
     position: relative;
     top: -22%;
+    background-color: #fb8989;
+    font-size: large;
   }
   
   @media (max-width: 991px){
@@ -118,6 +136,10 @@
     }
     #buscador{
       top: 5%!important;
+    }
+    .swiper-container{
+      position: relative;
+      top: 120px;
     }
   }
 
@@ -153,19 +175,77 @@
     }
   }
   
-@media (max-width: 3000px){
+@media (min-width:992px) and (max-width: 1199px){
   #buscador{
-    top: 5%!important;
+    top: 7%!important;
+  }
+  .swiper-container{
+    position: relative;
+    top:20px;
   }
 }
   
-@media (max-width: 1500px){
+@media (min-width:1200px) and (max-width: 2048px){
   #buscador{
-    top: 7.5%!important;
+    top: 11%!important;
+  }
+  .swiper-container{
+    position: relative;
+    top:20px;
   }
 }
-@media (max-width: 1199px){
+
+@media (min-width:576px) and (max-width:991px){
+ 
+  .origenPasaje{    
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3px;
+  }
+  .botonBuscarPasajes{
+    position: relative;
+    left:4px;
+    width: 72%;
+  }
+  .invertirDestino{
+    position: relative;
+    left: 0px!important;
+    background-color:#fb8989 ;
+  }
   #buscador{
-    top: 5%!important;
+    top: 7%!important;
+  }
+  
+}
+
+@media (max-width: 575px){
+  .origenPasaje{
+    margin-bottom: 2px;
+    justify-content: center;
+  }
+  .botonBuscarPasajes{
+    position: relative;
+    left:5px;
+    width: 69%;
+  }
+  .invertirDestino{
+    position: relative;
+    left: 0px!important;
+    background-color:#fb8989
+  }
+  #buscador{
+    top: 7%!important;
+  }
+  .swiper-container{
+    position: relative;
+    top: 150px;
   }
 }
+/* .inputOrigen:focus{
+  /* border-bottom: 1px solid #fb8989!important; */
+  /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px!important;
+}*/
+.inputOrigen:focus{
+  border-bottom: 4px solid #fb8989;
+}
+

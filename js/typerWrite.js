@@ -16,23 +16,23 @@ typewriter.typeString('Viene')
 
 
     //agregamos autocompletar de la api google maps
-    var searchInput = 'search_input';
+//     var searchInput = 'search_input';
 
-$(document).ready(function () {
-    var autocomplete;
-    autocomplete = new google.maps.places.Autocomplete((document.getElementById(searchInput)), {
-        types: ['geocode'],
-    });
+// $(document).ready(function () {
+//     var autocomplete;
+//     autocomplete = new google.maps.places.Autocomplete((document.getElementById(searchInput)), {
+//         types: ['geocode'],
+//     });
         
-    google.maps.event.addListener(autocomplete, 'place_changed', function () {
-        var near_place = autocomplete.getPlace();
-        document.getElementById('loc_lat').value = near_place.geometry.location.lat();
-        document.getElementById('loc_long').value = near_place.geometry.location.lng();
+//     google.maps.event.addListener(autocomplete, 'place_changed', function () {
+//         var near_place = autocomplete.getPlace();
+//         document.getElementById('loc_lat').value = near_place.geometry.location.lat();
+//         document.getElementById('loc_long').value = near_place.geometry.location.lng();
                 
-        document.getElementById('latitude_view').innerHTML = near_place.geometry.location.lat();
-        document.getElementById('longitude_view').innerHTML = near_place.geometry.location.lng();
-    });
-});
+//         document.getElementById('latitude_view').innerHTML = near_place.geometry.location.lat();
+//         document.getElementById('longitude_view').innerHTML = near_place.geometry.location.lng();
+//     });
+// });
 
 //eliminamos latitud y longitud
 $(document).on('change', '#'+searchInput, function () {
