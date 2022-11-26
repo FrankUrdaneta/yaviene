@@ -1,78 +1,76 @@
-.card-group{
-    margin-top: 5px;
-    margin-bottom: 10px!important;
-    border-radius: 10px;
-    padding: 0;
-    margin-left: 10px;
-    margin-right: 4px!important;
-    height:1%!important;
-    display: flex;
-    justify-content: center;
-    align-items: left; 
-    width: 61%;
+.card-group {
+  margin-top: 5px;
+  margin-bottom: 10px !important;
+  border-radius: 10px;
+  padding: 0;
+  margin-left: 10px;
+  margin-right: 4px !important;
+  height: 1% !important;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  width: 61%;
 }
-.card{
-    border: none;
+.card {
+  border: none;
 }
 
-  .card-img-top{
-    max-width: 60%;
-  }
-  .price{
-    border-left: 3px solid white!important;
-    padding-left: 0px!important;
-    /* background: linear-gradient(90deg, rgba(255,255,255,1) 3%, rgba(0,92,226,1) 34%, rgba(0,158,226,1) 70%); */
-    background: linear-gradient(to right bottom, #007FFF, #0059B2 120%);
-    /* background: linear-gradient(to right bottom, #007FFF, #009ee2 120%); */
-    /* background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,92,226,1) 7%, rgba(0,158,226,1) 27%); */
-    /* background: linear-gradient(90deg, rgba(238,237,255,1) 0%, rgba(254,254,254,1) 11%, rgba(254,254,254,1) 14%, rgba(0,158,226,1) 70%);
-    */ border-radius: 15px; 
-    
-  }
+.card-img-top {
+  max-width: 60%;
+}
+.price {
+  border-left: 3px solid white !important;
+  padding-left: 0px !important;
+  /* background: linear-gradient(90deg, rgba(255,255,255,1) 3%, rgba(0,92,226,1) 34%, rgba(0,158,226,1) 70%); */
+  background: linear-gradient(to right bottom, #007fff, #0059b2 120%);
+  /* background: linear-gradient(to right bottom, #007FFF, #009ee2 120%); */
+  /* background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,92,226,1) 7%, rgba(0,158,226,1) 27%); */
+  /* background: linear-gradient(90deg, rgba(238,237,255,1) 0%, rgba(254,254,254,1) 11%, rgba(254,254,254,1) 14%, rgba(0,158,226,1) 70%);
+    */
+  border-radius: 15px;
+}
 
-  /*** ESTILOS BOTÓN GROW SKEW ***/
+/*** ESTILOS BOTÓN GROW SKEW ***/
 .ov-btn-grow-skew {
-    background: #009ee2; /* color de fondo */
-    color: #fff; /* color de fuente */
-    border: 2px solid #fff; /* tamaño y color de borde */
-    
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-    
-  }
-  .ov-btn-grow-skew:hover {
-    color: #009ee2;/* color de fuente hover */
-  }
-  .ov-btn-grow-skew::after {
-    content: "";
-    background: #fff; /* color de fondo hover */
-    position: absolute;
-    z-index: -1;
-    padding: 16px 20px;
-    display: block;
-    left: -20%;
-    right: -20%;
-    top: 0;
-    bottom: 0;
-    transform: skewX(-45deg) scale(0, 1);
-    transition: all 0.3s ease;
-  }
-  .ov-btn-grow-skew:hover::after {
-    transition: all 0.3s ease-out;
-    transform: skewX(-45deg) scale(1, 1);
-  }
+  background: #009ee2; /* color de fondo */
+  color: #fff; /* color de fuente */
+  border: 2px solid #fff; /* tamaño y color de borde */
 
-  .forma2{
-    height: 10px!important;
-    margin-top: 5px;
-   
-  }
-  .boleto{
-    padding: 0px!important;
-  }
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.ov-btn-grow-skew:hover {
+  color: #009ee2; /* color de fuente hover */
+}
+.ov-btn-grow-skew::after {
+  content: "";
+  background: #fff; /* color de fondo hover */
+  position: absolute;
+  z-index: -1;
+  padding: 16px 20px;
+  display: block;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.3s ease;
+}
+.ov-btn-grow-skew:hover::after {
+  transition: all 0.3s ease-out;
+  transform: skewX(-45deg) scale(1, 1);
+}
 
-  /* estilos mapa */
-  .pasajeIcon{
-    font-size: 25px;
-  }
+.forma2 {
+  height: 10px !important;
+  margin-top: 5px;
+}
+.boleto {
+  padding: 0px !important;
+}
+
+/* estilos mapa */
+.pasajeIcon {
+  font-size: 25px;
+}
