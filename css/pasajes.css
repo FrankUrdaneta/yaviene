@@ -388,6 +388,13 @@
     font-family: "Montserrat", sans-serif, Arial, sans-serif;
     letter-spacing: normal;
   }
+  .swiper-slide-caption {
+    margin-top: -40%;
+  }
+  #carrouselFotos {
+    margin-top: 11%;
+    max-height: 500px;
+  }
 }
 
 @media (min-width: 891px) and (max-width: 991px) {
@@ -432,6 +439,13 @@
     font-weight: 600;
     font-family: "Montserrat", sans-serif, Arial, sans-serif;
     letter-spacing: normal;
+  }
+  .swiper-slide-caption {
+    margin-top: -20%;
+  }
+  #carrouselFotos {
+    margin-top: 10%;
+    max-height: 500px;
   }
 }
 
@@ -496,6 +510,13 @@
   .isotope-condensed .row.row-condensed > [class*="col"] + [class*="col"] {
     margin-top: 25px;
   }
+  .swiper-slide-caption {
+    margin-top: -9%;
+  }
+  #carrouselFotos {
+    margin-top: 0%;
+    max-height: 400px;
+  }
 }
 
 @media (min-width: 1081px) and (max-width: 1199px) {
@@ -525,6 +546,13 @@
   .pasajero {
     position: relative;
     left: 70% !important;
+  }
+  .swiper-slide-caption {
+    margin-top: -9%;
+  }
+  #carrouselFotos {
+    margin-top: 8%;
+    max-height: 400px;
   }
 }
 
@@ -557,6 +585,13 @@
     position: relative;
     left: 105% !important;
   }
+  .swiper-slide-caption {
+    margin-top: -9%;
+  }
+  #carrouselFotos {
+    margin-top: 8%;
+    max-height: 400px;
+  }
 }
 
 @media (min-width: 1441px) and (max-width: 1500px) {
@@ -587,6 +622,13 @@
   .pasajero {
     position: relative;
     left: 115% !important;
+  }
+  #carrouselFotos {
+    margin-top: 5%;
+    max-height: 600px;
+  }
+  .swiper-slide-caption {
+    margin-top: -10%;
   }
 }
 
@@ -626,6 +668,13 @@
   .table-custom-responsive.table-bordered {
     border: 0;
   }
+  #carrouselFotos {
+    margin-top: 6%;
+    max-height: 600px;
+  }
+  .swiper-slide-caption {
+    margin-top: -20%;
+  }
 }
 
 @media (min-width: 1800px) and (max-width: 2160px) {
@@ -650,15 +699,15 @@
     top: 7.2% !important;
     margin-top: -0.7%;
   }
-  .swiper-container {
-    position: relative;
-    top: 20px;
-  }
+
   .inputOrigen {
     width: 250px;
   }
   .pasajero {
     left: 14% !important;
+  }
+  .swiper-slide-caption {
+    margin-top: -20%;
   }
 }
 
@@ -677,6 +726,9 @@
   .pasajero {
     left: 14% !important;
   }
+  .swiper-slide-caption {
+    margin-top: -10%;
+  }
 }
 @media (min-width: 3001px) and (max-width: 4320px) {
   #buscador {
@@ -692,6 +744,9 @@
   }
   .pasajero {
     left: 184% !important;
+  }
+  .swiper-slide-caption {
+    margin-top: -20%;
   }
 }
 
@@ -762,4 +817,8 @@
 #button-up:hover {
   transform: scale(1.1);
   border-color: rgba(0, 0, 0, 0, 1);
+}
+
+.descubre {
+  position: relative;
 }
