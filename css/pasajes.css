@@ -141,7 +141,10 @@
     width: 101%;
   }
   #buscador {
+    position: relative;
     top: 4.5% !important;
+    margin-top: 15%;
+    margin-bottom: 1%;
   }
   .idayVuelta {
     position: relative;
@@ -150,6 +153,14 @@
   .pasajero {
     position: relative;
     left: 5% !important;
+  }
+  h3 {
+    color: white !important;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif, Arial, sans-serif;
+    letter-spacing: normal;
   }
 }
 
@@ -171,12 +182,14 @@
   }
   .botonBuscarPasajes {
     top: 5%;
-    left: -1%;
+    left: -2%;
     width: 100%;
   }
   #buscador {
-    position: absolute;
-    top: 8% !important;
+    position: relative;
+    top: 4.5% !important;
+    margin-top: 10%;
+    margin-bottom: 1%;
   }
   .idayVuelta {
     position: relative;
@@ -219,8 +232,10 @@
     width: 101%;
   }
   #buscador {
-    position: absolute;
-    top: 8% !important;
+    position: relative;
+    top: 4.5% !important;
+    margin-top: 10%;
+    margin-bottom: 1%;
   }
   .idayVuelta {
     position: relative;
@@ -258,8 +273,10 @@
     background-color: #fb8989;
   }
   #buscador {
-    position: absolute;
-    top: 8% !important;
+    position: relative;
+    top: 4.5% !important;
+    margin-top: 10%;
+    margin-bottom: 1%;
   }
   .swiper-container {
     position: relative;
@@ -301,8 +318,10 @@
     background-color: #fb8989;
   }
   #buscador {
-    position: absolute;
-    top: 8% !important;
+    position: relative;
+    top: 4.5% !important;
+    margin-top: 8%;
+    margin-bottom: 1%;
   }
   .swiper-container {
     position: relative;
@@ -344,8 +363,10 @@
     background-color: #fb8989;
   }
   #buscador {
-    position: absolute;
-    top: 8% !important;
+    position: relative;
+    top: 4.5% !important;
+    margin-top: 6%;
+    margin-bottom: 1%;
   }
   .swiper-container {
     position: relative;
@@ -387,8 +408,10 @@
     background-color: #fb8989;
   }
   #buscador {
-    position: absolute;
-    top: 12% !important;
+    position: relative;
+    top: 4.5% !important;
+    margin-top: 6%;
+    margin-bottom: 1%;
   }
   .swiper-container {
     position: relative;
@@ -510,7 +533,7 @@
     position: relative;
     top: 13% !important;
     width: 100% !important;
-    margin-top: 1.7%;
+    margin-top: 1%;
   }
   .swiper-container {
     position: relative;
