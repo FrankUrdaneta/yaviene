@@ -1,16 +1,12 @@
 .card-group {
-  margin-top: 5px;
-  margin-bottom: 10px !important;
+  /* margin-top: 5px;
+
   border-radius: 10px;
-  padding: 0;
-  margin-left: 10px;
-  margin-right: 4px !important;
-  height: 1% !important;
-  display: flex;
-  justify-content: center;
-  align-items: left;
-  width: 61%;
+  padding: 0;*/
+  margin-left: 10px !important;
+  box-shadow: 0 1rem 1rem rgb(0 0 0 / 18%) !important;
 }
+
 .card {
   border: none;
 }
@@ -32,7 +28,7 @@
 
 /*** ESTILOS BOTÓN GROW SKEW ***/
 .ov-btn-grow-skew {
-  background: #009ee2; /* color de fondo */
+  background: #fb8989; /* color de fondo */
   color: #fff; /* color de fuente */
   border: 2px solid #fff; /* tamaño y color de borde */
 
