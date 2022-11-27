@@ -123,7 +123,7 @@
   font-size: large;
 }
 
-@media (max-width: 380px) {
+@media (min-width: 300px) and (max-width: 380px) {
   .origenPasaje {
     margin-bottom: 2px;
     width: 155% !important;
@@ -221,8 +221,16 @@
   }
   .collapse1 {
     margin-top: 10%;
-
+    display: flex;
+    margin-left: 20% !important;
     height: 100% !important;
+  }
+  .swiper-slide {
+    width: 150%;
+  }
+  .swiper-slideA {
+    width: 200%;
+    height: 90% !important;
   }
 }
 
@@ -275,6 +283,13 @@
 
     height: 80% !important;
   }
+  .swiper-slide {
+    width: 175%;
+  }
+  .swiper-slideA {
+    width: 250%;
+    height: 85% !important;
+  }
 }
 
 @media (min-width: 541px) and (max-width: 579px) {
@@ -325,6 +340,14 @@
 
     height: 80% !important;
   }
+  .swiper-slide {
+    width: 145%;
+    margin-top: 2%;
+  }
+  .swiper-slideA {
+    width: 250%;
+    height: 85% !important;
+  }
 }
 
 @media (min-width: 580px) and (max-width: 720px) {
@@ -374,6 +397,13 @@
     margin-top: 1%;
 
     height: 80% !important;
+  }
+  .swiper-slide {
+    width: 110%;
+  }
+  .swiper-slideA {
+    width: 110%;
+    height: 85% !important;
   }
 }
 
@@ -563,6 +593,13 @@
     margin-top: 0%;
 
     height: 80% !important;
+  }
+  .swiper-slide {
+    width: 110%;
+  }
+  .swiper-slideA {
+    width: 120%;
+    height: 100% !important;
   }
 }
 
