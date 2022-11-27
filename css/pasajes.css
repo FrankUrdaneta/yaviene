@@ -1,3 +1,7 @@
+.colorRosa {
+  color: #fb8989;
+}
+
 .card-group {
   margin-top: 1px;
   margin-bottom: 10px !important;
@@ -164,8 +168,11 @@
   }
   .collapse1 {
     margin-top: 10%;
-    width: auto !important;
+
     height: 80% !important;
+  }
+  .miubicacion {
+    width: 50px !important;
   }
 }
 
@@ -214,8 +221,8 @@
   }
   .collapse1 {
     margin-top: 10%;
-    width: auto !important;
-    height: 80% !important;
+
+    height: 100% !important;
   }
 }
 
@@ -265,7 +272,7 @@
   }
   .collapse1 {
     margin-top: 10%;
-    width: auto !important;
+
     height: 80% !important;
   }
 }
@@ -315,7 +322,7 @@
   }
   .collapse1 {
     margin-top: 10%;
-    width: auto !important;
+
     height: 80% !important;
   }
 }
@@ -365,7 +372,7 @@
   }
   .collapse1 {
     margin-top: 1%;
-    width: auto !important;
+
     height: 80% !important;
   }
 }
@@ -422,7 +429,7 @@
   }
   .collapse1 {
     margin-top: 1%;
-    width: auto !important;
+
     height: 80% !important;
   }
 }
@@ -479,7 +486,7 @@
   }
   .collapse1 {
     margin-top: 2%;
-    width: auto !important;
+
     height: 80% !important;
   }
 }
@@ -554,7 +561,7 @@
   }
   .collapse1 {
     margin-top: 0%;
-    width: auto !important;
+
     height: 80% !important;
   }
 }
@@ -596,7 +603,7 @@
   }
   .collapse1 {
     margin-top: 0%;
-    width: auto !important;
+
     height: 100% !important;
   }
 }
@@ -632,6 +639,7 @@
   }
   .swiper-slide-caption {
     margin-top: -9%;
+    margin-left: 40%;
   }
   #carrouselFotos {
     margin-top: 8%;
@@ -639,7 +647,7 @@
   }
   .collapse1 {
     margin-top: 0%;
-    width: auto !important;
+
     height: 100% !important;
   }
 }
@@ -682,7 +690,7 @@
   }
   .collapse1 {
     margin-top: 1%;
-    width: auto !important;
+
     height: 100% !important;
   }
 }
@@ -732,7 +740,7 @@
   }
   .collapse1 {
     margin-top: 0%;
-    width: auto !important;
+
     height: 100% !important;
   }
 }
@@ -881,4 +889,7 @@
 
 .descubre {
   position: relative;
+}
+.idayVuelta {
+  border-radius: 10px;
 }
