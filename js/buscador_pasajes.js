@@ -15,8 +15,8 @@ buscador.innerHTML=`<div class="forma mt-2 position-sticky">
 </div>
 
 <div class="col-auto">
-  <select class="form-select pasajero" id="inputGroupSelect01">
-  <option >1 Pasajero</option>
+  <select class="form-select pasajero" id="pasajeroSelect">
+  <option ><span id="pasajero">1 Pasajero</span></option>
 </select>
 </div>
   </div>
@@ -45,7 +45,7 @@ buscador.innerHTML=`<div class="forma mt-2 position-sticky">
   <div class="row origenPasaje">
   <div class="col-1 origenIcono"> <label for="inputtext" class=""> <i class="icon fa fa-calendar"  style="color:#009ee2" aria-hidden="true"></i></label>
   </div>
-  <div class="col-7 origenInput"><input type="date"  class="form-control inputOrigen" id="staticEmail2" placeholder="Fecha de viaje"></div>
+  <div class="col-7 origenInput"><input type="date" min class="form-control inputOrigen" id="fechaActual" min="2022-11-01" value="" placeholder="Fecha de viaje"></div>
   </div>
   </div>
 
@@ -69,4 +69,24 @@ buscador.appendChild(buscar);
 }
 pasaje();
 
+window.onload = function(){
+  var fecha = new Date(); //Fecha actual
+  var mes = fecha.getMonth()+1; //obteniendo mes
+  var dia = fecha.getDate(); //obteniendo dia
+  var ano = fecha.getFullYear(); //obteniendo año
+  if(dia<10)
+    dia='0'+dia; //agrega cero si el menor de 10
+  if(mes<10)
+    mes='0'+mes //agrega cero si el menor de 10
+  document.getElementById('fechaActual').value=ano+"-"+mes+"-"+dia;
+  document.getElementById('fechaactual').min=ano+"-"+mes+"-"+dia;
+}
 
+let pasajero=document.getElementById('pasajero')
+let contador=1;
+pasajero.innerHTML=`${contador} Pasajero`
+let texto=document.createElement('p');
+
+
+pasajero.appendChild(texto)
+console.log(pasajero)

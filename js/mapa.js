@@ -1,4 +1,4 @@
-let map = L.map('map').setView([-31.4362484,-64.1061828],9)
+let map = L.map('mapaCoche').setView([-31.4362484,-64.1061828],9)
 
 //Agregar tilelAyer mapa base desde openstreetmap
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
