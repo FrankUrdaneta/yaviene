@@ -15,8 +15,13 @@ buscador.innerHTML=`<div class="forma mt-2 position-sticky">
 </div>
 
 <div class="col-auto">
-  <select class="form-select pasajero" id="pasajeroSelect">
+  <select class="form-select pasajero " id="inputGroupSelect01">
   <option ><span id="pasajero">1 Pasajero</span></option>
+  <option ><span id="pasajero">2 Pasajeros</span></option>
+  <option ><span id="pasajero">3 Pasajeros</span></option>
+  <option ><span id="pasajero">4 Pasajeros</span></option>
+  <option ><span id="pasajero">5 Pasajeros</span></option>
+  <option ><span id="pasajero">6 Pasajeros</span></option>
 </select>
 </div>
   </div>

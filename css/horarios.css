@@ -70,3 +70,10 @@
 .pasajeIcon {
   font-size: 25px;
 }
+.logoPasajes {
+  overflow: hidden;
+}
+
+.verCoche {
+  width: 90%;
+}
