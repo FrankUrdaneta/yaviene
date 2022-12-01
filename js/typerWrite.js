@@ -35,13 +35,6 @@ typewriter.typeString('Viene')
 // });
 
 //eliminamos latitud y longitud
-$(document).on('change', '#'+searchInput, function () {
-    document.getElementById('latitude_input').value = '';
-    document.getElementById('longitude_input').value = '';
-        
-    document.getElementById('latitude_view').innerHTML = '';
-    document.getElementById('longitude_view').innerHTML = '';
-});
 
 
 //geolocalizacion con metodo getCurrentPosition 3 paramet

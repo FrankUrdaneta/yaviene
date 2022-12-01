@@ -8,21 +8,11 @@ buscador.innerHTML=`<div class="forma mt-2 position-sticky">
 <form class="">
   <div class="row g-3">
   <div class="col-auto">
-  <select class="form-select idayVuelta" id="inputGroupSelect01">
-  <option selected>Ida y vuelta</option>
-  <option value="1">Ida</option>
-</select>
+  
 </div>
 
 <div class="col-auto">
-  <select class="form-select pasajero " id="inputGroupSelect01">
-  <option ><span id="pasajero">1 Pasajero</span></option>
-  <option ><span id="pasajero">2 Pasajeros</span></option>
-  <option ><span id="pasajero">3 Pasajeros</span></option>
-  <option ><span id="pasajero">4 Pasajeros</span></option>
-  <option ><span id="pasajero">5 Pasajeros</span></option>
-  <option ><span id="pasajero">6 Pasajeros</span></option>
-</select>
+  
 </div>
   </div>
   
@@ -84,14 +74,20 @@ window.onload = function(){
   if(mes<10)
     mes='0'+mes //agrega cero si el menor de 10
   document.getElementById('fechaActual').value=ano+"-"+mes+"-"+dia;
-  document.getElementById('fechaactual').min=ano+"-"+mes+"-"+dia;
+  
 }
 
-let pasajero=document.getElementById('pasajero')
-let contador=1;
-pasajero.innerHTML=`${contador} Pasajero`
-let texto=document.createElement('p');
 
 
-pasajero.appendChild(texto)
-console.log(pasajero)
+
+
+function verRuta(){
+  let verRuta=document.getElementById('verRuta')
+  
+  console.log(verRuta)
+  console.log("hola")
+}
+verRuta.addEventListener('click',function(){
+  console.log("diste click")
+  verRuta()
+})

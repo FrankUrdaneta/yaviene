@@ -1,5 +1,6 @@
-let horarios=document.getElementById('buscar_pasajes');
+let cambiarBusqueda=document.getElementById('cambiarBusqueda');
 
-horarios.addEventListener('click', function(){
-    console.log("di click en buscar")
+cambiarBusqueda.addEventListener('click', function(){
+    console.log("di click en cambiar busqueda")
 })
+console.log("hola")

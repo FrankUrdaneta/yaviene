@@ -14,16 +14,16 @@
 .card-img-top {
   max-width: 60%;
 }
+/*boleto comprar y ver ruta*/
 .price {
-  border-left: 3px solid white !important;
-  padding-left: 0px !important;
-  /* background: linear-gradient(90deg, rgba(255,255,255,1) 3%, rgba(0,92,226,1) 34%, rgba(0,158,226,1) 70%); */
-  background: linear-gradient(to right bottom, #007fff, #0059b2 120%);
-  /* background: linear-gradient(to right bottom, #007FFF, #009ee2 120%); */
-  /* background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,92,226,1) 7%, rgba(0,158,226,1) 27%); */
-  /* background: linear-gradient(90deg, rgba(238,237,255,1) 0%, rgba(254,254,254,1) 11%, rgba(254,254,254,1) 14%, rgba(0,158,226,1) 70%);
-    */
-  border-radius: 15px;
+  /* background: linear-gradient(-225deg, white 40%, #009ee2 100%, #009ee2 40%); */
+  background-image: linear-gradient(
+    -225deg,
+    white 20%,
+    #009ee2 60%,
+    #009ee2 40%
+  );
+  border-radius: 10px;
 }
 
 /*** ESTILOS BOTÓN GROW SKEW ***/
@@ -76,4 +76,158 @@
 
 .verCoche {
   width: 90%;
+}
+
+/* Boton ver ruta */
+.cta {
+  /* font-family: Avenir, sans-serif; */
+  position: relative;
+  margin: auto;
+  padding: 15px 9px;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  color: inherit;
+}
+.cta a {
+  text-decoration: white;
+}
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 0.5px solid #fb8989;
+  display: block;
+  border-radius: 28px;
+  background: #009ee2;
+  width: 56px;
+  height: 56px;
+  transition: all 0.3s ease;
+}
+.cta span {
+  position: relative;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 900;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+.cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #111;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+.cta:hover:before {
+  width: 100%;
+  /* background: linear-gradient(to right bottom, #fb8989, #0059b2 120%); */
+  background: #fb8989;
+}
+.cta:hover svg {
+  transform: translateX(0);
+  stroke: #fff;
+}
+.cta:active {
+  transform: scale(0.96);
+}
+/* Barra Cambiar busqueda*/
+.nav-filtros {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 127, 255, 1) 34%,
+    rgba(0, 158, 226, 1) 100%
+  ) !important;
+  border-bottom-left-radius: 2px !important;
+  border-bottom-right-radius: 2px !important;
+  margin-top: -2% !important;
+  padding: 0.5%;
+}
+.nav-filtros form {
+  margin: 0% !important;
+  margin-left: -1px !important;
+
+  margin-right: -100px !important;
+}
+.nav-filtros button {
+  width: 25%;
+}
+.nav-filtros input {
+  width: 40% !important;
+}
+.btn-outline-success {
+  color: white !important;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.btn-outline-success:hover {
+  background-color: white;
+  color: #11263a !important;
+}
+
+.botonCambiarBusqueda {
+  background-color: #fb8989;
+  color: white;
+  border-radius: 5px;
+  padding: 3px;
+  width: 20% !important;
+  padding: 10px 2px 10px 0px;
+  margin-right: 3% !important;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.botonCambiarBusqueda:hover {
+  color: #009ee2 !important;
+}
+.botonCambiarBusqueda::after {
+  content: "";
+  background: #fff; /* color de fondo hover */
+  position: absolute;
+  z-index: -1;
+  padding: 16px 20px;
+  display: block;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.3s ease;
+}
+
+.botonCambiarBusqueda:hover::after {
+  transition: all 0.3s ease-out;
+  transform: skewX(-45deg) scale(1, 1);
+}
+.contenidoBarraCambiar {
+  color: white !important;
+  display: flex;
+  justify-content: left !important;
+  align-items: center !important;
+}
+
+.iconFlecha {
+  padding-left: 0% !important;
+  padding-right: 0% !important;
+}
+
+.btnMasRapido {
+  border: none !important;
+}
+
+.empresaSelect {
+  background-color: transparent !important;
+  margin-top: -5% !important;
+  color: white;
+  border: 1px solid white;
+  display: flex;
+  justify-content: left !important;
+  position: relative;
 }
