@@ -9,22 +9,23 @@
     <meta charset="utf-8" />
     <link rel="icon" href="images/yaviene.ico" type="image/x-icon" />
     <!--Animated-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <!-- Stylesheets-->
-    
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
     />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="//fonts.googleapis.com/css?family=Montserrat:400,500,600,700%7CPoppins:400%7CTeko:300,400"
-    />
+
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/fonts.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -48,14 +49,6 @@
   </head>
 
   <body>
-    <div class="preloader">
-      <div class="preloader-body">
-        <div class="cssload-container">
-          <div class="cssload-speeding-wheel"></div>
-        </div>
-        <p>Loading...</p>
-      </div>
-    </div>
     <div class="page">
       <!-- prueba Menu-->
       <header class="section page-header">
@@ -96,7 +89,7 @@
                   <!-- <h3 class="animate__lightSpeedInRight">
                     Ya <span id="app"></span>
                   </h3> -->
-                  
+
                   <!-- RD Navbar Nav-->
                   <ul class="rd-navbar-nav">
                     <li class="rd-nav-item active">
@@ -107,7 +100,8 @@
                       />
                       <img
                         src="./images/logo secretaria transporte cordoba.png"
-                        width="120px" style="margin: -7px 55px 16px -10%"
+                        width="120px"
+                        style="margin: -7px 55px 16px -10%"
                       />
                     </li>
                   </ul>
@@ -176,1173 +170,72 @@
       <div id="buscador"></div>
 
       <!-- <div id="mapaCoche"></div> -->
-      
+
       <!-- barraCambiarBusqueda -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav-filtros" >
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav-filtros">
         <div class="container-fluid">
           <div class="collapse navbar-collapse" id="navbarScroll">
-            
-            
-            
-                <div class="container contenidoBarraCambiar">
-                  <div class="row">
-                    <div class="col-auto ">
-                            
-                      <select id="inputGroupSelect01" class="form-select  empresaSelect " >
-                        <option selected>Empresa</option>
-                        <option value="1">Achiras</option>
-                        <option value="2">Zeta Bus</option>
-                        <option value="3">Aut Santa Fe</option>
-                        <option value="4">Buses Lep</option>
-                        <option value="5">Car Bus</option>
-                        <option value="6">Carcor</option>
-                        <option value="7">Coata</option>
-                        <option value="8">Dean Funes</option>
-                        <option value="9">EL Porvenir</option>
-                      </select>
-                      
-                            
-                    </div>
-                        
-                    <div class="col-auto"> 
-                      <p class="font-weight-bold"><i class="icon bi bi-arrow-up-right-circle"></i>  Cordoba Terminal </p></div>
-                      <div class="col-auto iconFlecha"><i class="icon bi bi-arrow-right"></i></div>
-                  <div class="col-auto">
-                <p class=" font-weight-bold " ><i class="icon bi bi-arrow-down-right-circle" ></i>  Carlos Paz Terminal</p></div>
-            <div class="col-auto">
-                <p class=" font-weight-bold " ><button class="btn btn-outline-success btnMasRapido"><i class="bi bi-arrow-down-up" style="display:flex; justify-content:center;"></i></button> mas rápido</p></div>
-              </div>
-              </div>
-              
+            <div class="container contenidoBarraCambiar">
+              <div class="row">
+                <div class="col-auto">
+                  <select
+                    id="inputGroupSelect01"
+                    class="form-select empresaSelect"
+                  >
+                    <option selected>Empresa</option>
+                    <option value="1">Achiras</option>
+                    <option value="2">Zeta Bus</option>
+                    <option value="3">Aut Santa Fe</option>
+                    <option value="4">Buses Lep</option>
+                    <option value="5">Car Bus</option>
+                    <option value="6">Carcor</option>
+                    <option value="7">Coata</option>
+                    <option value="8">Dean Funes</option>
+                    <option value="9">EL Porvenir</option>
+                  </select>
+                </div>
 
-              <button class="btn btn-outline-success filtrar botonCambiarBusqueda" id="cambiarBusqueda" type="submit" data-toggle="modal" data-target="#exampleModalCentered"></button>>Cambiar Busqueda</button>
-              <div class="modal" id="exampleModalCentered" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenteredLabel" aria-hidden="true">
-                
+                <div class="col-auto">
+                  <p class="font-weight-bold">
+                    <i class="icon bi bi-arrow-up-right-circle"></i> Cordoba
+                    Terminal
+                  </p>
+                </div>
+                <div class="col-auto iconFlecha">
+                  <i class="icon bi bi-arrow-right"></i>
+                </div>
+                <div class="col-auto">
+                  <p class="font-weight-bold">
+                    <i class="icon bi bi-arrow-down-right-circle"></i> Carlos
+                    Paz Terminal
+                  </p>
+                </div>
+                <div class="col-auto">
+                  <p class="font-weight-bold">
+                    <button class="btn btn-outline-success btnMasRapido">
+                      <i
+                        class="bi bi-arrow-down-up"
+                        style="display: flex; justify-content: center"
+                      ></i>
+                    </button>
+                    mas rápido
+                  </p>
+                </div>
               </div>
-            
-            
+            </div>
+
+            <button
+              class="btn btn-outline-success filtrar botonCambiarBusqueda"
+              id="cambiarBusqueda"
+              type="submit"
+            >
+              Cambiar Busqueda
+            </button>
           </div>
         </div>
       </nav>
-      
-      
-     
-      <div
-        class="card-group col-lg-7 col-xl-7 col-md-12 col-sm-12 p-3 mb-5 bg-body boleto"
-      >
-        <div class="card">
-          <div class="card-body">
-            <img
-              class="card-img-top logoPasajes"
-              src="./images/logosEmpresas/porvenir.png"
-              alt="Card image cap"
-            />
-            <p class="card-text pasaje" style="font-size: small">
-              Por Empresa:
-              <spam class="font-weight-bold" style="color: #009ee2"
-                >Villa del Rosario</spam
-              >
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-title font-weight-bold">
-              <i
-                class="icon fa fa-dot-circle-o"
-                style="color: black"
-                aria-hidden="true"
-              ></i>
-              Sale:
-              <spam
-                class="card-text pasaje"
-                style="color: black; font-size: small"
-                >6:00 Hs </spam
-              ><span
-                class="card-text pasaje"
-                style="color: rgb(150, 148, 148); font-size: small"
-                >aproximado <br /></span
-              ><span
-                class="card-text pasaje"
-                style="color: rgb(8, 8, 8); font-size: small"
-                >Se anuncia a: Villa del Rosario</span
-              >
-            </h6>
-          </div>
-        </div>
 
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-text font-weight-bold">
-              <i
-                class="icon fa fa-map-marker"
-                style="color: black"
-                aria-hidden="true"
-              ></i>
-              Llega:
-              <span
-                class="card-text pasaje"
-                style="color: black; font-size: small"
-                >16:00 Hs <br />
-              </span>
-              <span
-                class="card-text pasaje"
-                style="color: rgb(150, 148, 148); font-size: small"
-                >duracion 10h.00m. </span
-              ><span
-                class="card-text pasaje"
-                style="color: rgb(12, 12, 12); font-size: small"
-                >Servicio 142 - Coche 2062</span
-              >
-            </h6>
-          </div>
-        </div>
-
-        <div class="card price">
-          <!-- <h5 class="card-title text-white font-weight-bold mb-0">$ 11.500,00</h5>
-            <i class="icon bi bi-person" style="color: white;"></i><span style="color: white; font-size: medium;">1.Ida</span> -->
-          <a id="verRuta" href="#" class="cta">
-            <i class="icon bi bi-search" style="color: black"></i>
-            <span>ver ruta</span>
-            <svg width="13px" height="10px" viewBox="0 0 13 10">
-              <path d="M1,5 L11,5"></path>
-              <polyline points="8 1 12 5 8 9"></polyline>
-            </svg>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div
-        class="card-group col-lg-7 col-xl-7 col-md-12 col-sm-12 p-3 mb-5 bg-body boleto"
-      >
-        <div class="card">
-          <div class="card-body">
-            <img
-              class="card-img-top logoPasajes"
-              src="./images/logosEmpresas/buseslep.png"
-              alt="Card image cap"
-            />
-            <p class="card-text pasaje" style="font-size: small">
-              Por Empresa:
-              <spam class="font-weight-bold" style="color: #009ee2"
-                >Buses Lep</spam
-              >
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-title font-weight-bold">
-              <i
-                class="icon fa fa-dot-circle-o"
-                style="color: black"
-                aria-hidden="true"
-              ></i>
-              Sale:
-              <spam
-                class="card-text pasaje"
-                style="color: black; font-size: small"
-                >6:00 Hs </spam
-              ><span
-                class="card-text pasaje"
-                style="color: rgb(150, 148, 148); font-size: small"
-                >aproximado <br /></span
-              ><span
-                class="card-text pasaje"
-                style="color: rgb(8, 8, 8); font-size: small"
-                >Se anuncia a: Villa del Rosario</span
-              >
-            </h6>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-text font-weight-bold">
-              <i
-                class="icon fa fa-map-marker"
-                style="color: black"
-                aria-hidden="true"
-              ></i>
-              Llega:
-              <span
-                class="card-text pasaje"
-                style="color: black; font-size: small"
-                >16:00 Hs <br />
-              </span>
-              <span
-                class="card-text pasaje"
-                style="color: rgb(150, 148, 148); font-size: small"
-                >duracion 10h.00m. </span
-              ><span
-                class="card-text pasaje"
-                style="color: rgb(12, 12, 12); font-size: small"
-                >Servicio 142 - Coche 2062</span
-              >
-            </h6>
-          </div>
-        </div>
-
-        <div class="card price">
-          <!-- <h5 class="card-title text-white font-weight-bold mb-0">$ 11.500,00</h5>
-            <i class="icon bi bi-person" style="color: white;"></i><span style="color: white; font-size: medium;">1.Ida</span> -->
-          <a href="#" class="cta">
-            <i class="icon bi bi-search" style="color: black"></i>
-            <span>ver ruta</span>
-            <svg width="13px" height="10px" viewBox="0 0 13 10">
-              <path d="M1,5 L11,5"></path>
-              <polyline points="8 1 12 5 8 9"></polyline>
-            </svg>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div
-        class="card-group col-lg-7 col-xl-7 col-md-12 col-sm-12 p-3 mb-5 bg-body boleto"
-      >
-        <div class="card">
-          <div class="card-body">
-            <img
-              class="card-img-top logoPasajes"
-              src="./images/logosEmpresas/lumasa.png"
-              alt="Card image cap"
-            />
-            <p class="card-text pasaje" style="font-size: small">
-              Por Empresa:
-              <spam class="font-weight-bold" style="color: #009ee2"
-                >Lumasa</spam
-              >
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-title font-weight-bold">
-              <i
-                class="icon fa fa-dot-circle-o"
-                style="color: black"
-                aria-hidden="true"
-              ></i>
-              Sale:
-              <spam
-                class="card-text pasaje"
-                style="color: black; font-size: small"
-                >6:00 Hs </spam
-              ><span
-                class="card-text pasaje"
-                style="color: rgb(150, 148, 148); font-size: small"
-                >aproximado <br /></span
-              ><span
-                class="card-text pasaje"
-                style="color: rgb(8, 8, 8); font-size: small"
-                >Se anuncia a: Villa del Rosario</span
-              >
-            </h6>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-text font-weight-bold">
-              <i
-                class="icon fa fa-map-marker"
-                style="color: black"
-                aria-hidden="true"
-              ></i>
-              Llega:
-              <span
-                class="card-text pasaje"
-                style="color: black; font-size: small"
-                >16:00 Hs <br />
-              </span>
-              <span
-                class="card-text pasaje"
-                style="color: rgb(150, 148, 148); font-size: small"
-                >duracion 10h.00m. </span
-              ><span
-                class="card-text pasaje"
-                style="color: rgb(12, 12, 12); font-size: small"
-                >Servicio 142 - Coche 2062</span
-              >
-            </h6>
-          </div>
-        </div>
-
-        <div class="card price">
-          <!-- <h5 class="card-title text-white font-weight-bold mb-0">$ 11.500,00</h5>
-            <i class="icon bi bi-person" style="color: white;"></i><span style="color: white; font-size: medium;">1.Ida</span> -->
-          <a href="#" class="cta">
-            <i class="icon bi bi-search" style="color: black"></i>
-            <span>ver ruta</span>
-            <svg width="13px" height="10px" viewBox="0 0 13 10">
-              <path d="M1,5 L11,5"></path>
-              <polyline points="8 1 12 5 8 9"></polyline>
-            </svg>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div
-        class="card-group col-lg-7 col-xl-7 col-md-12 col-sm-12 p-3 mb-5 bg-body boleto"
-      >
-        <div class="card">
-          <div class="card-body">
-            <img
-              class="card-img-top logoPasajes"
-              src="./images/logosEmpresas/transbus.png"
-              alt="Card image cap"
-            />
-            <p class="card-text pasaje" style="font-size: small">
-              Por Empresa:
-              <spam class="font-weight-bold" style="color: #009ee2"
-                >Transbus</spam
-              >
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-title font-weight-bold">
-              <i
-                class="icon fa fa-dot-circle-o"
-                style="color: black"
-                aria-hidden="true"
-              ></i>
-              Sale:
-              <spam
-                class="card-text pasaje"
-                style="color: black; font-size: small"
-                >6:00 Hs </spam
-              ><span
-                class="card-text pasaje"
-                style="color: rgb(150, 148, 148); font-size: small"
-                >aproximado <br /></span
-              ><span
-                class="card-text pasaje"
-                style="color: rgb(8, 8, 8); font-size: small"
-                >Se anuncia a: Villa del Rosario</span
-              >
-            </h6>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-text font-weight-bold">
-              <i
-                class="icon fa fa-map-marker"
-                style="color: black"
-                aria-hidden="true"
-              ></i>
-              Llega:
-              <span
-                class="card-text pasaje"
-                style="color: black; font-size: small"
-                >16:00 Hs <br />
-              </span>
-              <span
-                class="card-text pasaje"
-                style="color: rgb(150, 148, 148); font-size: small"
-                >duracion 10h.00m. </span
-              ><span
-                class="card-text pasaje"
-                style="color: rgb(12, 12, 12); font-size: small"
-                >Servicio 142 - Coche 2062</span
-              >
-            </h6>
-          </div>
-        </div>
-
-        <div class="card price">
-          <!-- <h5 class="card-title text-white font-weight-bold mb-0">$ 11.500,00</h5>
-            <i class="icon bi bi-person" style="color: white;"></i><span style="color: white; font-size: medium;">1.Ida</span> -->
-          <a href="#" class="cta">
-            <i class="icon bi bi-search" style="color: black"></i>
-            <span>ver ruta</span>
-            <svg width="13px" height="10px" viewBox="0 0 13 10">
-              <path d="M1,5 L11,5"></path>
-              <polyline points="8 1 12 5 8 9"></polyline>
-            </svg>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div
-        class="card-group col-lg-7 col-xl-7 col-md-12 col-sm-12 p-3 mb-5 bg-body boleto"
-      >
-        <div class="card">
-          <div class="card-body">
-            <img
-              class="card-img-top logoPasajes"
-              src="./images/logosEmpresas/coata.png"
-              alt="Card image cap"
-            />
-            <p class="card-text pasaje" style="font-size: small">
-              Por Empresa:
-              <spam class="font-weight-bold" style="color: #009ee2"
-                >Expreso Villa del Rosario</spam
-              >
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-title font-weight-bold">
-              <i
-                class="icon fa fa-dot-circle-o"
-                style="color: black"
-                aria-hidden="true"
-              ></i>
-              Sale:
-              <spam
-                class="card-text pasaje"
-                style="color: black; font-size: small"
-                >6:00 Hs </spam
-              ><span
-                class="card-text pasaje"
-                style="color: rgb(150, 148, 148); font-size: small"
-                >aproximado <br /></span
-              ><span
-                class="card-text pasaje"
-                style="color: rgb(8, 8, 8); font-size: small"
-                >Se anuncia a: Villa del Rosario</span
-              >
-            </h6>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-text font-weight-bold">
-              <i
-                class="icon fa fa-map-marker"
-                style="color: black"
-                aria-hidden="true"
-              ></i>
-              Llega:
-              <span
-                class="card-text pasaje"
-                style="color: black; font-size: small"
-                >16:00 Hs <br />
-              </span>
-              <span
-                class="card-text pasaje"
-                style="color: rgb(150, 148, 148); font-size: small"
-                >duracion 10h.00m. </span
-              ><span
-                class="card-text pasaje"
-                style="color: rgb(12, 12, 12); font-size: small"
-                >Servicio 142 - Coche 2062</span
-              >
-            </h6>
-          </div>
-        </div>
-
-        <div class="card price">
-          <!-- <h5 class="card-title text-white font-weight-bold mb-0">$ 11.500,00</h5>
-            <i class="icon bi bi-person" style="color: white;"></i><span style="color: white; font-size: medium;">1.Ida</span> -->
-          <a href="#" class="cta">
-            <i class="icon bi bi-search" style="color: black"></i>
-            <span>ver ruta</span>
-            <svg width="13px" height="10px" viewBox="0 0 13 10">
-              <path d="M1,5 L11,5"></path>
-              <polyline points="8 1 12 5 8 9"></polyline>
-            </svg>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div
-        class="card-group col-lg-7 col-xl-7 col-md-12 col-sm-12 p-3 mb-5 bg-body boleto"
-      >
-        <div class="card">
-          <div class="card-body">
-            <img
-              class="card-img-top logoPasajes"
-              src="./images/logosEmpresas/intercordoba.png"
-              alt="Card image cap"
-            />
-            <p class="card-text pasaje" style="font-size: small">
-              Por Empresa:
-              <spam class="font-weight-bold" style="color: #009ee2"
-                >Expreso Villa del Rosario</spam
-              >
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-title font-weight-bold">
-              <i
-                class="icon fa fa-dot-circle-o"
-                style="color: black"
-                aria-hidden="true"
-              ></i>
-              Sale:
-              <spam
-                class="card-text pasaje"
-                style="color: black; font-size: small"
-                >6:00 Hs </spam
-              ><span
-                class="card-text pasaje"
-                style="color: rgb(150, 148, 148); font-size: small"
-                >aproximado <br /></span
-              ><span
-                class="card-text pasaje"
-                style="color: rgb(8, 8, 8); font-size: small"
-                >Se anuncia a: Villa del Rosario</span
-              >
-            </h6>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-text font-weight-bold">
-              <i
-                class="icon fa fa-map-marker"
-                style="color: black"
-                aria-hidden="true"
-              ></i>
-              Llega:
-              <span
-                class="card-text pasaje"
-                style="color: black; font-size: small"
-                >16:00 Hs <br />
-              </span>
-              <span
-                class="card-text pasaje"
-                style="color: rgb(150, 148, 148); font-size: small"
-                >duracion 10h.00m. </span
-              ><span
-                class="card-text pasaje"
-                style="color: rgb(12, 12, 12); font-size: small"
-                >Servicio 142 - Coche 2062</span
-              >
-            </h6>
-          </div>
-        </div>
-
-        <div class="card price">
-          <!-- <h5 class="card-title text-white font-weight-bold mb-0">$ 11.500,00</h5>
-            <i class="icon bi bi-person" style="color: white;"></i><span style="color: white; font-size: medium;">1.Ida</span> -->
-          <a href="#" class="cta">
-            <i class="icon bi bi-search" style="color: black"></i>
-            <span>ver ruta</span>
-            <svg width="13px" height="10px" viewBox="0 0 13 10">
-              <path d="M1,5 L11,5"></path>
-              <polyline points="8 1 12 5 8 9"></polyline>
-            </svg>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div
-        class="card-group col-lg-7 col-xl-7 col-md-12 col-sm-12 p-3 mb-5 bg-body boleto"
-      >
-        <div class="card">
-          <div class="card-body">
-            <img
-              class="card-img-top logoPasajes"
-              src="./images/logosEmpresas/ersa.png"
-              alt="Card image cap"
-            />
-            <p class="card-text pasaje" style="font-size: small">
-              Por Empresa:
-              <spam class="font-weight-bold" style="color: #009ee2"
-                >Expreso Villa del Rosario</spam
-              >
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-title font-weight-bold">
-              <i
-                class="icon fa fa-dot-circle-o"
-                style="color: black"
-                aria-hidden="true"
-              ></i>
-              Sale:
-              <spam
-                class="card-text pasaje"
-                style="color: black; font-size: small"
-                >6:00 Hs </spam
-              ><span
-                class="card-text pasaje"
-                style="color: rgb(150, 148, 148); font-size: small"
-                >aproximado <br /></span
-              ><span
-                class="card-text pasaje"
-                style="color: rgb(8, 8, 8); font-size: small"
-                >Se anuncia a: Villa del Rosario</span
-              >
-            </h6>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-text font-weight-bold">
-              <i
-                class="icon fa fa-map-marker"
-                style="color: black"
-                aria-hidden="true"
-              ></i>
-              Llega:
-              <span
-                class="card-text pasaje"
-                style="color: black; font-size: small"
-                >16:00 Hs <br />
-              </span>
-              <span
-                class="card-text pasaje"
-                style="color: rgb(150, 148, 148); font-size: small"
-                >duracion 10h.00m. </span
-              ><span
-                class="card-text pasaje"
-                style="color: rgb(12, 12, 12); font-size: small"
-                >Servicio 142 - Coche 2062</span
-              >
-            </h6>
-          </div>
-        </div>
-
-        <div class="card price">
-          <!-- <h5 class="card-title text-white font-weight-bold mb-0">$ 11.500,00</h5>
-            <i class="icon bi bi-person" style="color: white;"></i><span style="color: white; font-size: medium;">1.Ida</span> -->
-          <a href="#" class="cta">
-            <i class="icon bi bi-search" style="color: black"></i>
-            <span>ver ruta</span>
-            <svg width="13px" height="10px" viewBox="0 0 13 10">
-              <path d="M1,5 L11,5"></path>
-              <polyline points="8 1 12 5 8 9"></polyline>
-            </svg>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div
-        class="card-group col-lg-7 col-xl-7 col-md-12 col-sm-12 p-3 mb-5 bg-body boleto"
-      >
-        <div class="card">
-          <div class="card-body">
-            <img
-              class="card-img-top logoPasajes"
-              src="./images/logosEmpresas/ersa.png"
-              alt="Card image cap"
-            />
-            <p class="card-text pasaje" style="font-size: small">
-              Por Empresa:
-              <spam class="font-weight-bold" style="color: #009ee2"
-                >Expreso Villa del Rosario</spam
-              >
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-title font-weight-bold">
-              <i
-                class="icon fa fa-dot-circle-o"
-                style="color: black"
-                aria-hidden="true"
-              ></i>
-              Sale:
-              <spam
-                class="card-text pasaje"
-                style="color: black; font-size: small"
-                >6:00 Hs </spam
-              ><span
-                class="card-text pasaje"
-                style="color: rgb(150, 148, 148); font-size: small"
-                >aproximado <br /></span
-              ><span
-                class="card-text pasaje"
-                style="color: rgb(8, 8, 8); font-size: small"
-                >Se anuncia a: Villa del Rosario</span
-              >
-            </h6>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-text font-weight-bold">
-              <i
-                class="icon fa fa-map-marker"
-                style="color: black"
-                aria-hidden="true"
-              ></i>
-              Llega:
-              <span
-                class="card-text pasaje"
-                style="color: black; font-size: small"
-                >16:00 Hs <br />
-              </span>
-              <span
-                class="card-text pasaje"
-                style="color: rgb(150, 148, 148); font-size: small"
-                >duracion 10h.00m. </span
-              ><span
-                class="card-text pasaje"
-                style="color: rgb(12, 12, 12); font-size: small"
-                >Servicio 142 - Coche 2062</span
-              >
-            </h6>
-          </div>
-        </div>
-
-        <div class="card">
-          <!-- <h5 class="card-title text-white font-weight-bold mb-0">$ 11.500,00</h5>
-            <i class="icon bi bi-person" style="color: white;"></i><span style="color: white; font-size: medium;">1.Ida</span> -->
-          <a href="#" class="cta">
-            <i class="icon bi bi-search" style="color: black"></i>
-            <span>ver ruta</span>
-            <svg width="13px" height="10px" viewBox="0 0 13 10">
-              <path d="M1,5 L11,5"></path>
-              <polyline points="8 1 12 5 8 9"></polyline>
-            </svg>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div
-        class="card-group col-lg-7 col-xl-7 col-md-12 col-sm-12 p-3 mb-5 bg-body boleto"
-      >
-        <div class="card">
-          <div class="card-body">
-            <img
-              class="card-img-top logoPasajes"
-              src="./images/logosEmpresas/ersa.png"
-              alt="Card image cap"
-            />
-            <p class="card-text pasaje" style="font-size: small">
-              Por Empresa:
-              <spam class="font-weight-bold" style="color: #009ee2"
-                >Expreso Villa del Rosario</spam
-              >
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-title font-weight-bold">
-              <i
-                class="icon fa fa-dot-circle-o"
-                style="color: black"
-                aria-hidden="true"
-              ></i>
-              Sale:
-              <spam
-                class="card-text pasaje"
-                style="color: black; font-size: small"
-                >6:00 Hs </spam
-              ><span
-                class="card-text pasaje"
-                style="color: rgb(150, 148, 148); font-size: small"
-                >aproximado <br /></span
-              ><span
-                class="card-text pasaje"
-                style="color: rgb(8, 8, 8); font-size: small"
-                >Se anuncia a: Villa del Rosario</span
-              >
-            </h6>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-text font-weight-bold">
-              <i
-                class="icon fa fa-map-marker"
-                style="color: black"
-                aria-hidden="true"
-              ></i>
-              Llega:
-              <span
-                class="card-text pasaje"
-                style="color: black; font-size: small"
-                >16:00 Hs <br />
-              </span>
-              <span
-                class="card-text pasaje"
-                style="color: rgb(150, 148, 148); font-size: small"
-                >duracion 10h.00m. </span
-              ><span
-                class="card-text pasaje"
-                style="color: rgb(12, 12, 12); font-size: small"
-                >Servicio 142 - Coche 2062</span
-              >
-            </h6>
-          </div>
-        </div>
-
-        <div class="card">
-          <!-- <h5 class="card-title text-white font-weight-bold mb-0">$ 11.500,00</h5>
-            <i class="icon bi bi-person" style="color: white;"></i><span style="color: white; font-size: medium;">1.Ida</span> -->
-          <a href="#" class="cta">
-            <i class="icon bi bi-search" style="color: black"></i>
-            <span>ver ruta</span>
-            <svg width="13px" height="10px" viewBox="0 0 13 10">
-              <path d="M1,5 L11,5"></path>
-              <polyline points="8 1 12 5 8 9"></polyline>
-            </svg>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div
-        class="card-group col-lg-7 col-xl-7 col-md-12 col-sm-12 p-3 mb-5 bg-body boleto"
-      >
-        <div class="card">
-          <div class="card-body">
-            <img
-              class="card-img-top logoPasajes"
-              src="./images/logosEmpresas/ersa.png"
-              alt="Card image cap"
-            />
-            <p class="card-text pasaje" style="font-size: small">
-              Por Empresa:
-              <spam class="font-weight-bold" style="color: #009ee2"
-                >Expreso Villa del Rosario</spam
-              >
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-title font-weight-bold">
-              <i
-                class="icon fa fa-dot-circle-o"
-                style="color: black"
-                aria-hidden="true"
-              ></i>
-              Sale:
-              <spam
-                class="card-text pasaje"
-                style="color: black; font-size: small"
-                >6:00 Hs </spam
-              ><span
-                class="card-text pasaje"
-                style="color: rgb(150, 148, 148); font-size: small"
-                >aproximado <br /></span
-              ><span
-                class="card-text pasaje"
-                style="color: rgb(8, 8, 8); font-size: small"
-                >Se anuncia a: Villa del Rosario</span
-              >
-            </h6>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-text font-weight-bold">
-              <i
-                class="icon fa fa-map-marker"
-                style="color: black"
-                aria-hidden="true"
-              ></i>
-              Llega:
-              <span
-                class="card-text pasaje"
-                style="color: black; font-size: small"
-                >16:00 Hs <br />
-              </span>
-              <span
-                class="card-text pasaje"
-                style="color: rgb(150, 148, 148); font-size: small"
-                >duracion 10h.00m. </span
-              ><span
-                class="card-text pasaje"
-                style="color: rgb(12, 12, 12); font-size: small"
-                >Servicio 142 - Coche 2062</span
-              >
-            </h6>
-          </div>
-        </div>
-
-        <div class="card">
-          <!-- <h5 class="card-title text-white font-weight-bold mb-0">$ 11.500,00</h5>
-            <i class="icon bi bi-person" style="color: white;"></i><span style="color: white; font-size: medium;">1.Ida</span> -->
-          <a href="#" class="cta">
-            <i class="icon bi bi-search" style="color: black"></i>
-            <span>ver ruta</span>
-            <svg width="13px" height="10px" viewBox="0 0 13 10">
-              <path d="M1,5 L11,5"></path>
-              <polyline points="8 1 12 5 8 9"></polyline>
-            </svg>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div
-        class="card-group col-lg-7 col-xl-7 col-md-12 col-sm-12 p-3 mb-5 bg-body boleto"
-      >
-        <div class="card">
-          <div class="card-body">
-            <img
-              class="card-img-top logoPasajes"
-              src="./images/logosEmpresas/ersa.png"
-              alt="Card image cap"
-            />
-            <p class="card-text pasaje" style="font-size: small">
-              Por Empresa:
-              <spam class="font-weight-bold" style="color: #009ee2"
-                >Expreso Villa del Rosario</spam
-              >
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-title font-weight-bold">
-              <i
-                class="icon fa fa-dot-circle-o"
-                style="color: black"
-                aria-hidden="true"
-              ></i>
-              Sale:
-              <spam
-                class="card-text pasaje"
-                style="color: black; font-size: small"
-                >6:00 Hs </spam
-              ><span
-                class="card-text pasaje"
-                style="color: rgb(150, 148, 148); font-size: small"
-                >aproximado <br /></span
-              ><span
-                class="card-text pasaje"
-                style="color: rgb(8, 8, 8); font-size: small"
-                >Se anuncia a: Villa del Rosario</span
-              >
-            </h6>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-text font-weight-bold">
-              <i
-                class="icon fa fa-map-marker"
-                style="color: black"
-                aria-hidden="true"
-              ></i>
-              Llega:
-              <span
-                class="card-text pasaje"
-                style="color: black; font-size: small"
-                >16:00 Hs <br />
-              </span>
-              <span
-                class="card-text pasaje"
-                style="color: rgb(150, 148, 148); font-size: small"
-                >duracion 10h.00m. </span
-              ><span
-                class="card-text pasaje"
-                style="color: rgb(12, 12, 12); font-size: small"
-                >Servicio 142 - Coche 2062</span
-              >
-            </h6>
-          </div>
-        </div>
-
-        <div class="card">
-          <!-- <h5 class="card-title text-white font-weight-bold mb-0">$ 11.500,00</h5>
-            <i class="icon bi bi-person" style="color: white;"></i><span style="color: white; font-size: medium;">1.Ida</span> -->
-          <a href="#" class="cta">
-            <i class="icon bi bi-search" style="color: black"></i>
-            <span>ver ruta</span>
-            <svg width="13px" height="10px" viewBox="0 0 13 10">
-              <path d="M1,5 L11,5"></path>
-              <polyline points="8 1 12 5 8 9"></polyline>
-            </svg>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div
-        class="card-group col-lg-7 col-xl-7 col-md-12 col-sm-12 p-3 mb-5 bg-body boleto"
-      >
-        <div class="card">
-          <div class="card-body">
-            <img
-              class="card-img-top logoPasajes"
-              src="./images/logosEmpresas/ersa.png"
-              alt="Card image cap"
-            />
-            <p class="card-text pasaje" style="font-size: small">
-              Por Empresa:
-              <spam class="font-weight-bold" style="color: #009ee2"
-                >Expreso Villa del Rosario</spam
-              >
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-title font-weight-bold">
-              <i
-                class="icon fa fa-dot-circle-o"
-                style="color: black"
-                aria-hidden="true"
-              ></i>
-              Sale:
-              <spam
-                class="card-text pasaje"
-                style="color: black; font-size: small"
-                >6:00 Hs </spam
-              ><span
-                class="card-text pasaje"
-                style="color: rgb(150, 148, 148); font-size: small"
-                >aproximado <br /></span
-              ><span
-                class="card-text pasaje"
-                style="color: rgb(8, 8, 8); font-size: small"
-                >Se anuncia a: Villa del Rosario</span
-              >
-            </h6>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-text font-weight-bold">
-              <i
-                class="icon fa fa-map-marker"
-                style="color: black"
-                aria-hidden="true"
-              ></i>
-              Llega:
-              <span
-                class="card-text pasaje"
-                style="color: black; font-size: small"
-                >16:00 Hs <br />
-              </span>
-              <span
-                class="card-text pasaje"
-                style="color: rgb(150, 148, 148); font-size: small"
-                >duracion 10h.00m. </span
-              ><span
-                class="card-text pasaje"
-                style="color: rgb(12, 12, 12); font-size: small"
-                >Servicio 142 - Coche 2062</span
-              >
-            </h6>
-          </div>
-        </div>
-
-        <div class="card">
-          <!-- <h5 class="card-title text-white font-weight-bold mb-0">$ 11.500,00</h5>
-            <i class="icon bi bi-person" style="color: white;"></i><span style="color: white; font-size: medium;">1.Ida</span> -->
-          <a href="#" class="cta">
-            <i class="icon bi bi-search" style="color: black"></i>
-            <span>ver ruta</span>
-            <svg width="13px" height="10px" viewBox="0 0 13 10">
-              <path d="M1,5 L11,5"></path>
-              <polyline points="8 1 12 5 8 9"></polyline>
-            </svg>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div
-        class="card-group col-lg-7 col-xl-7 col-md-12 col-sm-12 p-3 mb-5 bg-body boleto"
-      >
-        <div class="card">
-          <div class="card-body">
-            <img
-              class="card-img-top logoPasajes"
-              src="./images/logosEmpresas/ersa.png"
-              alt="Card image cap"
-            />
-            <p class="card-text pasaje" style="font-size: small">
-              Por Empresa:
-              <spam class="font-weight-bold" style="color: #009ee2"
-                >Expreso Villa del Rosario</spam
-              >
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-title font-weight-bold">
-              <i
-                class="icon fa fa-dot-circle-o"
-                style="color: black"
-                aria-hidden="true"
-              ></i>
-              Sale:
-              <spam
-                class="card-text pasaje"
-                style="color: black; font-size: small"
-                >6:00 Hs </spam
-              ><span
-                class="card-text pasaje"
-                style="color: rgb(150, 148, 148); font-size: small"
-                >aproximado <br /></span
-              ><span
-                class="card-text pasaje"
-                style="color: rgb(8, 8, 8); font-size: small"
-                >Se anuncia a: Villa del Rosario</span
-              >
-            </h6>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-text font-weight-bold">
-              <i
-                class="icon fa fa-map-marker"
-                style="color: black"
-                aria-hidden="true"
-              ></i>
-              Llega:
-              <span
-                class="card-text pasaje"
-                style="color: black; font-size: small"
-                >16:00 Hs <br />
-              </span>
-              <span
-                class="card-text pasaje"
-                style="color: rgb(150, 148, 148); font-size: small"
-                >duracion 10h.00m. </span
-              ><span
-                class="card-text pasaje"
-                style="color: rgb(12, 12, 12); font-size: small"
-                >Servicio 142 - Coche 2062</span
-              >
-            </h6>
-          </div>
-        </div>
-
-        <div class="card">
-          <!-- <h5 class="card-title text-white font-weight-bold mb-0">$ 11.500,00</h5>
-            <i class="icon bi bi-person" style="color: white;"></i><span style="color: white; font-size: medium;">1.Ida</span> -->
-          <a href="#" class="cta">
-            <i class="icon bi bi-search" style="color: black"></i>
-            <span>ver ruta</span>
-            <svg width="13px" height="10px" viewBox="0 0 13 10">
-              <path d="M1,5 L11,5"></path>
-              <polyline points="8 1 12 5 8 9"></polyline>
-            </svg>
-          </a>
-        </div>
-      </div>
+      <div id="pruebaBoleto"></div>
     </div>
 
     <!--Prueba mapa-->
@@ -1354,22 +247,37 @@
 
     <!-- Page Footer-->
     <footer class="section footer-corporate context-dark">
-      <div class="footer-corporate-bottom-panel " style="background: #009ee2; color: white;">
+      <div
+        class="footer-corporate-bottom-panel"
+        style="background: #009ee2; color: white"
+      >
         <div class="container">
-          <div class="row justfy-content-xl-space-berween row-10 align-items-md-center2">
+          <div
+            class="row justfy-content-xl-space-berween row-10 align-items-md-center2"
+          >
             <div class="col-sm-6 col-md-4 text-sm-right text-md-center">
               <div>
                 <ul class="list-inline list-inline-sm footer-social-list-2">
-                  <li><p><span class="font-weight-bold">Tel</span> +54 999 9999999</p></li>
-                  <li><p><span class="font-weight-bold">e-mail</span> info@yaviene.com</p></li>
+                  <li>
+                    <p>
+                      <span class="font-weight-bold">Tel</span> +54 999 9999999
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <span class="font-weight-bold">e-mail</span>
+                      info@yaviene.com
+                    </p>
+                  </li>
                   <!-- <li><a class="icon fa fa-google-plus" href="#"></a></li> -->
-                  
                 </ul>
               </div>
             </div>
             <div class="col-sm-6 col-md-4 order-sm-first">
               <!-- Rights-->
-              <p class="rights font-weight-bold">CONTACTANOS <a href="#" target="_blank"></a></p>
+              <p class="rights font-weight-bold">
+                CONTACTANOS <a href="#" target="_blank"></a>
+              </p>
             </div>
             <div class="col-sm-6 col-md-4 text-md-right">
               <p class="rights"><a href="#">CORDOBA CAPITAL ARGENTINA</a></p>
@@ -1378,22 +286,46 @@
         </div>
       </div>
 
-      <div class="footer-corporate-bottom-panel" style="padding: 1%;">
+      <div class="footer-corporate-bottom-panel" style="padding: 1%">
         <div class="container">
-          <div class="row justfy-content-xl-space-berween row-10 align-items-md-center2">
+          <div
+            class="row justfy-content-xl-space-berween row-10 align-items-md-center2"
+          >
             <div class="col-sm-6 col-md-4 text-sm-right text-md-center">
               <div>
                 <ul class="list-inline list-inline-sm footer-social-list-2">
-                  <li><a class="icon fa fa-facebook" href="https://www.facebook.com/gobdecordoba/" target="_blank"></a></li>
-                  <li><a class="icon fa fa-twitter" href="https://twitter.com/gobdecordoba?lang=es" target="_blank"></a></li>
+                  <li>
+                    <a
+                      class="icon fa fa-facebook"
+                      href="https://www.facebook.com/gobdecordoba/"
+                      target="_blank"
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      class="icon fa fa-twitter"
+                      href="https://twitter.com/gobdecordoba?lang=es"
+                      target="_blank"
+                    ></a>
+                  </li>
                   <!-- <li><a class="icon fa fa-google-plus" href="#"></a></li> -->
-                  <li><a class="icon fa fa-instagram" href="https://www.instagram.com/cordobaok/?hl=es-la||" target="_blank"></a></li>
+                  <li>
+                    <a
+                      class="icon fa fa-instagram"
+                      href="https://www.instagram.com/cordobaok/?hl=es-la||"
+                      target="_blank"
+                    ></a>
+                  </li>
                 </ul>
               </div>
             </div>
             <div class="col-sm-6 col-md-4 order-sm-first">
               <!-- Rights-->
-              <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span></span>Todos los derechos Reservados <a href="#" target="_blank"></a></p>
+              <p class="rights">
+                <span>&copy;&nbsp;</span><span class="copyright-year"></span
+                ><span>&nbsp;</span><span></span>Todos los derechos Reservados
+                <a href="#" target="_blank"></a>
+              </p>
             </div>
             <div class="col-sm-6 col-md-4 text-md-right">
               <p class="rights"><a href="#">Politica de Privacidad</a></p>
@@ -1403,8 +335,6 @@
       </div>
     </footer>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key=Tu_API_Key"></script>
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
@@ -1419,7 +349,12 @@
       integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
       crossorigin=""
     ></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
     <script src="./js/mapa.js"></script>
+    <script src="./js/localidadOrigenDestino.js"></script>
   </body>
 </html>

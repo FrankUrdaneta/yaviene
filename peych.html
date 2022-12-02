@@ -1,16 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
   </head>
-  <body style="background-color: rgb(113, 186, 235)">
-    <div style="display: flex; justify-content: center; color: white">
-      <h1>mira tu mundo</h1>
-      <p>estudia conmigo</p>
-    </div>
+  <body>
+    <h2>Autocomplete</h2>
+
+    <p>Start typing:</p>
+
+    <!--Make sure the form has the autocomplete function switched off:-->
+    <form autocomplete="off" action="/action_page.php">
+      <div class="autocomplete" style="width: 300px">
+        <input
+          id="myInput"
+          type="text"
+          name="myCountry"
+          placeholder="Country"
+        />
+      </div>
+      <input type="submit" />
+    </form>
+
+    <script src="./js/peych.js"></script>
   </body>
-  <footer></footer>
 </html>

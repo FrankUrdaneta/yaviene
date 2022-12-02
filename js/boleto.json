@@ -1,0 +1,67 @@
+{
+    "ok":true,
+    "data":{
+        "boletos":[
+            {
+                "origen":"cordoba",
+                "destino":"carlos paz",
+                "logo":"../images/logosEmpresas/porvenir.png",
+                "empresa":"El porvenir",
+                "sale":"06:00",
+                "llega":"08:00",
+                "anuncia":"villa del rosario",
+                "duracion":"02:00",
+                "servicio":122,
+                "coche":62
+            },
+            {
+                "origen":"cordoba",
+                "destino":"carlos paz",
+                "logo":"../images/logosEmpresas/ersa.png",
+                "empresa":"Ersa",
+                "sale":"06:00",
+                "llega":"08:00",
+                "anuncia":"villa del rosario",
+                "duracion":"02:00",
+                "servicio":142,
+                "coche":2062
+            },
+            {
+                "origen":"cordoba",
+                "destino":"carlos paz",
+                "logo":"../images/logosEmpresas/lumasa.png",
+                "empresa":"Lumasa",
+                "sale":"06:00",
+                "llega":"08:00",
+                "anuncia":"villa del rosario",
+                "duracion":"02:00",
+                "servicio":142,
+                "coche":2062
+            },
+            {
+                "origen":"cordoba",
+                "destino":"carlos paz",
+                "logo":"../images/logosEmpresas/buseslep.png",
+                "empresa":"Buses Lep",
+                "sale":"06:00",
+                "llega":"08:00",
+                "anuncia":"villa del rosario",
+                "duracion":"02:00",
+                "servicio":12,
+                "coche":202
+            },
+            {
+                "origen":"cordoba",
+                "destino":"carlos paz",
+                "logo":"../images/logosEmpresas/transbus.png",
+                "empresa":"Transbus",
+                "sale":"06:00",
+                "llega":"08:00",
+                "anuncia":"villa del rosario",
+                "duracion":"02:00",
+                "servicio":1,
+                "coche":62
+            }
+        ]
+    }
+}

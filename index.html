@@ -44,14 +44,14 @@
   <!-- <div id="diangocambio">
     <img id="chat" class="chat" src="./images/chatbot1.gif"/>
   </div> -->
-    <div class="preloader">
+    <!-- <div class="preloader">
         <div class="preloader-body">
           <div class="cssload-container">
             <div class="cssload-speeding-wheel"></div>
           </div>
           <img src="./images/drow/loading.png" alt="loading" width="300px">
         </div>
-      </div>
+      </div> -->
       <div class="page">
        
           <!-- prueba Menu-->
@@ -100,7 +100,26 @@
                 </div>
                 </div>
             </nav>
+            
             <!--Cuadro Buscador-->
+            <!-- <script>
+             fetch('./js/localidades.json').then(a=>a.json()).then(resultado=>{
+            
+            localidades=resultado.data.localidades;
+            
+            function mostrar(){
+              let pruebaEscribir=document.getElementById('pruebaEscritura')
+              
+              pruebaEscribir.addEventListener('click',function(){
+                console.log(localidades)
+                pruebaEscribir.innerHTML=localidades
+              })
+              
+            }
+            mostrar()
+            });
+             
+            </script> -->
             <div id="buscador" class=""></div>
 
           </div>
@@ -208,6 +227,7 @@
         <!-- Discover New Horizons-->
         
         <hr>
+        
         <!--	Our Services-->
         <section class="section ">
           <div class="container nuestrosServicios">
@@ -421,8 +441,6 @@
           </div>
         </footer>
         <!-- Autocomplete location search input --> 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key=Tu_API_Key"></script>
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
