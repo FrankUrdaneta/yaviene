@@ -64,7 +64,7 @@
   </head>
 
   <body>
-    <div class="page">
+    <div class="page wrapper">
       <!-- prueba Menu-->
       <header class="section page-header">
         <!-- RD Navbar-->
@@ -177,7 +177,71 @@
                 </div>
               </div>
             </div>
+          
+          <div class="navbar navbar-expand-lg navbar-dark bg-dark nav-filtros">
+            <div class="container-fluid">
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <div class="container contenidoBarraCambiar">
+                  <div class="row">
+                    <div class="col-auto">
+                      <select
+                        id="inputGroupSelect01"
+                        class="form-select empresaSelect"
+                      >
+                        <option selected>Empresa</option>
+                        <option value="1">Achiras</option>
+                        <option value="2">Zeta Bus</option>
+                        <option value="3">Aut Santa Fe</option>
+                        <option value="4">Buses Lep</option>
+                        <option value="5">Car Bus</option>
+                        <option value="6">Carcor</option>
+                        <option value="7">Coata</option>
+                        <option value="8">Dean Funes</option>
+                        <option value="9">EL Porvenir</option>
+                      </select>
+                    </div>
+
+                    <div class="col-auto">
+                      <p class="font-weight-bold" id="origen_cambiar_busqueda">
+                        <i class="icon bi bi-arrow-up-right-circle"></i> Cordoba
+                        Terminal
+                      </p>
+                    </div>
+                    <div class="col-auto iconFlecha">
+                      <i class="icon bi bi-arrow-right"></i>
+                    </div>
+                    <div class="col-auto">
+                      <p class="font-weight-bold">
+                        <i class="icon bi bi-arrow-down-right-circle"></i>
+                        Carlos Paz Terminal
+                      </p>
+                    </div>
+                    <div class="col-auto">
+                      <p class="font-weight-bold">
+                        <select
+                          id="inputGroupSelect01"
+                          class="form-select empresaSelect"
+                        >
+                          <option selected>Ordenar por</option>
+                          <option value="1">Duración</option>
+                          <option value="2">Salida</option>
+                        </select>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <button
+                  class="btn btn-outline-success filtrar botonCambiarBusqueda"
+                  id="cambiarBusqueda"
+                  type="submit"
+                >
+                  Cambiar Busqueda
+                </button>
+              </div>
+            </div>
           </nav>
+        </div>
         </div>
       </header>
       <!-- Swiper-->
@@ -187,69 +251,7 @@
       <!-- <div id="mapaCoche"></div> -->
 
       <!-- barraCambiarBusqueda -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav-filtros">
-        <div class="container-fluid">
-          <div class="collapse navbar-collapse" id="navbarScroll">
-            <div class="container contenidoBarraCambiar">
-              <div class="row">
-                <div class="col-auto">
-                  <select
-                    id="inputGroupSelect01"
-                    class="form-select empresaSelect"
-                  >
-                    <option selected>Empresa</option>
-                    <option value="1">Achiras</option>
-                    <option value="2">Zeta Bus</option>
-                    <option value="3">Aut Santa Fe</option>
-                    <option value="4">Buses Lep</option>
-                    <option value="5">Car Bus</option>
-                    <option value="6">Carcor</option>
-                    <option value="7">Coata</option>
-                    <option value="8">Dean Funes</option>
-                    <option value="9">EL Porvenir</option>
-                  </select>
-                </div>
 
-                <div class="col-auto">
-                  <p class="font-weight-bold" id="origen_cambiar_busqueda">
-                    <i class="icon bi bi-arrow-up-right-circle"></i> Cordoba
-                    Terminal
-                  </p>
-                </div>
-                <div class="col-auto iconFlecha">
-                  <i class="icon bi bi-arrow-right"></i>
-                </div>
-                <div class="col-auto">
-                  <p class="font-weight-bold">
-                    <i class="icon bi bi-arrow-down-right-circle"></i> Carlos
-                    Paz Terminal
-                  </p>
-                </div>
-                <div class="col-auto">
-                  <p class="font-weight-bold">
-                    <select
-                      id="inputGroupSelect01"
-                      class="form-select empresaSelect"
-                    >
-                      <option selected>Ordenar por</option>
-                      <option value="1">Duración</option>
-                      <option value="2">Salida</option>
-                    </select>
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <button
-              class="btn btn-outline-success filtrar botonCambiarBusqueda"
-              id="cambiarBusqueda"
-              type="submit"
-            >
-              Cambiar Busqueda
-            </button>
-          </div>
-        </div>
-      </nav>
       <div>
         <div id="map" class="mapaOl" style="height: 500px; width: 40%"></div>
       </div>
@@ -265,7 +267,7 @@
     <!--Inicio Footer-->
 
     <!-- Page Footer-->
-    <footer class="section footer-corporate context-dark">
+    <!-- <footer class="section footer-corporate context-dark footer">
       <div
         class="footer-corporate-bottom-panel"
         style="background: #009ee2; color: white"
@@ -287,14 +289,14 @@
                       <span class="font-weight-bold">e-mail</span>
                       info@yaviene.com
                     </p>
-                  </li>
-                  <!-- <li><a class="icon fa fa-google-plus" href="#"></a></li> -->
-                </ul>
+                  </li> -->
+    <!-- <li><a class="icon fa fa-google-plus" href="#"></a></li> -->
+    <!-- </ul>
               </div>
             </div>
-            <div class="col-sm-6 col-md-4 order-sm-first">
-              <!-- Rights-->
-              <p class="rights font-weight-bold">
+            <div class="col-sm-6 col-md-4 order-sm-first"> -->
+    <!-- Rights-->
+    <!-- <p class="rights font-weight-bold">
                 CONTACTANOS <a href="#" target="_blank"></a>
               </p>
             </div>
@@ -326,9 +328,9 @@
                       href="https://twitter.com/gobdecordoba?lang=es"
                       target="_blank"
                     ></a>
-                  </li>
-                  <!-- <li><a class="icon fa fa-google-plus" href="#"></a></li> -->
-                  <li>
+                  </li> -->
+    <!-- <li><a class="icon fa fa-google-plus" href="#"></a></li> -->
+    <!-- <li>
                     <a
                       class="icon fa fa-instagram"
                       href="https://www.instagram.com/cordobaok/?hl=es-la||"
@@ -338,9 +340,9 @@
                 </ul>
               </div>
             </div>
-            <div class="col-sm-6 col-md-4 order-sm-first">
-              <!-- Rights-->
-              <p class="rights">
+            <div class="col-sm-6 col-md-4 order-sm-first"> -->
+    <!-- Rights-->
+    <!-- <p class="rights">
                 <span>&copy;&nbsp;</span><span class="copyright-year"></span
                 ><span>&nbsp;</span><span></span>Todos los derechos Reservados
                 <a href="#" target="_blank"></a>
@@ -352,7 +354,7 @@
           </div>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>

@@ -1191,6 +1191,7 @@ input[type="submit"] {
 .buscar_gps {
   background-color: #009ee2 !important;
   border: DodgerBlue !important;
+  width: 90% !important;
 }
 .buscar_gps:hover {
   border: 1px solid #009ee2 !important;

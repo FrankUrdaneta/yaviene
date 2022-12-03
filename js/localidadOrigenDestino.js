@@ -2,7 +2,7 @@
 fetch("./js/localidades.json")
 .then((a) => a.json())
 .then((data) => {
-  console.log(data.data.localidades);
+  
     let localidades_cordoba=data.data.localidades;
   
 
@@ -122,20 +122,44 @@ fetch("./js/localidades.json")
         autocomplete(document.getElementById("inputOrigen"), localidades_cordoba);
         autocomplete(document.getElementById("inputDestino"), localidades_cordoba);
     });
+    
+    let invertirDestino=document.getElementById('invertirDestino')
+    
+    invertirDestino.addEventListener('click',()=>{
+      let origen=document.getElementById('inputOrigen').value
+      let destino=document.getElementById('inputDestino').value
+      let aux=""
+      aux=origen;//cordoba
+      origen.innerHTML=destino;//carlos paz
+      destino.innerHTML=aux;//cordoba
+      console.log("di click")
+      console.log(aux)
+      console.log(origen)
+      console.log(destino)
+    })
 
         // Armar cuerpo de boleto
         fetch("./js/boleto.json")
           .then((a) => a.json())
           .then((data) => {
             let boletos = data.data.boletos;
+            
             function mostrarBoleto() {
-              let pruebaBoleto = document.getElementById("cambiarBusqueda");
-
+              let pruebaBoleto = document.getElementById("buscar_pasajes");
+              
               pruebaBoleto.addEventListener("click", function () {
+                document.getElementById("pruebaBoleto").innerHTML=""
                 let dibujarBoleto = document.getElementById("pruebaBoleto");
+                let origen=document.getElementById('inputOrigen').value.toLowerCase()
+                let destino=document.getElementById('inputDestino').value.toLowerCase()
+                let fecha_salida=document.getElementById('fechaActual').value
+                
+
 
                 for (let i of boletos) {
-                  console.log(i);
+                  if(origen===i.origen && destino===i.destino && fecha_salida===i.fecha_salida){
+                    
+                 
                   dibujarBoleto.innerHTML += `
                 <div
         class="card-group col-lg-6 col-xl-6 col-md-12 col-sm-12 p-3 mb-5 bg-body boleto"
@@ -202,7 +226,7 @@ fetch("./js/localidades.json")
               ><br><span
                 class="card-text pasaje"
                 style="color: rgb(12, 12, 12); font-size: small"
-                >Servicio ${i.servicio} <br> Coche ${i.coche}</span
+                >Servicio ${i.servicio} <br> Coche ${i.coche} ${i.rampa?"<i class='fa fa-wheelchair' aria-hidden='true' style='color:#009ee2;'></i>":''} </span
               >
             </h6>
           </div>
@@ -211,11 +235,12 @@ fetch("./js/localidades.json")
         <div class="card ">
           <!-- <h5 class="card-title text-white font-weight-bold mb-0">$ 11.500,00</h5>
             <i class="icon bi bi-person" style="color: white;"></i><span style="color: white; font-size: medium;">1.Ida</span> -->
-          <img src="../images/drow/map3.png" style="width: 80px;"><button onclick="dibujaTraza(${i.servicio});" id="buscar_pasajes"  class="btn ov-btn-grow-skew buscar_gps ">Ver Ruta</button>
+          <img class="img_ruta" src="../images/drow/map3.png" style="width: 80px;"><button onclick="dibujaTraza(${i.servicio});" id="buscar_pasajes"  class="btn ov-btn-grow-skew buscar_gps ">Ver Ruta</button>
           
         </div>
       </div>
                 `;
+              }
                 }
               });
             }
