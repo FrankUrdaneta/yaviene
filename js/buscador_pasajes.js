@@ -53,7 +53,7 @@ buscador.innerHTML=`<div class="forma mt-2 position-sticky">
   </div>
 
   <div class="col-lg-2 col-sm-6">
-   <a href="./buscador_pasajes.html"<button  id="buscar_pasajes"  class="btn ov-btn-grow-skew botonBuscarPasajes">Buscar</button></a>
+   <a href="./buscador_pasajes.html"<button  id="buscar_pasajes"  class="btn ov-btn-grow-skew  ">Buscar</button></a>
   </div>
 </form>
 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang 
+playTxt="Reproducir"
+pausTxt="Pausa"
+stopTxt="Detener"
+fastPre="Anterior"
+fastNxt="Siguiente"
+disableSound="Apagar Sonido"
+enableSound="Encender Sonido"
+full="Full"
+norm="Norm"
+loading="Cargando"
+connect="Conectando"
+connectError="Error de Conección"
+offLine="Cámara Desconectada"
+waiting="Sin Video"
+captxt="Captura"
+/>

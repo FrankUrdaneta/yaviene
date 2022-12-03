@@ -7,6 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta charset="utf-8" />
+
+    <script src="./css/Classes/ol/v7.1.0/dist/ol.js"></script>
+    <script src="./css/Classes/ol/v7.1.0/dist/ol.js"></script>
+    <link
+      rel="stylesheet"
+      href="./css/Classes/ol/v7.1.0/css/ol.css"
+      type="text/css"
+    />
+    <script src="./css/Classes/ndialogo/1.5/ndialogo.js"></script>
+    <link
+      rel="stylesheet"
+      href="./css/Classes/ndialogo/1.5/ndialogo.css"
+      type="text/css"
+    />
+
     <link rel="icon" href="images/yaviene.ico" type="image/x-icon" />
     <!--Animated-->
     <link
@@ -31,7 +46,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/login.css" />
     <link rel="stylesheet" href="css/pasajes.css" />
-    <link rel="stylesheet" href="./css/buscador_pasajes.css" />
+
     <link rel="stylesheet" href="./css/horarios.css" />
     <link
       rel="stylesheet"
@@ -167,7 +182,7 @@
       </header>
       <!-- Swiper-->
       <!--Buscador de pasajes-->
-      <div id="buscador"></div>
+      <!-- <div id="buscador"></div> -->
 
       <!-- <div id="mapaCoche"></div> -->
 
@@ -196,7 +211,7 @@
                 </div>
 
                 <div class="col-auto">
-                  <p class="font-weight-bold">
+                  <p class="font-weight-bold" id="origen_cambiar_busqueda">
                     <i class="icon bi bi-arrow-up-right-circle"></i> Cordoba
                     Terminal
                   </p>
@@ -212,13 +227,14 @@
                 </div>
                 <div class="col-auto">
                   <p class="font-weight-bold">
-                    <button class="btn btn-outline-success btnMasRapido">
-                      <i
-                        class="bi bi-arrow-down-up"
-                        style="display: flex; justify-content: center"
-                      ></i>
-                    </button>
-                    mas rápido
+                    <select
+                      id="inputGroupSelect01"
+                      class="form-select empresaSelect"
+                    >
+                      <option selected>Ordenar por</option>
+                      <option value="1">Duración</option>
+                      <option value="2">Salida</option>
+                    </select>
                   </p>
                 </div>
               </div>
@@ -234,6 +250,9 @@
           </div>
         </div>
       </nav>
+      <div>
+        <div id="map" class="mapaOl" style="height: 500px; width: 40%"></div>
+      </div>
 
       <div id="pruebaBoleto"></div>
     </div>
@@ -356,5 +375,6 @@
     ></script>
     <script src="./js/mapa.js"></script>
     <script src="./js/localidadOrigenDestino.js"></script>
+    <script src="./js/mapa.js"></script>
   </body>
 </html>

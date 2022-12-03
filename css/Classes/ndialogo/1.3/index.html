@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="ndialogo.js"></script>
+    <link rel="stylesheet" href="ndialogo.css">   
+</head>
+<body>
+
+    <button style="position:relative; z-index: 2" id="dialog">mostrar</button>
+    <button style="position:relative" id="cerrar">cerrar</button>
+
+    <script>
+
+        dialogo1 = new nDialogo({
+            title: 'Lorem impsum soler sit amet, Lorem Impsum', 
+            body: `Lorem impsum dolor sit amet, consectetur adipisicing elit.
+            lorem impsum dolor sit amet, consectetur adipisicing elit.
+            <br>
+            <button onclick="dialogo2.open();">Aceptar</button>
+            <button onclick="dialogo1.cerrar();">Cancelar</button>`,
+            //background : true,
+            //backgroundCloseable : true,
+            btnClose : true,
+            width:'300px',
+            height:'200px',
+            zIndex: 1,
+        });
+
+        dialogo2 = new nDialogo({
+            title: 'Lorem impsum soler sit amet, Lorem Impsum', 
+            body: `Lorem impsum dolor sit amet, consectetur adipisicing elit.
+            lorem impsum dolor sit amet, consectetur adipisicing elit.
+            <br>
+            <button>Aceptar</button>
+            <button onclick="dialogo2.cerrar();">Cancelar</button>`,
+            background : true,
+            backgroundCloseable : true,
+            btnClose : true,
+            width:'300px',
+            height:'200px',
+        });
+        contador = 0;
+
+        dialog.addEventListener('click', () => {
+            //dialogo1.open();
+            //dialogo1.close();
+            contador ++;
+            //dialogo1.setBody('hola mundo' + contador);
+            dialogo1.open('hola mundo' + contador);
+        });
+
+        cerrar.addEventListener('click', () => {
+            dialogo1.close();
+        });
+
+        
+        
+
+    </script>
+</body>
+</html>

@@ -116,231 +116,7 @@ fetch("./js/localidades.json")
           });
         }
 
-        /*An array containing all the country names in the world:*/
-        var countries = [
-          "Afghanistan",
-          "Albania",
-          "Algeria",
-          "Andorra",
-          "Angola",
-          "Anguilla",
-          "Antigua & Barbuda",
-          "Argentina",
-          "Armenia",
-          "Aruba",
-          "Australia",
-          "Austria",
-          "Azerbaijan",
-          "Bahamas",
-          "Bahrain",
-          "Bangladesh",
-          "Barbados",
-          "Belarus",
-          "Belgium",
-          "Belize",
-          "Benin",
-          "Bermuda",
-          "Bhutan",
-          "Bolivia",
-          "Bosnia & Herzegovina",
-          "Botswana",
-          "Brazil",
-          "British Virgin Islands",
-          "Brunei",
-          "Bulgaria",
-          "Burkina Faso",
-          "Burundi",
-          "Cambodia",
-          "Cameroon",
-          "Canada",
-          "Cape Verde",
-          "Cayman Islands",
-          "Central Arfrican Republic",
-          "Chad",
-          "Chile",
-          "China",
-          "Colombia",
-          "Congo",
-          "Cook Islands",
-          "Costa Rica",
-          "Cote D Ivoire",
-          "Croatia",
-          "Cuba",
-          "Curacao",
-          "Cyprus",
-          "Czech Republic",
-          "Denmark",
-          "Djibouti",
-          "Dominica",
-          "Dominican Republic",
-          "Ecuador",
-          "Egypt",
-          "El Salvador",
-          "Equatorial Guinea",
-          "Eritrea",
-          "Estonia",
-          "Ethiopia",
-          "Falkland Islands",
-          "Faroe Islands",
-          "Fiji",
-          "Finland",
-          "France",
-          "French Polynesia",
-          "French West Indies",
-          "Gabon",
-          "Gambia",
-          "Georgia",
-          "Germany",
-          "Ghana",
-          "Gibraltar",
-          "Greece",
-          "Greenland",
-          "Grenada",
-          "Guam",
-          "Guatemala",
-          "Guernsey",
-          "Guinea",
-          "Guinea Bissau",
-          "Guyana",
-          "Haiti",
-          "Honduras",
-          "Hong Kong",
-          "Hungary",
-          "Iceland",
-          "India",
-          "Indonesia",
-          "Iran",
-          "Iraq",
-          "Ireland",
-          "Isle of Man",
-          "Israel",
-          "Italy",
-          "Jamaica",
-          "Japan",
-          "Jersey",
-          "Jordan",
-          "Kazakhstan",
-          "Kenya",
-          "Kiribati",
-          "Kosovo",
-          "Kuwait",
-          "Kyrgyzstan",
-          "Laos",
-          "Latvia",
-          "Lebanon",
-          "Lesotho",
-          "Liberia",
-          "Libya",
-          "Liechtenstein",
-          "Lithuania",
-          "Luxembourg",
-          "Macau",
-          "Macedonia",
-          "Madagascar",
-          "Malawi",
-          "Malaysia",
-          "Maldives",
-          "Mali",
-          "Malta",
-          "Marshall Islands",
-          "Mauritania",
-          "Mauritius",
-          "Mexico",
-          "Micronesia",
-          "Moldova",
-          "Monaco",
-          "Mongolia",
-          "Montenegro",
-          "Montserrat",
-          "Morocco",
-          "Mozambique",
-          "Myanmar",
-          "Namibia",
-          "Nauro",
-          "Nepal",
-          "Netherlands",
-          "Netherlands Antilles",
-          "New Caledonia",
-          "New Zealand",
-          "Nicaragua",
-          "Niger",
-          "Nigeria",
-          "North Korea",
-          "Norway",
-          "Oman",
-          "Pakistan",
-          "Palau",
-          "Palestine",
-          "Panama",
-          "Papua New Guinea",
-          "Paraguay",
-          "Peru",
-          "Philippines",
-          "Poland",
-          "Portugal",
-          "Puerto Rico",
-          "Qatar",
-          "Reunion",
-          "Romania",
-          "Russia",
-          "Rwanda",
-          "Saint Pierre & Miquelon",
-          "Samoa",
-          "San Marino",
-          "Sao Tome and Principe",
-          "Saudi Arabia",
-          "Senegal",
-          "Serbia",
-          "Seychelles",
-          "Sierra Leone",
-          "Singapore",
-          "Slovakia",
-          "Slovenia",
-          "Solomon Islands",
-          "Somalia",
-          "South Africa",
-          "South Korea",
-          "South Sudan",
-          "Spain",
-          "Sri Lanka",
-          "St Kitts & Nevis",
-          "St Lucia",
-          "St Vincent",
-          "Sudan",
-          "Suriname",
-          "Swaziland",
-          "Sweden",
-          "Switzerland",
-          "Syria",
-          "Taiwan",
-          "Tajikistan",
-          "Tanzania",
-          "Thailand",
-          "Timor L'Este",
-          "Togo",
-          "Tonga",
-          "Trinidad & Tobago",
-          "Tunisia",
-          "Turkey",
-          "Turkmenistan",
-          "Turks & Caicos",
-          "Tuvalu",
-          "Uganda",
-          "Ukraine",
-          "United Arab Emirates",
-          "United Kingdom",
-          "United States of America",
-          "Uruguay",
-          "Uzbekistan",
-          "Vanuatu",
-          "Vatican City",
-          "Venezuela",
-          "Vietnam",
-          "Virgin Islands (US)",
-          "Yemen",
-          "Zambia",
-          "Zimbabwe",
-        ];
+       
 
         /*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
         autocomplete(document.getElementById("inputOrigen"), localidades_cordoba);
@@ -362,7 +138,7 @@ fetch("./js/localidades.json")
                   console.log(i);
                   dibujarBoleto.innerHTML += `
                 <div
-        class="card-group col-lg-7 col-xl-7 col-md-12 col-sm-12 p-3 mb-5 bg-body boleto"
+        class="card-group col-lg-6 col-xl-6 col-md-12 col-sm-12 p-3 mb-5 bg-body boleto"
       >
         <div class="card">
           <div class="card-body">
@@ -371,8 +147,8 @@ fetch("./js/localidades.json")
               src=${i.logo}
               alt="Card image cap"
             />
-            <p class="card-text pasaje" style="font-size: small">
-              Por Empresa:
+            <p class="card-text pasaje font-weight-bold" style="font-size: small ">
+              Por Empresa<br>
               <spam class="font-weight-bold" style="color: #009ee2"
                 >${i.empresa}</spam
               >
@@ -399,7 +175,7 @@ fetch("./js/localidades.json")
               ><span
                 class="card-text pasaje"
                 style="color: rgb(8, 8, 8); font-size: small"
-                >Se anuncia a: ${i.anuncia}</span
+                >Se anuncia a <br>${i.anuncia}</span
               >
             </h6>
           </div>
@@ -423,26 +199,20 @@ fetch("./js/localidades.json")
                 class="card-text pasaje"
                 style="color: rgb(150, 148, 148); font-size: small"
                 >duracion ${i.duracion} </span
-              ><span
+              ><br><span
                 class="card-text pasaje"
                 style="color: rgb(12, 12, 12); font-size: small"
-                >Servicio ${i.servicio} - Coche ${i.coche}</span
+                >Servicio ${i.servicio} <br> Coche ${i.coche}</span
               >
             </h6>
           </div>
         </div>
 
-        <div class="card price">
+        <div class="card ">
           <!-- <h5 class="card-title text-white font-weight-bold mb-0">$ 11.500,00</h5>
             <i class="icon bi bi-person" style="color: white;"></i><span style="color: white; font-size: medium;">1.Ida</span> -->
-          <a id="verRuta" href="#" class="cta">
-            <i class="icon bi bi-search" style="color: black"></i>
-            <span>ver ruta</span>
-            <svg width="13px" height="10px" viewBox="0 0 13 10">
-              <path d="M1,5 L11,5"></path>
-              <polyline points="8 1 12 5 8 9"></polyline>
-            </svg>
-          </a>
+          <img src="../images/drow/map3.png" style="width: 80px;"><button onclick="dibujaTraza(${i.servicio});" id="buscar_pasajes"  class="btn ov-btn-grow-skew buscar_gps ">Ver Ruta</button>
+          
         </div>
       </div>
                 `;
@@ -451,4 +221,6 @@ fetch("./js/localidades.json")
             }
             mostrarBoleto();
           });
+     let origemCambiarBusqueda=document.getElementById('origen_cambiar_busqueda');
+     let textOrigen=origemCambiarBusqueda.innerHTML=`<p><i class="icon bi bi-arrow-up-right-circle"></i> Cordobita</p>`
      

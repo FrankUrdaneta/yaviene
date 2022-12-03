@@ -1,0 +1,17 @@
+<lang
+playTxt="Play"
+pausTxt="Pausa"
+stopTxt="Stop"
+fastPre="Anterior"
+fastNxt="Siguiente"
+disableSound="Quitar Sonido"
+enableSound="Poner sonido"
+full="Completo"
+norm="Normal"
+loading="Cargando"
+connect="Conectando"
+connectError="Error de Conexion"
+offLine="Cam off line"
+waiting="Sin Video"
+captxt="Sacar Foto"
+/>

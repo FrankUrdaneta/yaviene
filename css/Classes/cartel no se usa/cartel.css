@@ -1,0 +1,174 @@
+<style>
+
+body {
+   overflow-y: hidden;    /* Trigger vertical scroll    */
+    overflow-x: hidden;
+}
+
+
+.uui-page {
+ background: transparent url(img/fondoweb.jpg) 0 0 no-repeat fixed !important;
+ background-size: cover;
+}
+.uui-foot {
+	min-height: 1.1em;
+	text-align: center;
+	font-size: 12px;
+	display: block;
+	margin: .6em 30% .8em;
+	padding: 0;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	outline: 0 !important;
+}
+
+.ui-foot {
+	font-size: 0.75em;
+}
+
+.uui-listview {
+	font-size: 40px;
+}
+
+.ui-header h1 {
+	font-size: 2em;
+}
+td {
+	list-style: none;
+}
+table {
+  table-layout: fixed;
+  width: 100%;
+  white-space: nowrap;
+}
+td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.columnaHora {
+	width: 15%;
+}
+
+.columnaDestino {
+	width: 40%;
+}
+
+.columnaEmpresa {
+	width: 20%;
+	overflow: visible;
+    white-space: wrap;
+}
+
+.columnaPlataforma {
+	width: 20%;
+	text-align:right;
+}
+
+.columnaCoche {
+	width: 	15%;
+	text-align:right;
+}
+.columnaHorach {
+	width: 15%;
+}
+
+.columnaDestinoch {
+	width: 40%;
+}
+
+.columnaEmpresach {
+	width: 20%;
+}
+
+.columnaPlataformach {
+	width: 20%;
+	text-align:right;
+}
+
+.columnaCochech {
+	width: 	15%;
+	text-align:right;
+}
+
+
+.horario {
+	font-size: 2.2em;
+}
+
+.observacion {
+	font-size: 1.62em;
+}
+
+.titulo {
+	border: 1px solid red;
+	width: 100%;
+	*eight: 2em;
+	overflow: hidden;
+	}
+	
+.titulo li {	
+	background-color: #CCFF99; 	
+}
+.titulo tr {
+	font-size: 1.62em;
+	color:black;
+	font-family:Arial;
+}
+
+.scroll-text {
+	border: 1px solid red;
+	width: 100%;
+	<?php 
+	if ($mostrar=="PA") {
+	echo "height: ".$altura."em;";
+} else {
+	echo "height: ".($altura * 2)."em;";
+}
+?>
+	overflow : hidden;
+}
+.scroll-text ul {
+	*padding-top: 20px;
+	width: 100%;
+	height: 2400em;
+	overflow: hidden;
+	*margin: 10;
+}
+
+.clock {
+bbackground-image: url('img/cba.png');
+background-repeat: no-repeat;
+background-size:contain;
+height:4em;
+}
+
+
+.clock tr {
+color:#000000;
+}
+
+
+td.hora {
+width:10%;
+align:right;
+}
+
+.hora h1{
+font-size:2em;
+}
+
+td.titulopoa {
+width:35%;
+align:left;
+}
+
+.titulopoa h1{
+font-size:3em;
+}
+
+
+</style>
+

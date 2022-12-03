@@ -21,36 +21,6 @@
 }
 
 /*** ESTILOS BOTÓN GROW SKEW ***/
-.ov-btn-grow-skew {
-  background: #009ee2; /* color de fondo */
-  color: #fff; /* color de fuente */
-  border: 2px solid #fff; /* tamaño y color de borde */
-
-  position: relative;
-  z-index: 1;
-  overflow: hidden;
-}
-.ov-btn-grow-skew:hover {
-  color: #009ee2; /* color de fuente hover */
-}
-.ov-btn-grow-skew::after {
-  content: "";
-  background: #fff; /* color de fondo hover */
-  position: absolute;
-  z-index: -1;
-  padding: 16px 20px;
-  display: block;
-  left: -20%;
-  right: -20%;
-  top: 0;
-  bottom: 0;
-  transform: skewX(-45deg) scale(0, 1);
-  transition: all 0.3s ease;
-}
-.ov-btn-grow-skew:hover::after {
-  transition: all 0.3s ease-out;
-  transform: skewX(-45deg) scale(1, 1);
-}
 
 .forma2 {
   height: 10px !important;
@@ -1216,4 +1186,15 @@ input[type="submit"] {
 .autocomplete-active {
   background-color: DodgerBlue !important;
   color: #ffffff;
+}
+
+.buscar_gps {
+  background-color: #009ee2 !important;
+  border: DodgerBlue !important;
+}
+.buscar_gps:hover {
+  border: 1px solid #009ee2 !important;
+}
+.buscar_gps:focus {
+  border: 2px solid #fb8989 !important;
 }
