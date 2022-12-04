@@ -128,14 +128,9 @@ fetch("./js/localidades.json")
     invertirDestino.addEventListener('click',()=>{
       let origen=document.getElementById('inputOrigen').value
       let destino=document.getElementById('inputDestino').value
+      document.getElementById('inputDestino').value=origen
+      document.getElementById('inputOrigen').value=destino
       let aux=""
-      aux=origen;//cordoba
-      origen.innerHTML=destino;//carlos paz
-      destino.innerHTML=aux;//cordoba
-      console.log("di click")
-      console.log(aux)
-      console.log(origen)
-      console.log(destino)
     })
 
         // Armar cuerpo de boleto

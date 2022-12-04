@@ -57,6 +57,20 @@
           }),
         }),
       });
+      var Banderas = new ol.source.Vector({
+        features: []
+    });
+      var capaDeBanderas = new ol.layer.Vector({
+        source: Banderas,
+        style: new ol.style.Style({
+            image: new ol.style.Icon({
+                color: 'white',
+                imgSize: [40, 40],
+                // displacement: [-4, -2],
+                src: 'http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png',
+            })
+        })
+    });
       var vista = new ol.View({
         projection: "EPSG:4326",
         center: [-64.18624728349602, -31.41453407563109],
@@ -81,7 +95,7 @@
           }),
           capaDeTraza,
           capaDePuntos,
-          
+          capaDeBanderas,
         ],
         view: vista,
         overlays: [overlay],

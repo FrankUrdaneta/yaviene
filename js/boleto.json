@@ -31,6 +31,34 @@
         "fecha_salida": "2022-12-03"
       },
       {
+        "origen": "carlos paz",
+        "destino": "cordoba",
+        "logo": "../images/logosEmpresas/ersa.png",
+        "empresa": "Ersa",
+        "sale": "06:00",
+        "llega": "08:00",
+        "anuncia": "villa del rosario",
+        "duracion": "02:00",
+        "servicio": 90,
+        "coche": 999,
+        "rampa": false,
+        "fecha_salida": "2022-12-03"
+      },
+      {
+        "origen": "carlos paz",
+        "destino": "cordoba",
+        "logo": "../images/logosEmpresas/intercordoba.png",
+        "empresa": "intercordoba",
+        "sale": "06:00",
+        "llega": "08:00",
+        "anuncia": "villa del rosario",
+        "duracion": "02:00",
+        "servicio": 992,
+        "coche": 2001,
+        "rampa": false,
+        "fecha_salida": "2022-12-03"
+      },
+      {
         "origen": "cordoba",
         "destino": "carlos paz",
         "logo": "../images/logosEmpresas/lumasa.png",

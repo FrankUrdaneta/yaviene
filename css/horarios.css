@@ -232,3 +232,21 @@
   justify-content: left !important;
   position: relative;
 }
+
+.modal-body {
+  border: 2px solid red;
+  position: relative;
+  left: -50%;
+  flex: 1 1 auto;
+  padding: 1rem;
+  width: 200%;
+  height: 200px;
+}
+.modal-body input {
+  border: 2px solid red;
+  width: 150% !important;
+}
+.modal-body button {
+  border: 2px solid red;
+  width: 100% !important;
+}
