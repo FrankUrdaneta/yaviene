@@ -79,8 +79,8 @@
       });
       var map = new ol.Map({
         interactions: ol.interaction.defaults
-          .defaults({ altShiftDragRotate: false, pinchRotate: false })
-          .extend([new Drag()]),
+          .defaults()
+          ,
         target: "map",
         pixelRatio: 1,
         layers: [
@@ -139,6 +139,26 @@
             Traza.addFeature(traza);
 
             dibujaParadas(res.data.paradas);
+
+            //dibuja bandera
+            nueva_bandera = new ol.Feature({
+              geometry: new ol.geom.Point([res.data.paradas[0].lon, res.data.paradas[0].lat]),
+            });
+            // nuevo_punto.setStyle(
+            //   new ol.style.Style({
+            //     image: new ol.style.Circle({
+            //       radius: 9,
+            //       fill: new ol.style.Fill({
+            //         color: "white",
+            //       }),
+            //       stroke: new ol.style.Stroke({
+            //         color: "green",
+            //         width: 4,
+            //       }),
+            //     }),
+            //   })
+            // );
+            Banderas.addFeature(nueva_bandera);
           }
         });
         // document.getElementById('map').style="display:none"

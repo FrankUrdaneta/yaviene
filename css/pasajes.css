@@ -10,7 +10,10 @@ colorRosa {
   display: flex;
   justify-content: center;
   transition: all 1s ease;
-  z-index: 1;
+  /* z-index: 1; */
+}
+.card-group:hover {
+  box-shadow: rgb(58, 83, 109) 0px 20px 30px -10px !important;
 }
 .card {
   border: none;
@@ -113,14 +116,7 @@ colorRosa {
     left: 5% !important;
     width: 100% !important;
   }
-  h3 {
-    color: white !important;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-weight: 600;
-    font-family: "Montserrat", sans-serif, Arial, sans-serif;
-    letter-spacing: normal;
-  }
+  
   .swiper-slide {
     width: 50%;
     background-position: 40% -20%;
@@ -128,6 +124,25 @@ colorRosa {
   .swiper-slideA {
     width: 100%;
     height: 90% !important;
+  }
+  .contenedor-texto {
+    /* margin-top: 15% !important; */
+    height: 100%;
+    /* width: -50% !important; */
+  }
+  .maleta {
+    font-size: small;
+  }
+  .section .parallax-content {
+    margin-top: 15%;
+  }
+  .nuestrosServicios .row-30 {
+    flex-wrap: nowrap !important;
+    justify-content: center !important;
+    width: -200% !important;
+  }
+  .forma {
+    margin-top: 5% !important;
   }
 }
 @media (min-width: 381px) and (max-width: 480px) {
@@ -165,14 +180,7 @@ colorRosa {
     position: relative;
     left: 148% !important;
   }
-  h3 {
-    color: white !important;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-weight: 600;
-    font-family: "Montserrat", sans-serif, Arial, sans-serif;
-    letter-spacing: normal;
-  }
+ 
   .collapse1 {
     margin-top: 10%;
     display: flex;
@@ -187,6 +195,25 @@ colorRosa {
     width: 200%;
     height: 90% !important;
     background-position: 20% -20%;
+  }
+  .contenedor-texto {
+    margin-top: 15% !important;
+    height: 100%;
+    /* width: -50% !important; */
+  }
+  .maleta {
+    font-size: small;
+  }
+  .section .parallax-content {
+    margin-top: 15%;
+  }
+  .nuestrosServicios .row-30 {
+    flex-wrap: nowrap !important;
+    justify-content: center !important;
+    width: -200% !important;
+  }
+  .forma {
+    margin-top: 13.5% !important;
   }
 }
 @media (min-width: 481px) and (max-width: 540px) {
@@ -228,14 +255,6 @@ colorRosa {
     position: relative;
     left: 220% !important;
   }
-  h3 {
-    color: white !important;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-weight: 600;
-    font-family: "Montserrat", sans-serif, Arial, sans-serif;
-    letter-spacing: normal;
-  }
   .collapse1 {
     margin-top: 10%;
 
@@ -249,6 +268,26 @@ colorRosa {
     width: 250%;
     height: 85% !important;
     background-position: 20% -20%;
+  }
+  .contenedor-texto {
+    margin-top: 15% !important;
+    height: 100%;
+    width: -50% !important;
+  }
+  .maleta {
+    font-size: medium;
+  }
+  .section .parallax-content {
+    margin-top: 15%;
+  }
+  .nuestrosServicios .row-30 {
+    flex-wrap: nowrap !important;
+    justify-content: center !important;
+    /* padding: 10% !important; */
+    font-size: 60% !important;
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }
 @media (min-width: 541px) and (max-width: 579px) {
@@ -289,14 +328,6 @@ colorRosa {
     position: relative;
     left: 260% !important;
   }
-  h3 {
-    color: white !important;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-weight: 600;
-    font-family: "Montserrat", sans-serif, Arial, sans-serif;
-    letter-spacing: normal;
-  }
   .collapse1 {
     margin-top: 10%;
 
@@ -310,6 +341,30 @@ colorRosa {
     width: 250%;
     height: 85% !important;
   }
+  .contenedor-texto {
+    margin-top: 15% !important;
+    
+    height: 100%;
+    width: -50% !important;
+    
+  }
+  .maleta {
+    font-size: small;
+  }
+  .section .parallax-content {
+    margin-top: 15%;
+  }
+  .nuestrosServicios .row-30 {
+    flex-wrap: nowrap !important;
+    justify-content: center !important;
+    padding: 10% !important;
+    font-size: 65% !important;
+    margin-top: -10%;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  
+
 }
 @media (min-width: 580px) and (max-width: 720px) {
   .origenPasaje {
@@ -349,14 +404,7 @@ colorRosa {
     position: relative;
     left: 265% !important;
   }
-  h3 {
-    color: white !important;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-weight: 600;
-    font-family: "Montserrat", sans-serif, Arial, sans-serif;
-    letter-spacing: normal;
-  }
+  
   .collapse1 {
     margin-top: 1%;
 
@@ -370,11 +418,31 @@ colorRosa {
     height: 85% !important;
   }
   .contenedor-texto {
-    /* margin-top: -8% !important; */
-    padding-top: 30%;
+    /* border: 1px solid red !important; */
+    margin-top: 0% !important;
+    /* margin-bottom: 10%; */
+    /* padding-top: 5%; */
+    height: 100%;
+    width: -50% !important;
+    /* padding: 10%; */
   }
   .maleta {
     font-size: large;
+  }
+  .section .parallax-content {
+    margin-top: 15%;
+  }
+  .nuestrosServicios .row-30 {
+    flex-wrap: nowrap !important;
+    justify-content: center !important;
+    padding: 10% !important;
+    font-size: 65% !important;
+    margin-top: -10%;
+    margin-left: 1%;
+    margin-right: 1%;
+    /* height: -500% !important; */
+    /* display: inline-flex; */
+    /* justify-content: left !important; */
   }
 }
 @media (min-width: 721px) and (max-width: 890px) {
@@ -412,14 +480,7 @@ colorRosa {
     position: relative;
     left: 303% !important;
   }
-  /* h3 {
-    color: white !important;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-weight: 600;
-    font-family: "Montserrat", sans-serif, Arial, sans-serif;
-    letter-spacing: normal;
-  } */
+  
   .swiper-slide-caption {
     margin-top: -20%;
   }
@@ -464,6 +525,9 @@ colorRosa {
     /* height: -500% !important; */
     /* display: inline-flex; */
     /* justify-content: left !important; */
+  }
+  .section .parallax-content {
+    margin-top: 10%;
   }
 }
 @media (min-width: 891px) and (max-width: 991px) {
@@ -529,16 +593,23 @@ colorRosa {
     padding-top: 8%;
     margin-top: -1% !important;
   }
+  .section .parallax-content {
+    margin-top: 5%;
+  }
+  .container.nuestrosServicios {
+    margin-top: 0%; 
+  }
   .nuestrosServicios .row-30 {
     flex-wrap: nowrap !important;
     justify-content: center !important;
     padding: 9% !important;
     font-size: 80% !important;
     margin-top: -7%;
-    /* height: -500% !important; */
-    /* display: inline-flex; */
-    /* justify-content: left !important; */
   }
+  .forma {
+    margin-top: 6.2% !important;
+  }
+  
 }
 @media (min-width: 992px) and (max-width: 1080px) {
 
@@ -635,6 +706,23 @@ colorRosa {
   .maleta {
     font-size: 65%;
   }
+  .carousel-item {
+    margin-top: -10%;
+    height: 300% !important;
+    padding: 4%;
+  }
+  .section .contenedor-texto {
+    border: 1px solid red !important;
+    left: 10%;
+    width: 50%; 
+    padding: 100% !important;
+  }
+  .section .parallax-content {
+    margin-top: 5%;
+  }
+  .container.nuestrosServicios {
+    margin-top: 0%; 
+  }
 }
 @media (min-width: 1081px) and (max-width: 1199px) {
   .forma {
@@ -686,14 +774,25 @@ colorRosa {
     height: 100% !important;
     background-position: 0% 70%;
   }
-  .contenedor-texto {
-    /* border: 1px solid red; */
-    margin-top: -8% !important;
-    padding: 15% !important;
-    /* max-height: -200% !important; */
+  .carousel-item {
+    margin-top: -10%;
+    height: 300% !important;
+    padding: 4%;
+  }
+  .section .contenedor-texto {
+    border: 1px solid red !important;
+    left: 10%;
+    width: 50%; 
+    padding: 100% !important;
+  }
+  .section .parallax-content {
+    margin-top: 5%;
   }
   .maleta {
     font-size: 70%;
+  }
+  .container.nuestrosServicios {
+    margin-top: 0%; 
   }
 }
 @media (min-width: 1200px) and (max-width: 1440px) {
@@ -746,10 +845,20 @@ colorRosa {
     position: relative;
     left: 591% !important;
   }
-  .contenedor-texto {
-    /* border: 1px solid red; */
-    margin-top: 0% !important;
-    padding: 2%;
+  .carousel-item {
+    margin-top: -10%;
+    height: 300% !important;
+    padding: 4%;
+  }
+  .section .contenedor-texto {
+    position: relative;
+    padding: 100% !important;
+    margin-top: -50% !important;
+    left: 10%;
+    width: 50%; 
+  }
+  .section .parallax-content {
+    margin-top: 5%;
   }
 }
 @media (min-width: 1441px) and (max-width: 1500px) {
@@ -813,9 +922,20 @@ colorRosa {
 
     background-position: 0% 50%;
   }
-  .contenedor-texto{
-    margin-top: -2% !important;
-    padding: -2% !important;
+  .carousel-item {
+    margin-top: -10%;
+    height: 300% !important;
+    padding: 4%;
+  }
+  .section .contenedor-texto {
+    position: relative;
+    padding: 100% !important;
+    margin-top: -50% !important;
+    left: 10%;
+    width: 50%; 
+  }
+  .section .parallax-content {
+    margin-top: 5%;
   }
 }
 @media (min-width: 1501px) and (max-width: 1799px) {
@@ -883,11 +1003,16 @@ colorRosa {
     background-position: 0% 50%;
   }
   .carousel-item {
-    height: 100%;
-    width: 100%;
     margin-top: -10%;
-    padding: 5%;
-    /* border-top-width: 50% !important; */
+    height: 300% !important;
+    padding: 4%;
+  }
+  .section .contenedor-texto {
+    position: relative;
+    padding: 100% !important;
+    margin-top: -50% !important;
+    left: 10%;
+    width: 50%; 
   }
 }
 @media (min-width: 1800px) and (max-width: 2160px) {
@@ -919,11 +1044,16 @@ colorRosa {
     border-bottom: 2px solid #fb8989;
   }
   .carousel-item {
-    height: 100%;
-    width: 100%;
     margin-top: -10%;
-    padding: 5%;
-    /* border-top-width: 50% !important; */
+    height: 300% !important;
+    padding: 4%;
+  }
+  .section .contenedor-texto {
+    position: relative;
+    padding: 100% !important;
+    margin-top: -50% !important;
+    left: 10%;
+    width: 50%; 
   }
   .maleta {
     font-size: 160%;
@@ -936,7 +1066,7 @@ colorRosa {
 }
 @media (min-width: 2161px) and (max-width: 2200px) {
   .forma {
-    margin-top: 0.8% !important;
+    margin-top: 0.7% !important;
   }
   
   #buscador {
@@ -1084,6 +1214,12 @@ colorRosa {
     max-height: 10%;
     max-width: 80%;
   }
+  .section.contenedor-texto {
+    position: relative;
+    margin-top: -5% !important;
+    left: 10%;
+    width: 50%; 
+  }
   
 }
 @media (min-width: 3001px) and (max-width: 4320px) {
@@ -1108,10 +1244,10 @@ colorRosa {
     margin-top: -20%;
   }
   .carousel-item {
-    margin-top: 1%;
+    margin-top: -10%;
     height: 300% !important;
-    width: 120%;
-    padding: 2%;
+    
+    padding: 4%;
   }
   .section.contenedor-texto {
     position: relative;
@@ -1123,17 +1259,16 @@ colorRosa {
     font-size: 200% ;
   }
   .container.nuestrosServicios {
-    font-size: 250%;
+    position: relative;
+    font-size: 210%;
     max-width: 100%;
-    height: -200%;
+    /* padding: 50; */
     
   }
   .imgServicio {
-    width: 12%;
-  height: 12%;
+    width: 15%;
+    height: 15%;
   }
-  
-  
 }
 
 .inputOrigen {
@@ -1375,7 +1510,7 @@ input[type="submit"] {
   cursor: pointer;
   background-color: rgb(255, 255, 255);
   border-bottom: 1px solid #d4d4d4;
-  color: #009ee2;
+  color: black;
   font-size: 12px;
 }
 

@@ -143,8 +143,8 @@ fetch("./js/localidades.json")
 
 
 function mostrarBoleto(boletos,data,origen, destino, fecha_salida) {
-  document.getElementById('origen_cambiar_busqueda').innerHTML=`<i class="icon bi bi-arrow-up-right-circle"></i>${origen.toUpperCase()}`;
-  document.getElementById('destino_cambiar_busqueda').innerHTML=`<i class="icon bi bi-arrow-down-right-circle"></i>${destino.toUpperCase()}`;
+  document.getElementById('origen_cambiar_busqueda').innerHTML=`<i class="icon bi bi-arrow-up-right-circle"></i> ${origen.toUpperCase()}`;
+  document.getElementById('destino_cambiar_busqueda').innerHTML=`<i class="icon bi bi-arrow-down-right-circle"></i> ${destino.toUpperCase()}`;
 
 
 let arrBoletos=[]
