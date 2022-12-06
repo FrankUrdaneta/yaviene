@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta charset="utf-8" />
+    <script src="./utilidades/utilidades.js"></script>
 
     <script src="./css/Classes/ol/v7.1.0/dist/ol.js"></script>
     <script src="./css/Classes/ol/v7.1.0/dist/ol.js"></script>
@@ -61,6 +62,15 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/mapa.css" />
+    <script>
+      var remplaza = /\+/gi;
+var url = window.location.href;
+
+url = unescape(url);
+url = url.replace(remplaza, " ");
+url = url.toUpperCase();
+
+    </script>
   </head>
 
   <body>
@@ -185,19 +195,36 @@
                   <div class="row">
                     <div class="col-auto">
                       <select
-                        id="inputGroupSelect01"
+                        id="selectEmpresa"
                         class="form-select empresaSelect"
                       >
                         <option selected>Empresa</option>
-                        <option value="1">Achiras</option>
-                        <option value="2">Zeta Bus</option>
-                        <option value="3">Aut Santa Fe</option>
-                        <option value="4">Buses Lep</option>
-                        <option value="5">Car Bus</option>
-                        <option value="6">Carcor</option>
-                        <option value="7">Coata</option>
-                        <option value="8">Dean Funes</option>
-                        <option value="9">EL Porvenir</option>
+                        <option id="107" value="107" style="display: none;">Achiras</option>
+                        <option id="104" value="104" style="display: none;">Zeta Bus</option>
+                        <option id="221" value="221" style="display: none;">Aut Santa Fe</option>
+                        <option id="102" value="102" style="display: none;">Buses Lep</option>
+                        <option id="117" value="117" style="display: none;">Canello</option>
+                        <option id="106" value="106"style="display: none;">Car Bus</option>
+                        <option id="73" value="73"style="display: none;">Carcor</option>
+                        <option id="110" value="110"style="display: none;">Coata</option>
+                        <option id="83" value="83"style="display: none;">Dean Funes</option>
+                        <option id="120" value="120"style="display: none;">EL Milagro</option>
+                        <option id="2" value="2"style="display: none;">El Porvenir</option>
+                        <option id="33" value="33"style="display: none;">Emprendimiento</option>
+                        <option id="129" value="129"style="display: none;">Ersa</option>
+                        <option id="3" value="3"style="display: none;">Intercordoba</option>
+                        <option id="136" value="136"style="display: none;">James Craik</option>
+                        <option id="6" value="6"style="display: none;">Lumasa</option>
+                        <option id="10" value="10"style="display: none;">La Calera</option>
+                        <option id="108" value="108"style="display: none;">Mar Chiquita</option>
+                        <option id="56" value="56"style="display: none;">Morteros</option>
+                        <option id="101" value="101"style="display: none;">Panaholma</option>
+                        <option id="40" value="40"style="display: none;">Rio Ber</option>
+                        <option id="4" value="4"style="display: none;">Sarmiento</option>
+                        <option id="98" value="98"style="display: none;">Sat</option>
+                        <option id="235" value="235"style="display: none;">Sierras Grupo</option>
+                        <option id="95" value="95"style="display: none;">Transbus</option>
+                        
                       </select>
                     </div>
 
@@ -211,7 +238,7 @@
                       <i class="icon bi bi-arrow-right"></i>
                     </div>
                     <div class="col-auto">
-                      <p class="font-weight-bold">
+                      <p class="font-weight-bold" id="destino_cambiar_busqueda" >
                         <i class="icon bi bi-arrow-down-right-circle"></i>
                         Carlos Paz Terminal
                       </p>
@@ -219,7 +246,7 @@
                     <div class="col-auto">
                       <p class="font-weight-bold">
                         <select
-                          id="inputGroupSelect01"
+                          id="ordenarPor"
                           class="form-select empresaSelect"
                         >
                           <option selected>Ordenar por</option>
@@ -247,7 +274,7 @@
       </header>
       <!-- Swiper-->
       <!--Buscador de pasajes-->
-      <!-- <div id="buscador"></div> -->
+      <div id="buscador"></div>
 
       <!-- <div id="mapaCoche"></div> -->
 
@@ -258,6 +285,10 @@
       </div>
 
       <div id="pruebaBoleto"></div>
+
+      
+
+
     </div>
 
     <!--Prueba mapa-->
@@ -379,5 +410,14 @@
     <script src="./js/mapa.js"></script>
     <script src="./js/localidadOrigenDestino.js"></script>
     <script src="./js/mapa.js"></script>
+    <script src="./js/filtrar_empresa.js"></script>
+    <script>
+       buscarBoletos()
+
+       document.getElementById("cambiarBusqueda").addEventListener("click",()=>{
+         mostrarBarraBuscador()
+       })
+
+    </script>
   </body>
 </html>

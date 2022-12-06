@@ -50,7 +50,7 @@
         source: Puntos,
         style: new ol.style.Style({
           image: new ol.style.Icon({
-            color: "white",
+            color: '#009EE2',
             imgSize: [40, 40],
             displacement: [-4, -2],
             src: "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
@@ -264,23 +264,23 @@
         );
         Puntos.addFeature(nuevo_punto);
       };
-      window.onload = () => {
-        //hace referencia a toda la ventana del navegador
-        fetch("nomenclador_lugar.php?cmd=getinicio")
-          .then((a) => a.json())
-          .then((res) => {
-            console.log(res);
-            if (res.ok) {
-              res.data.lugares.forEach((lugar) => {
-                dibujar_parada(lugar.lon, lugar.lat, lugar.nombre);
-              });
-            }
-          });
-        a = Array.from(document.getElementsByClassName("ol-zoom-out"));
-        a.forEach((elemento) => {
-          elemento.innerHTML = "-";
-        });
-      };
+      // window.onload = () => {
+      //   //hace referencia a toda la ventana del navegador
+      //   fetch("nomenclador_lugar.php?cmd=getinicio")
+      //     .then((a) => a.json())
+      //     .then((res) => {
+      //       console.log(res);
+      //       if (res.ok) {
+      //         res.data.lugares.forEach((lugar) => {
+      //           dibujar_parada(lugar.lon, lugar.lat, lugar.nombre);
+      //         });
+      //       }
+      //     });
+      //   a = Array.from(document.getElementsByClassName("ol-zoom-out"));
+      //   a.forEach((elemento) => {
+      //     elemento.innerHTML = "-";
+      //   });
+      // };
 
       map.on("click", function (evt) {
         var feature = map.forEachFeatureAtPixel(

@@ -226,7 +226,7 @@
 .empresaSelect {
   background-color: transparent !important;
   margin-top: -5% !important;
-  color: white;
+  /* color: white; */
   border: 1px solid white;
   display: flex;
   justify-content: left !important;
@@ -249,4 +249,15 @@
 .modal-body button {
   border: 2px solid red;
   width: 100% !important;
+}
+
+.img_ruta {
+  width: 40%;
+  position: relative;
+  left: 20%;
+  margin-bottom: 1%;
+}
+
+.rampa {
+  font-size: larger;
 }
