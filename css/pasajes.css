@@ -1,4 +1,4 @@
-.colorRosa {
+colorRosa {
   color: #fb8989;
 }
 
@@ -369,6 +369,13 @@
     width: 110%;
     height: 85% !important;
   }
+  .contenedor-texto {
+    /* margin-top: -8% !important; */
+    padding-top: 30%;
+  }
+  .maleta {
+    font-size: large;
+  }
 }
 @media (min-width: 721px) and (max-width: 890px) {
   .origenPasaje {
@@ -405,14 +412,14 @@
     position: relative;
     left: 303% !important;
   }
-  h3 {
+  /* h3 {
     color: white !important;
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 600;
     font-family: "Montserrat", sans-serif, Arial, sans-serif;
     letter-spacing: normal;
-  }
+  } */
   .swiper-slide-caption {
     margin-top: -20%;
   }
@@ -432,6 +439,31 @@
     width: 110%;
     height: 85% !important;
     background-position: 0% 65%;
+  }
+  .carousel-item{
+    margin-top: 9%;
+    padding: 5%;
+    
+  }
+  .maleta {
+    /* border: 1px solid red; */
+    font-size:x-large;
+  }
+  .contenedor-texto {
+    padding-top: 8%;
+    margin-top: -1% !important;
+  }
+  .nuestrosServicios .row-30 {
+    flex-wrap: nowrap !important;
+    justify-content: center !important;
+    padding: 10% !important;
+    font-size: 75% !important;
+    margin-top: -10%;
+    margin-left: 1%;
+    margin-right: 1%;
+    /* height: -500% !important; */
+    /* display: inline-flex; */
+    /* justify-content: left !important; */
   }
 }
 @media (min-width: 891px) and (max-width: 991px) {
@@ -472,14 +504,6 @@
     position: relative;
     left: 360% !important;
   }
-  h3 {
-    color: white !important;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-weight: 600;
-    font-family: "Montserrat", sans-serif, Arial, sans-serif;
-    letter-spacing: normal;
-  }
   .swiper-slide-caption {
     margin-top: -20%;
   }
@@ -492,12 +516,43 @@
 
     height: 80% !important;
   }
+  .carousel-item{
+    margin-top: 9%;
+    padding: 5%;
+    
+  }
+  .maleta {
+    /* border: 1px solid red; */
+    font-size:x-large;
+  }
+  .contenedor-texto {
+    padding-top: 8%;
+    margin-top: -1% !important;
+  }
+  .nuestrosServicios .row-30 {
+    flex-wrap: nowrap !important;
+    justify-content: center !important;
+    padding: 9% !important;
+    font-size: 80% !important;
+    margin-top: -7%;
+    /* height: -500% !important; */
+    /* display: inline-flex; */
+    /* justify-content: left !important; */
+  }
 }
 @media (min-width: 992px) and (max-width: 1080px) {
+
+  .forma {
+    margin-top: 1.5% !important;
+  }
   .origenPasaje {
     display: flex;
     justify-content: center;
     margin-bottom: 3px;
+  }
+  #buscar_pasajes{
+    position: relative;
+    left: 80%;
   }
   .botonBuscarPasajes {
     position: relative;
@@ -574,8 +629,17 @@
     height: 100% !important;
     background-position: 0% 70%;
   }
+  .contenedor-texto {
+    padding: 5%;
+  }
+  .maleta {
+    font-size: 65%;
+  }
 }
 @media (min-width: 1081px) and (max-width: 1199px) {
+  .forma {
+    margin-top: 1.5% !important;
+  }
   #buscador {
     position: relative;
     top: -13% !important;
@@ -621,6 +685,15 @@
     width: 120%;
     height: 100% !important;
     background-position: 0% 70%;
+  }
+  .contenedor-texto {
+    /* border: 1px solid red; */
+    margin-top: -8% !important;
+    padding: 15% !important;
+    /* max-height: -200% !important; */
+  }
+  .maleta {
+    font-size: 70%;
   }
 }
 @media (min-width: 1200px) and (max-width: 1440px) {
@@ -673,8 +746,16 @@
     position: relative;
     left: 591% !important;
   }
+  .contenedor-texto {
+    /* border: 1px solid red; */
+    margin-top: 0% !important;
+    padding: 2%;
+  }
 }
 @media (min-width: 1441px) and (max-width: 1500px) {
+  .forma {
+    margin-top: -0.1% !important;
+  }
   #buscador {
     position: relative;
     top: 1% !important;
@@ -731,6 +812,10 @@
     width: 80% !important;
 
     background-position: 0% 50%;
+  }
+  .contenedor-texto{
+    margin-top: -2% !important;
+    padding: -2% !important;
   }
 }
 @media (min-width: 1501px) and (max-width: 1799px) {
@@ -797,6 +882,13 @@
 
     background-position: 0% 50%;
   }
+  .carousel-item {
+    height: 100%;
+    width: 100%;
+    margin-top: -10%;
+    padding: 5%;
+    /* border-top-width: 50% !important; */
+  }
 }
 @media (min-width: 1800px) and (max-width: 2160px) {
   #buscador {
@@ -826,8 +918,27 @@
     left: 756% !important;
     border-bottom: 2px solid #fb8989;
   }
+  .carousel-item {
+    height: 100%;
+    width: 100%;
+    margin-top: -10%;
+    padding: 5%;
+    /* border-top-width: 50% !important; */
+  }
+  .maleta {
+    font-size: 160%;
+  }
+  .nuestrosServicios {
+    font-size: 150%;
+    max-height: 10%;
+    max-width: 80%;
+  }
 }
 @media (min-width: 2161px) and (max-width: 2200px) {
+  .forma {
+    margin-top: 0.8% !important;
+  }
+  
   #buscador {
     top: 7.2% !important;
     margin-top: -0.7%;
@@ -854,8 +965,26 @@
     left: 848% !important;
     border-bottom: 2px solid #fb8989;
   }
+  .carousel-item {
+    height: 100%;
+    width: 100%;
+    margin-top: -5%;
+    /* border-top-width: 50% !important; */
+  }
+  .maleta {
+    font-size: 200%;
+  }
+  .nuestrosServicios {
+    font-size: 190%;
+    max-height: 10%;
+    max-width: 80%;
+  }
 }
 @media (min-width: 2201px) and (max-width: 2600px) {
+  .forma {
+    margin-top: 0.7% !important;
+
+  }
   #buscador {
     top: 7.2% !important;
     margin-top: -0.7%;
@@ -885,8 +1014,27 @@
     left: 960% !important;
     border-bottom: 2px solid #fb8989;
   }
+  .carousel-item {
+    height: 100%;
+    width: 100%;
+    margin-top: -10%;
+    padding: 5%;
+    /* border-top-width: 50% !important; */
+  }
+  .maleta {
+    font-size: 200%;
+  }
+  .nuestrosServicios {
+    font-size: 190%;
+    max-height: 10%;
+    max-width: 80%;
+  }
 }
 @media (min-width: 2601px) and (max-width: 3000px) {
+  .forma {
+    margin-top: 0.7% !important;
+
+  }
   #buscador {
     top: 7.2% !important;
     margin-top: -0.7%;
@@ -916,8 +1064,32 @@
     left: 1138% !important;
     border-bottom: 2px solid #fb8989;
   }
+  .carousel-item {
+    height: 100%;
+    width: 100%;
+    margin-top: -12%;
+    padding: 5%;
+  }
+  /* .carousel-item {
+    margin-top: 1%;
+    height: 300% !important;
+    width: 120%;
+    padding: 1%;
+  } */
+  .maleta {
+    font-size: 200%;
+  }
+  .nuestrosServicios {
+    font-size: 220%;
+    max-height: 10%;
+    max-width: 80%;
+  }
+  
 }
 @media (min-width: 3001px) and (max-width: 4320px) {
+  .forma{
+    margin-top: 0.6% !important;
+  }
   #buscador {
     top: 7.5% !important;
     margin-top: -0.7%;
@@ -935,6 +1107,33 @@
   .swiper-slide-caption {
     margin-top: -20%;
   }
+  .carousel-item {
+    margin-top: 1%;
+    height: 300% !important;
+    width: 120%;
+    padding: 2%;
+  }
+  .section.contenedor-texto {
+    position: relative;
+    margin-top: -5% !important;
+    left: 10%;
+    width: 50%; 
+  }
+  .maleta {
+    font-size: 200% ;
+  }
+  .container.nuestrosServicios {
+    font-size: 250%;
+    max-width: 100%;
+    height: -200%;
+    
+  }
+  .imgServicio {
+    width: 12%;
+  height: 12%;
+  }
+  
+  
 }
 
 .inputOrigen {

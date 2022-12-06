@@ -1,4 +1,15 @@
+function invertirDestino(){
 
+// let invertirDestino = document.getElementById('invertirDestino')
+
+  // invertirDestino.addEventListener('click', () => {
+    let origen = document.getElementById('inputOrigen').value
+    let destino = document.getElementById('inputDestino').value
+    document.getElementById('inputDestino').value = origen
+    document.getElementById('inputOrigen').value = destino
+    let aux = ""
+  // })
+}
 
 function autocomplete(inp, arr) {
   /*the autocomplete function takes two arguments,
@@ -111,15 +122,7 @@ the text field element and an array of possible autocompleted values:*/
 
 function cargarLocalidades(){
 
-  let invertirDestino = document.getElementById('invertirDestino')
-
-  invertirDestino.addEventListener('click', () => {
-    let origen = document.getElementById('inputOrigen').value
-    let destino = document.getElementById('inputDestino').value
-    document.getElementById('inputDestino').value = origen
-    document.getElementById('inputOrigen').value = destino
-    let aux = ""
-  })
+  
 
 //traer localidades
 fetch("./js/localidades.json")
@@ -156,7 +159,7 @@ let arrBoletos=[]
          
          document.getElementById(`${i.codigo_empresa}`).style=`display='flex`
           
- arrBoletos.push(
+ arrBoletos=[]
           dibujarBoleto.innerHTML += `
               <div id="${i.codigo_empresa}"
       class="card-group col-lg-6 col-xl-6 col-md-12 col-sm-12 p-3 mb-5 bg-body boleto"
@@ -236,7 +239,7 @@ let arrBoletos=[]
         
       </div>
     </div>
-              `);
+              `
         }
       }
     }

@@ -4,23 +4,12 @@ function mostrarBarraBuscador() {
   let buscador = document.getElementById('buscador');
   let buscar = document.createElement('div')
   buscador.innerHTML = `<div class="forma mt-2 position-sticky">
-    <form class="">
-      <div class="row g-3">
-      <div class="col-auto">
-      
-    </div>
-
-    <div class="col-auto">
-      
-    </div>
-      </div>
-      
-    </form>
+    
     <form autocomplete="off" class="row g-3 mx-auto needs-validation">
       <div class="col-lg-2 col-sm-6 cajasBuscador">
       <div class="row row g-3 origenPasaje">
       <div class="col-1 origenIcono"><label for="inputtext" class=""><i class="icon fa fa-dot-circle-o" style="color:#009ee2" aria-hidden="true"></i>   </label></div>
-      <div class="col-7 origenInput autocomplete" ><input id="inputOrigen" type="text"  class="form-control inputOrigen"  placeholder="Origen" required><button id="invertirDestino" class="btn btn-alert-danger invertirDestino"><i class="icon bi bi-arrow-left-right" style="color:white" aria-hidden="true"></i></button></div>
+      <div class="col-7 origenInput autocomplete" ><input id="inputOrigen" type="text"  class="form-control inputOrigen"  placeholder="Origen" required><div onclick="invertirDestino()" id="invertirDestino" class="btn btn-alert-danger invertirDestino"><i class="icon bi bi-arrow-left-right" style="color:white" aria-hidden="true"></i></div></div>
       
       </div>
       </div>

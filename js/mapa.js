@@ -141,8 +141,11 @@
             dibujaParadas(res.data.paradas);
           }
         });
+        // document.getElementById('map').style="display:none"
       }
-
+      const verMapaTraza=(servicio)=>{
+        dibujaTraza(servicio);
+      }
       const dibujaParadas = (coord)=>{
 
         coord.forEach(parada=>{
