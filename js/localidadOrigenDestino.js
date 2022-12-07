@@ -235,7 +235,7 @@ let arrBoletos=[]
       <div class="card ">
         <!-- <h5 class="card-title text-white font-weight-bold mb-0">$ 11.500,00</h5>
           <i class="icon bi bi-person" style="color: white;"></i><span style="color: white; font-size: medium;">1.Ida</span> -->
-        <img class="img_ruta" src="../images/drow/map3.png" style="width: 80px;"><button onclick="dibujaTraza(${i.servicio});" id="buscar_pasajes"  class="btn ov-btn-grow-skew buscar_gps ">Ver Ruta</button>
+        <img class="img_ruta" src="../images/drow/map3.png" style="width: 80px;"><button onclick="dibujaTraza(${i.servicio});" id="ver_ruta"  class="btn ov-btn-grow-skew buscar_gps ">Ver Ruta</button>
         
       </div>
     </div>
@@ -274,8 +274,12 @@ fetch("./js/boleto.json")
   });
 }
 
-// }
-// armarBoleto()
-//  let origemCambiarBusqueda=document.getElementById('origen_cambiar_busqueda');
-//  let textOrigen=origemCambiarBusqueda.innerHTML=`<p><i class="icon bi bi-arrow-up-right-circle"></i> Cordobita</p>`
+function vermapa(){
+ 
+ let map= document.getElementById('map')
+  map.classList.toggle('mapaTel')
+  
+  let cerrar=document.getElementById('closeMapa')
+  cerrar.classList.toggle('cerrarX')
+}
 

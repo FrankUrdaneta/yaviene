@@ -1,10 +1,10 @@
 :root,
 :host {
-  --ol-background-color: white;
+  --ol-background-color: #00aaff;
   --ol-accent-background-color: #f5f5f5;
   --ol-subtle-background-color: rgba(128, 128, 128, 0.25);
   --ol-partial-background-color: rgba(255, 255, 255, 0.75);
-  --ol-foreground-color: #333333;
+  --ol-foreground-color: white;
   --ol-subtle-foreground-color: #666666;
   --ol-brand-color: #00aaff;
 }
@@ -60,9 +60,10 @@
   z-index: 10;
 }
 
+/* cambia la ubicacion del texto open strep map */
 .ol-scale-step-text {
   position: absolute;
-  bottom: -5px;
+  bottom: -100px;
   font-size: 10px;
   z-index: 11;
   color: var(--ol-foreground-color);
@@ -142,10 +143,10 @@
   background-color: var(--ol-subtle-background-color);
   border-radius: 4px;
 }
-
+/* items mas y menos del zoom */
 .ol-zoom {
   top: 0.5em;
-  left: 0.5em;
+  right: 0.5em;
 }
 
 .ol-rotate {
@@ -353,7 +354,25 @@
 .mapaOl {
   position: fixed;
   display: flex;
-  margin-left: 51% !important;
-  width: 49% !important;
+  z-index: 0;
+  width: 100% !important;
   height: 80% !important;
+}
+
+.mapaTel {
+  z-index: 2;
+}
+
+.closeMapa {
+  position: fixed !important;
+  justify-content: cemter;
+  align-items: center;
+  width: 2% !important;
+  top: 24%;
+  left: 1%;
+  z-index: 3;
+}
+
+.cerrarX {
+  display: none !important;
 }

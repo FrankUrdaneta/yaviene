@@ -162,6 +162,11 @@
           }
         });
         // document.getElementById('map').style="display:none"
+        let map= document.getElementById('map')
+  map.classList.toggle('mapaTel')
+  
+  let cerrar=document.getElementById('closeMapa')
+  cerrar.classList.toggle('cerrarX')
       }
       const verMapaTraza=(servicio)=>{
         dibujaTraza(servicio);
