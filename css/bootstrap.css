@@ -3551,7 +3551,8 @@ input[type="button"].btn-block {
   }
 }
 
-@media (min-width: 576px) {
+/* esta query es la que permite que el cambiar busqueda se vea o no en el modo tlfno */
+@media (min-width: 206px) {
   .navbar-expand-sm {
     flex-flow: row nowrap;
     justify-content: flex-start;
@@ -3893,7 +3894,7 @@ input[type="button"].btn-block {
 
 .card-body {
   flex: 1 1 auto;
-  
+
   padding-right: 0%;
   padding-bottom: 1px;
 }
@@ -4016,7 +4017,8 @@ input[type="button"].btn-block {
   margin-bottom: 15px;
 }
 
-@media (min-width: 576px) {
+/* esta media cambia el formato del boleto para verlo en modo tlfno como en la compu */
+@media (min-width: 216px) {
   .card-group {
     flex-flow: row wrap;
   }
