@@ -15412,7 +15412,7 @@ html.tablet .chat {
   margin: 30px 0 20px;
   height: auto;
   text-align: left;
-  border-top: 1px solid #e1e1e1;
+  /* border-top: 1px solid #e1e1e1; */
 }
 
 .rd-navbar-fixed .rd-nav-item {

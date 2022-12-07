@@ -142,24 +142,24 @@ fetch("./js/localidades.json")
 
 
 
-function mostrarBoleto(boletos,data,origen, destino, fecha_salida) {
+function mostrarBoleto(boletos,data,origen, destino, fecha_salida, ordenSale) {
   document.getElementById('origen_cambiar_busqueda').innerHTML=`<i class="icon bi bi-arrow-up-right-circle"></i> ${origen.toUpperCase()}`;
   document.getElementById('destino_cambiar_busqueda').innerHTML=`<i class="icon bi bi-arrow-down-right-circle"></i> ${destino.toUpperCase()}`;
 
 
-let arrBoletos=[]
+
     document.getElementById("pruebaBoleto").innerHTML = ""
     let dibujarBoleto = document.getElementById("pruebaBoleto");
 
     if (data.ok) {
-      // console.log(boletos[0].sale)
+       console.log(ordenSale)
 
       for (let i of boletos) {
         if (origen === i.origen && destino === i.destino && fecha_salida === i.fecha_salida) {
          
          document.getElementById(`${i.codigo_empresa}`).style=`display='flex`
           
- arrBoletos=[]
+ 
           dibujarBoleto.innerHTML += `
               <div id="${i.codigo_empresa}"
       class="card-group col-lg-6 col-xl-6 col-md-12 col-sm-12 p-3 mb-5 bg-body boleto"
@@ -243,7 +243,7 @@ let arrBoletos=[]
         }
       }
     }
-    console.log(arrBoletos.sort())
+   
 }
 
 function buscarBoletos(cambiarBusqueda = false){
@@ -253,7 +253,16 @@ fetch("./js/boleto.json")
   .then((a) => a.json())
   .then((data) => {
     let boletos = data.data.boletos;
+  
+//inicio ordenar boletos por salida
+let ordenSale=[]
+    for(let i=0; i<data.data.boletos.length; i++){
+      ordenSale.push(data.data.boletos[i].sale)
+    }
 
+  console.log(ordenSale.sort())
+
+  //fin ordenar boleto por salida
     let origen ;
     let destino;
     let fecha_salida;
@@ -270,7 +279,7 @@ fetch("./js/boleto.json")
     }
 
 
-    mostrarBoleto(boletos,data,origen, destino, fecha_salida);
+    mostrarBoleto(boletos,data,origen, destino, fecha_salida, ordenSale);
   });
 }
 
@@ -283,3 +292,8 @@ function vermapa(){
   cerrar.classList.toggle('cerrarX')
 }
 
+
+  let ordenar=document.getElementById('ordenarPor').addEventListener('change',()=>{
+    console.log("cambie el orden")
+    console.log(document.getElementById('ordenarPor').value)
+  })

@@ -78,7 +78,7 @@ colorRosa {
   background-color: #fb8989;
   font-size: large;
 }
-
+/*INICIA MODO TELEFONO*/
 @media (min-width: 300px) and (max-width: 380px) {
   .origenPasaje {
     margin-bottom: 2px;
@@ -577,25 +577,34 @@ colorRosa {
   }
   .collapse1 {
     margin-top: 2%;
-
     height: 80% !important;
   }
+  /*Carousel completo, maleta es el texto e img son las imagenes*/
   .carousel-item{
-    margin-top: 9%;
+    margin-top: 7.5%;
     padding: 5%;
-    
-  }
-  .maleta {
-    /* border: 1px solid red; */
-    font-size:x-large;
   }
   .contenedor-texto {
-    padding-top: 8%;
-    margin-top: -1% !important;
+    margin-top: 10% !important;
+  }
+  /*texto del carousel*/
+  .maleta {
+    font-size:xx-large;
+  }
+  .contenedor-texto img{
+    margin-top: -10% !important;
+    margin-left: -10% !important;
+    width: 100% !important;
   }
   .section .parallax-content {
     margin-top: 5%;
   }
+  
+  /*barra busqueda*/
+  .forma {
+    margin-top: 5.7% !important;
+  }
+  /*Nuestros servicios*/
   .container.nuestrosServicios {
     margin-top: 0%; 
   }
@@ -606,11 +615,32 @@ colorRosa {
     font-size: 80% !important;
     margin-top: -7%;
   }
-  .forma {
-    margin-top: 6.2% !important;
+  /*logos Muni*/
+  .pantallaTelefono .imgMuni {
+    width: 16%;
+    margin-top: -28px !important;
+  }
+  .pantallaTelefono .imgSecre {
+    width: 14%;
+    margin-top: -30px !important;
+  }
+  /*Carrusel fotos*/
+  section:nth-child(1) {
+    background: white !important
+  }
+  section:nth-child(2) {
+    background: white !important
+  }
+  section:nth-child(3) {
+    background: white !important
+  }
+  section:nth-child(4) {
+    background: white !important
   }
   
 }
+/*FINALIZA MODO TELEFONO*/
+/*INICIA MODO PC*/
 @media (min-width: 992px) and (max-width: 1080px) {
 
   .forma {
@@ -1270,6 +1300,7 @@ colorRosa {
     height: 15%;
   }
 }
+/*FINALIZA MODO PC*/
 
 .inputOrigen {
   border: 2px solid #ddd8fd;
