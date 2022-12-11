@@ -292,8 +292,9 @@ function vermapa(){
   cerrar.classList.toggle('cerrarX')
 }
 
-
+function ordenarPor(){
   let ordenar=document.getElementById('ordenarPor').addEventListener('change',()=>{
     console.log("cambie el orden")
     console.log(document.getElementById('ordenarPor').value)
   })
+}

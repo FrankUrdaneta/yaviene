@@ -91,7 +91,7 @@
         .then(a=>a.json())
         .then(res=>{
           if(res.ok){
-
+            coordenadas = res.data.traza.map(a=>[a[0],a[1]]);
 
             //centra el mapa a la primera parada
             // setTimeout(() => {
@@ -99,8 +99,8 @@
           //     const a = map.getSize();
           //     map.getView().centerOn(
           //         [
-          //             parseFloat(res.data.traza[0]['lon']),
-          //             parseFloat(res.data.paradas[0]['lat']),
+          //             parseFloat(res.data.traza.map(e=>[e[0]['lon'],e[1]['lat']])),
+                     
           //             console.log(res.data.traza)
           //         ],
           //         a,
@@ -110,10 +110,19 @@
           // }, 1000);
 //aqui termina el centrar parada setime
 
-            coordenadas = res.data.traza.map(a=>[a[0],a[1]]);
+
+
+            
             traza = new ol.Feature({
                 geometry: new ol.geom.LineString(coordenadas)
             });
+            var vista = new ol.View({
+              projection: "EPSG:4326",
+              center: [coordenadas],
+              zoom: 14,
+              //minZoom:11
+            });
+
             Traza.clear();
             Traza.addFeature(traza);
 
