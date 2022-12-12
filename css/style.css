@@ -12812,12 +12812,7 @@ html [class*="section-"].section-top-0 {
     overflow: hidden;
     text-overflow: ellipsis;
   }
-  .forma {
-    position: relative;
-    top: 0;
-    padding-top: 0;
-    margin-top: 0;
-  }
+
   .page {
     min-height: 65vh;
   }
@@ -12829,12 +12824,7 @@ html [class*="section-"].section-top-0 {
     overflow: hidden;
     text-overflow: ellipsis;
   }
-  .forma {
-    position: relative;
-    top: 0;
-    padding-top: 0;
-    margin-top: 0;
-  }
+
   .page {
     min-height: 52vh;
   }
@@ -17374,6 +17364,7 @@ html.rd-navbar-fixed-linked .page {
 .rd-navbar-creative.rd-navbar-static .rd-navbar-main-outer {
   padding-left: 15px;
   padding-right: 15px;
+  padding-bottom: 100px;
 }
 
 .rd-navbar-creative.rd-navbar-static .rd-navbar-aside,
@@ -17411,6 +17402,7 @@ html.rd-navbar-fixed-linked .page {
 
 .rd-navbar-creative.rd-navbar-static .rd-navbar-main-outer {
   position: relative;
+  padding-bottom: 100px !important;
 }
 
 .rd-navbar-creative.rd-navbar-static .rd-navbar-main {
@@ -18639,10 +18631,7 @@ html.rd-navbar-fixed-linked .page {
   .swiper-slide-caption {
     padding-bottom: 80px;
   }
-  .forma {
-    position: relative;
-    top: 0;
-  }
+
   .rd-navbar-corporate.rd-navbar-static .rd-navbar-nav-wrap {
     display: flex;
     align-items: center;
@@ -18666,10 +18655,6 @@ html.rd-navbar-fixed-linked .page {
   .swiper-slider-classic p {
     display: none;
   }
-  .forma {
-    position: relative;
-    top: 0;
-  }
 }
 
 @media (max-height: 3000px) {
@@ -18679,10 +18664,7 @@ html.rd-navbar-fixed-linked .page {
   .swiper-slider-classic p {
     display: none;
   }
-  .forma {
-    position: relative;
-    top: 0;
-  }
+
   .page {
     min-height: 4vh !important;
   }
@@ -18974,10 +18956,6 @@ html.rd-navbar-fixed-linked .page {
   .swiper-slider-modern .swiper-slide {
     background-position: 30% 50%;
   }
-  .forma {
-    position: relative;
-    top: 0;
-  }
 }
 
 @media (min-width: 768px) {
@@ -19181,24 +19159,6 @@ html.rd-navbar-fixed-linked .page {
 @media (min-width: 1200px) {
   .swiper-slider-creative h1 {
     font-size: 110px;
-  }
-}
-@media (min-width: 1200px) and (max-width: 1500px) {
-  .forma {
-    position: relative !important;
-    top: -27px !important;
-  }
-}
-@media (min-width: 1501px) and (max-width: 3000px) {
-  .forma {
-    position: relative !important;
-    top: -3px !important;
-  }
-}
-@media (min-width: 992px) and (max-width: 1199px) {
-  .forma {
-    position: relative !important;
-    top: -3px !important;
   }
 }
 

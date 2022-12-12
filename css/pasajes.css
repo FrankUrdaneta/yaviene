@@ -80,6 +80,10 @@ colorRosa {
 }
 /*INICIA MODO TELEFONO*/
 @media (min-width: 300px) and (max-width: 380px) {
+  #menuMovil {
+    background-color: #009ee2;
+  }
+
   .origenPasaje {
     margin-bottom: 2px;
     width: 155% !important;
@@ -116,7 +120,7 @@ colorRosa {
     left: 5% !important;
     width: 100% !important;
   }
-  
+
   .swiper-slide {
     width: 50%;
     background-position: 40% -20%;
@@ -141,11 +145,92 @@ colorRosa {
     justify-content: center !important;
     width: -200% !important;
   }
+  /*barra busqueda*/
   .forma {
-    margin-top: 5% !important;
+    margin-top: -0.5% !important;
+  }
+  /*Nuestros servicios*/
+  .container.nuestrosServicios {
+    margin-top: 0%;
+  }
+  .nuestrosServicios .row-30 {
+    display: flow-root !important;
+    /* height: 80% !important; */
+
+    padding: 20% !important;
+    font-size: 80% !important;
+    margin-top: -25% !important;
+  }
+  .section {
+    height: 20% !important;
+    max-height: 100% !important;
+  }
+
+  .box-icon-classic-text {
+    font-size: x-small;
+  }
+  h5 {
+    font-size: small;
+  }
+  /*logos Muni*/
+  .pantallaTelefono .imgMuni {
+    width: 36%;
+    margin-top: -28px !important;
+  }
+  .pantallaTelefono .imgSecre {
+    width: 28%;
+    margin-top: -30px !important;
+  }
+  /*Carrusel fotos*/
+  section:nth-child(1) {
+    background: white !important;
+  }
+  section:nth-child(2) {
+    background: white !important;
+  }
+  section:nth-child(3) {
+    background: white !important;
+  }
+  section:nth-child(4) {
+    background: white !important;
+  }
+  /*texto del carousel*/
+  .maleta {
+    font-size: x-small;
+  }
+  .col-md-10 {
+    width: 150% !important;
+    max-width: 300% !important;
+    margin-left: -60% !important;
+  }
+  .contenedor-texto img {
+    margin-top: -10% !important;
+    margin-left: -10% !important;
+    width: 200% !important;
+    max-width: 200%;
+  }
+  .contenedor-texto {
+    margin-right: 20% !important;
+    height: 100%;
+    width: -50% !important;
+    margin-top: 30% !important;
+  }
+  .parallax-container {
+    width: 118%;
+    margin-left: -8% !important;
+    margin-top: -40% !important;
+  }
+  .nuestrosServicios .row-30 {
+    font-size: xx-large !important;
+  }
+  #buscar_pasajes {
+    left: -2% !important;
   }
 }
-@media (min-width: 381px) and (max-width: 480px) {
+@media (min-width: 381px) and (max-width: 430px) {
+  #menuMovil {
+    background-color: #009ee2;
+  }
   .origenPasaje {
     margin-bottom: 2px;
     width: 155% !important;
@@ -180,7 +265,150 @@ colorRosa {
     position: relative;
     left: 148% !important;
   }
- 
+  .collapse1 {
+    margin-top: 10%;
+    display: flex;
+    margin-left: 20% !important;
+    height: 100% !important;
+  }
+  .swiper-slide {
+    width: 150%;
+    background-position: 40% -20%;
+  }
+  .swiper-slideA {
+    width: 200%;
+    height: 90% !important;
+    background-position: 20% -20%;
+  }
+  .contenedor-texto {
+    margin-top: 15% !important;
+    height: 100%;
+    /* width: -50% !important; */
+  }
+  .maleta {
+    font-size: small;
+  }
+  .section .parallax-content {
+    margin-top: 15%;
+  }
+  .col-md-10 {
+    width: 130%;
+    left: -35%;
+  }
+  #buscar_pasajes {
+    left: -2% !important;
+  }
+  .nuestrosServicios .row-30 {
+    display: flow-root !important;
+    padding: 20% !important;
+    font-size: 80% !important;
+    margin-top: -25% !important;
+  }
+  /*barra busqueda*/
+  .forma {
+    margin-top: 13% !important;
+  }
+  /*Nuestros servicios*/
+  .container.nuestrosServicios {
+    margin-top: 0%;
+  }
+  .nuestrosServicios .row-30 {
+    flex-wrap: nowrap !important;
+    justify-content: center !important;
+    padding: 9% !important;
+    font-size: 80% !important;
+    margin-top: -7%;
+  }
+  .section {
+    height: 20% !important;
+    max-height: 100% !important;
+  }
+  .box-icon-classic-text {
+    font-size: x-small;
+  }
+  h5 {
+    font-size: small;
+  }
+  /*logos Muni*/
+  .pantallaTelefono .imgMuni {
+    width: 30%;
+    margin-top: -28px !important;
+  }
+  .pantallaTelefono .imgSecre {
+    width: 26%;
+    margin-top: -30px !important;
+  }
+  /*Carrusel fotos*/
+  section:nth-child(1) {
+    background: white !important;
+  }
+  section:nth-child(2) {
+    background: white !important;
+  }
+  section:nth-child(3) {
+    background: white !important;
+  }
+  section:nth-child(4) {
+    background: white !important;
+  }
+  /*texto del carousel*/
+  .maleta {
+    font-size: small;
+  }
+  .contenedor-texto img {
+    margin-top: 30% !important;
+    margin-left: -10% !important;
+    width: 180% !important;
+    max-width: 200%;
+  }
+  .contenedor-texto {
+    margin-right: 15% !important;
+    height: 100%;
+    width: -50% !important;
+  }
+  .parallax-container {
+    width: 120%;
+    margin-left: -8% !important;
+  }
+}
+@media (min-width: 431px) and (max-width: 480px) {
+  #menuMovil {
+    background-color: #009ee2;
+  }
+  .origenPasaje {
+    margin-bottom: 2px;
+    width: 155% !important;
+    left: -100% !important;
+  }
+
+  .invertirDestino {
+    position: relative;
+    left: 0px !important;
+    background-color: #fb8989;
+  }
+  .swiper-container {
+    position: relative;
+    top: 150px;
+  }
+  .botonBuscarPasajes {
+    top: 5%;
+    left: -2%;
+    width: 100%;
+  }
+  #buscador {
+    position: relative;
+    top: 4.5% !important;
+    margin-top: 10%;
+    margin-bottom: 1%;
+  }
+  .pasajero {
+    position: relative;
+    left: -115% !important;
+  }
+  .idayVuelta {
+    position: relative;
+    left: 148% !important;
+  }
   .collapse1 {
     margin-top: 10%;
     display: flex;
@@ -212,11 +440,73 @@ colorRosa {
     justify-content: center !important;
     width: -200% !important;
   }
+  /*barra busqueda*/
   .forma {
-    margin-top: 13.5% !important;
+    margin-top: 11% !important;
+  }
+  /*Nuestros servicios*/
+  .container.nuestrosServicios {
+    margin-top: 0%;
+  }
+  .nuestrosServicios .row-30 {
+    flex-wrap: nowrap !important;
+    justify-content: center !important;
+    padding: 9% !important;
+    font-size: 80% !important;
+    margin-top: -7%;
+  }
+  .box-icon-classic-text {
+    font-size: x-small;
+  }
+  h5 {
+    font-size: small;
+  }
+  /*logos Muni*/
+  .pantallaTelefono .imgMuni {
+    width: 30%;
+    margin-top: -28px !important;
+  }
+  .pantallaTelefono .imgSecre {
+    width: 26%;
+    margin-top: -30px !important;
+  }
+  /*Carrusel fotos*/
+  section:nth-child(1) {
+    background: white !important;
+  }
+  section:nth-child(2) {
+    background: white !important;
+  }
+  section:nth-child(3) {
+    background: white !important;
+  }
+  section:nth-child(4) {
+    background: white !important;
+  }
+  /*texto del carousel*/
+  .maleta {
+    font-size: small;
+  }
+  .contenedor-texto img {
+    margin-top: -10% !important;
+    margin-left: -10% !important;
+    width: 170% !important;
+    max-width: 170%;
+  }
+  .contenedor-texto {
+    margin-right: 20% !important;
+    height: 100%;
+    width: -50% !important;
+  }
+  .parallax-container {
+    width: 120%;
+    margin-left: -8% !important;
   }
 }
 @media (min-width: 481px) and (max-width: 540px) {
+  #menuMovil {
+    background-color: #009ee2;
+  }
   .origenPasaje {
     margin-bottom: 2px;
     width: 155% !important;
@@ -289,8 +579,76 @@ colorRosa {
     margin-left: 5%;
     margin-right: 5%;
   }
+  /*barra busqueda*/
+  .forma {
+    margin-top: 10% !important;
+  }
+  /*Nuestros servicios*/
+  .container.nuestrosServicios {
+    margin-top: 0%;
+  }
+  .nuestrosServicios .row-30 {
+    flex-wrap: nowrap !important;
+    justify-content: center !important;
+    padding: 9% !important;
+    font-size: 80% !important;
+    margin-top: -7%;
+  }
+  /* .unit-left {
+    
+  } */
+  .box-icon-classic-text {
+    font-size: x-small;
+  }
+  h5 {
+    font-size: small;
+  }
+  /*logos Muni*/
+  .pantallaTelefono .imgMuni {
+    width: 30%;
+    margin-top: -28px !important;
+  }
+  .pantallaTelefono .imgSecre {
+    width: 26%;
+    margin-top: -30px !important;
+  }
+  /*Carrusel fotos*/
+  section:nth-child(1) {
+    background: white !important;
+  }
+  section:nth-child(2) {
+    background: white !important;
+  }
+  section:nth-child(3) {
+    background: white !important;
+  }
+  section:nth-child(4) {
+    background: white !important;
+  }
+  /*texto del carousel*/
+  .maleta {
+    font-size: small;
+  }
+  .contenedor-texto img {
+    margin-top: -10% !important;
+    margin-left: -10% !important;
+    width: 170% !important;
+    max-width: 170%;
+  }
+  .contenedor-texto {
+    margin-right: 20% !important;
+    height: 100%;
+    width: -50% !important;
+  }
+  .parallax-container {
+    width: 120%;
+    margin-left: -8% !important;
+  }
 }
 @media (min-width: 541px) and (max-width: 579px) {
+  #menuMovil {
+    background-color: #009ee2;
+  }
   .origenPasaje {
     margin-bottom: 2px;
     width: 155% !important;
@@ -343,13 +701,9 @@ colorRosa {
   }
   .contenedor-texto {
     margin-top: 15% !important;
-    
+
     height: 100%;
     width: -50% !important;
-    
-  }
-  .maleta {
-    font-size: small;
   }
   .section .parallax-content {
     margin-top: 15%;
@@ -363,10 +717,71 @@ colorRosa {
     margin-left: 1%;
     margin-right: 1%;
   }
-  
+  /*barra busqueda*/
+  .forma {
+    margin-top: -1% !important;
+  }
+  /*Nuestros servicios*/
+  .container.nuestrosServicios {
+    margin-top: 0%;
+  }
+  .nuestrosServicios .row-30 {
+    flex-wrap: nowrap !important;
+    justify-content: center !important;
+    padding: 9% !important;
+    font-size: 80% !important;
+    margin-top: -7%;
+  }
+  /*logos Muni*/
+  .pantallaTelefono .imgMuni {
+    width: 30%;
+    margin-top: -28px !important;
+  }
+  .pantallaTelefono .imgSecre {
+    width: 26%;
+    margin-top: -30px !important;
+  }
+  /*Carrusel fotos*/
+  section:nth-child(1) {
+    background: white !important;
+  }
+  section:nth-child(2) {
+    background: white !important;
+  }
+  section:nth-child(3) {
+    background: white !important;
+  }
+  section:nth-child(4) {
+    background: white !important;
+  }
+  /*texto del carousel*/
+  .maleta {
+    font-size: large;
+  }
+  .contenedor-texto img {
+    margin-top: -10% !important;
+    margin-left: -10% !important;
+    width: 140% !important;
+    max-width: 150%;
+  }
+  .contenedor-texto {
+    margin-right: 10% !important;
+    height: 100%;
+    width: -50% !important;
+  }
+  .parallax-container {
+    width: 120%;
+    margin-left: -8% !important;
+  }
 
+  .android {
+    box-sizing: border-box !important;
+  }
 }
 @media (min-width: 580px) and (max-width: 720px) {
+  #menuMovil {
+    background-color: #009ee2;
+  }
   .origenPasaje {
     display: flex;
     margin-bottom: 3px;
@@ -404,7 +819,7 @@ colorRosa {
     position: relative;
     left: 265% !important;
   }
-  
+
   .collapse1 {
     margin-top: 1%;
 
@@ -417,15 +832,7 @@ colorRosa {
     width: 110%;
     height: 85% !important;
   }
-  .contenedor-texto {
-    /* border: 1px solid red !important; */
-    margin-top: 0% !important;
-    /* margin-bottom: 10%; */
-    /* padding-top: 5%; */
-    height: 100%;
-    width: -50% !important;
-    /* padding: 10%; */
-  }
+
   .maleta {
     font-size: large;
   }
@@ -440,12 +847,67 @@ colorRosa {
     margin-top: -10%;
     margin-left: 1%;
     margin-right: 1%;
-    /* height: -500% !important; */
-    /* display: inline-flex; */
-    /* justify-content: left !important; */
+  }
+  /*barra busqueda*/
+  .forma {
+    margin-top: 6% !important;
+  }
+  /*Nuestros servicios*/
+  .container.nuestrosServicios {
+    margin-top: 0%;
+  }
+  .nuestrosServicios .row-30 {
+    flex-wrap: nowrap !important;
+    justify-content: center !important;
+    padding: 9% !important;
+    font-size: 80% !important;
+    margin-top: -7%;
+  }
+  /*logos Muni*/
+  .pantallaTelefono .imgMuni {
+    width: 22%;
+    margin-top: -28px !important;
+  }
+  .pantallaTelefono .imgSecre {
+    width: 20%;
+    margin-top: -30px !important;
+  }
+  /*Carrusel fotos*/
+  section:nth-child(1) {
+    background: white !important;
+  }
+  section:nth-child(2) {
+    background: white !important;
+  }
+  section:nth-child(3) {
+    background: white !important;
+  }
+  section:nth-child(4) {
+    background: white !important;
+  }
+  /*texto del carousel*/
+  .maleta {
+    font-size: large;
+  }
+  .contenedor-texto img {
+    margin-top: -10% !important;
+    margin-left: -10% !important;
+    width: 200% !important;
+  }
+  .contenedor-texto {
+    /* border: 1px solid red !important; */
+    margin-top: 8% !important;
+    /* margin-bottom: 10%; */
+    /* padding-top: 5%; */
+    height: 100%;
+    width: -50% !important;
+    /* padding: 10%; */
   }
 }
 @media (min-width: 721px) and (max-width: 890px) {
+  #menuMovil {
+    background-color: #009ee2;
+  }
   .origenPasaje {
     display: flex;
     margin-bottom: 3px;
@@ -480,7 +942,7 @@ colorRosa {
     position: relative;
     left: 303% !important;
   }
-  
+
   .swiper-slide-caption {
     margin-top: -20%;
   }
@@ -501,14 +963,12 @@ colorRosa {
     height: 85% !important;
     background-position: 0% 65%;
   }
-  .carousel-item{
+  .carousel-item {
     margin-top: 9%;
     padding: 5%;
-    
   }
   .maleta {
-    /* border: 1px solid red; */
-    font-size:x-large;
+    font-size: x-large;
   }
   .contenedor-texto {
     padding-top: 8%;
@@ -529,8 +989,69 @@ colorRosa {
   .section .parallax-content {
     margin-top: 10%;
   }
+  /*Carousel completo, maleta es el texto e img son las imagenes*/
+  .carousel-item {
+    margin-top: 7.5%;
+    padding-top: 10%;
+  }
+  .contenedor-texto {
+    margin-top: 0% !important;
+  }
+  /*texto del carousel*/
+  .maleta {
+    font-size: x-large;
+  }
+  .contenedor-texto img {
+    margin-top: -10% !important;
+    margin-left: -10% !important;
+    width: 100% !important;
+  }
+  .section .parallax-content {
+    margin-top: 5%;
+  }
+
+  /*barra busqueda*/
+  .forma {
+    margin-top: 6.3% !important;
+  }
+  /*Nuestros servicios*/
+  .container.nuestrosServicios {
+    margin-top: 0%;
+  }
+  .nuestrosServicios .row-30 {
+    flex-wrap: nowrap !important;
+    justify-content: center !important;
+    padding: 9% !important;
+    font-size: 80% !important;
+    margin-top: -7%;
+  }
+  /*logos Muni*/
+  .pantallaTelefono .imgMuni {
+    width: 18%;
+    margin-top: -28px !important;
+  }
+  .pantallaTelefono .imgSecre {
+    width: 16%;
+    margin-top: -30px !important;
+  }
+  /*Carrusel fotos*/
+  section:nth-child(1) {
+    background: white !important;
+  }
+  section:nth-child(2) {
+    background: white !important;
+  }
+  section:nth-child(3) {
+    background: white !important;
+  }
+  section:nth-child(4) {
+    background: white !important;
+  }
 }
 @media (min-width: 891px) and (max-width: 991px) {
+  #menuMovil {
+    background-color: #009ee2;
+  }
   .origenPasaje {
     display: flex;
     margin-bottom: 3px;
@@ -580,7 +1101,7 @@ colorRosa {
     height: 80% !important;
   }
   /*Carousel completo, maleta es el texto e img son las imagenes*/
-  .carousel-item{
+  .carousel-item {
     margin-top: 7.5%;
     padding: 5%;
   }
@@ -589,9 +1110,9 @@ colorRosa {
   }
   /*texto del carousel*/
   .maleta {
-    font-size:xx-large;
+    font-size: xx-large;
   }
-  .contenedor-texto img{
+  .contenedor-texto img {
     margin-top: -10% !important;
     margin-left: -10% !important;
     width: 100% !important;
@@ -599,14 +1120,14 @@ colorRosa {
   .section .parallax-content {
     margin-top: 5%;
   }
-  
+
   /*barra busqueda*/
   .forma {
     margin-top: 5.7% !important;
   }
   /*Nuestros servicios*/
   .container.nuestrosServicios {
-    margin-top: 0%; 
+    margin-top: 0%;
   }
   .nuestrosServicios .row-30 {
     flex-wrap: nowrap !important;
@@ -626,23 +1147,28 @@ colorRosa {
   }
   /*Carrusel fotos*/
   section:nth-child(1) {
-    background: white !important
+    background: white !important;
   }
   section:nth-child(2) {
-    background: white !important
+    background: white !important;
   }
   section:nth-child(3) {
-    background: white !important
+    background: white !important;
   }
   section:nth-child(4) {
-    background: white !important
+    background: white !important;
   }
-  
 }
-/*FINALIZA MODO TELEFONO*/
-/*INICIA MODO PC*/
 @media (min-width: 992px) and (max-width: 1080px) {
-
+  #menuMovil {
+    background-color: #009ee2;
+  }
+  #menuMovil > ul.rd-navbar-nav > li > img {
+    display: inline-block !important;
+  }
+  #buscador {
+    margin-top: -0.1% !important;
+  }
   .forma {
     margin-top: 1.5% !important;
   }
@@ -651,7 +1177,7 @@ colorRosa {
     justify-content: center;
     margin-bottom: 3px;
   }
-  #buscar_pasajes{
+  #buscar_pasajes {
     position: relative;
     left: 80%;
   }
@@ -669,7 +1195,7 @@ colorRosa {
   #buscador {
     position: relative;
     top: -10.5% !important;
-    margin-top: -0.7%;
+    margin-top: -5%;
   }
   .swiper-container {
     position: relative;
@@ -744,24 +1270,88 @@ colorRosa {
   .section .contenedor-texto {
     border: 1px solid red !important;
     left: 10%;
-    width: 50%; 
+    width: 50%;
     padding: 100% !important;
   }
   .section .parallax-content {
     margin-top: 5%;
   }
   .container.nuestrosServicios {
-    margin-top: 0%; 
+    margin-top: 0%;
+  }
+  /*Carousel completo, maleta es el texto e img son las imagenes*/
+  .carousel-item {
+    margin-top: 7.5%;
+    padding: 5%;
+  }
+  .contenedor-texto {
+    margin-top: 10% !important;
+  }
+  /*texto del carousel*/
+  .maleta {
+    font-size: xx-large;
+  }
+  .contenedor-texto img {
+    margin-top: -10% !important;
+    margin-left: -10% !important;
+    width: 100% !important;
+  }
+  .section .parallax-content {
+    margin-top: 5%;
+  }
+
+  /*barra busqueda*/
+  .forma {
+    margin-top: 5.6% !important;
+  }
+  /*Nuestros servicios*/
+  .container.nuestrosServicios {
+    margin-top: 0%;
+  }
+  .nuestrosServicios .row-30 {
+    flex-wrap: nowrap !important;
+    justify-content: center !important;
+    padding: 9% !important;
+    font-size: 80% !important;
+    margin-top: -7%;
+  }
+  /*logos Muni*/
+  .pantallaTelefono .imgMuni {
+    width: 14%;
+    margin-top: -28px !important;
+  }
+  .pantallaTelefono .imgSecre {
+    width: 12%;
+    margin-top: -30px !important;
+  }
+  /*Carrusel fotos*/
+  section:nth-child(1) {
+    background: white !important;
+  }
+  section:nth-child(2) {
+    background: white !important;
+  }
+  section:nth-child(3) {
+    background: white !important;
+  }
+  section:nth-child(4) {
+    background: white !important;
   }
 }
 @media (min-width: 1081px) and (max-width: 1199px) {
+  #menuMovil {
+    background-color: #009ee2;
+  }
+  #menuMovil > ul.rd-navbar-nav > li > img {
+    display: inline-block !important;
+  }
   .forma {
-    margin-top: 1.5% !important;
+    margin-top: 1.6% !important;
   }
   #buscador {
     position: relative;
     top: -13% !important;
-    margin-top: -0.7%;
+    margin-top: -10% !important;
   }
   .swiper-container {
     position: relative;
@@ -812,7 +1402,7 @@ colorRosa {
   .section .contenedor-texto {
     border: 1px solid red !important;
     left: 10%;
-    width: 50%; 
+    width: 50%;
     padding: 100% !important;
   }
   .section .parallax-content {
@@ -822,15 +1412,78 @@ colorRosa {
     font-size: 70%;
   }
   .container.nuestrosServicios {
-    margin-top: 0%; 
+    margin-top: 0%;
+  }
+  /*Carousel completo, maleta es el texto e img son las imagenes*/
+  .carousel-item {
+    margin-top: 7.5%;
+    padding: 5%;
+  }
+  .contenedor-texto {
+    margin-top: 10% !important;
+  }
+  /*texto del carousel*/
+  .maleta {
+    font-size: xx-large;
+  }
+  .contenedor-texto img {
+    margin-top: -10% !important;
+    margin-left: -10% !important;
+    width: 100% !important;
+  }
+  .section .parallax-content {
+    margin-top: 5%;
+  }
+
+  /*barra busqueda*/
+  .forma {
+    margin-top: 5.4% !important;
+  }
+  /*Nuestros servicios*/
+  .container.nuestrosServicios {
+    margin-top: 0%;
+  }
+  .nuestrosServicios .row-30 {
+    flex-wrap: nowrap !important;
+    justify-content: center !important;
+    padding: 9% !important;
+    font-size: 80% !important;
+    margin-top: -7%;
+  }
+  /*logos Muni*/
+  .pantallaTelefono .imgMuni {
+    width: 14%;
+    margin-top: -28px !important;
+  }
+  .pantallaTelefono .imgSecre {
+    width: 12%;
+    margin-top: -30px !important;
+  }
+  /*Carrusel fotos*/
+  section:nth-child(1) {
+    background: white !important;
+  }
+  section:nth-child(2) {
+    background: white !important;
+  }
+  section:nth-child(3) {
+    background: white !important;
+  }
+  section:nth-child(4) {
+    background: white !important;
   }
 }
+/*FINALIZA MODO TELEFONO*/
+/*INICIA MODO PC*/
 @media (min-width: 1200px) and (max-width: 1440px) {
   #buscador {
     position: relative;
     top: 13% !important;
     width: 100% !important;
     margin-top: 1%;
+  }
+  #menuMovil > ul.rd-navbar-nav > li > img {
+    display: inline-block !important;
   }
   .swiper-container {
     position: relative;
@@ -885,7 +1538,7 @@ colorRosa {
     padding: 100% !important;
     margin-top: -50% !important;
     left: 10%;
-    width: 50%; 
+    width: 50%;
   }
   .section .parallax-content {
     margin-top: 5%;
@@ -894,6 +1547,9 @@ colorRosa {
 @media (min-width: 1441px) and (max-width: 1500px) {
   .forma {
     margin-top: -0.1% !important;
+  }
+  #menuMovil > ul.rd-navbar-nav > li > img {
+    display: inline-block !important;
   }
   #buscador {
     position: relative;
@@ -962,7 +1618,7 @@ colorRosa {
     padding: 100% !important;
     margin-top: -50% !important;
     left: 10%;
-    width: 50%; 
+    width: 50%;
   }
   .section .parallax-content {
     margin-top: 5%;
@@ -972,6 +1628,9 @@ colorRosa {
   #buscador {
     top: 7% !important;
     margin-top: -0.7%;
+  }
+  #menuMovil > ul.rd-navbar-nav > li > img {
+    display: inline-block !important;
   }
   .swiper-container {
     position: relative;
@@ -1042,7 +1701,7 @@ colorRosa {
     padding: 100% !important;
     margin-top: -50% !important;
     left: 10%;
-    width: 50%; 
+    width: 50%;
   }
 }
 @media (min-width: 1800px) and (max-width: 2160px) {
@@ -1050,6 +1709,9 @@ colorRosa {
     position: relative;
     top: 7.2% !important;
     margin-top: -0.7%;
+  }
+  #menuMovil > ul.rd-navbar-nav > li > img {
+    display: inline-block !important;
   }
   .swiper-container {
     position: relative;
@@ -1083,7 +1745,7 @@ colorRosa {
     padding: 100% !important;
     margin-top: -50% !important;
     left: 10%;
-    width: 50%; 
+    width: 50%;
   }
   .maleta {
     font-size: 160%;
@@ -1098,7 +1760,9 @@ colorRosa {
   .forma {
     margin-top: 0.7% !important;
   }
-  
+  #menuMovil > ul.rd-navbar-nav > li > img {
+    display: inline-block !important;
+  }
   #buscador {
     top: 7.2% !important;
     margin-top: -0.7%;
@@ -1143,7 +1807,9 @@ colorRosa {
 @media (min-width: 2201px) and (max-width: 2600px) {
   .forma {
     margin-top: 0.7% !important;
-
+  }
+  #menuMovil > ul.rd-navbar-nav > li > img {
+    display: inline-block !important;
   }
   #buscador {
     top: 7.2% !important;
@@ -1192,12 +1858,14 @@ colorRosa {
 }
 @media (min-width: 2601px) and (max-width: 3000px) {
   .forma {
-    margin-top: 0.7% !important;
-
+    margin-top: 0.8% !important;
+  }
+  #menuMovil > ul.rd-navbar-nav > li > img {
+    display: inline-block !important;
   }
   #buscador {
     top: 7.2% !important;
-    margin-top: -0.7%;
+    margin-top: -0.8%;
   }
   .swiper-container {
     position: relative;
@@ -1248,17 +1916,19 @@ colorRosa {
     position: relative;
     margin-top: -5% !important;
     left: 10%;
-    width: 50%; 
+    width: 50%;
   }
-  
 }
 @media (min-width: 3001px) and (max-width: 4320px) {
-  .forma{
-    margin-top: 0.6% !important;
+  .forma {
+    margin-top: 0.9% !important;
+  }
+  #menuMovil > ul.rd-navbar-nav > li > img {
+    display: inline-block !important;
   }
   #buscador {
     top: 7.5% !important;
-    margin-top: -0.7%;
+    margin-top: -1%;
   }
   .swiper-container {
     position: relative;
@@ -1276,24 +1946,23 @@ colorRosa {
   .carousel-item {
     margin-top: -10%;
     height: 300% !important;
-    
+
     padding: 4%;
   }
   .section.contenedor-texto {
     position: relative;
     margin-top: -5% !important;
     left: 10%;
-    width: 50%; 
+    width: 50%;
   }
   .maleta {
-    font-size: 200% ;
+    font-size: 200%;
   }
   .container.nuestrosServicios {
     position: relative;
     font-size: 210%;
     max-width: 100%;
     /* padding: 50; */
-    
   }
   .imgServicio {
     width: 15%;
