@@ -3,9 +3,6 @@ colorRosa {
 }
 
 .card-group {
-  margin-top: 1px;
-  margin-bottom: 10px !important;
-  border-radius: 10px;
   padding: 0;
   display: flex;
   justify-content: center;
@@ -24,11 +21,6 @@ colorRosa {
 }
 
 /*** ESTILOS BOTÓN GROW SKEW ***/
-
-.forma2 {
-  height: 10px !important;
-  margin-top: 5px;
-}
 
 .invertirSentido {
   border-top-right-radius: 5px;
@@ -80,8 +72,68 @@ colorRosa {
 }
 /*INICIA MODO TELEFONO*/
 @media (min-width: 300px) and (max-width: 380px) {
-  #menuMovil {
-    background-color: #009ee2;
+  .buscarIndex {
+    margin-top: 10% !important;
+    padding-top: 0%;
+  }
+
+  body > div.buscarHorario > #buscador > .forma {
+    font-size: small !important;
+    position: relative !important;
+  }
+  #buscador > div.forma.mt-2.position-sticky > form > div:nth-child(1) > div {
+    margin-top: 1% !important;
+    margin-bottom: 1% !important ;
+    font-size: small;
+    left: 0% !important;
+    padding: 0% !important;
+  }
+
+  .buscar_gps {
+    margin-bottom: 1%;
+    margin-top: -1%;
+  }
+  .card-body {
+    padding: 0% !important;
+  }
+  .card-group {
+    margin-bottom: 1.5px !important;
+  }
+  #navbarScroll {
+    margin-top: 20% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  #cambiarBusqueda {
+    width: 100% !important;
+    font-size: small;
+    padding: 3%;
+  }
+  .filaCambiarBusqueda {
+    font-size: small;
+    justify-content: center;
+    align-items: center;
+  }
+  .closeMapa {
+    top: 143px;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    left: 0% !important;
+  }
+  .imgCordobaMuni {
+    width: 280px;
+    display: flex;
+    margin-top: -8% !important;
+  }
+  #ordenarPor {
+    font-size: small;
+    padding: 3%;
+  }
+  #selectEmpresa {
+    font-size: small;
+    padding: 3%;
   }
 
   .origenPasaje {
@@ -145,236 +197,71 @@ colorRosa {
     justify-content: center !important;
     width: -200% !important;
   }
-  /*barra busqueda*/
   .forma {
-    margin-top: -0.5% !important;
-  }
-  /*Nuestros servicios*/
-  .container.nuestrosServicios {
-    margin-top: 0%;
-  }
-  .nuestrosServicios .row-30 {
-    display: flow-root !important;
-    /* height: 80% !important; */
-
-    padding: 20% !important;
-    font-size: 80% !important;
-    margin-top: -25% !important;
-  }
-  .section {
-    height: 20% !important;
-    max-height: 100% !important;
-  }
-
-  .box-icon-classic-text {
-    font-size: x-small;
-  }
-  h5 {
-    font-size: small;
-  }
-  /*logos Muni*/
-  .pantallaTelefono .imgMuni {
-    width: 36%;
-    margin-top: -28px !important;
-  }
-  .pantallaTelefono .imgSecre {
-    width: 28%;
-    margin-top: -30px !important;
-  }
-  /*Carrusel fotos*/
-  section:nth-child(1) {
-    background: white !important;
-  }
-  section:nth-child(2) {
-    background: white !important;
-  }
-  section:nth-child(3) {
-    background: white !important;
-  }
-  section:nth-child(4) {
-    background: white !important;
-  }
-  /*texto del carousel*/
-  .maleta {
-    font-size: x-small;
-  }
-  .col-md-10 {
-    width: 150% !important;
-    max-width: 300% !important;
-    margin-left: -60% !important;
-  }
-  .contenedor-texto img {
-    margin-top: -10% !important;
-    margin-left: -10% !important;
-    width: 200% !important;
-    max-width: 200%;
-  }
-  .contenedor-texto {
-    margin-right: 20% !important;
-    height: 100%;
-    width: -50% !important;
-    margin-top: 30% !important;
-  }
-  .parallax-container {
-    width: 118%;
-    margin-left: -8% !important;
-    margin-top: -40% !important;
-  }
-  .nuestrosServicios .row-30 {
-    font-size: xx-large !important;
-  }
-  #buscar_pasajes {
-    left: -2% !important;
+    padding-top: 5% !important;
+    padding-bottom: 2% !important;
   }
 }
-@media (min-width: 381px) and (max-width: 430px) {
-  #menuMovil {
-    background-color: #009ee2;
+@media (min-width: 381px) and (max-width: 480px) {
+  body > div.buscarHorario > #buscador > .forma {
+    font-size: small !important;
+    position: relative !important;
   }
-  .origenPasaje {
-    margin-bottom: 2px;
-    width: 155% !important;
-    left: -100% !important;
+  #buscador > div.forma.mt-2.position-sticky > form > div:nth-child(1) > div {
+    margin-top: 1% !important;
+    margin-bottom: 1% !important ;
+    font-size: small;
+    left: 0% !important;
+    padding: 0% !important;
   }
 
-  .invertirDestino {
-    position: relative;
-    left: 0px !important;
-    background-color: #fb8989;
-  }
-  .swiper-container {
-    position: relative;
-    top: 150px;
-  }
-  .botonBuscarPasajes {
-    top: 5%;
-    left: -2%;
-    width: 100%;
-  }
-  #buscador {
-    position: relative;
-    top: 4.5% !important;
-    margin-top: 10%;
+  .buscar_gps {
     margin-bottom: 1%;
+    margin-top: -1%;
   }
-  .pasajero {
-    position: relative;
-    left: -115% !important;
+  .card-body {
+    padding: 0% !important;
   }
-  .idayVuelta {
-    position: relative;
-    left: 148% !important;
+  .card-group {
+    margin-bottom: 1.5px !important;
   }
-  .collapse1 {
-    margin-top: 10%;
-    display: flex;
-    margin-left: 20% !important;
-    height: 100% !important;
-  }
-  .swiper-slide {
-    width: 150%;
-    background-position: 40% -20%;
-  }
-  .swiper-slideA {
-    width: 200%;
-    height: 90% !important;
-    background-position: 20% -20%;
-  }
-  .contenedor-texto {
-    margin-top: 15% !important;
-    height: 100%;
-    /* width: -50% !important; */
-  }
-  .maleta {
-    font-size: small;
-  }
-  .section .parallax-content {
-    margin-top: 15%;
-  }
-  .col-md-10 {
-    width: 130%;
-    left: -35%;
-  }
-  #buscar_pasajes {
-    left: -2% !important;
-  }
-  .nuestrosServicios .row-30 {
-    display: flow-root !important;
-    padding: 20% !important;
-    font-size: 80% !important;
-    margin-top: -25% !important;
-  }
-  /*barra busqueda*/
-  .forma {
-    margin-top: 13% !important;
-  }
-  /*Nuestros servicios*/
-  .container.nuestrosServicios {
-    margin-top: 0%;
-  }
-  .nuestrosServicios .row-30 {
-    flex-wrap: nowrap !important;
+  #navbarScroll {
+    margin-top: 20% !important;
+    display: flex !important;
     justify-content: center !important;
-    padding: 9% !important;
-    font-size: 80% !important;
-    margin-top: -7%;
+    align-items: center !important;
   }
-  .section {
-    height: 20% !important;
-    max-height: 100% !important;
-  }
-  .box-icon-classic-text {
-    font-size: x-small;
-  }
-  h5 {
+  #cambiarBusqueda {
+    width: 100% !important;
     font-size: small;
+    padding: 3%;
   }
-  /*logos Muni*/
-  .pantallaTelefono .imgMuni {
-    width: 30%;
-    margin-top: -28px !important;
-  }
-  .pantallaTelefono .imgSecre {
-    width: 26%;
-    margin-top: -30px !important;
-  }
-  /*Carrusel fotos*/
-  section:nth-child(1) {
-    background: white !important;
-  }
-  section:nth-child(2) {
-    background: white !important;
-  }
-  section:nth-child(3) {
-    background: white !important;
-  }
-  section:nth-child(4) {
-    background: white !important;
-  }
-  /*texto del carousel*/
-  .maleta {
+  .filaCambiarBusqueda {
     font-size: small;
+    justify-content: center;
+    align-items: center;
   }
-  .contenedor-texto img {
-    margin-top: 30% !important;
-    margin-left: -10% !important;
-    width: 180% !important;
-    max-width: 200%;
+  .closeMapa {
+    top: 157px;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    left: 0% !important;
   }
-  .contenedor-texto {
-    margin-right: 15% !important;
-    height: 100%;
-    width: -50% !important;
+  .imgCordobaMuni {
+    width: 280px;
+    display: flex;
+    margin-top: -8% !important;
   }
-  .parallax-container {
-    width: 120%;
-    margin-left: -8% !important;
+  #ordenarPor {
+    font-size: small;
+    padding: 3%;
   }
-}
-@media (min-width: 431px) and (max-width: 480px) {
-  #menuMovil {
-    background-color: #009ee2;
+  #selectEmpresa {
+    font-size: small;
+    padding: 3%;
   }
+
   .origenPasaje {
     margin-bottom: 2px;
     width: 155% !important;
@@ -409,6 +296,7 @@ colorRosa {
     position: relative;
     left: 148% !important;
   }
+
   .collapse1 {
     margin-top: 10%;
     display: flex;
@@ -440,72 +328,72 @@ colorRosa {
     justify-content: center !important;
     width: -200% !important;
   }
-  /*barra busqueda*/
   .forma {
-    margin-top: 11% !important;
-  }
-  /*Nuestros servicios*/
-  .container.nuestrosServicios {
-    margin-top: 0%;
-  }
-  .nuestrosServicios .row-30 {
-    flex-wrap: nowrap !important;
-    justify-content: center !important;
-    padding: 9% !important;
-    font-size: 80% !important;
-    margin-top: -7%;
-  }
-  .box-icon-classic-text {
-    font-size: x-small;
-  }
-  h5 {
-    font-size: small;
-  }
-  /*logos Muni*/
-  .pantallaTelefono .imgMuni {
-    width: 30%;
-    margin-top: -28px !important;
-  }
-  .pantallaTelefono .imgSecre {
-    width: 26%;
-    margin-top: -30px !important;
-  }
-  /*Carrusel fotos*/
-  section:nth-child(1) {
-    background: white !important;
-  }
-  section:nth-child(2) {
-    background: white !important;
-  }
-  section:nth-child(3) {
-    background: white !important;
-  }
-  section:nth-child(4) {
-    background: white !important;
-  }
-  /*texto del carousel*/
-  .maleta {
-    font-size: small;
-  }
-  .contenedor-texto img {
-    margin-top: -10% !important;
-    margin-left: -10% !important;
-    width: 170% !important;
-    max-width: 170%;
-  }
-  .contenedor-texto {
-    margin-right: 20% !important;
-    height: 100%;
-    width: -50% !important;
-  }
-  .parallax-container {
-    width: 120%;
-    margin-left: -8% !important;
+    margin-top: 5.5% !important;
   }
 }
 @media (min-width: 481px) and (max-width: 540px) {
-  #menuMovil {
-    background-color: #009ee2;
+  body > div.buscarHorario > #buscador > .forma {
+    font-size: small !important;
+    position: relative !important;
+  }
+  #buscador > div.forma.mt-2.position-sticky > form > div:nth-child(1) > div {
+    margin-top: 1% !important;
+    margin-bottom: 1% !important ;
+    font-size: small;
+    left: 0% !important;
+    padding: 0% !important;
+  }
+
+  .buscar_gps {
+    margin-bottom: 1%;
+    margin-top: -1%;
+  }
+  .card-body {
+    padding: 0% !important;
+  }
+  .card-group {
+    margin-bottom: 1.5px !important;
+  }
+  #navbarScroll {
+    margin-top: 20% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  #cambiarBusqueda {
+    width: 100% !important;
+    font-size: small;
+    padding: 3%;
+  }
+  .filaCambiarBusqueda {
+    font-size: small;
+    justify-content: center;
+    align-items: center;
+  }
+  .closeMapa {
+    top: 180px;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    left: 0% !important;
+  }
+  .imgCordobaMuni {
+    width: 280px;
+    display: flex;
+    margin-top: -8% !important;
+  }
+  #ordenarPor {
+    font-size: small;
+    padding: 3%;
+  }
+  #selectEmpresa {
+    font-size: small;
+    padding: 3%;
+  }
+
+  .ol-zoom {
+    top: 2em;
   }
   .origenPasaje {
     margin-bottom: 2px;
@@ -579,75 +467,68 @@ colorRosa {
     margin-left: 5%;
     margin-right: 5%;
   }
-  /*barra busqueda*/
-  .forma {
-    margin-top: 10% !important;
-  }
-  /*Nuestros servicios*/
-  .container.nuestrosServicios {
-    margin-top: 0%;
-  }
-  .nuestrosServicios .row-30 {
-    flex-wrap: nowrap !important;
-    justify-content: center !important;
-    padding: 9% !important;
-    font-size: 80% !important;
-    margin-top: -7%;
-  }
-  /* .unit-left {
-    
-  } */
-  .box-icon-classic-text {
-    font-size: x-small;
-  }
-  h5 {
-    font-size: small;
-  }
-  /*logos Muni*/
-  .pantallaTelefono .imgMuni {
-    width: 30%;
-    margin-top: -28px !important;
-  }
-  .pantallaTelefono .imgSecre {
-    width: 26%;
-    margin-top: -30px !important;
-  }
-  /*Carrusel fotos*/
-  section:nth-child(1) {
-    background: white !important;
-  }
-  section:nth-child(2) {
-    background: white !important;
-  }
-  section:nth-child(3) {
-    background: white !important;
-  }
-  section:nth-child(4) {
-    background: white !important;
-  }
-  /*texto del carousel*/
-  .maleta {
-    font-size: small;
-  }
-  .contenedor-texto img {
-    margin-top: -10% !important;
-    margin-left: -10% !important;
-    width: 170% !important;
-    max-width: 170%;
-  }
-  .contenedor-texto {
-    margin-right: 20% !important;
-    height: 100%;
-    width: -50% !important;
-  }
-  .parallax-container {
-    width: 120%;
-    margin-left: -8% !important;
-  }
 }
 @media (min-width: 541px) and (max-width: 579px) {
-  #menuMovil {
-    background-color: #009ee2;
+  body > div.buscarHorario > #buscador > .forma {
+    font-size: small !important;
+    position: relative !important;
+  }
+  #buscador > div.forma.mt-2.position-sticky > form > div:nth-child(1) > div {
+    margin-top: 1% !important;
+    margin-bottom: 1% !important ;
+    font-size: small;
+    left: 0% !important;
+    padding: 0% !important;
+  }
+
+  .buscar_gps {
+    margin-bottom: 1%;
+    margin-top: -1%;
+  }
+  .card-body {
+    padding: 0% !important;
+  }
+  .card-group {
+    margin-bottom: 1.5px !important;
+  }
+  #navbarScroll {
+    margin-top: 20% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  #cambiarBusqueda {
+    width: 100% !important;
+    font-size: small;
+    padding: 3%;
+  }
+  .filaCambiarBusqueda {
+    font-size: small;
+    justify-content: center;
+    align-items: center;
+  }
+  .closeMapa {
+    top: 198px;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    left: 0% !important;
+  }
+  .imgCordobaMuni {
+    width: 280px;
+    display: flex;
+    margin-top: -8% !important;
+  }
+  #ordenarPor {
+    font-size: medium;
+    padding: 3%;
+  }
+  #selectEmpresa {
+    font-size: medium;
+    padding: 3%;
+  }
+  .ol-zoom {
+    top: 2em;
   }
   .origenPasaje {
     margin-bottom: 2px;
@@ -705,6 +586,9 @@ colorRosa {
     height: 100%;
     width: -50% !important;
   }
+  .maleta {
+    font-size: small;
+  }
   .section .parallax-content {
     margin-top: 15%;
   }
@@ -717,70 +601,72 @@ colorRosa {
     margin-left: 1%;
     margin-right: 1%;
   }
-  /*barra busqueda*/
-  .forma {
-    margin-top: -1% !important;
-  }
-  /*Nuestros servicios*/
-  .container.nuestrosServicios {
-    margin-top: 0%;
-  }
-  .nuestrosServicios .row-30 {
-    flex-wrap: nowrap !important;
-    justify-content: center !important;
-    padding: 9% !important;
-    font-size: 80% !important;
-    margin-top: -7%;
-  }
-  /*logos Muni*/
-  .pantallaTelefono .imgMuni {
-    width: 30%;
-    margin-top: -28px !important;
-  }
-  .pantallaTelefono .imgSecre {
-    width: 26%;
-    margin-top: -30px !important;
-  }
-  /*Carrusel fotos*/
-  section:nth-child(1) {
-    background: white !important;
-  }
-  section:nth-child(2) {
-    background: white !important;
-  }
-  section:nth-child(3) {
-    background: white !important;
-  }
-  section:nth-child(4) {
-    background: white !important;
-  }
-  /*texto del carousel*/
-  .maleta {
-    font-size: large;
-  }
-  .contenedor-texto img {
-    margin-top: -10% !important;
-    margin-left: -10% !important;
-    width: 140% !important;
-    max-width: 150%;
-  }
-  .contenedor-texto {
-    margin-right: 10% !important;
-    height: 100%;
-    width: -50% !important;
-  }
-  .parallax-container {
-    width: 120%;
-    margin-left: -8% !important;
-  }
-
-  .android {
-    box-sizing: border-box !important;
-  }
 }
 @media (min-width: 580px) and (max-width: 720px) {
-  #menuMovil {
-    background-color: #009ee2;
+  body > div.buscarHorario > #buscador > .forma {
+    font-size: small !important;
+    position: relative !important;
+  }
+  #buscador > div.forma.mt-2.position-sticky > form > div:nth-child(1) > div {
+    margin-top: 1% !important;
+    margin-bottom: 1% !important ;
+    font-size: small;
+    left: 0% !important;
+    padding: 0% !important;
+  }
+
+  .buscar_gps {
+    margin-bottom: 1%;
+    margin-top: -1%;
+  }
+  .card-body {
+    padding: 10% !important;
+  }
+  .card-group {
+    margin-bottom: 1.5px !important;
+  }
+  #navbarScroll {
+    margin-top: 20% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  #cambiarBusqueda {
+    width: 100% !important;
+    font-size: small;
+    padding: 3%;
+  }
+  .filaCambiarBusqueda {
+    font-size: small;
+    justify-content: center;
+    align-items: center;
+  }
+  .closeMapa {
+    top: 220px;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    left: 0% !important;
+  }
+  .imgCordobaMuni {
+    width: 280px;
+    display: flex;
+    margin-top: -8% !important;
+  }
+  #ordenarPor {
+    font-size: medium;
+    padding: 3%;
+  }
+  #selectEmpresa {
+    font-size: medium;
+    padding: 3%;
+  }
+  .ol-zoom {
+    top: 2em;
+  }
+  #buscador > div.forma.mt-2.position-sticky > form > div:nth-child(2) > div {
+    margin-top: 20px;
+    margin-left: -9px;
   }
   .origenPasaje {
     display: flex;
@@ -803,7 +689,7 @@ colorRosa {
   }
   #buscador {
     position: relative;
-    top: 4.5% !important;
+    top: 9.5% !important;
     margin-top: 8%;
     margin-bottom: 1%;
   }
@@ -832,7 +718,15 @@ colorRosa {
     width: 110%;
     height: 85% !important;
   }
-
+  .contenedor-texto {
+    /* border: 1px solid red !important; */
+    margin-top: 0% !important;
+    /* margin-bottom: 10%; */
+    /* padding-top: 5%; */
+    height: 100%;
+    width: -50% !important;
+    /* padding: 10%; */
+  }
   .maleta {
     font-size: large;
   }
@@ -847,66 +741,77 @@ colorRosa {
     margin-top: -10%;
     margin-left: 1%;
     margin-right: 1%;
-  }
-  /*barra busqueda*/
-  .forma {
-    margin-top: 6% !important;
-  }
-  /*Nuestros servicios*/
-  .container.nuestrosServicios {
-    margin-top: 0%;
-  }
-  .nuestrosServicios .row-30 {
-    flex-wrap: nowrap !important;
-    justify-content: center !important;
-    padding: 9% !important;
-    font-size: 80% !important;
-    margin-top: -7%;
-  }
-  /*logos Muni*/
-  .pantallaTelefono .imgMuni {
-    width: 22%;
-    margin-top: -28px !important;
-  }
-  .pantallaTelefono .imgSecre {
-    width: 20%;
-    margin-top: -30px !important;
-  }
-  /*Carrusel fotos*/
-  section:nth-child(1) {
-    background: white !important;
-  }
-  section:nth-child(2) {
-    background: white !important;
-  }
-  section:nth-child(3) {
-    background: white !important;
-  }
-  section:nth-child(4) {
-    background: white !important;
-  }
-  /*texto del carousel*/
-  .maleta {
-    font-size: large;
-  }
-  .contenedor-texto img {
-    margin-top: -10% !important;
-    margin-left: -10% !important;
-    width: 200% !important;
-  }
-  .contenedor-texto {
-    /* border: 1px solid red !important; */
-    margin-top: 8% !important;
-    /* margin-bottom: 10%; */
-    /* padding-top: 5%; */
-    height: 100%;
-    width: -50% !important;
-    /* padding: 10%; */
+    /* height: -500% !important; */
+    /* display: inline-flex; */
+    /* justify-content: left !important; */
   }
 }
 @media (min-width: 721px) and (max-width: 890px) {
-  #menuMovil {
-    background-color: #009ee2;
+  body > div.buscarHorario > #buscador > .forma {
+    font-size: small !important;
+    position: relative !important;
+  }
+  #buscador > div.forma.mt-2.position-sticky > form > div:nth-child(1) > div {
+    margin-top: 1% !important;
+    margin-bottom: 1% !important ;
+    font-size: small;
+    left: 0% !important;
+    padding: 0% !important;
+  }
+
+  .buscar_gps {
+    margin-bottom: 1%;
+    margin-top: -1%;
+  }
+  .card-body {
+    padding: 10% !important;
+  }
+  .card-group {
+    margin-bottom: 1.5px !important;
+  }
+  #navbarScroll {
+    margin-top: 15% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  #cambiarBusqueda {
+    width: 100% !important;
+    font-size: small;
+    padding: 3%;
+  }
+  .filaCambiarBusqueda {
+    font-size: small;
+    justify-content: center;
+    align-items: center;
+  }
+  .closeMapa {
+    top: 209px;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    left: 0% !important;
+  }
+  .imgCordobaMuni {
+    width: 280px;
+    display: flex;
+    margin-top: -8% !important;
+  }
+  #ordenarPor {
+    font-size: medium;
+    padding: 1%;
+  }
+  #selectEmpresa {
+    font-size: medium;
+    padding: 1%;
+  }
+  .ol-zoom {
+    top: 2em;
+  }
+
+  #buscador > div.forma.mt-2.position-sticky > form > div:nth-child(2) > div {
+    margin-top: 20px;
+    margin-left: -9px;
   }
   .origenPasaje {
     display: flex;
@@ -926,7 +831,7 @@ colorRosa {
   }
   #buscador {
     position: relative;
-    top: 4.5% !important;
+    top: 5% !important;
     margin-top: 6%;
     margin-bottom: 1%;
   }
@@ -968,6 +873,7 @@ colorRosa {
     padding: 5%;
   }
   .maleta {
+    /* border: 1px solid red; */
     font-size: x-large;
   }
   .contenedor-texto {
@@ -989,69 +895,75 @@ colorRosa {
   .section .parallax-content {
     margin-top: 10%;
   }
-  /*Carousel completo, maleta es el texto e img son las imagenes*/
-  .carousel-item {
-    margin-top: 7.5%;
-    padding-top: 10%;
-  }
-  .contenedor-texto {
-    margin-top: 0% !important;
-  }
-  /*texto del carousel*/
-  .maleta {
-    font-size: x-large;
-  }
-  .contenedor-texto img {
-    margin-top: -10% !important;
-    margin-left: -10% !important;
-    width: 100% !important;
-  }
-  .section .parallax-content {
-    margin-top: 5%;
-  }
-
-  /*barra busqueda*/
-  .forma {
-    margin-top: 6.3% !important;
-  }
-  /*Nuestros servicios*/
-  .container.nuestrosServicios {
-    margin-top: 0%;
-  }
-  .nuestrosServicios .row-30 {
-    flex-wrap: nowrap !important;
-    justify-content: center !important;
-    padding: 9% !important;
-    font-size: 80% !important;
-    margin-top: -7%;
-  }
-  /*logos Muni*/
-  .pantallaTelefono .imgMuni {
-    width: 18%;
-    margin-top: -28px !important;
-  }
-  .pantallaTelefono .imgSecre {
-    width: 16%;
-    margin-top: -30px !important;
-  }
-  /*Carrusel fotos*/
-  section:nth-child(1) {
-    background: white !important;
-  }
-  section:nth-child(2) {
-    background: white !important;
-  }
-  section:nth-child(3) {
-    background: white !important;
-  }
-  section:nth-child(4) {
-    background: white !important;
-  }
 }
 @media (min-width: 891px) and (max-width: 991px) {
-  #menuMovil {
-    background-color: #009ee2;
+  body > div.buscarHorario > #buscador > .forma {
+    font-size: small !important;
+    position: relative !important;
   }
+  #buscador > div.forma.mt-2.position-sticky > form > div:nth-child(1) > div {
+    margin-top: 1% !important;
+    margin-bottom: 1% !important ;
+    font-size: small;
+    left: 0% !important;
+    padding: 0% !important;
+  }
+
+  .buscar_gps {
+    margin-bottom: 1%;
+    margin-top: -1%;
+  }
+  .card-body {
+    padding: 10% !important;
+  }
+  .card-group {
+    margin-bottom: 1.5px !important;
+  }
+  #navbarScroll {
+    margin-top: 15% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  #cambiarBusqueda {
+    width: 100% !important;
+    font-size: small;
+    padding: 3%;
+  }
+  .filaCambiarBusqueda {
+    font-size: small;
+    justify-content: center;
+    align-items: center;
+  }
+  .closeMapa {
+    top: 210px;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    left: 0% !important;
+  }
+  .imgCordobaMuni {
+    width: 280px;
+    display: flex;
+    margin-top: -8% !important;
+  }
+  #ordenarPor {
+    font-size: medium;
+    padding: 1%;
+  }
+  #selectEmpresa {
+    font-size: medium;
+    padding: 1%;
+  }
+  .ol-zoom {
+    top: 2em;
+  }
+
+  #buscador > div.forma.mt-2.position-sticky > form > div:nth-child(2) > div {
+    margin-top: 20px;
+    margin-left: -9px;
+  }
+
   .origenPasaje {
     display: flex;
     margin-bottom: 3px;
@@ -1073,9 +985,10 @@ colorRosa {
   }
   #buscador {
     position: relative;
-    top: 4.5% !important;
+    top: 2.5% !important;
     margin-top: 5%;
     margin-bottom: 1%;
+    width: 100%;
   }
   .swiper-container {
     position: relative;
@@ -1159,16 +1072,9 @@ colorRosa {
     background: white !important;
   }
 }
+/*FINALIZA MODO TELEFONO*/
+/*INICIA MODO PC*/
 @media (min-width: 992px) and (max-width: 1080px) {
-  #menuMovil {
-    background-color: #009ee2;
-  }
-  #menuMovil > ul.rd-navbar-nav > li > img {
-    display: inline-block !important;
-  }
-  #buscador {
-    margin-top: -0.1% !important;
-  }
   .forma {
     margin-top: 1.5% !important;
   }
@@ -1195,7 +1101,7 @@ colorRosa {
   #buscador {
     position: relative;
     top: -10.5% !important;
-    margin-top: -5%;
+    margin-top: -0.7%;
   }
   .swiper-container {
     position: relative;
@@ -1279,79 +1185,12 @@ colorRosa {
   .container.nuestrosServicios {
     margin-top: 0%;
   }
-  /*Carousel completo, maleta es el texto e img son las imagenes*/
-  .carousel-item {
-    margin-top: 7.5%;
-    padding: 5%;
-  }
-  .contenedor-texto {
-    margin-top: 10% !important;
-  }
-  /*texto del carousel*/
-  .maleta {
-    font-size: xx-large;
-  }
-  .contenedor-texto img {
-    margin-top: -10% !important;
-    margin-left: -10% !important;
-    width: 100% !important;
-  }
-  .section .parallax-content {
-    margin-top: 5%;
-  }
-
-  /*barra busqueda*/
-  .forma {
-    margin-top: 5.6% !important;
-  }
-  /*Nuestros servicios*/
-  .container.nuestrosServicios {
-    margin-top: 0%;
-  }
-  .nuestrosServicios .row-30 {
-    flex-wrap: nowrap !important;
-    justify-content: center !important;
-    padding: 9% !important;
-    font-size: 80% !important;
-    margin-top: -7%;
-  }
-  /*logos Muni*/
-  .pantallaTelefono .imgMuni {
-    width: 14%;
-    margin-top: -28px !important;
-  }
-  .pantallaTelefono .imgSecre {
-    width: 12%;
-    margin-top: -30px !important;
-  }
-  /*Carrusel fotos*/
-  section:nth-child(1) {
-    background: white !important;
-  }
-  section:nth-child(2) {
-    background: white !important;
-  }
-  section:nth-child(3) {
-    background: white !important;
-  }
-  section:nth-child(4) {
-    background: white !important;
-  }
 }
 @media (min-width: 1081px) and (max-width: 1199px) {
-  #menuMovil {
-    background-color: #009ee2;
-  }
-  #menuMovil > ul.rd-navbar-nav > li > img {
-    display: inline-block !important;
-  }
-  .forma {
-    margin-top: 1.6% !important;
-  }
   #buscador {
     position: relative;
     top: -13% !important;
-    margin-top: -10% !important;
+    margin-top: -0.7%;
   }
   .swiper-container {
     position: relative;
@@ -1414,76 +1253,13 @@ colorRosa {
   .container.nuestrosServicios {
     margin-top: 0%;
   }
-  /*Carousel completo, maleta es el texto e img son las imagenes*/
-  .carousel-item {
-    margin-top: 7.5%;
-    padding: 5%;
-  }
-  .contenedor-texto {
-    margin-top: 10% !important;
-  }
-  /*texto del carousel*/
-  .maleta {
-    font-size: xx-large;
-  }
-  .contenedor-texto img {
-    margin-top: -10% !important;
-    margin-left: -10% !important;
-    width: 100% !important;
-  }
-  .section .parallax-content {
-    margin-top: 5%;
-  }
-
-  /*barra busqueda*/
-  .forma {
-    margin-top: 5.4% !important;
-  }
-  /*Nuestros servicios*/
-  .container.nuestrosServicios {
-    margin-top: 0%;
-  }
-  .nuestrosServicios .row-30 {
-    flex-wrap: nowrap !important;
-    justify-content: center !important;
-    padding: 9% !important;
-    font-size: 80% !important;
-    margin-top: -7%;
-  }
-  /*logos Muni*/
-  .pantallaTelefono .imgMuni {
-    width: 14%;
-    margin-top: -28px !important;
-  }
-  .pantallaTelefono .imgSecre {
-    width: 12%;
-    margin-top: -30px !important;
-  }
-  /*Carrusel fotos*/
-  section:nth-child(1) {
-    background: white !important;
-  }
-  section:nth-child(2) {
-    background: white !important;
-  }
-  section:nth-child(3) {
-    background: white !important;
-  }
-  section:nth-child(4) {
-    background: white !important;
-  }
 }
-/*FINALIZA MODO TELEFONO*/
-/*INICIA MODO PC*/
 @media (min-width: 1200px) and (max-width: 1440px) {
   #buscador {
     position: relative;
     top: 13% !important;
     width: 100% !important;
     margin-top: 1%;
-  }
-  #menuMovil > ul.rd-navbar-nav > li > img {
-    display: inline-block !important;
   }
   .swiper-container {
     position: relative;
@@ -1547,9 +1323,6 @@ colorRosa {
 @media (min-width: 1441px) and (max-width: 1500px) {
   .forma {
     margin-top: -0.1% !important;
-  }
-  #menuMovil > ul.rd-navbar-nav > li > img {
-    display: inline-block !important;
   }
   #buscador {
     position: relative;
@@ -1629,9 +1402,6 @@ colorRosa {
     top: 7% !important;
     margin-top: -0.7%;
   }
-  #menuMovil > ul.rd-navbar-nav > li > img {
-    display: inline-block !important;
-  }
   .swiper-container {
     position: relative;
     top: 20px;
@@ -1710,9 +1480,6 @@ colorRosa {
     top: 7.2% !important;
     margin-top: -0.7%;
   }
-  #menuMovil > ul.rd-navbar-nav > li > img {
-    display: inline-block !important;
-  }
   .swiper-container {
     position: relative;
     top: 20px;
@@ -1760,9 +1527,7 @@ colorRosa {
   .forma {
     margin-top: 0.7% !important;
   }
-  #menuMovil > ul.rd-navbar-nav > li > img {
-    display: inline-block !important;
-  }
+
   #buscador {
     top: 7.2% !important;
     margin-top: -0.7%;
@@ -1807,9 +1572,6 @@ colorRosa {
 @media (min-width: 2201px) and (max-width: 2600px) {
   .forma {
     margin-top: 0.7% !important;
-  }
-  #menuMovil > ul.rd-navbar-nav > li > img {
-    display: inline-block !important;
   }
   #buscador {
     top: 7.2% !important;
@@ -1858,14 +1620,11 @@ colorRosa {
 }
 @media (min-width: 2601px) and (max-width: 3000px) {
   .forma {
-    margin-top: 0.8% !important;
-  }
-  #menuMovil > ul.rd-navbar-nav > li > img {
-    display: inline-block !important;
+    margin-top: 0.7% !important;
   }
   #buscador {
     top: 7.2% !important;
-    margin-top: -0.8%;
+    margin-top: -0.7%;
   }
   .swiper-container {
     position: relative;
@@ -1921,14 +1680,11 @@ colorRosa {
 }
 @media (min-width: 3001px) and (max-width: 4320px) {
   .forma {
-    margin-top: 0.9% !important;
-  }
-  #menuMovil > ul.rd-navbar-nav > li > img {
-    display: inline-block !important;
+    margin-top: 0.6% !important;
   }
   #buscador {
     top: 7.5% !important;
-    margin-top: -1%;
+    margin-top: -0.7%;
   }
   .swiper-container {
     position: relative;
@@ -2071,28 +1827,6 @@ colorRosa {
   color: #009ee2;
 }
 
-/* efecto cajas de horarios */
-
-/* .boleto:hover {
-  position: relative !important;
-  content: "";
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  border: 4px solid #f4f4f4;
-  transition: all 1 ease !important;
-  z-index: -1;
-} */
-
-/* .contenedor {
-  display: grid;
-  /* grid-template-columns: 1fr 1fr; */
-/* border: 2px solid red;
-  max-height: 100%;
-  width: 100% !important;
-} */
-
 .img1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -2225,11 +1959,39 @@ input[type="submit"] {
 .buscar_gps {
   background-color: #009ee2 !important;
   border: DodgerBlue !important;
-  width: 90% !important;
 }
 .buscar_gps:hover {
   border: 1px solid #009ee2 !important;
 }
 .buscar_gps:focus {
   border: 2px solid #fb8989 !important;
+}
+
+/*cambios responsive*/
+.imgSecretaria {
+  width: 25%;
+  margin-left: -50%;
+}
+.imgMuni {
+  width: 100%;
+  margin-left: 20%;
+}
+
+.menu-navegacion {
+  padding-top: 1%;
+  padding-left: 0%;
+
+  margin-bottom: 0px;
+}
+
+.menu-lista {
+  padding-left: -500px !important;
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+  padding-bottom: 1%;
+}
+
+.buscarHorarios {
+  border: 2px solid black;
 }

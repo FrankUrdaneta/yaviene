@@ -1,9 +1,4 @@
 .card-group {
-  /* margin-top: 5px;
-
-  border-radius: 10px;
-  padding: 0;*/
-  margin-left: 10px !important;
   box-shadow: 0 1rem 1rem rgb(0 0 0 / 18%) !important;
 }
 
@@ -57,10 +52,6 @@
 .ov-btn-grow-skew:hover::after {
   transition: all 0.3s ease-out;
   transform: skewX(-45deg) scale(1, 1);
-}
-
-.boleto {
-  padding: 0px !important;
 }
 
 /* estilos mapa */
@@ -272,6 +263,22 @@
   /* border: 1px solid red; */
 }
 
-#menuMovil > ul.rd-navbar-nav > li > img {
-  display: none;
+#cerrarBusqueda {
+  justify-content: center !important;
+  align-items: center !important;
+  position: absolute;
+  left: -35px;
+  margin-top: 3%;
+  /* display: none; */
+  width: 30%;
+  border-radius: 2px;
+  visibility: hidden;
+}
+
+.cerrarBusqueda {
+  /* display: none !important; */
+  visibility: visible !important;
+}
+.rd-navbar-fixed .rd-navbar-nav-wrap.active {
+  background-color: #009ee2;
 }

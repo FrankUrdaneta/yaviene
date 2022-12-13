@@ -112,23 +112,18 @@ url = url.toUpperCase();
                   <ul class="rd-navbar-nav">
                     <li class="rd-nav-item active">
                       <img
-                        src="./images/logo municipalidad de cordoba.png"
-                        width="150px"
-                        style="margin: -7px 55px 16px 0px"
+                        src="./images/logoMuniTransporte.png"
+                        class="imgCordobaMuni"
                       />
                       
-                      <img
-                        src="./images/logo secretaria transporte cordoba.png"
-                        width="120px"
-                        style="margin: -7px 55px 16px -10%"
-                      />
+                      
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
 
-            <div class="rd-navbar-main-outer">
+            <div class="rd-navbar-main-outer navbar-default">
               <div class="rd-navbar-main">
                 <div class="rd-navbar-nav-wrap">
                   <ul
@@ -141,13 +136,8 @@ url = url.toUpperCase();
                   <ul class="rd-navbar-nav"><!-- a este ul en tamaño telefono deberiamos darle display none -->
                     <li class="rd-nav-item active">
                       <img
-                        src="./images/logo municipalidad de cordoba.png"
-                        width="200px"
-                        style="margin: 5px 55px 16px 0px"
-                      />
-                      <img
-                        src="./images/logo secretaria transporte cordoba.png"
-                        width="150px"
+                        src="./images/logoMuniTransporte.png"
+                        class="imgCordobaMuni"
                       />
                     </li>
                   </ul>
@@ -155,13 +145,18 @@ url = url.toUpperCase();
                 
               </div>
             </div>
+
+           
           
           <div class="navbar navbar-expand-sm navbar-dark bg-dark nav-filtros">
+             <!-- boton cerrar Busqueda -->
+          <div id="cerrarBusqueda"  ><button onclick="cerrarBusqueda()" class="btn btn-danger btn-sm ">X</button></div>
+            <!-- fin boton cerrar busqeuda -->
             <div class="container-fluid">
               <div class="collapse navbar-collapse" id="navbarScroll">
                 <div class="container contenidoBarraCambiar">
-                  <div class="row">
-                    <div class="col-auto">
+                  <div class="row filaCambiarBusqueda">
+                    <div class="col-5">
                       <select
                         id="selectEmpresa"
                         class="form-select empresaSelect"
@@ -195,23 +190,7 @@ url = url.toUpperCase();
                         
                       </select>
                     </div>
-
-                    <div class="col-auto">
-                      <p class="font-weight-bold" id="origen_cambiar_busqueda">
-                        <i class="icon bi bi-arrow-up-right-circle"></i> Cordoba
-                        Terminal
-                      </p>
-                    </div>
-                    <div class="col-auto iconFlecha">
-                      <i class="icon bi bi-arrow-right"></i>
-                    </div>
-                    <div class="col-auto">
-                      <p class="font-weight-bold" id="destino_cambiar_busqueda" >
-                        <i class="icon bi bi-arrow-down-right-circle"></i>
-                        Carlos Paz Terminal
-                      </p>
-                    </div>
-                    <div class="col-auto">
+                    <div class="col-5">
                       <p class="font-weight-bold">
                         <select
                           id="ordenarPor"
@@ -223,16 +202,31 @@ url = url.toUpperCase();
                         </select>
                       </p>
                     </div>
+                    <div class="col-5">
+                      <p class="font-weight-bold" id="origen_cambiar_busqueda">
+                        <i class="icon bi bi-arrow-up-right-circle"></i> Cordoba
+                        Terminal
+                      </p>
+                    </div>
+                    
+                    <div class="col-5">
+                      <p class="font-weight-bold" id="destino_cambiar_busqueda" >
+                        <i class="icon bi bi-arrow-down-right-circle"></i>
+                        Carlos Paz Terminal
+                      </p>
+                    </div>
+                    
+                    <div class="col-6">
+                      <button
+                        class="btn btn-outline-success filtrar botonCambiarBusqueda "
+                        id="cambiarBusqueda"
+                        type="submit"
+                      >
+                        Cambiar Busqueda
+                      </button></div>
                   </div>
                 </div>
-
-                <button
-                  class="btn btn-outline-success filtrar botonCambiarBusqueda"
-                  id="cambiarBusqueda"
-                  type="submit"
-                >
-                  Cambiar Busqueda
-                </button>
+                
                 
               </div>
             </div>
@@ -241,20 +235,44 @@ url = url.toUpperCase();
         </div>
         </div>
       </header>
-      <div class="buscarHorarios">
-      <div id="buscador" ></div>
-         
-        </div>
+          <div class="buscarHorario">
+            <div id="buscador" style=" position: absolute; margin-top: 1.5%;"></div>
+          </div>
+         </div>
+      <!-- Swiper-->
+      <!--Buscador de pasajes-->
+      
+
+      <!-- <div id="mapaCoche"></div> -->
+
       <!-- barraCambiarBusqueda -->
       
       <div>
         <div id="map" class="mapaOl" ></div>
       </div>
-      <button onclick="dibujaTraza()" class="btn btn-primary btn-sm closeMapa cerrarX" id="closeMapa" >X</button>
+      <button onclick="dibujaTraza()" class="btn btn-primary btn-sm closeMapa cerrarX" id="closeMapa" >Ver Lista<i class="icon bi bi-arrow-return-left"></i></button>
 
       <div id="pruebaBoleto"></div>
 
-      
+      <!-- modal mapa inicio -->
+      <!-- <section class="section section-sm section-top-0 section-fluid section-relative bg-gray-4">
+        <div class="container-fluid">
+          <h6 class="gallery-title">Galeria</h6> 
+         
+          <div class="owl-carousel owl-classic owl-dots-secondary" data-items="1" data-sm-items="2" data-md-items="3" data-lg-items="4" data-xl-items="5" data-xxl-items="6" data-stage-padding="15" data-xxl-stage-padding="0" data-margin="30" data-autoplay="true" data-nav="true" data-dots="true">
+           
+           
+            <article class="thumbnail thumbnail-mary">
+              <div class="thumbnail"><img src="./images/drow/impresiones.svg" alt="" width="270" height="195"/>
+              </div>
+              <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="" data-lightgallery="item"><img src="./images/drow/mapDark.png" alt="" width="270" height="195"/></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- modal mapa fin -->
       
 
 
@@ -295,6 +313,8 @@ url = url.toUpperCase();
 
        document.getElementById("cambiarBusqueda").addEventListener("click",()=>{
          mostrarBarraBuscador()
+         cerrarBusqueda()
+         
        })
 
     </script>

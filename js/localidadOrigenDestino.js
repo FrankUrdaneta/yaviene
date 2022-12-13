@@ -161,8 +161,8 @@ function mostrarBoleto(boletos,data,origen, destino, fecha_salida, ordenSale) {
           
  
           dibujarBoleto.innerHTML += `
-              <div id="${i.codigo_empresa}"
-      class="card-group col-lg-6 col-xl-6 col-md-12 col-sm-12 p-3 mb-5 bg-body boleto"
+  <div id="${i.codigo_empresa}"
+      class="card-group col-lg-6 col-xl-6 col-md-12 col-sm-12 p-1 mb-5 bg-body boleto"
     >
       <div class="card">
         <div class="card-body">
@@ -173,8 +173,8 @@ function mostrarBoleto(boletos,data,origen, destino, fecha_salida, ordenSale) {
           />
           <p class="card-text pasaje font-weight-bold" style="font-size: small ">
             Por Empresa<br>
-            <spam class="font-weight-bold" style="color: #009ee2"
-              >${i.empresa}</spam
+            <span class="font-weight-bold" style="color: #009ee2"
+              >${i.empresa}</span
             >
           </p>
         </div>
@@ -188,11 +188,11 @@ function mostrarBoleto(boletos,data,origen, destino, fecha_salida, ordenSale) {
               aria-hidden="true"
             ></i>
             Sale
-            <spam
+            <span
               class="card-text pasaje"
               style="color: black; font-size: small"
-              >${i.sale} </spam
-            ><span
+              >${i.sale} </span
+            ><br><span
               class="card-text pasaje"
               style="color: rgb(150, 148, 148); font-size: small"
               >aproximado <br /></span
@@ -226,19 +226,17 @@ function mostrarBoleto(boletos,data,origen, destino, fecha_salida, ordenSale) {
             ><br><span
               class="card-text pasaje"
               style="color: rgb(12, 12, 12); font-size: small"
-              >Servicio ${i.servicio} <br> Coche ${i.coche} ${i.rampa?"<i class='fa fa-wheelchair rampa' aria-hidden='true' style='color:#009ee2;'></i>":''} </span
+              > Servicio ${i.servicio} <br> Coche ${i.coche} ${i.rampa?"<i class='fa fa-wheelchair rampa' aria-hidden='true' style='color:#009ee2;'></i>":''} </span
             >
           </h6>
         </div>
       </div>
-
-      <div class="card ">
-        <!-- <h5 class="card-title text-white font-weight-bold mb-0">$ 11.500,00</h5>
-          <i class="icon bi bi-person" style="color: white;"></i><span style="color: white; font-size: medium;">1.Ida</span> -->
-        <img class="img_ruta" src="../images/drow/map3.png" style="width: 80px;"><button onclick="dibujaTraza(${i.servicio});" id="ver_ruta"  class="btn ov-btn-grow-skew buscar_gps ">Ver Ruta</button>
-        
-      </div>
+      
+      
     </div>
+      <div id="${i.codigo_empresa}" class="card-button ">
+        <button onclick="dibujaTraza(${i.servicio});" id="ver_ruta"  class="btn ov-btn-grow-skew buscar_gps ">Ver Ruta</button>
+      </div>
               `
         }
       }
@@ -260,13 +258,13 @@ let ordenSale=[]
       ordenSale.push(data.data.boletos[i].sale)
     }
 
-  console.log(ordenSale.sort())
+  // console.log(cerrarBusqueda())
 
   //fin ordenar boleto por salida
     let origen ;
     let destino;
     let fecha_salida;
-
+//si ya estamos en buscador_pasajes toma los aprametros del input sino los toma del get
     if (cambiarBusqueda) {
       origen = document.getElementById('inputOrigen').value.toLowerCase()
       destino = document.getElementById('inputDestino').value.toLowerCase()
@@ -297,4 +295,15 @@ function ordenarPor(){
     console.log("cambie el orden")
     console.log(document.getElementById('ordenarPor').value)
   })
+}
+
+function cerrarBusqueda(){
+  let cerrarBusqueda=document.getElementById('cerrarBusqueda');
+  
+
+  
+  let buscador=document.getElementById('buscador')
+  buscador.classList.toggle('cerrarBusqueda')
+  cerrarBusqueda.classList.toggle('cerrarBusqueda')
+  
 }

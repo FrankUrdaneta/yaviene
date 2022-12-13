@@ -13,8 +13,15 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
+  <script src="./css/Classes/ol/v7.1.0/dist/ol.js"></script>
+<script src="./css/Classes/ndialogo/1.5/ndialogo.js"></script>
+    <link
+      rel="stylesheet"
+      href="./css/Classes/ndialogo/1.5/ndialogo.css"
+      type="text/css"
+    />
     <!-- Stylesheets-->
-    
+    <link rel="stylesheet" href="./css/Classes/ol/v7.1.0/css/ol.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat:400,500,600,700%7CPoppins:400%7CTeko:300,400">
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -70,51 +77,53 @@
                   <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                   <!-- RD Navbar Brand-->
                   <ul class="rd-navbar-nav">
-                    <li class="rd-nav-item active ">
-                      <img class="imgMuni"  src="./images/logo municipalidad de cordoba.png" width="200px" style="margin:5px 55px 5px 0px;">
-                      <img class="imgSecre" src="./images/logo secretaria transporte cordoba.png" width="150px">
+                    <li class="rd-nav-item active">
+                      <img
+                        src="./images/logoMuniTransporte.png"
+                        class="imgCordobaMuni"
+                      />
                       
-                    </li>
-                  </ul>
+                      
+                    </li> </ul>
                   </div>
                   
                 </div>
               
               
               </div>
-
-              <div class="rd-navbar-main-outer">
+              <!-- RD Navbar Nav Modo compu -->
+              <div class="rd-navbar-main-outer menu-navegacion">
                 <div class="rd-navbar-main">
-                  <div id="menuMovil" class="rd-navbar-nav-wrap menuMovil">
-                    <ul class="list-inline list-inline-md rd-navbar-corporate-list-social">
+                  <div class="rd-navbar-nav-wrap">
+                    <ul class="list-inline list-inline-md rd-navbar-corporate-list-social menu-lista">
                       
-                      <!-- <li><a class="btn btn-ligth " href="#card-group">Promociones</a></li>
-                      <li><a class="btn btn-ligth " href="#">¿Preguntas?</a></li> -->
+                      <li class="rd-nav-item active"><img  src="./images/logo municipalidad de cordoba.png" class="imgMuni" ></li>
+                      <li class="rd-nav-item active">
+                        <img src="./images/logo secretaria transporte cordoba.png" class="imgSecretaria"></li>
+                        
+                      
                       <li><a class="btn btn-ligth " id="login" href="#login">Registrate</a></li>
                       <li><a class="icon fa fa-facebook" href="https://www.facebook.com/gobdecordoba/" target="_blank"></a></li>
                       <li><a class="icon fa fa-twitter" href="https://twitter.com/gobdecordoba?lang=es" target="_blank"></a></li>
                       <li><a class="icon fa fa-instagram" href="https://www.instagram.com/cordobaok/?hl=es-la" target="_blank"></a></li>
                       
                     </ul>
-                    <!-- RD Navbar Nav-->
-                    <ul class="rd-navbar-nav">
-                      <li class="rd-nav-item active"><img  src="./images/logo municipalidad de cordoba.png" width="200px" style="margin:5px 55px 5px 0px;">
-                        <img src="./images/logo secretaria transporte cordoba.png" width="150px">
-                        
-                      </li>
-                    </ul>
+                    
+                    
                   </div>
                 </div>
-                </div>
+              </div>
+              
             </nav>
+          <div class="buscarIndex">
+            <div id="buscador" ></div>
+          </div>
             
-            
-            <div class="buscarIndex">
-              <div id="buscador" ></div>
-            </div>
 
           </div>
         </header>
+        
+        <!-- <div id="map2" class="mapaOl"></div> -->
         <!-- Swiper-->
         <div
         id="carouselExampleCaptions"
@@ -390,7 +399,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="./js/buscador_pasajes.js"></script>
-
+      
     <script src="./js/localidadOrigenDestino.js"></script>
     <script defer>
 

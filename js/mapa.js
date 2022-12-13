@@ -134,6 +134,39 @@
             });
             
             Banderas.addFeature(nueva_bandera);
+            //esto para centrar las coordenadas
+            lon_min = coordenadas.reduce((acc,val)=>{
+              if (acc > val[0]){
+                return val[0];
+              }
+              return acc;
+            },coordenadas[0][0]);
+            lon_max = coordenadas.reduce((acc,val)=>{
+              if (acc < val[0]){
+                return val[0];
+              }
+              return acc;
+            },coordenadas[0][0]);
+            lat_min = coordenadas.reduce((acc,val)=>{
+              if (acc > val[1]){
+                return val[1];
+              }
+              return acc;
+            },coordenadas[0][1]);
+            lat_max = coordenadas.reduce((acc,val)=>{
+              if (acc < val[1]){
+                return val[1];
+              }
+              return acc;
+            },coordenadas[0][1]);
+            
+            extent = {
+              min_lon:lon_min,
+              min_lat:lat_min,
+              max_lon:lon_max,
+              max_lat:lat_max
+            }
+            set_extend(extent);
           }
         });
         
@@ -188,3 +221,12 @@
         container.innerHTML = "";
       });
     
+      const set_extend = (contexto)=>{
+        
+        vista.fit(new ol.geom.LineString([
+            [contexto.max_lon, contexto.max_lat],
+            [contexto.min_lon, contexto.min_lat]
+        ]), {
+            padding: [80, 80, 80, 80]
+        });
+    }

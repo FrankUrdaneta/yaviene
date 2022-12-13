@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2021 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="500mm" height="210mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 50000 21000"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+   <clipPath id="id0">
+    <rect x="15809.38" y="6607.39" width="29150.78" height="10811.94"/>
+   </clipPath>
+   <clipPath id="id1">
+    <rect x="5579.97" y="6607.39" width="9321.8" height="2878.66"/>
+   </clipPath>
+ </defs>
+ <g id="Capa_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g style="clip-path:url(#id0)">
+   <image x="15809.38" y="6607.39" width="29150.78" height="10811.94" xlink:href="Frank_Images\Frank_ImgID1.png"/>
+  </g>
+  <g style="clip-path:url(#id1)">
+   <image x="5579.97" y="6607.39" width="9321.8" height="2878.66" xlink:href="Frank_Images\Frank_ImgID2.png"/>
+  </g>
+ </g>
+</svg>

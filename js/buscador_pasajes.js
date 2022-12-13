@@ -37,6 +37,7 @@ function mostrarBarraBuscador() {
       <div class="col-lg-2 col-sm-6">
       <a  id="buscar_pasajes" class="btn ov-btn-grow-skew  ">Buscar</a>
       </div>
+      
     </form>
 
 
@@ -71,17 +72,6 @@ function mostrarBarraBuscador() {
 
 
 
-// listo broderrrrrrrrrrrrrrrrrrrrrrrrrrrrrr anda facherito ahora
-// listo broderrrrrrrrrrrrrrrrrrrrrrrrrrrrrr anda facherito ahora
-// listo broderrrrrrrrrrrrrrrrrrrrrrrrrrrrrr anda facherito ahora
-// listo broderrrrrrrrrrrrrrrrrrrrrrrrrrrrrr anda facherito ahora
-// listo broderrrrrrrrrrrrrrrrrrrrrrrrrrrrrr anda facherito ahora
-// listo broderrrrrrrrrrrrrrrrrrrrrrrrrrrrrr anda facherito ahora
-// listo broderrrrrrrrrrrrrrrrrrrrrrrrrrrrrr anda facherito ahora
-// listo broderrrrrrrrrrrrrrrrrrrrrrrrrrrrrr anda facherito ahora
-// listo broderrrrrrrrrrrrrrrrrrrrrrrrrrrrrr anda facherito ahora
-// listo broderrrrrrrrrrrrrrrrrrrrrrrrrrrrrr anda facherito ahora
-// listo broderrrrrrrrrrrrrrrrrrrrrrrrrrrrrr anda facherito ahora
-// listo broderrrrrrrrrrrrrrrrrrrrrrrrrrrrrr anda facherito ahora
+
 // listo broderrrrrrrrrrrrrrrrrrrrrrrrrrrrrr anda facherito ahora
 // cuando tocas cambiar busqueda se muestra el bloque para mostrar los botones
