@@ -6,6 +6,7 @@
         height: "200px",
       });
       var container = document.getElementById("popup");//esto hace ver e mapa
+
       var overlay = new ol.Overlay({
         element: container,
         autoPan: true,
@@ -50,8 +51,8 @@
             image: new ol.style.Icon({
                 color: 'white',
                 imgSize: [40, 40],
-                // displacement: [-4, -2],
-                src: 'http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png',
+                 //displacement: [-4, -2],
+                src: 'https://micronauta.dnsalias.net/usuario/img/banderacuadros.png',
             })
         })
     });
@@ -182,11 +183,11 @@
                 dibujaTraza(servicio);
               }
               const dibujaParadas = (coord)=>{
-
                 coord.forEach(parada=>{
                   lon = parada.lon;
                   lat = parada.lat;
-                  dibujar_parada(lon,lat);
+                  parada_nombre = parada.parada_nombre;
+                  dibujar_parada(lon,lat,parada_nombre);
                 });
       }
       
@@ -195,6 +196,8 @@
         //dibuja el lugar al agregar
         nuevo_punto = new ol.Feature({
           geometry: new ol.geom.Point([lon, lat]),
+          tipo:'parada',
+          nombre: nombre,
         });
         nuevo_punto.setStyle(
           new ol.style.Style({
@@ -218,7 +221,20 @@
           evt.pixel,
           (feature) => feature
         );
-        container.innerHTML = "";
+        if(feature){
+          if(feature.values_.tipo == 'parada'){
+            nombre = feature.values_.nombre;
+            document.getElementById('popup').innerHTML=`
+            <div class="card text-white bg-primary mb-3 d-inline-block" style="max-width: 20rem;">
+  <div class="card-header">${nombre}</div>
+  
+
+            `;
+
+            console.log(feature.getGeometry().getCoordinates());
+            overlay.setPosition(feature.getGeometry().getCoordinates())
+          }
+        }
       });
     
       const set_extend = (contexto)=>{
@@ -230,3 +246,12 @@
             padding: [80, 80, 80, 80]
         });
     }
+
+  //   container=document.getElementById('nombre_parada');
+  //   var overlay = new ol.Overlay({
+  //     element: container,
+  //     autoPan: true,
+  //     autoPanAnimation: {
+  //         duration: 250,
+  //     },
+  // });

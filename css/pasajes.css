@@ -699,7 +699,7 @@ colorRosa {
   }
   #cerrarBusqueda {
     left: 1px !important;
-    margin-top: -130px !important;
+    margin-top: -110px !important;
     width: 40px !important;
   }
   #buscador > div > form > div:nth-child(2) > div {
@@ -1399,7 +1399,7 @@ colorRosa {
     margin-bottom: 1.5px !important;
   }
   #navbarScroll {
-    margin-top: 2% !important;
+    margin-top: 3% !important;
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
@@ -1449,7 +1449,7 @@ colorRosa {
   }
   #buscador {
     position: relative;
-    top: 4.5% !important;
+    top: 70px !important;
     width: 100% !important;
   }
   .swiper-container {
