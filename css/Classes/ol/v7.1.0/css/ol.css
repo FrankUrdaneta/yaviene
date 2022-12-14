@@ -353,7 +353,7 @@
 
 .mapaOl {
   position: fixed;
-  display: flex;
+  visibility: hidden;
   z-index: 0;
   width: 100% !important;
   height: 80% !important;
@@ -361,10 +361,11 @@
 
 .mapaTel {
   z-index: 2;
+  visibility: visible;
 }
 
 .closeMapa {
-  position: fixed !important;
+  position: flex !important;
   justify-content: cemter;
   align-items: center;
   width: 2% !important;

@@ -72,11 +72,6 @@ colorRosa {
 }
 /*INICIA MODO TELEFONO*/
 @media (min-width: 300px) and (max-width: 380px) {
-  .buscarIndex {
-    margin-top: 10% !important;
-    padding-top: 0%;
-  }
-
   body > div.buscarHorario > #buscador > .forma {
     font-size: small !important;
     position: relative !important;
@@ -104,6 +99,7 @@ colorRosa {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
+    z-index: 2;
   }
   #cambiarBusqueda {
     width: 100% !important;
@@ -116,11 +112,21 @@ colorRosa {
     align-items: center;
   }
   .closeMapa {
-    top: 143px;
+    position: relative !important;
+
     justify-content: center;
     align-items: center;
     width: 100% !important;
     left: 0% !important;
+  }
+  .ol-zoom {
+    top: 2.5em;
+  }
+  #cerrarBusqueda {
+    width: 10% !important;
+    left: -4px !important;
+    margin-top: -25% !important;
+    z-index: 2;
   }
   .imgCordobaMuni {
     width: 280px;
@@ -155,6 +161,9 @@ colorRosa {
     top: 5%;
     left: -3%;
     width: 101%;
+  }
+  #buscar_pasajes {
+    left: -1.5%;
   }
   #buscador {
     position: relative;
@@ -201,8 +210,14 @@ colorRosa {
     padding-top: 5% !important;
     padding-bottom: 2% !important;
   }
+  .nav-filtros {
+    z-index: 50;
+  }
 }
 @media (min-width: 381px) and (max-width: 480px) {
+  #buscar_pasajes {
+    left: -1.5%;
+  }
   body > div.buscarHorario > #buscador > .forma {
     font-size: small !important;
     position: relative !important;
@@ -242,11 +257,19 @@ colorRosa {
     align-items: center;
   }
   .closeMapa {
-    top: 157px;
+    position: relative !important;
     justify-content: center;
     align-items: center;
     width: 100% !important;
     left: 0% !important;
+  }
+  .ol-zoom {
+    top: 2.5em;
+  }
+  #cerrarBusqueda {
+    left: -5px !important;
+    margin-top: -25% !important;
+    width: 10% !important;
   }
   .imgCordobaMuni {
     width: 280px;
@@ -372,7 +395,7 @@ colorRosa {
     align-items: center;
   }
   .closeMapa {
-    top: 180px;
+    position: relative !important;
     justify-content: center;
     align-items: center;
     width: 100% !important;
@@ -394,6 +417,11 @@ colorRosa {
 
   .ol-zoom {
     top: 2em;
+  }
+  #cerrarBusqueda {
+    left: 1px !important;
+    margin-top: -23% !important;
+    width: 40px !important;
   }
   .origenPasaje {
     margin-bottom: 2px;
@@ -508,7 +536,7 @@ colorRosa {
     align-items: center;
   }
   .closeMapa {
-    top: 198px;
+    position: relative !important;
     justify-content: center;
     align-items: center;
     width: 100% !important;
@@ -529,6 +557,11 @@ colorRosa {
   }
   .ol-zoom {
     top: 2em;
+  }
+  #cerrarBusqueda {
+    left: 1px !important;
+    margin-top: -25% !important;
+    width: 40px !important;
   }
   .origenPasaje {
     margin-bottom: 2px;
@@ -642,7 +675,7 @@ colorRosa {
     align-items: center;
   }
   .closeMapa {
-    top: 220px;
+    position: relative !important;
     justify-content: center;
     align-items: center;
     width: 100% !important;
@@ -663,6 +696,11 @@ colorRosa {
   }
   .ol-zoom {
     top: 2em;
+  }
+  #cerrarBusqueda {
+    left: 1px !important;
+    margin-top: -22% !important;
+    width: 40px !important;
   }
   #buscador > div.forma.mt-2.position-sticky > form > div:nth-child(2) > div {
     margin-top: 20px;
@@ -786,7 +824,7 @@ colorRosa {
     align-items: center;
   }
   .closeMapa {
-    top: 209px;
+    position: relative !important;
     justify-content: center;
     align-items: center;
     width: 100% !important;
@@ -808,7 +846,11 @@ colorRosa {
   .ol-zoom {
     top: 2em;
   }
-
+  #cerrarBusqueda {
+    left: 1px !important;
+    margin-top: -17% !important;
+    width: 40px !important;
+  }
   #buscador > div.forma.mt-2.position-sticky > form > div:nth-child(2) > div {
     margin-top: 20px;
     margin-left: -9px;
@@ -936,7 +978,7 @@ colorRosa {
     align-items: center;
   }
   .closeMapa {
-    top: 210px;
+    position: relative !important;
     justify-content: center;
     align-items: center;
     width: 100% !important;
@@ -958,7 +1000,11 @@ colorRosa {
   .ol-zoom {
     top: 2em;
   }
-
+  #cerrarBusqueda {
+    left: 1px !important;
+    margin-top: -17% !important;
+    width: 40px !important;
+  }
   #buscador > div.forma.mt-2.position-sticky > form > div:nth-child(2) > div {
     margin-top: 20px;
     margin-left: -9px;
@@ -985,7 +1031,7 @@ colorRosa {
   }
   #buscador {
     position: relative;
-    top: 2.5% !important;
+    top: 1.5% !important;
     margin-top: 5%;
     margin-bottom: 1%;
     width: 100%;
@@ -1075,6 +1121,80 @@ colorRosa {
 /*FINALIZA MODO TELEFONO*/
 /*INICIA MODO PC*/
 @media (min-width: 992px) and (max-width: 1080px) {
+  body > div.buscarHorario > #buscador > .forma {
+    font-size: small !important;
+    position: relative !important;
+  }
+  #buscador > div.forma.mt-2.position-sticky > form > div:nth-child(1) > div {
+    margin-bottom: 1% !important ;
+    font-size: small;
+    left: 0% !important;
+    padding: 0% !important;
+  }
+
+  .buscar_gps {
+    width: 50%;
+    margin-bottom: 1%;
+    margin-top: -1%;
+  }
+  .card-body {
+    padding: 10% !important;
+  }
+  .card-group {
+    margin-bottom: 1.5px !important;
+  }
+  #navbarScroll {
+    margin-top: 2% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  #cambiarBusqueda {
+    position: absolute;
+    margin-top: -30px;
+    left: 500px !important;
+    width: 100% !important;
+    font-size: small;
+    padding: 3%;
+  }
+  .filaCambiarBusqueda {
+    font-size: small;
+    justify-content: center;
+    align-items: center;
+  }
+  .closeMapa {
+    position: relative !important;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    left: 0% !important;
+  }
+  .imgCordobaMuni {
+    width: 280px;
+    display: flex;
+    margin-top: 2% !important;
+    margin-bottom: 1%;
+  }
+  #ordenarPor {
+    font-size: medium;
+    padding: 1%;
+    width: 120%;
+  }
+  #selectEmpresa {
+    font-size: medium;
+    padding: 1%;
+  }
+  .ol-zoom {
+    top: 2em;
+  }
+  #cerrarBusqueda {
+    left: 1px !important;
+    margin-top: -3.5% !important;
+    width: 30px !important;
+  }
+  #buscador > div.forma.mt-2.position-sticky > form > div:nth-child(2) > div {
+    margin-left: -9px;
+  }
   .forma {
     margin-top: 1.5% !important;
   }
@@ -1100,8 +1220,9 @@ colorRosa {
   }
   #buscador {
     position: relative;
-    top: -10.5% !important;
+    top: 4% !important;
     margin-top: -0.7%;
+    width: 100%;
   }
   .swiper-container {
     position: relative;
@@ -1255,9 +1376,80 @@ colorRosa {
   }
 }
 @media (min-width: 1200px) and (max-width: 1440px) {
+  body > div.buscarHorario > #buscador > .forma {
+    font-size: small !important;
+    position: relative !important;
+  }
+  #buscador > div.forma.mt-2.position-sticky > form > div:nth-child(1) > div {
+    margin-bottom: 1% !important ;
+    font-size: small;
+    left: 0% !important;
+    padding: 0% !important;
+  }
+
+  .buscar_gps {
+    width: 50%;
+    margin-bottom: 1%;
+    margin-top: -1%;
+  }
+  .card-body {
+    padding: 10% !important;
+  }
+  .card-group {
+    margin-bottom: 1.5px !important;
+  }
+  #navbarScroll {
+    margin-top: 2% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  #cambiarBusqueda {
+    position: absolute;
+    margin-top: -30px;
+    left: 500px !important;
+    width: 100% !important;
+    font-size: small;
+    padding: 3%;
+  }
+  .filaCambiarBusqueda {
+    font-size: small;
+    justify-content: center;
+    align-items: center;
+  }
+  .closeMapa {
+    position: relative !important;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    left: 0% !important;
+  }
+  .imgCordobaMuni {
+    width: 280px;
+    display: flex;
+    margin-top: 2% !important;
+    margin-bottom: 2%;
+  }
+  #ordenarPor {
+    font-size: medium;
+    padding: 1%;
+    width: 120%;
+  }
+  #selectEmpresa {
+    font-size: medium;
+    padding: 1%;
+  }
+  .ol-zoom {
+    top: 2em;
+  }
+  #cerrarBusqueda {
+    left: 1px !important;
+    margin-top: -2.5% !important;
+    width: 30px !important;
+  }
   #buscador {
     position: relative;
-    top: 13% !important;
+    top: 4.5% !important;
     width: 100% !important;
     margin-top: 1%;
   }
@@ -1321,15 +1513,87 @@ colorRosa {
   }
 }
 @media (min-width: 1441px) and (max-width: 1500px) {
-  .forma {
-    margin-top: -0.1% !important;
+  body > div.buscarHorario > #buscador > .forma {
+    font-size: small !important;
+    position: relative !important;
+  }
+  #buscador > div.forma.mt-2.position-sticky > form > div:nth-child(1) > div {
+    margin-bottom: 1% !important ;
+    font-size: small;
+    left: 0% !important;
+    padding: 0% !important;
+  }
+
+  .buscar_gps {
+    width: 50%;
+    margin-bottom: 1%;
+    margin-top: -1%;
+  }
+  .card-body {
+    padding: 10% !important;
+  }
+  .card-group {
+    margin-bottom: 1.5px !important;
+  }
+  #navbarScroll {
+    margin-top: 2% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  #cambiarBusqueda {
+    position: absolute;
+    margin-top: -30px;
+    left: 500px !important;
+    width: 100% !important;
+    font-size: small;
+    padding: 3%;
+  }
+  .filaCambiarBusqueda {
+    font-size: small;
+    justify-content: center;
+    align-items: center;
+  }
+  .closeMapa {
+    position: relative !important;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    left: 0% !important;
+  }
+  .imgCordobaMuni {
+    width: 280px;
+    display: flex;
+    margin-top: 2% !important;
+    margin-bottom: 2%;
+  }
+  #ordenarPor {
+    font-size: medium;
+    padding: 1%;
+    width: 120%;
+  }
+  #selectEmpresa {
+    font-size: medium;
+    padding: 1%;
+  }
+  .ol-zoom {
+    top: 2em;
+  }
+  #cerrarBusqueda {
+    left: 2px !important;
+    margin-top: -3.5% !important;
+    width: 30px !important;
   }
   #buscador {
     position: relative;
-    top: 1% !important;
+    top: 6.5% !important;
     width: 100% !important;
-    margin-top: 1.7%;
+    margin-top: 1%;
   }
+  .forma {
+    margin-top: -0.1% !important;
+  }
+
   .swiper-container {
     position: relative;
     top: 20px;
@@ -1398,11 +1662,84 @@ colorRosa {
   }
 }
 @media (min-width: 1501px) and (max-width: 1799px) {
-  #buscador {
-    top: 7% !important;
-    margin-top: -0.7%;
+  body > div.buscarHorario > #buscador > .forma {
+    font-size: small !important;
+    position: relative !important;
   }
-  .swiper-container {
+  #buscador > div.forma.mt-2.position-sticky > form > div:nth-child(1) > div {
+    margin-bottom: 1% !important ;
+    font-size: small;
+    left: 0% !important;
+    padding: 0% !important;
+  }
+
+  .buscar_gps {
+    width: 50%;
+    margin-bottom: 1%;
+    margin-top: -1%;
+  }
+  .card-body {
+    padding: 10% !important;
+  }
+  .card-group {
+    margin-bottom: 1.5px !important;
+  }
+  #navbarScroll {
+    margin-top: 2% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  #cambiarBusqueda {
+    position: absolute;
+    margin-top: -30px;
+    left: 500px !important;
+    width: 100% !important;
+    font-size: small;
+    padding: 3%;
+  }
+  .filaCambiarBusqueda {
+    font-size: small;
+    justify-content: center;
+    align-items: center;
+  }
+  .closeMapa {
+    position: relative !important;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    left: 0% !important;
+  }
+  .imgCordobaMuni {
+    width: 280px;
+    display: flex;
+    margin-top: 2% !important;
+    margin-bottom: 2%;
+  }
+  #ordenarPor {
+    font-size: medium;
+    padding: 1%;
+    width: 120%;
+  }
+  #selectEmpresa {
+    font-size: medium;
+    padding: 1%;
+  }
+  .ol-zoom {
+    top: 2em;
+  }
+  #cerrarBusqueda {
+    left: 2px !important;
+    margin-top: -3.5% !important;
+    width: 30px !important;
+  }
+  #buscador {
+    position: relative;
+    top: 6.5% !important;
+    width: 100% !important;
+    margin-top: 1%;
+  }
+  wiper-container {
     position: relative;
     top: 20px;
   }
@@ -1475,11 +1812,85 @@ colorRosa {
   }
 }
 @media (min-width: 1800px) and (max-width: 2160px) {
+  body > div.buscarHorario > #buscador > .forma {
+    font-size: small !important;
+    position: relative !important;
+  }
+  #buscador > div.forma.mt-2.position-sticky > form > div:nth-child(1) > div {
+    margin-bottom: 1% !important ;
+    font-size: small;
+    left: 0% !important;
+    padding: 0% !important;
+  }
+
+  .buscar_gps {
+    width: 50%;
+    margin-bottom: 1%;
+    margin-top: -1%;
+  }
+  .card-body {
+    padding: 10% !important;
+  }
+  .card-group {
+    margin-bottom: 1.5px !important;
+  }
+  #navbarScroll {
+    margin-top: 2% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 50px;
+  }
+  #cambiarBusqueda {
+    position: absolute;
+    margin-top: -30px;
+    left: 500px !important;
+    width: 100% !important;
+    font-size: small;
+    padding: 3%;
+  }
+  .filaCambiarBusqueda {
+    font-size: small;
+    justify-content: center;
+    align-items: center;
+  }
+  .closeMapa {
+    position: relative !important;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    left: 0% !important;
+  }
+  .imgCordobaMuni {
+    width: 280px;
+    display: flex;
+    margin-top: 2% !important;
+    margin-bottom: 4%;
+  }
+  #ordenarPor {
+    font-size: medium;
+    padding: 1%;
+    width: 120%;
+  }
+  #selectEmpresa {
+    font-size: medium;
+    padding: 1%;
+  }
+  .ol-zoom {
+    top: 2em;
+  }
+  #cerrarBusqueda {
+    left: 2px !important;
+    margin-top: -3.5% !important;
+    width: 30px !important;
+  }
   #buscador {
     position: relative;
-    top: 7.2% !important;
-    margin-top: -0.7%;
+    top: 6.5% !important;
+    width: 100% !important;
+    margin-top: 1%;
   }
+
   .swiper-container {
     position: relative;
     top: 20px;
@@ -1524,6 +1935,84 @@ colorRosa {
   }
 }
 @media (min-width: 2161px) and (max-width: 2200px) {
+  body > div.buscarHorario > #buscador > .forma {
+    font-size: small !important;
+    position: relative !important;
+  }
+  #buscador > div.forma.mt-2.position-sticky > form > div:nth-child(1) > div {
+    margin-bottom: 1% !important ;
+    font-size: small;
+    left: 0% !important;
+    padding: 0% !important;
+  }
+
+  .buscar_gps {
+    width: 50%;
+    margin-bottom: 1%;
+    margin-top: -1%;
+  }
+  .card-body {
+    padding: 10% !important;
+  }
+  .card-group {
+    margin-bottom: 1.5px !important;
+  }
+  #navbarScroll {
+    margin-top: 2% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 50px;
+  }
+  #cambiarBusqueda {
+    position: absolute;
+    margin-top: -30px;
+    left: 500px !important;
+    width: 100% !important;
+    font-size: small;
+    padding: 3%;
+  }
+  .filaCambiarBusqueda {
+    font-size: small;
+    justify-content: center;
+    align-items: center;
+  }
+  .closeMapa {
+    position: relative !important;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    left: 0% !important;
+  }
+  .imgCordobaMuni {
+    width: 280px;
+    display: flex;
+    margin-top: 2% !important;
+    margin-bottom: 4%;
+  }
+  #ordenarPor {
+    font-size: medium;
+    padding: 1%;
+    width: 120%;
+  }
+  #selectEmpresa {
+    font-size: medium;
+    padding: 1%;
+  }
+  .ol-zoom {
+    top: 2em;
+  }
+  #cerrarBusqueda {
+    left: 2px !important;
+    margin-top: -3.5% !important;
+    width: 30px !important;
+  }
+  #buscador {
+    position: relative;
+    top: 6.5% !important;
+    width: 100% !important;
+    margin-top: 1%;
+  }
   .forma {
     margin-top: 0.7% !important;
   }
@@ -1570,13 +2059,88 @@ colorRosa {
   }
 }
 @media (min-width: 2201px) and (max-width: 2600px) {
+  body > div.buscarHorario > #buscador > .forma {
+    font-size: small !important;
+    position: relative !important;
+  }
+  #buscador > div.forma.mt-2.position-sticky > form > div:nth-child(1) > div {
+    margin-bottom: 1% !important ;
+    font-size: small;
+    left: 0% !important;
+    padding: 0% !important;
+  }
+
+  .buscar_gps {
+    width: 50%;
+    margin-bottom: 1%;
+    margin-top: -1%;
+  }
+  .card-body {
+    padding: 10% !important;
+  }
+  .card-group {
+    margin-bottom: 1.5px !important;
+  }
+  #navbarScroll {
+    margin-top: 2% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 50px;
+  }
+  #cambiarBusqueda {
+    position: absolute;
+    margin-top: -30px;
+    left: 500px !important;
+    width: 100% !important;
+    font-size: small;
+    padding: 3%;
+  }
+  .filaCambiarBusqueda {
+    font-size: small;
+    justify-content: center;
+    align-items: center;
+  }
+  .closeMapa {
+    position: relative !important;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    left: 0% !important;
+  }
+  .imgCordobaMuni {
+    width: 280px;
+    display: flex;
+    margin-top: 2% !important;
+    margin-bottom: 6%;
+  }
+  #ordenarPor {
+    font-size: medium;
+    padding: 1%;
+    width: 120%;
+  }
+  #selectEmpresa {
+    font-size: medium;
+    padding: 1%;
+  }
+  .ol-zoom {
+    top: 2em;
+  }
+  #cerrarBusqueda {
+    left: 2px !important;
+    margin-top: -3.5% !important;
+    width: 30px !important;
+  }
+  #buscador {
+    position: relative;
+    top: 2.5% !important;
+    width: 100% !important;
+    margin-top: 1%;
+  }
   .forma {
     margin-top: 0.7% !important;
   }
-  #buscador {
-    top: 7.2% !important;
-    margin-top: -0.7%;
-  }
+
   .swiper-container {
     position: relative;
     top: 20px;
@@ -1619,13 +2183,88 @@ colorRosa {
   }
 }
 @media (min-width: 2601px) and (max-width: 3000px) {
+  body > div.buscarHorario > #buscador > .forma {
+    font-size: small !important;
+    position: relative !important;
+  }
+  #buscador > div.forma.mt-2.position-sticky > form > div:nth-child(1) > div {
+    margin-bottom: 1% !important ;
+    font-size: small;
+    left: 0% !important;
+    padding: 0% !important;
+  }
+
+  .buscar_gps {
+    width: 50%;
+    margin-bottom: 1%;
+    margin-top: -1%;
+  }
+  .card-body {
+    padding: 10% !important;
+  }
+  .card-group {
+    margin-bottom: 1.5px !important;
+  }
+  #navbarScroll {
+    margin-top: 2% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 50px;
+  }
+  #cambiarBusqueda {
+    position: absolute;
+    margin-top: -30px;
+    left: 500px !important;
+    width: 100% !important;
+    font-size: small;
+    padding: 3%;
+  }
+  .filaCambiarBusqueda {
+    font-size: small;
+    justify-content: center;
+    align-items: center;
+  }
+  .closeMapa {
+    position: relative !important;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    left: 0% !important;
+  }
+  .imgCordobaMuni {
+    width: 280px;
+    display: flex;
+    margin-top: 2% !important;
+    margin-bottom: 8%;
+  }
+  #ordenarPor {
+    font-size: medium;
+    padding: 1%;
+    width: 120%;
+  }
+  #selectEmpresa {
+    font-size: medium;
+    padding: 1%;
+  }
+  .ol-zoom {
+    top: 2em;
+  }
+  #cerrarBusqueda {
+    left: 2px !important;
+    margin-top: -3.5% !important;
+    width: 30px !important;
+  }
+  #buscador {
+    position: relative;
+    top: 1.5% !important;
+    width: 100% !important;
+    margin-top: 1%;
+  }
   .forma {
     margin-top: 0.7% !important;
   }
-  #buscador {
-    top: 7.2% !important;
-    margin-top: -0.7%;
-  }
+
   .swiper-container {
     position: relative;
     top: 20px;
@@ -1679,13 +2318,88 @@ colorRosa {
   }
 }
 @media (min-width: 3001px) and (max-width: 4320px) {
+  body > div.buscarHorario > #buscador > .forma {
+    font-size: small !important;
+    position: relative !important;
+  }
+  #buscador > div.forma.mt-2.position-sticky > form > div:nth-child(1) > div {
+    margin-bottom: 1% !important ;
+    font-size: small;
+    left: 0% !important;
+    padding: 0% !important;
+  }
+
+  .buscar_gps {
+    width: 50%;
+    margin-bottom: 1%;
+    margin-top: -1%;
+  }
+  .card-body {
+    padding: 10% !important;
+  }
+  .card-group {
+    margin-bottom: 1.5px !important;
+  }
+  #navbarScroll {
+    margin-top: 2% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 50px;
+  }
+  #cambiarBusqueda {
+    position: absolute;
+    margin-top: -30px;
+    left: 500px !important;
+    width: 100% !important;
+    font-size: small;
+    padding: 3%;
+  }
+  .filaCambiarBusqueda {
+    font-size: small;
+    justify-content: center;
+    align-items: center;
+  }
+  .closeMapa {
+    position: relative !important;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    left: 0% !important;
+  }
+  .imgCordobaMuni {
+    width: 280px;
+    display: flex;
+    margin-top: 2% !important;
+    margin-bottom: 8%;
+  }
+  #ordenarPor {
+    font-size: medium;
+    padding: 1%;
+    width: 120%;
+  }
+  #selectEmpresa {
+    font-size: medium;
+    padding: 1%;
+  }
+  .ol-zoom {
+    top: 2em;
+  }
+  #cerrarBusqueda {
+    left: 2px !important;
+    margin-top: -3.5% !important;
+    width: 30px !important;
+  }
+  #buscador {
+    position: relative;
+    top: 1.5% !important;
+    width: 100% !important;
+    margin-top: 1%;
+  }
   .forma {
     margin-top: 0.6% !important;
   }
-  #buscador {
-    top: 7.5% !important;
-    margin-top: -0.7%;
-  }
+
   .swiper-container {
     position: relative;
     top: 20px;
@@ -1994,4 +2708,11 @@ input[type="submit"] {
 
 .buscarHorarios {
   border: 2px solid black;
+}
+
+/* con esta media hago que de 992 el mapa se vea por defecto */
+@media screen and (min-width: 992px) {
+  .mapaOl {
+    visibility: visible;
+  }
 }

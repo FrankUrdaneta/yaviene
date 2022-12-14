@@ -267,18 +267,21 @@
   justify-content: center !important;
   align-items: center !important;
   position: absolute;
+  z-index: 850;
   left: -35px;
   margin-top: 3%;
-  /* display: none; */
   width: 30%;
   border-radius: 2px;
-  visibility: hidden;
+  display: flex;
 }
 
 .cerrarBusqueda {
-  /* display: none !important; */
-  visibility: visible !important;
+  display: none !important;
 }
 .rd-navbar-fixed .rd-navbar-nav-wrap.active {
   background-color: #009ee2;
+}
+
+.ocultarMapa {
+  display: block;
 }
