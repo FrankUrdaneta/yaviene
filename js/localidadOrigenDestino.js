@@ -241,7 +241,14 @@ function mostrarBoleto(boletos,data,origen, destino, fecha_salida, ordenSale) {
         }
       }
     }
-   
+   if(document.getElementById("pruebaBoleto").innerHTML==""){
+    let dibujarBoleto = document.getElementById("pruebaBoleto");
+    dibujarBoleto.innerHTML=`<div class="nofound">
+    <img class="nofoundimg" src="../images/drow/nofound.svg" width="50%">
+    </div>
+    <h6 class="nofoundtext">no hay servicios disponibles para la fecha ${fecha_salida} , por favor intente realizando una nueva busqueda
+    </h6>`
+   }
 }
 
 function buscarBoletos(cambiarBusqueda = false){
