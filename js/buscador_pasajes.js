@@ -9,7 +9,7 @@ function mostrarBarraBuscador() {
       <div class="col-lg-2 col-sm-6 cajasBuscador">
       <div class="row row g-3 origenPasaje">
       <div class="col-1 origenIcono"><label for="inputtext" class=""><i class="icon fa fa-dot-circle-o" style="color:#009ee2" aria-hidden="true"></i>   </label></div>
-      <div class="col-7 origenInput autocomplete" ><input id="inputOrigen" type="text"  class="form-control inputOrigen"  placeholder="Origen" required><div onclick="invertirDestino()" id="invertirDestino" class="btn btn-alert-danger invertirDestino"><i class="icon bi bi-arrow-left-right" style="color:white" aria-hidden="true"></i></div></div>
+      <div class="col-7 origenInput autocomplete" ><input id="inputOrigen" type="text" name="origen"  class="form-control inputOrigen"  placeholder="Origen" required><div onclick="invertirDestino()" id="invertirDestino" class="btn btn-alert-danger invertirDestino"><i class="icon bi bi-arrow-left-right" style="color:white" aria-hidden="true"></i></div></div>
       
       </div>
       </div>
@@ -18,7 +18,7 @@ function mostrarBarraBuscador() {
       <div class="row origenPasaje">
       <div class="col-1 origenIcono">    <label for="inputtext" class=""><i class="icon fa fa-map-marker" style="color:#009ee2" aria-hidden="true"></i>  </label>
       </div>
-      <div class="col-7 origenInput autocomplete"><input id="inputDestino" type="text" class="form-control inputOrigen"  placeholder="Destino" required></div>
+      <div class="col-7 origenInput autocomplete"><input id="inputDestino" type="text" name="destino" class="form-control inputOrigen"  placeholder="Destino" required></div>
       </div>
       </div>
 
@@ -35,7 +35,7 @@ function mostrarBarraBuscador() {
       
 
       <div class="col-lg-2 col-sm-6">
-      <a  id="buscar_pasajes" class="btn ov-btn-grow-skew  ">Buscar</a>
+      <a type="submit" id="buscar_pasajes" class="btn ov-btn-grow-skew  ">Buscar</a>
       </div>
       
     </form>
@@ -47,11 +47,23 @@ function mostrarBarraBuscador() {
 
   document.getElementById('buscar_pasajes').addEventListener('click',()=>{
     
+
+
     let origen=document.getElementById('inputOrigen').value
     let destino=document.getElementById('inputDestino').value
     let fecha_salida=document.getElementById('fechaActual').value
     
-   
+    //validamos que los campos se completen
+   if(origen=="" || origen==null){
+    alert("Debes completar el campo Origen")
+    document.getElementById('inputOrigen').focus
+    return false;
+   }
+   if(destino=="" || destino==null){
+    alert("Debes completar el campo Destino")
+    document.getElementById('inputDestino').focus
+    return false;
+   }
     window.location=`../buscador_pasajes.html?origen=${origen}&destino=${destino}&fecha_salida=${fecha_salida}`
  
    })

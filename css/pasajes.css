@@ -168,7 +168,7 @@ colorRosa {
   #buscador {
     position: relative;
     top: 4.5% !important;
-    margin-top: 15%;
+
     margin-bottom: 1%;
   }
   .pasajero {
@@ -307,8 +307,8 @@ colorRosa {
   }
   #buscador {
     position: relative;
-    top: 4.5% !important;
-    margin-top: 10%;
+    top: 30px !important;
+
     margin-bottom: 1%;
   }
   .pasajero {
@@ -449,8 +449,8 @@ colorRosa {
   }
   #buscador {
     position: relative;
-    top: 4.5% !important;
-    margin-top: 10%;
+    top: 40px !important;
+
     margin-bottom: 1%;
   }
   .pasajero {
@@ -584,8 +584,8 @@ colorRosa {
   }
   #buscador {
     position: relative;
-    top: 4.5% !important;
-    margin-top: 10%;
+    top: 40px !important;
+
     margin-bottom: 1%;
   }
   .swiper-container {
@@ -659,7 +659,7 @@ colorRosa {
     margin-bottom: 1.5px !important;
   }
   #navbarScroll {
-    margin-top: 20% !important;
+    margin-top: 15% !important;
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
@@ -699,10 +699,10 @@ colorRosa {
   }
   #cerrarBusqueda {
     left: 1px !important;
-    margin-top: -22% !important;
+    margin-top: -130px !important;
     width: 40px !important;
   }
-  #buscador > div.forma.mt-2.position-sticky > form > div:nth-child(2) > div {
+  #buscador > div > form > div:nth-child(2) > div {
     margin-top: 20px;
     margin-left: -9px;
   }
@@ -727,8 +727,8 @@ colorRosa {
   }
   #buscador {
     position: relative;
-    top: 9.5% !important;
-    margin-top: 8%;
+    top: 45px !important;
+
     margin-bottom: 1%;
   }
   .swiper-container {
@@ -873,8 +873,8 @@ colorRosa {
   }
   #buscador {
     position: relative;
-    top: 5% !important;
-    margin-top: 6%;
+    top: 45px !important;
+
     margin-bottom: 1%;
   }
   .swiper-container {
@@ -1031,8 +1031,8 @@ colorRosa {
   }
   #buscador {
     position: relative;
-    top: 1.5% !important;
-    margin-top: 5%;
+    top: 0px !important;
+
     margin-bottom: 1%;
     width: 100%;
   }
@@ -1144,10 +1144,11 @@ colorRosa {
     margin-bottom: 1.5px !important;
   }
   #navbarScroll {
-    margin-top: 2% !important;
+    margin-top: 0% !important;
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
+    height: 100px;
   }
   #cambiarBusqueda {
     position: absolute;
@@ -1189,7 +1190,7 @@ colorRosa {
   }
   #cerrarBusqueda {
     left: 1px !important;
-    margin-top: -3.5% !important;
+    margin-top: -7% !important;
     width: 30px !important;
   }
   #buscador > div.forma.mt-2.position-sticky > form > div:nth-child(2) > div {
@@ -1221,7 +1222,7 @@ colorRosa {
   #buscador {
     position: relative;
     top: 4% !important;
-    margin-top: -0.7%;
+
     width: 100%;
   }
   .swiper-container {
@@ -1311,7 +1312,6 @@ colorRosa {
   #buscador {
     position: relative;
     top: -13% !important;
-    margin-top: -0.7%;
   }
   .swiper-container {
     position: relative;
@@ -1451,7 +1451,6 @@ colorRosa {
     position: relative;
     top: 4.5% !important;
     width: 100% !important;
-    margin-top: 1%;
   }
   .swiper-container {
     position: relative;
@@ -1588,7 +1587,6 @@ colorRosa {
     position: relative;
     top: 6.5% !important;
     width: 100% !important;
-    margin-top: 1%;
   }
   .forma {
     margin-top: -0.1% !important;
@@ -1737,7 +1735,6 @@ colorRosa {
     position: relative;
     top: 6.5% !important;
     width: 100% !important;
-    margin-top: 1%;
   }
   wiper-container {
     position: relative;
@@ -1888,7 +1885,6 @@ colorRosa {
     position: relative;
     top: 6.5% !important;
     width: 100% !important;
-    margin-top: 1%;
   }
 
   .swiper-container {
@@ -2011,7 +2007,6 @@ colorRosa {
     position: relative;
     top: 6.5% !important;
     width: 100% !important;
-    margin-top: 1%;
   }
   .forma {
     margin-top: 0.7% !important;
@@ -2019,7 +2014,6 @@ colorRosa {
 
   #buscador {
     top: 7.2% !important;
-    margin-top: -0.7%;
   }
 
   .inputOrigen {
@@ -2135,7 +2129,6 @@ colorRosa {
     position: relative;
     top: 2.5% !important;
     width: 100% !important;
-    margin-top: 1%;
   }
   .forma {
     margin-top: 0.7% !important;
@@ -2259,7 +2252,6 @@ colorRosa {
     position: relative;
     top: 1.5% !important;
     width: 100% !important;
-    margin-top: 1%;
   }
   .forma {
     margin-top: 0.7% !important;
@@ -2394,7 +2386,6 @@ colorRosa {
     position: relative;
     top: 1.5% !important;
     width: 100% !important;
-    margin-top: 1%;
   }
   .forma {
     margin-top: 0.6% !important;
