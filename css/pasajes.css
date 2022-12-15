@@ -72,6 +72,10 @@ colorRosa {
 }
 /*INICIA MODO TELEFONO*/
 @media (min-width: 300px) and (max-width: 380px) {
+  body > div.page.wrapper > header > div {
+    height: 0% !important;
+  }
+
   body > div.buscarHorario > #buscador > .forma {
     font-size: small !important;
     position: relative !important;
@@ -192,7 +196,7 @@ colorRosa {
   }
   .contenedor-texto {
     /* margin-top: 15% !important; */
-    height: 100%;
+    height: 140%;
     /* width: -50% !important; */
   }
   .maleta {
@@ -202,9 +206,9 @@ colorRosa {
     margin-top: 15%;
   }
   .nuestrosServicios .row-30 {
-    flex-wrap: nowrap !important;
     justify-content: center !important;
     width: -200% !important;
+    height: 300% !important;
   }
   .forma {
     padding-top: 5% !important;
@@ -212,6 +216,11 @@ colorRosa {
   }
   .nav-filtros {
     z-index: 50;
+  }
+  .contenedor-texto img {
+    max-width: 150% !important;
+    width: 150% !important;
+    margin-left: -40% !important;
   }
 }
 @media (min-width: 381px) and (max-width: 480px) {
@@ -353,6 +362,9 @@ colorRosa {
   }
   .forma {
     margin-top: 5.5% !important;
+  }
+  .contenedor-texto img {
+    width: 100% !important;
   }
 }
 @media (min-width: 481px) and (max-width: 540px) {
@@ -1073,7 +1085,7 @@ colorRosa {
   }
   .contenedor-texto img {
     margin-top: -10% !important;
-    margin-left: -10% !important;
+
     width: 100% !important;
   }
   .section .parallax-content {
@@ -2568,48 +2580,12 @@ section a {
   background: #fff;
 } */
 
-section:nth-child(1) {
-  background-image: linear-gradient(
-    -225deg,
-    white 40%,
-    #009ee2 60%,
-    #009ee2 40%
-  );
-}
-
-section:nth-child(2) {
-  background-image: linear-gradient(
-    -225deg,
-    white 40%,
-    #009ee2 60%,
-    #009ee2 40%
-  );
-}
-
-section:nth-child(3) {
-  background-image: linear-gradient(
-    -225deg,
-    white 40%,
-    #009ee2 60%,
-    #009ee2 40%
-  );
-}
-section:nth-child(4) {
-  background-image: linear-gradient(
-    -225deg,
-    white 40%,
-    #009ee2 60%,
-    #009ee2 40%
-  );
-}
-
 .contenedor-texto {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: center !important;
   align-items: center !important;
   margin-top: 5%;
-  margin-left: 10%;
 }
 
 .contenedor-texto img {

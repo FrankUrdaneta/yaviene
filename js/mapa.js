@@ -52,7 +52,7 @@
                 color: 'white',
                 imgSize: [40, 40],
                  //displacement: [-4, -2],
-                src: 'https://micronauta.dnsalias.net/usuario/img/banderacuadros.png',
+                src: 'https://micronauta.dnsalias.net/usuario/img/banderaverde.png',
             })
         })
     });

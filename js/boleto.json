@@ -3,10 +3,12 @@
   "data": {
     "boletos": [
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "19:00",
         "origen": "cordoba",
         "destino": "carlos paz",
-        "logo": "../images/logosEmpresas/porvenir.png",
+        "logo": "../images/logosEmpresas/ruta13.png",
         "empresa": "El porvenir",
         "llega": "20:20",
         "anuncia": "villa del rosario",
@@ -19,6 +21,8 @@
       },
 
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "07:00",
         "origen": "cordoba",
         "destino": "carlos paz",
@@ -34,10 +38,12 @@
         "codigo_empresa": 129
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
         "origen": "cordoba",
         "destino": "carlos paz",
-        "logo": "../images/logosEmpresas/porvenir.png",
+        "logo": "../images/logosEmpresas/ruta13.png",
         "empresa": "El porvenir",
         "llega": "08:00",
         "anuncia": "villa del rosario",
@@ -49,6 +55,8 @@
         "codigo_empresa": 2
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "08:00",
         "origen": "carlos paz",
         "destino": "cordoba",
@@ -64,6 +72,8 @@
         "codigo_empresa": 129
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "09:00",
         "origen": "carlos paz",
         "destino": "cordoba",
@@ -79,6 +89,8 @@
         "codigo_empresa": 3
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "11:00",
         "origen": "cordoba",
         "destino": "carlos paz",
@@ -94,6 +106,8 @@
         "codigo_empresa": 6
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "13:00",
         "origen": "cordoba",
         "destino": "carlos paz",
@@ -109,6 +123,8 @@
         "codigo_empresa": 102
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "15:00",
         "origen": "cordoba",
         "destino": "carlos paz",
@@ -124,6 +140,8 @@
         "codigo_empresa": 95
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
         "origen": "jesus maria",
         "destino": "cordoba",
@@ -139,6 +157,8 @@
         "codigo_empresa": 129
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "09:00",
         "origen": "jesus maria",
         "destino": "cordoba",
@@ -154,6 +174,8 @@
         "codigo_empresa": 102
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "10:00",
         "origen": "jesus maria",
         "destino": "cordoba",
@@ -169,6 +191,8 @@
         "codigo_empresa": 102
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "07:00",
         "origen": "el quebrachal",
         "destino": "cordoba",
@@ -184,6 +208,8 @@
         "codigo_empresa": 129
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
         "origen": "alta gracia",
         "destino": "cordoba",
@@ -199,6 +225,8 @@
         "codigo_empresa": 3
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
         "origen": "cordoba",
         "destino": "alta gracia",
@@ -214,6 +242,8 @@
         "codigo_empresa": 6
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
         "origen": "cordoba",
         "destino": "el quebrachal",
@@ -229,10 +259,12 @@
         "codigo_empresa": 95
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
         "origen": "cordoba",
         "destino": "carlos paz",
-        "logo": "../images/logosEmpresas/porvenir.png",
+        "logo": "../images/logosEmpresas/ruta13.png",
         "empresa": "El porvenir",
         "llega": "08:00",
         "anuncia": "mina clavero",
@@ -244,6 +276,8 @@
         "codigo_empresa": 2
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "07:30",
         "origen": "cordoba",
         "destino": "carlos paz",
@@ -259,6 +293,8 @@
         "codigo_empresa": 129
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "12:00",
         "origen": "cordoba",
         "destino": "carlos paz",
@@ -274,6 +310,8 @@
         "codigo_empresa": 3
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
         "origen": "cordoba",
         "destino": "carlos paz",
@@ -289,6 +327,8 @@
         "codigo_empresa": 6
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "10:00",
         "origen": "cordoba",
         "destino": "carlos paz",
@@ -304,6 +344,8 @@
         "codigo_empresa": 102
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "18:00",
         "origen": "cordoba",
         "destino": "carlos paz",
@@ -319,10 +361,12 @@
         "codigo_empresa": 95
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
         "origen": "cordoba",
         "destino": "unquillo",
-        "logo": "../images/logosEmpresas/porvenir.png",
+        "logo": "../images/logosEmpresas/ruta13.png",
         "empresa": "El porvenir",
         "llega": "08:00",
         "anuncia": "rio ceballos",
@@ -334,6 +378,8 @@
         "codigo_empresa": 2
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "07:30",
         "origen": "cordoba",
         "destino": "unquillo",
@@ -349,6 +395,8 @@
         "codigo_empresa": 129
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "12:00",
         "origen": "cordoba",
         "destino": "unquillo",
@@ -364,6 +412,8 @@
         "codigo_empresa": 3
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
         "origen": "cordoba",
         "destino": "unquillo",
@@ -379,6 +429,8 @@
         "codigo_empresa": 6
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "10:00",
         "origen": "cordoba",
         "destino": "unquillo",
@@ -394,6 +446,8 @@
         "codigo_empresa": 102
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "18:00",
         "origen": "cordoba",
         "destino": "unquillo",
@@ -409,10 +463,12 @@
         "codigo_empresa": 95
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
         "origen": "cordoba",
         "destino": "la falda",
-        "logo": "../images/logosEmpresas/porvenir.png",
+        "logo": "../images/logosEmpresas/ruta13.png",
         "empresa": "El porvenir",
         "llega": "08:00",
         "anuncia": "cruz del eje",
@@ -424,6 +480,8 @@
         "codigo_empresa": 2
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "07:30",
         "origen": "cordoba",
         "destino": "la falda",
@@ -439,6 +497,8 @@
         "codigo_empresa": 129
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "12:00",
         "origen": "cordoba",
         "destino": "la falda",
@@ -454,6 +514,8 @@
         "codigo_empresa": 3
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
         "origen": "cordoba",
         "destino": "la falda",
@@ -469,6 +531,8 @@
         "codigo_empresa": 6
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "10:00",
         "origen": "cordoba",
         "destino": "la falda",
@@ -484,6 +548,8 @@
         "codigo_empresa": 102
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "18:00",
         "origen": "cordoba",
         "destino": "la falda",
@@ -499,10 +565,12 @@
         "codigo_empresa": 95
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
         "origen": "cordoba",
         "destino": "carlos paz",
-        "logo": "../images/logosEmpresas/porvenir.png",
+        "logo": "../images/logosEmpresas/ruta13.png",
         "empresa": "El porvenir",
         "llega": "08:00",
         "anuncia": "mina clavero",
@@ -514,6 +582,8 @@
         "codigo_empresa": 2
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "07:30",
         "origen": "cordoba",
         "destino": "carlos paz",
@@ -529,6 +599,8 @@
         "codigo_empresa": 129
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "12:00",
         "origen": "cordoba",
         "destino": "carlos paz",
@@ -544,6 +616,8 @@
         "codigo_empresa": 3
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
         "origen": "cordoba",
         "destino": "carlos paz",
@@ -559,6 +633,8 @@
         "codigo_empresa": 6
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "10:00",
         "origen": "cordoba",
         "destino": "carlos paz",
@@ -574,6 +650,8 @@
         "codigo_empresa": 102
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "18:00",
         "origen": "cordoba",
         "destino": "carlos paz",
@@ -589,10 +667,12 @@
         "codigo_empresa": 95
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
         "origen": "cordoba",
         "destino": "unquillo",
-        "logo": "../images/logosEmpresas/porvenir.png",
+        "logo": "../images/logosEmpresas/ruta13.png",
         "empresa": "El porvenir",
         "llega": "08:00",
         "anuncia": "rio ceballos",
@@ -604,6 +684,8 @@
         "codigo_empresa": 2
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "07:30",
         "origen": "cordoba",
         "destino": "unquillo",
@@ -619,6 +701,8 @@
         "codigo_empresa": 129
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "12:00",
         "origen": "cordoba",
         "destino": "unquillo",
@@ -634,6 +718,8 @@
         "codigo_empresa": 3
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
         "origen": "cordoba",
         "destino": "unquillo",
@@ -649,6 +735,8 @@
         "codigo_empresa": 6
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "10:00",
         "origen": "cordoba",
         "destino": "unquillo",
@@ -664,6 +752,8 @@
         "codigo_empresa": 102
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "18:00",
         "origen": "cordoba",
         "destino": "unquillo",
@@ -679,10 +769,12 @@
         "codigo_empresa": 95
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
         "origen": "cordoba",
         "destino": "la falda",
-        "logo": "../images/logosEmpresas/porvenir.png",
+        "logo": "../images/logosEmpresas/ruta13.png",
         "empresa": "El porvenir",
         "llega": "08:00",
         "anuncia": "cruz del eje",
@@ -694,6 +786,8 @@
         "codigo_empresa": 2
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "07:30",
         "origen": "cordoba",
         "destino": "la falda",
@@ -709,6 +803,8 @@
         "codigo_empresa": 129
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "12:00",
         "origen": "cordoba",
         "destino": "la falda",
@@ -724,6 +820,8 @@
         "codigo_empresa": 3
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
         "origen": "cordoba",
         "destino": "la falda",
@@ -739,6 +837,8 @@
         "codigo_empresa": 6
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "10:00",
         "origen": "cordoba",
         "destino": "la falda",
@@ -754,6 +854,8 @@
         "codigo_empresa": 102
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "18:00",
         "origen": "cordoba",
         "destino": "la falda",
@@ -769,10 +871,12 @@
         "codigo_empresa": 95
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
         "origen": "cordoba",
         "destino": "carlos paz",
-        "logo": "../images/logosEmpresas/porvenir.png",
+        "logo": "../images/logosEmpresas/ruta13.png",
         "empresa": "El porvenir",
         "llega": "08:00",
         "anuncia": "mina clavero",
@@ -784,6 +888,8 @@
         "codigo_empresa": 2
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "07:30",
         "origen": "cordoba",
         "destino": "carlos paz",
@@ -799,6 +905,8 @@
         "codigo_empresa": 129
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "12:00",
         "origen": "cordoba",
         "destino": "carlos paz",
@@ -814,6 +922,8 @@
         "codigo_empresa": 3
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
         "origen": "cordoba",
         "destino": "carlos paz",
@@ -829,6 +939,8 @@
         "codigo_empresa": 6
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "10:00",
         "origen": "cordoba",
         "destino": "carlos paz",
@@ -844,6 +956,8 @@
         "codigo_empresa": 102
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "18:00",
         "origen": "cordoba",
         "destino": "carlos paz",
@@ -859,10 +973,12 @@
         "codigo_empresa": 95
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
         "origen": "cordoba",
         "destino": "unquillo",
-        "logo": "../images/logosEmpresas/porvenir.png",
+        "logo": "../images/logosEmpresas/ruta13.png",
         "empresa": "El porvenir",
         "llega": "08:00",
         "anuncia": "rio ceballos",
@@ -874,6 +990,8 @@
         "codigo_empresa": 2
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "07:30",
         "origen": "cordoba",
         "destino": "unquillo",
@@ -889,6 +1007,8 @@
         "codigo_empresa": 129
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "12:00",
         "origen": "cordoba",
         "destino": "unquillo",
@@ -904,6 +1024,8 @@
         "codigo_empresa": 3
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
         "origen": "cordoba",
         "destino": "unquillo",
@@ -919,6 +1041,8 @@
         "codigo_empresa": 6
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "10:00",
         "origen": "cordoba",
         "destino": "unquillo",
@@ -934,6 +1058,8 @@
         "codigo_empresa": 102
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "18:00",
         "origen": "cordoba",
         "destino": "unquillo",
@@ -949,10 +1075,12 @@
         "codigo_empresa": 95
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
         "origen": "cordoba",
         "destino": "la falda",
-        "logo": "../images/logosEmpresas/porvenir.png",
+        "logo": "../images/logosEmpresas/ruta13.png",
         "empresa": "El porvenir",
         "llega": "08:00",
         "anuncia": "cruz del eje",
@@ -964,6 +1092,8 @@
         "codigo_empresa": 2
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "07:30",
         "origen": "cordoba",
         "destino": "la falda",
@@ -979,6 +1109,8 @@
         "codigo_empresa": 129
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "12:00",
         "origen": "cordoba",
         "destino": "la falda",
@@ -994,6 +1126,8 @@
         "codigo_empresa": 3
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
         "origen": "cordoba",
         "destino": "la falda",
@@ -1009,6 +1143,8 @@
         "codigo_empresa": 6
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "10:00",
         "origen": "cordoba",
         "destino": "la falda",
@@ -1024,6 +1160,8 @@
         "codigo_empresa": 102
       },
       {
+        "inicio_sesion": true,
+        "novedades_servicio": "Desvio en Gral Paz",
         "sale": "18:00",
         "origen": "cordoba",
         "destino": "la falda",
