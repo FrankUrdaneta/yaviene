@@ -17,10 +17,6 @@
   border: none;
 }
 
-.card-img-top {
-  max-width: 60%;
-}
-
 /*** ESTILOS BOTÓN GROW SKEW ***/
 
 .invertirSentido {
@@ -77,6 +73,13 @@
     height: 0% !important;
   }
 
+  .coche {
+    background-color: var(--main-secondary-color) !important;
+    width: 100%;
+    margin-bottom: 1%;
+    margin-top: -1%;
+  }
+
   body > div.buscarHorario > #buscador > .forma {
     font-size: small !important;
     position: relative !important;
@@ -89,18 +92,11 @@
     padding: 0% !important;
   }
 
-  .coche {
-    background-color: var(--main-secondary-color) !important;
-    margin-bottom: 1% !important;
-    margin-top: -1% !important;
-  }
   .buscar_gps {
     margin-bottom: 1%;
     margin-top: -1%;
   }
-  .card-body {
-    padding: 0% !important;
-  }
+
   .card-group {
     margin-bottom: 1.5px !important;
   }
@@ -234,6 +230,7 @@
   #buscar_pasajes {
     left: -1.5%;
   }
+
   body > div.buscarHorario > #buscador > .forma {
     font-size: small !important;
     position: relative !important;
@@ -379,6 +376,7 @@
     font-size: small !important;
     position: relative !important;
   }
+
   #buscador > div.forma.mt-2.position-sticky > form > div:nth-child(1) > div {
     margin-top: 1% !important;
     margin-bottom: 1% !important ;

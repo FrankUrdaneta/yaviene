@@ -42,6 +42,21 @@
           }),
         }),
       });
+      var Banderas2= new ol.source.Vector({
+        features:[]
+      });
+      var capaDeBanderas2= new ol.layer.Vector({
+        source: Banderas2,
+        style: new ol.style.Style({
+          image: new ol.style.Icon({
+            color: 'white',
+            imgSize:[40, 40],
+            displacement: [20, 20],
+            src: 'https://micronauta4.dnsalias.net/usuario/img/banderacuadros.png',
+          })
+        })
+      })
+
       var Banderas = new ol.source.Vector({
         features: []
     });
@@ -80,7 +95,8 @@
           }),
           capaDeTraza,
           capaDePuntos,
-          capaDeBanderas,
+           capaDeBanderas,
+           capaDeBanderas2,
         ],
         view: vista,
         overlays: [overlay],
@@ -114,12 +130,19 @@
             Traza.addFeature(traza);
 
             dibujaParadas(res.data.paradas);
-
-            //dibuja bandera
+            // console.log(res.data.paradas[(res.data.paradas.length)-1])
+            //dibuja bandera inicio
             nueva_bandera = new ol.Feature({
+              
               geometry: new ol.geom.Point([res.data.paradas[0].lon, res.data.paradas[0].lat]),
             });
-            
+            //dibuja bandera final
+            nueva_bandera2 = new ol.Feature({
+              
+              geometry: new ol.geom.Point([res.data.paradas[(res.data.paradas.length)-1].lon, res.data.paradas[(res.data.paradas.length)-1].lat]),
+              
+            });
+            Banderas2.addFeature(nueva_bandera2);
             Banderas.addFeature(nueva_bandera);
             //esto para centrar las coordenadas
             lon_min = coordenadas.reduce((acc,val)=>{

@@ -165,23 +165,18 @@ function mostrarBoleto(boletos,data,origen, destino, fecha_salida, ordenSale) {
   <div id="${i.codigo_empresa}"
       class="card-group col-lg-6 col-xl-6 col-md-12 col-sm-12 p-1  bg-body boleto"
     >
-      <div class="card">
-        <div class="card-body">
+      <div class="col-4 fondoImagen">
+        <div class="card fondoImagen">
           <img
             class="card-img-top logoPasajes"
             src=${i.logo}
-            alt="Card image cap"
+            alt="Card image cap" 
           />
-          <p class="card-text pasaje font-weight-bold" style="font-size: small ">
-            Por Empresa<br>
-            <span class="font-weight-bold" style="color: #009ee2"
-              >${i.empresa}</span
-            >
-          </p>
+          
         </div>
       </div>
       <div class="card">
-        <div class="card-body">
+        <div class="">
           <h6 class="card-title font-weight-bold">
             <i
               class="icon fa fa-dot-circle-o"
@@ -193,66 +188,73 @@ function mostrarBoleto(boletos,data,origen, destino, fecha_salida, ordenSale) {
               class="card-text pasaje"
               style="color: black; font-size: small"
               >${i.sale} </span
-            ><br><span
+            ><i
+            class="icon fa fa-map-marker"
+            style="color: black"
+            aria-hidden="true"
+          ></i>
+          Llega
+          <span
+            class="card-text pasaje"
+            style="color: black; font-size: small"
+            >${i.llega} 
+          </span><br>
+          
+          <span
               class="card-text pasaje"
               style="color: rgb(150, 148, 148); font-size: small"
-              >aproximado <br /></span
-            ><span
-              class="card-text pasaje"
-              style="color: rgb(8, 8, 8); font-size: small"
-              >Se anuncia a <br>${i.anuncia}</span
+              >aproximado 
+              
+              </span
             >
-          </h6>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-body">
-          <h6 class="card-text font-weight-bold">
-            <i
-              class="icon fa fa-map-marker"
-              style="color: black"
-              aria-hidden="true"
-            ></i>
-            Llega
-            <span
-              class="card-text pasaje"
-              style="color: black; font-size: small"
-              >${i.llega} <br />
-            </span>
             <span
               class="card-text pasaje"
               style="color: rgb(150, 148, 148); font-size: small"
               >duracion ${i.duracion} </span
-            ><br><span
+            ><br>
+
+            <span
+              class="card-text pasaje"
+              style="color: rgb(8, 8, 8); font-size: small"
+              >Se anuncia a ${i.anuncia}</span
+            >
+            <br>
+            <span style="font-size: small ">
+            Por Empresa
+           ${i.empresa}</span
+            >
+          <br>
+          <span
               class="card-text pasaje"
               style="color: rgb(12, 12, 12); font-size: small"
               >  Coche ${i.coche} ${i.rampa?"<i class='fa fa-wheelchair rampa' aria-hidden='true' style='color:#009ee2;'></i>":''} ${i.novedades_servicio!=``?`<a class=' btnObservacion' data-toggle='modal' data-target='#modalExample${i.codigo_empresa}'><i class='bi bi-exclamation-triangle rampa' id='observacion' alt='Observacion del servicio' onclick='observacion()'style='color:#EFEE21;'></i>
               <!-- Modal -->
-<div class='modal' id='modalExample${i.codigo_empresa}' tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true'>
-  <div class='modal-dialog' role='document'>
-    <div class='modal-content'>
-      <div class='modal-header'>
-        <h5 class='modal-title' id='exampleModalLabel'>${i.novedades_servicio}</h5>
+              <div class='modal' id='modalExample${i.codigo_empresa}' tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true'>
+              <div class='modal-dialog' role='document'>
+                <div class='modal-content'>
+                  <div class='modal-header'>
+                  <h5 class='modal-title' id='exampleModalLabel'>${i.novedades_servicio}</h5>
         
-      </div>
-      <div class='modal-header'>
-        <h5 class='modal-title' id='exampleModalLabel'>
-        <span style="color:black;">Fernando Casado – Nosikoski – Av. Curazao – Rio Pinto – Su ruta</span>
-      </div>
-      <div class='modal-footer'>
+                    </div>
+                  <div class='modal-header'>
+                    <h6 class='modal-title text-dark' id='exampleModalLabel'>
+                 Fernando Casado – Nosikoski – Av. Curazao – Rio Pinto – Su ruta</h6>
+                  </div>
+                <div class='modal-footer'>
         
-        <button type='button' class='btn btn-primary'>Cerrar</button>
-      </div>
-    </div>
-  </div>
-</div>
-              </a>`:``}</span
-            >
-            <span class="h6">${i.refuerzo?'Refuerzo':''}</span>
+                      <button type='button' class='btn btn-primary'>Cerrar</button>
+                </div>
+                </div>
+                </div>
+                </div>
+              </a>`:``}
+            
+            ${i.refuerzo?'Refuerzo':''}</span>
           </h6>
         </div>
       </div>
+
+      
       
       
     </div>
@@ -344,4 +346,15 @@ function observacion(){
   
   console.log("sin dato")
    observaciones.appendChild(cajaObservacion)
+}
+function nousar(){
+  document.getElementById('carr').innerHTML=`
+  <div class="card">
+        <div class="card-body">
+          <h6 class="card-text font-weight-bold">
+            
+            
+          </h6>
+        </div>
+      </div>`
 }

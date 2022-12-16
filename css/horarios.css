@@ -12,7 +12,11 @@
 }
 
 .card-img-top {
-  max-width: 60%;
+  max-width: 120%;
+  width: 110% !important;
+  display: flex !important;
+
+  margin-top: 30% !important;
 }
 /*boleto comprar y ver ruta*/
 .price {
@@ -309,4 +313,8 @@
   color: red !important;
   cursor: pointer;
   font-weight: bold;
+}
+
+.modal-dialog {
+  margin-top: 50%;
 }
