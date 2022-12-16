@@ -3,8 +3,9 @@
   "data": {
     "boletos": [
       {
+        "refuerzo": false,
         "inicio_sesion": true,
-        "novedades_servicio": "Desvio en Gral Paz",
+        "novedades_servicio": "",
         "sale": "19:00",
         "origen": "cordoba",
         "destino": "carlos paz",
@@ -21,7 +22,8 @@
       },
 
       {
-        "inicio_sesion": true,
+        "refuerzo": false,
+        "inicio_sesion": false,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "07:00",
         "origen": "cordoba",
@@ -38,8 +40,9 @@
         "codigo_empresa": 129
       },
       {
-        "inicio_sesion": true,
-        "novedades_servicio": "Desvio en Gral Paz",
+        "refuerzo": true,
+        "inicio_sesion": false,
+        "novedades_servicio": "Corte en plaza San Martin",
         "sale": "06:00",
         "origen": "cordoba",
         "destino": "carlos paz",
@@ -55,6 +58,7 @@
         "codigo_empresa": 2
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "08:00",
@@ -72,6 +76,7 @@
         "codigo_empresa": 129
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "09:00",
@@ -89,8 +94,9 @@
         "codigo_empresa": 3
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
-        "novedades_servicio": "Desvio en Gral Paz",
+        "novedades_servicio": "",
         "sale": "11:00",
         "origen": "cordoba",
         "destino": "carlos paz",
@@ -106,6 +112,7 @@
         "codigo_empresa": 6
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "13:00",
@@ -123,6 +130,7 @@
         "codigo_empresa": 102
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "15:00",
@@ -140,6 +148,7 @@
         "codigo_empresa": 95
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
@@ -157,6 +166,7 @@
         "codigo_empresa": 129
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "09:00",
@@ -174,6 +184,7 @@
         "codigo_empresa": 102
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "10:00",
@@ -191,6 +202,7 @@
         "codigo_empresa": 102
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "07:00",
@@ -208,6 +220,7 @@
         "codigo_empresa": 129
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
@@ -225,6 +238,7 @@
         "codigo_empresa": 3
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
@@ -242,6 +256,7 @@
         "codigo_empresa": 6
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
@@ -259,6 +274,7 @@
         "codigo_empresa": 95
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
@@ -276,6 +292,7 @@
         "codigo_empresa": 2
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "07:30",
@@ -293,6 +310,7 @@
         "codigo_empresa": 129
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "12:00",
@@ -310,6 +328,7 @@
         "codigo_empresa": 3
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
@@ -327,6 +346,7 @@
         "codigo_empresa": 6
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "10:00",
@@ -344,6 +364,7 @@
         "codigo_empresa": 102
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "18:00",
@@ -361,6 +382,7 @@
         "codigo_empresa": 95
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
@@ -378,6 +400,7 @@
         "codigo_empresa": 2
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "07:30",
@@ -395,6 +418,7 @@
         "codigo_empresa": 129
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "12:00",
@@ -412,6 +436,7 @@
         "codigo_empresa": 3
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
@@ -429,6 +454,7 @@
         "codigo_empresa": 6
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "10:00",
@@ -446,6 +472,7 @@
         "codigo_empresa": 102
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "18:00",
@@ -463,6 +490,7 @@
         "codigo_empresa": 95
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
@@ -480,6 +508,7 @@
         "codigo_empresa": 2
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "07:30",
@@ -497,6 +526,7 @@
         "codigo_empresa": 129
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "12:00",
@@ -514,6 +544,7 @@
         "codigo_empresa": 3
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
@@ -531,6 +562,7 @@
         "codigo_empresa": 6
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "10:00",
@@ -548,6 +580,7 @@
         "codigo_empresa": 102
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "18:00",
@@ -565,6 +598,7 @@
         "codigo_empresa": 95
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
@@ -582,6 +616,7 @@
         "codigo_empresa": 2
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "07:30",
@@ -599,6 +634,7 @@
         "codigo_empresa": 129
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "12:00",
@@ -616,6 +652,7 @@
         "codigo_empresa": 3
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
@@ -633,6 +670,7 @@
         "codigo_empresa": 6
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "10:00",
@@ -650,6 +688,7 @@
         "codigo_empresa": 102
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "18:00",
@@ -667,6 +706,7 @@
         "codigo_empresa": 95
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
@@ -684,6 +724,7 @@
         "codigo_empresa": 2
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "07:30",
@@ -701,6 +742,7 @@
         "codigo_empresa": 129
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "12:00",
@@ -718,6 +760,7 @@
         "codigo_empresa": 3
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
@@ -735,6 +778,7 @@
         "codigo_empresa": 6
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "10:00",
@@ -752,6 +796,7 @@
         "codigo_empresa": 102
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "18:00",
@@ -769,6 +814,7 @@
         "codigo_empresa": 95
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
@@ -786,6 +832,7 @@
         "codigo_empresa": 2
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "07:30",
@@ -803,6 +850,7 @@
         "codigo_empresa": 129
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "12:00",
@@ -820,6 +868,7 @@
         "codigo_empresa": 3
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
@@ -837,6 +886,7 @@
         "codigo_empresa": 6
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "10:00",
@@ -854,6 +904,7 @@
         "codigo_empresa": 102
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "18:00",
@@ -871,6 +922,7 @@
         "codigo_empresa": 95
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
@@ -888,6 +940,7 @@
         "codigo_empresa": 2
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "07:30",
@@ -905,6 +958,7 @@
         "codigo_empresa": 129
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "12:00",
@@ -922,6 +976,7 @@
         "codigo_empresa": 3
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
@@ -939,6 +994,7 @@
         "codigo_empresa": 6
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "10:00",
@@ -956,6 +1012,7 @@
         "codigo_empresa": 102
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "18:00",
@@ -973,6 +1030,7 @@
         "codigo_empresa": 95
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
@@ -990,6 +1048,7 @@
         "codigo_empresa": 2
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "07:30",
@@ -1007,6 +1066,7 @@
         "codigo_empresa": 129
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "12:00",
@@ -1024,6 +1084,7 @@
         "codigo_empresa": 3
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
@@ -1041,6 +1102,7 @@
         "codigo_empresa": 6
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "10:00",
@@ -1058,6 +1120,7 @@
         "codigo_empresa": 102
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "18:00",
@@ -1075,6 +1138,7 @@
         "codigo_empresa": 95
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
@@ -1092,6 +1156,7 @@
         "codigo_empresa": 2
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "07:30",
@@ -1109,6 +1174,7 @@
         "codigo_empresa": 129
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "12:00",
@@ -1126,6 +1192,7 @@
         "codigo_empresa": 3
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "06:00",
@@ -1143,6 +1210,7 @@
         "codigo_empresa": 6
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "10:00",
@@ -1160,6 +1228,7 @@
         "codigo_empresa": 102
       },
       {
+        "refuerzo": false,
         "inicio_sesion": true,
         "novedades_servicio": "Desvio en Gral Paz",
         "sale": "18:00",

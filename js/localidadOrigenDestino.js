@@ -143,6 +143,7 @@ fetch("./js/localidades.json")
 
 
 function mostrarBoleto(boletos,data,origen, destino, fecha_salida, ordenSale) {
+  
   document.getElementById('origen_cambiar_busqueda').innerHTML=`<i class="icon bi bi-arrow-up-right-circle"></i> ${origen.toUpperCase()}`;
   document.getElementById('destino_cambiar_busqueda').innerHTML=`<i class="icon bi bi-arrow-down-right-circle"></i> ${destino.toUpperCase()}`;
 
@@ -162,7 +163,7 @@ function mostrarBoleto(boletos,data,origen, destino, fecha_salida, ordenSale) {
  
           dibujarBoleto.innerHTML += `
   <div id="${i.codigo_empresa}"
-      class="card-group col-lg-6 col-xl-6 col-md-12 col-sm-12 p-1 mb-5 bg-body boleto"
+      class="card-group col-lg-6 col-xl-6 col-md-12 col-sm-12 p-1  bg-body boleto"
     >
       <div class="card">
         <div class="card-body">
@@ -226,8 +227,29 @@ function mostrarBoleto(boletos,data,origen, destino, fecha_salida, ordenSale) {
             ><br><span
               class="card-text pasaje"
               style="color: rgb(12, 12, 12); font-size: small"
-              > Servicio ${i.servicio} <br> Coche ${i.coche} ${i.rampa?"<i class='fa fa-wheelchair rampa' aria-hidden='true' style='color:#009ee2;'></i>":''} </span
+              >  Coche ${i.coche} ${i.rampa?"<i class='fa fa-wheelchair rampa' aria-hidden='true' style='color:#009ee2;'></i>":''} ${i.novedades_servicio!=``?`<a class=' btnObservacion' data-toggle='modal' data-target='#modalExample${i.codigo_empresa}'><i class='bi bi-exclamation-triangle rampa' id='observacion' alt='Observacion del servicio' onclick='observacion()'style='color:#EFEE21;'></i>
+              <!-- Modal -->
+<div class='modal' id='modalExample${i.codigo_empresa}' tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true'>
+  <div class='modal-dialog' role='document'>
+    <div class='modal-content'>
+      <div class='modal-header'>
+        <h5 class='modal-title' id='exampleModalLabel'>${i.novedades_servicio}</h5>
+        
+      </div>
+      <div class='modal-header'>
+        <h5 class='modal-title' id='exampleModalLabel'>
+        <span style="color:black;">Fernando Casado – Nosikoski – Av. Curazao – Rio Pinto – Su ruta</span>
+      </div>
+      <div class='modal-footer'>
+        
+        <button type='button' class='btn btn-primary'>Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+              </a>`:``}</span
             >
+            <span class="h6">${i.refuerzo?'Refuerzo':''}</span>
           </h6>
         </div>
       </div>
@@ -235,7 +257,9 @@ function mostrarBoleto(boletos,data,origen, destino, fecha_salida, ordenSale) {
       
     </div>
       <div id="${i.codigo_empresa}" class="card-button ">
-        <button onclick="dibujaTraza(${i.servicio});" id="ver_ruta"  class="btn ov-btn-grow-skew buscar_gps ">Ver Ruta</button>
+        <button onclick="dibujaTraza(${i.servicio});" id="ver_ruta" ${i.inicio_sesion==true?
+          "class='btn ov-btn-grow-skew  coche'>Ver Coche <i class='fa fa-bus' aria-hidden='true'></i>":
+          "class='btn ov-btn-grow-skew buscar_gps'>Ver Ruta <i class='fa fa-map-marker' aria-hidden='true'></i>"} </button>
       </div>
               `
         }
@@ -313,4 +337,11 @@ function cerrarBusqueda(){
   buscador.classList.toggle('cerrarBusqueda')
   cerrarBusqueda.classList.toggle('cerrarBusqueda')
   
+}
+function observacion(){
+  let cajaObservacion=document.createElement('div')
+  let observaciones=document.getElementById('observacion')
+  
+  console.log("sin dato")
+   observaciones.appendChild(cajaObservacion)
 }

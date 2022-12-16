@@ -51,7 +51,7 @@
             image: new ol.style.Icon({
                 color: 'white',
                 imgSize: [40, 40],
-                 //displacement: [-4, -2],
+                 displacement: [20, 20],
                 src: 'https://micronauta.dnsalias.net/usuario/img/banderaverde.png',
             })
         })
@@ -94,21 +94,7 @@
           if(res.ok){
             coordenadas = res.data.traza.map(a=>[a[0],a[1]]);
 
-            //centra el mapa a la primera parada
-            // setTimeout(() => {
-              //centra el mapa a la primer parada
-          //     const a = map.getSize();
-          //     map.getView().centerOn(
-          //         [
-          //             parseFloat(res.data.traza.map(e=>[e[0]['lon'],e[1]['lat']])),
-                     
-          //             console.log(res.data.traza)
-          //         ],
-          //         a,
-          //         [a[0]/2, a[1]/2]
-          //     );
-          //     map.getView().setZoom(14);
-          // }, 1000);
+         
 //aqui termina el centrar parada setime
 
 
@@ -171,8 +157,12 @@
           }
         });
         
-
-        // document.getElementById('map').style="display:none"
+        //pcultar boleto al ver ruta o coche
+        let ocultarBoleto=document.getElementById("pruebaBoleto")
+        let ocultarNavbar=document.querySelector(".contenidoBarraCambiar")
+        ocultarBoleto.classList.toggle('noVerBoleto')
+        ocultarNavbar.classList.toggle('novernavbar')
+        // ocultar mapa al ver lista
         let map= document.getElementById('map')
             map.classList.toggle('mapaTel')
             

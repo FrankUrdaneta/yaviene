@@ -1,5 +1,6 @@
-colorRosa {
-  color: #fb8989;
+:root {
+  --main-primary-color: #00aade;
+  --main-secondary-color: #f9b364;
 }
 
 .card-group {
@@ -28,7 +29,7 @@ colorRosa {
   display: flex;
   justify-content: right;
   align-items: center;
-  background-color: #fb8989;
+  background-color: var(--main-secondary-color);
 }
 
 .origenInput {
@@ -47,7 +48,7 @@ colorRosa {
   position: relative;
   z-index: 100;
   left: 2%;
-  background-color: #fb8989;
+  background-color: var(--main-secondary-color);
 }
 
 .origenIcono {
@@ -67,7 +68,7 @@ colorRosa {
   height: 130%;
   position: relative;
   top: -22%;
-  background-color: #fb8989;
+  background-color: var(--main-secondary-color);
   font-size: large;
 }
 /*INICIA MODO TELEFONO*/
@@ -88,6 +89,11 @@ colorRosa {
     padding: 0% !important;
   }
 
+  .coche {
+    background-color: var(--main-secondary-color) !important;
+    margin-bottom: 1% !important;
+    margin-top: -1% !important;
+  }
   .buscar_gps {
     margin-bottom: 1%;
     margin-top: -1%;
@@ -133,7 +139,8 @@ colorRosa {
     z-index: 2;
   }
   .imgCordobaMuni {
-    width: 280px;
+    max-width: 120% !important;
+    width: 310px !important;
     display: flex;
     margin-top: -8% !important;
   }
@@ -155,7 +162,7 @@ colorRosa {
   .invertirDestino {
     position: relative;
     left: 0px !important;
-    background-color: #fb8989;
+    background-color: var(--main-secondary-color);
   }
   .swiper-container {
     position: relative;
@@ -303,7 +310,7 @@ colorRosa {
   .invertirDestino {
     position: relative;
     left: 0px !important;
-    background-color: #fb8989;
+    background-color: var(--main-secondary-color);
   }
   .swiper-container {
     position: relative;
@@ -444,7 +451,7 @@ colorRosa {
   .invertirDestino {
     position: relative;
     left: 0px !important;
-    background-color: #fb8989;
+    background-color: var(--main-secondary-color);
   }
   .swiper-slide-caption {
     margin-top: -9%;
@@ -592,7 +599,7 @@ colorRosa {
   .invertirDestino {
     position: relative;
     left: 0px !important;
-    background-color: #fb8989;
+    background-color: var(--main-secondary-color);
   }
   #buscador {
     position: relative;
@@ -735,7 +742,7 @@ colorRosa {
   .invertirDestino {
     position: relative;
     left: 0px !important;
-    background-color: #fb8989;
+    background-color: var(--main-secondary-color);
   }
   #buscador {
     position: relative;
@@ -881,7 +888,7 @@ colorRosa {
   .invertirDestino {
     position: relative;
     left: 0px !important;
-    background-color: #fb8989;
+    background-color: var(--main-secondary-color);
   }
   #buscador {
     position: relative;
@@ -1039,7 +1046,7 @@ colorRosa {
   .invertirDestino {
     position: relative;
     left: 0px !important;
-    background-color: #fb8989;
+    background-color: var(--main-secondary-color);
   }
   #buscador {
     position: relative;
@@ -1149,6 +1156,11 @@ colorRosa {
     margin-bottom: 1%;
     margin-top: -1%;
   }
+  .coche {
+    width: 50%;
+    margin-bottom: 1%;
+    margin-top: -1%;
+  }
   .card-body {
     padding: 10% !important;
   }
@@ -1229,7 +1241,7 @@ colorRosa {
   .invertirDestino {
     position: relative;
     left: -40% !important;
-    background-color: #fb8989;
+    background-color: var(--main-secondary-color);
   }
   #buscador {
     position: relative;
@@ -1636,7 +1648,7 @@ colorRosa {
     position: relative;
     top: 30px !important;
     left: 663% !important;
-    border-bottom: 2px solid #fb8989;
+    border-bottom: 2px solid var(--main-secondary-color);
   }
   #carrouselFotos {
     margin-top: 5%;
@@ -1780,7 +1792,7 @@ colorRosa {
     position: relative;
     top: 30px !important;
     left: 710% !important;
-    border-bottom: 2px solid #fb8989;
+    border-bottom: 2px solid var(--main-secondary-color);
   }
   .table-custom-responsive {
     display: block;
@@ -1919,7 +1931,7 @@ colorRosa {
     position: relative;
     top: 30px !important;
     left: 756% !important;
-    border-bottom: 2px solid #fb8989;
+    border-bottom: 2px solid var(--main-secondary-color);
   }
   .carousel-item {
     margin-top: -10%;
@@ -2047,7 +2059,7 @@ colorRosa {
     position: relative;
     top: 30px !important;
     left: 848% !important;
-    border-bottom: 2px solid #fb8989;
+    border-bottom: 2px solid var(--main-secondary-color);
   }
   .carousel-item {
     height: 100%;
@@ -2169,7 +2181,7 @@ colorRosa {
     position: relative;
     top: 30px !important;
     left: 960% !important;
-    border-bottom: 2px solid #fb8989;
+    border-bottom: 2px solid var(--main-secondary-color);
   }
   .carousel-item {
     height: 100%;
@@ -2292,7 +2304,7 @@ colorRosa {
     position: relative;
     top: 30px !important;
     left: 1138% !important;
-    border-bottom: 2px solid #fb8989;
+    border-bottom: 2px solid var(--main-secondary-color);
   }
   .carousel-item {
     height: 100%;
@@ -2449,14 +2461,14 @@ colorRosa {
 }
 
 /* .inputOrigen:focus{
-  /* border-bottom: 1px solid #fb8989!important; */
+  /* border-bottom: 1px solid var(--main-secondary-color)!important; */
 /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px!important;
 }*/
 .inputOrigen:focus {
-  border-bottom: 4px solid #fb8989;
+  border-bottom: 4px solid var(--main-secondary-color);
 }
 .inputOrigen:hover {
-  border-bottom: 4px solid #fb8989;
+  border-bottom: 4px solid var(--main-secondary-color);
 }
 
 .idayVuelta {
@@ -2469,7 +2481,7 @@ colorRosa {
   position: relative;
   top: 30px !important;
 
-  border-bottom: 2px solid #fb8989;
+  border-bottom: 2px solid var(--main-secondary-color);
 }
 .pasajero {
   background-color: transparent;
@@ -2481,18 +2493,18 @@ colorRosa {
   position: relative;
   top: 30px !important;
   left: 50px;
-  border-bottom: 2px solid #fb8989;
+  border-bottom: 2px solid var(--main-secondary-color);
 }
 
 .pantallaTelefono {
-  background-color: #009ee2 !important;
+  background-color: var(--main-primary-color) !important;
 }
 
 /* boton ir arriba */
 #button-up {
   width: 40px;
   height: 40px;
-  background: #fb8989;
+  background: var(--main-secondary-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2535,13 +2547,13 @@ colorRosa {
 #inputGroupSelect01 option {
   font-weight: normal;
   background-color: white;
-  color: #009ee2;
+  color: var(--main-primary-color);
   border-radius: 5px;
 }
 
 #inputGroupSelect01 option[selected] {
   background-color: white;
-  color: #009ee2;
+  color: var(--main-primary-color);
 }
 
 .img1 {
@@ -2638,14 +2650,14 @@ input[type="submit"] {
 }
 
 .buscar_gps {
-  background-color: #009ee2 !important;
+  background-color: var(--main-primary-color) !important;
   border: DodgerBlue !important;
 }
 .buscar_gps:hover {
-  border: 1px solid #009ee2 !important;
+  border: 1px solid var(--main-primary-color) !important;
 }
 .buscar_gps:focus {
-  border: 2px solid #fb8989 !important;
+  border: 2px solid var(--main-secondary-color) !important;
 }
 
 /*cambios responsive*/

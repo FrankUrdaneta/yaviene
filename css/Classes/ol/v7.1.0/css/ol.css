@@ -7,6 +7,8 @@
   --ol-foreground-color: white;
   --ol-subtle-foreground-color: #666666;
   --ol-brand-color: #00aaff;
+  --main-primary-color: #00aade;
+  --main-secondary-color: #f9b364;
 }
 
 .ol-box {
@@ -372,8 +374,16 @@
   top: 24%;
   left: 1%;
   z-index: 3;
+  background-color: var(--main-secondary-color) !important;
+  border-color: var(--main-secondary-color) !important;
 }
 
 .cerrarX {
+  display: none !important;
+}
+.noVerBoleto {
+  display: none;
+}
+.novernavbar {
   display: none !important;
 }

@@ -1,3 +1,8 @@
+:root {
+  --main-primary-color: #00aade;
+  --main-secondary-color: #f9b364;
+}
+
 .card-group {
   box-shadow: 0 1rem 1rem rgb(0 0 0 / 18%) !important;
 }
@@ -11,19 +16,19 @@
 }
 /*boleto comprar y ver ruta*/
 .price {
-  /* background: linear-gradient(-225deg, white 40%, #009ee2 100%, #009ee2 40%); */
+  /* background: linear-gradient(-225deg, white 40%, var(--main-primary-color) 100%, var(--main-primary-color) 40%); */
   background-image: linear-gradient(
     -225deg,
     white 20%,
-    #009ee2 60%,
-    #009ee2 40%
+    var(--main-primary-color) 60%,
+    var(--main-primary-color) 40%
   );
   border-radius: 10px;
 }
 
 /*** ESTILOS BOTÓN GROW SKEW ***/
 .ov-btn-grow-skew {
-  background: #fb8989; /* color de fondo */
+  background: var(--main-secondary-color); /* color de fondo */
   color: #fff; /* color de fuente */
   border: 2px solid #fff; /* tamaño y color de borde */
   border-radius: 4px;
@@ -32,12 +37,12 @@
   overflow: hidden;
 }
 .ov-btn-grow-skew:hover {
-  color: #009ee2 !important; /* color de fuente hover */
+  color: var(--main-primary-color) !important; /* color de fuente hover */
 }
 .ov-btn-grow-skew::after {
   content: "";
   background: #ffffff; /* color de fondo hover */
-  color: #009ee2 !important;
+  color: var(--main-primary-color) !important;
   position: absolute;
   z-index: -1;
   padding: 16px 20px;
@@ -84,10 +89,10 @@
   position: absolute;
   top: 0;
   left: 0;
-  border: 0.5px solid #fb8989;
+  border: 0.5px solid var(--main-secondary-color);
   display: block;
   border-radius: 28px;
-  background: #009ee2;
+  background: var(--main-primary-color);
   width: 56px;
   height: 56px;
   transition: all 0.3s ease;
@@ -115,8 +120,8 @@
 }
 .cta:hover:before {
   width: 100%;
-  /* background: linear-gradient(to right bottom, #fb8989, #0059b2 120%); */
-  background: #fb8989;
+  /* background: linear-gradient(to right bottom, var(--main-secondary-color), #0059b2 120%); */
+  background: var(--main-secondary-color);
 }
 .cta:hover svg {
   transform: translateX(0);
@@ -160,7 +165,7 @@
 }
 
 .botonCambiarBusqueda {
-  background-color: #fb8989;
+  background-color: var(--main-secondary-color);
   color: white;
   border-radius: 5px;
   padding: 3px;
@@ -173,7 +178,7 @@
 }
 
 .botonCambiarBusqueda:hover {
-  color: #009ee2 !important;
+  color: var(--main-primary-color) !important;
 }
 .botonCambiarBusqueda::after {
   content: "";
@@ -249,7 +254,7 @@
     rgba(0, 158, 226, 1) 100%
   );
 
-  border-bottom: 1px solid #fb8989;
+  border-bottom: 1px solid var(--main-secondary-color);
   position: absolute;
   left: auto;
   z-index: 100;
@@ -273,13 +278,14 @@
   width: 30%;
   border-radius: 2px;
   display: flex;
+  background-color: var(--main-secondary-color);
 }
 
 .cerrarBusqueda {
   display: none !important;
 }
 .rd-navbar-fixed .rd-navbar-nav-wrap.active {
-  background-color: #009ee2;
+  background-color: var(--main-primary-color);
 }
 
 .ocultarMapa {
@@ -291,4 +297,16 @@
   position: relative !important;
 
   justify-content: center !important;
+}
+
+.fila1 {
+  display: inline-flex;
+  justify-content: top;
+  border: 2px solid red !important;
+}
+
+#observacion {
+  color: red !important;
+  cursor: pointer;
+  font-weight: bold;
 }
