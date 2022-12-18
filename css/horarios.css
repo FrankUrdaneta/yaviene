@@ -19,7 +19,8 @@
   margin-top: 30% !important;
 }
 /*boleto comprar y ver ruta*/
-.price {
+.price,
+.form-selec {
   /* background: linear-gradient(-225deg, white 40%, var(--main-primary-color) 100%, var(--main-primary-color) 40%); */
   background-image: linear-gradient(
     -225deg,
@@ -218,7 +219,7 @@
 .empresaSelect {
   background-color: transparent !important;
   margin-top: -5% !important;
-  color: #fff;
+  color: white;
   border: 1px solid white;
   display: flex;
   justify-content: left !important;
@@ -315,4 +316,34 @@
 .rd-navbar-toggle span:before,
 .rd-navbar-toggle span {
   background-color: #fff;
+}
+
+select,
+option {
+  color: white;
+  background-color: var(--main-primary-color);
+}
+
+.fa-circle-exclamation:before,
+.fa-exclamation-circle:before {
+  color: var(--main-primary-color);
+}
+
+.calendario_group {
+  display: flex !important;
+  position: relative !important;
+  max-width: max-content;
+
+  padding: 0% !important;
+}
+body > div.btn-group-sm.calendario_group > button {
+  display: flex;
+  border: 1px solid white;
+  padding: 0.5%;
+}
+
+#carouselExampleIndicators > div > div > div > button {
+  background-color: var(--main-primary-color);
+  padding: 0.5% !important;
+  border: 1px solid white;
 }

@@ -178,8 +178,9 @@ function mostrarBoleto(boletos,data,origen, destino, fecha_salida, ordenSale) {
       <div class="card">
         <div class="">
           <h6 class="card-title font-weight-bold">
+          
             <i
-              class="icon fa fa-dot-circle-o"
+              class=" fa fa-dot-circle-o"
               style="color: black"
               aria-hidden="true"
             ></i>
@@ -189,7 +190,7 @@ function mostrarBoleto(boletos,data,origen, destino, fecha_salida, ordenSale) {
               style="color: black; font-size: small"
               >${i.sale} </span
             ><i
-            class="icon fa fa-map-marker"
+            class="fa fa-map-marker"
             style="color: black"
             aria-hidden="true"
           ></i>
@@ -200,17 +201,11 @@ function mostrarBoleto(boletos,data,origen, destino, fecha_salida, ordenSale) {
             >${i.llega} 
           </span><br>
           
-          <span
-              class="card-text pasaje"
-              style="color: rgb(150, 148, 148); font-size: small"
-              >aproximado 
-              
-              </span
-            >
+          
             <span
               class="card-text pasaje"
               style="color: rgb(150, 148, 148); font-size: small"
-              >duracion ${i.duracion} </span
+              >duracion aproximada ${i.duracion} </span
             ><br>
 
             <span
@@ -227,7 +222,8 @@ function mostrarBoleto(boletos,data,origen, destino, fecha_salida, ordenSale) {
           <span
               class="card-text pasaje"
               style="color: rgb(12, 12, 12); font-size: small"
-              >  Coche ${i.coche} ${i.rampa?"<i class='fa fa-wheelchair rampa' aria-hidden='true' style='color:#009ee2;'></i>":''} ${i.novedades_servicio!=``?`<a class=' btnObservacion' data-toggle='modal' data-target='#modalExample${i.codigo_empresa}'><i class='bi bi-exclamation-triangle rampa' id='observacion' alt='Observacion del servicio' onclick='observacion()'style='color:#EFEE21;'></i>
+              >  Coche ${i.coche} ${i.rampa?"<i class='fa fa-wheelchair rampa' aria-hidden='true' style='color:#009ee2;'></i>":''} ${i.novedades_servicio!=``?`<a class=' btnObservacion' data-toggle='modal' data-target='#modalExample${i.codigo_empresa}'><i class='fas fa-exclamation-circle rampa' id='observacion' alt='Observacion del servicio' onclick='observacion()' ></i>
+              ${i.novedades_servicio}
               <!-- Modal -->
               <div class='modal' id='modalExample${i.codigo_empresa}' tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true'>
               <div class='modal-dialog' role='document'>

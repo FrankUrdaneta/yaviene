@@ -1805,7 +1805,7 @@ pre code {
 }
 
 select.form-control:focus::-ms-value {
-  color: #495057;
+  color: #574949;
   background-color: #fff;
 }
 
@@ -2957,7 +2957,7 @@ input[type="button"].btn-block {
 
 .custom-control-input:checked ~ .custom-control-label::before {
   color: #fff;
-  background-color: #007bff;
+  background-color: #caec05;
 }
 
 .custom-control-input:focus ~ .custom-control-label::before {

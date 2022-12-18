@@ -135,7 +135,7 @@
     z-index: 2;
   }
   .imgCordobaMuni {
-    max-width: 120% !important;
+    max-width: 100% !important;
     width: 310px !important;
     display: flex;
     margin-top: -8% !important;
@@ -2550,7 +2550,7 @@
 }
 
 #inputGroupSelect01 option[selected] {
-  background-color: white;
+  background-color: rgb(204, 24, 24);
   color: var(--main-primary-color);
 }
 
@@ -2613,14 +2613,14 @@ input {
 }
 
 input[type="submit"] {
-  background-color: DodgerBlue;
+  background-color: rgb(29, 104, 179);
 
   cursor: pointer;
 }
 
 .autocomplete-items {
   position: absolute;
-  border: 1px solid #d4d4d4;
+  border: 1px solid var(--main-primary-color);
   border-bottom: none;
   border-top: none;
   z-index: 99;
@@ -2633,9 +2633,9 @@ input[type="submit"] {
 .autocomplete-items div {
   padding: 3px;
   cursor: pointer;
-  background-color: rgb(255, 255, 255);
-  border-bottom: 1px solid #d4d4d4;
-  color: black;
+  background-color: var(--main-primary-color);
+  border-bottom: 1px solid white;
+  color: white;
   font-size: 12px;
 }
 
