@@ -344,6 +344,18 @@ body > div.btn-group-sm.calendario_group > button {
 
 #carouselExampleIndicators > div > div > div > button {
   background-color: var(--main-primary-color);
-  padding: 0.5% !important;
+  padding: 1.5% !important;
   border: 1px solid white;
+}
+.carousel-control-next-icon {
+  right: -15px !important;
+  position: relative;
+}
+.carousel-control-prev-icon {
+  left: -15px !important;
+  position: relative;
+}
+
+div.card > div > h6 > span > a:hover {
+  color: black !important;
 }

@@ -183,8 +183,10 @@
         //pcultar boleto al ver ruta o coche
         let ocultarBoleto=document.getElementById("pruebaBoleto")
         let ocultarNavbar=document.querySelector(".contenidoBarraCambiar")
+        let ocultarCalendario=document.getElementById("carousel_calendario")
         ocultarBoleto.classList.toggle('noVerBoleto')
         ocultarNavbar.classList.toggle('novernavbar')
+        ocultarCalendario.classList.toggle('noverCalendario')
         // ocultar mapa al ver lista
         let map= document.getElementById('map')
             map.classList.toggle('mapaTel')

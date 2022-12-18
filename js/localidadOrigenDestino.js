@@ -153,7 +153,46 @@ function mostrarBoleto(boletos,data,origen, destino, fecha_salida, ordenSale) {
     let dibujarBoleto = document.getElementById("pruebaBoleto");
 
     if (data.ok) {
-       console.log(ordenSale)
+      let dia_semana=new Date().toLocaleDateString('es',{weekday:"long"})
+      let dia_number=parseInt( new Date().toLocaleDateString('es',{day:"numeric"}))
+      let fecha_completa=(new Date().toLocaleDateString('es', {  year:"numeric", month:"2-digit", day:"numeric"}))
+      let fec=(new Date().toLocaleDateString('es', {  year:"numeric", month:"2-digit", dia_number}))
+       document.getElementById('calendarios_botones').innerHTML=`
+       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div id="carousel_calendario" class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            
+            <div class="btn-group-sm calendario_group" role="group" aria-label="Basic example">
+              <button id=${dia_number} onclick="cambiar_fecha_calendario(${dia_number})" type="button" class="btn btn-secondary">${fecha_completa}</button>
+              <button id=${dia_number+1} onclick="cambiar_fecha_calendario(${dia_number+1})" type="button" class="btn btn-secondary">${dia_number+1}/${fec}<br></button>
+              <button id=${dia_number+2} onclick="cambiar_fecha_calendario(${dia_number+2})" type="button" class="btn btn-secondary">${dia_number+2}/${fec}</button>
+              <button id=${dia_number+3} onclick="cambiar_fecha_calendario(${dia_number+3})" type="button" class="btn btn-secondary">${dia_number+3}/${fec}</button>
+              <button id=${dia_number+4} onclick="cambiar_fecha_calendario(${dia_number+4})" type="button" class="btn btn-secondary">${dia_number+4}/${fec}</button>
+              
+          </div>
+          </div>
+          <div class="carousel-item">
+            <div class="btn-group-sm calendario_group" role="group" aria-label="Basic example">
+            <button id=${dia_number+5} onclick="cambiar_fecha_calendario(${dia_number+5})" type="button" class="btn btn-secondary">${dia_number+1}/${fec}</button>
+            <button id=${dia_number+6} onclick="cambiar_fecha_calendario(${dia_number+6})" type="button" class="btn btn-secondary">${dia_number+6}/${fec}<br></button>
+            <button id=${dia_number+7} onclick="cambiar_fecha_calendario(${dia_number+7})" type="button" class="btn btn-secondary">${dia_number+7}/${fec}</button>
+            <button id=${dia_number+8} onclick="cambiar_fecha_calendario(${dia_number+8})" type="button" class="btn btn-secondary">${dia_number+8}/${fec}</button>
+            <button id=${dia_number+9} onclick="cambiar_fecha_calendario(${dia_number+9})" type="button" class="btn btn-secondary">${dia_number+9}/${fec}</button>
+          </div>
+          
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+       
+       `
 
       for (let i of boletos) {
         if (origen === i.origen && destino === i.destino && fecha_salida === i.fecha_salida) {
@@ -353,4 +392,21 @@ function nousar(){
           </h6>
         </div>
       </div>`
+}
+
+function cambiar_fecha_calendario(fecha){
+  const param=new URLSearchParams(window.location.search);
+
+  let q=param.get("fecha_salida")
+  let origen=param.get("origen")
+  let destino=param.get("destino")
+  let dias=new Date().toLocaleDateString('es',{weekday:"long"})
+  let dia_number=new Date().toLocaleDateString('es',{day:"numeric"})
+  let fec=(new Date().toLocaleDateString('es', { dias, year:"numeric", month:"2-digit", dia_number}))
+  let new_fecha=q.substring(0, q.length-2)
+  let fecha_reemplaza=new_fecha+fecha
+  
+  console.log(fecha_reemplaza)
+  console.log(q.value=fecha_reemplaza)
+  window.location=`../buscador_pasajes.html?origen=${origen}&destino=${destino}&fecha_salida=${fecha_reemplaza}`
 }

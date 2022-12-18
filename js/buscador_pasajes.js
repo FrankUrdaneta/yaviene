@@ -66,8 +66,9 @@ function mostrarBarraBuscador() {
    }
     window.location=`../buscador_pasajes.html?origen=${origen}&destino=${destino}&fecha_salida=${fecha_salida}`
  
+    
    })
-
+ let fech_completa=(new Date().toLocaleDateString( { year:"numeric",  month:"2-digit",day:"numeric" }))
    var fecha = new Date(); //Fecha actual
   var mes = fecha.getMonth() + 1; //obteniendo mes
   var dia = fecha.getDate(); //obteniendo dia

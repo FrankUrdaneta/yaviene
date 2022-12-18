@@ -387,3 +387,6 @@
 .novernavbar {
   display: none !important;
 }
+.noverCalendario {
+  display: none !important;
+}
