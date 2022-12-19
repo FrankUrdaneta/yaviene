@@ -268,14 +268,13 @@
 #cerrarBusqueda {
   justify-content: center !important;
   align-items: center !important;
-  position: absolute;
-  z-index: 850;
-  left: -35px;
+  position: relative;
+  left: 10px;
   margin-top: 3%;
-  width: 30%;
-  border-radius: 2px;
-  display: flex;
-  background-color: var(--main-secondary-color);
+  width: 91%;
+  color: var(--main-primary-color);
+  background-color: white !important;
+  border: 1px solid var(--main-secondary-color);
 }
 
 .cerrarBusqueda {
@@ -343,7 +342,7 @@ body > div.btn-group-sm.calendario_group > button {
 }
 
 #carouselExampleIndicators > div > div > div > button {
-  background-color: var(--main-primary-color);
+  background-color: var(--main-secondary-color);
   padding: 1.5% !important;
   border: 1px solid white;
 }

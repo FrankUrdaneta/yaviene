@@ -155,29 +155,36 @@ function mostrarBoleto(boletos,data,origen, destino, fecha_salida, ordenSale) {
     if (data.ok) {
       let dia_semana=new Date().toLocaleDateString('es',{weekday:"long"})
       let dia_number=parseInt( new Date().toLocaleDateString('es',{day:"numeric"}))
+      let mes_number=parseInt( new Date().toLocaleDateString('es',{month:"2-digit"}))
+      let ano_number=parseInt( new Date().toLocaleDateString('es',{year:"numeric"}))
       let fecha_completa=(new Date().toLocaleDateString('es', {  year:"numeric", month:"2-digit", day:"numeric"}))
       let fec=(new Date().toLocaleDateString('es', {  year:"numeric", month:"2-digit", dia_number}))
+
+      const param=new URLSearchParams(window.location.search);
+      let q=param.get("fecha_salida")
+      let dias=new Date(q).toLocaleDateString('es',{weekday:"long"})
+
        document.getElementById('calendarios_botones').innerHTML=`
        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <div id="carousel_calendario" class="carousel-inner" role="listbox">
           <div class="carousel-item active">
             
             <div class="btn-group-sm calendario_group" role="group" aria-label="Basic example">
-              <button id=${dia_number} onclick="cambiar_fecha_calendario(${dia_number})" type="button" class="btn btn-secondary">${fecha_completa}</button>
-              <button id=${dia_number+1} onclick="cambiar_fecha_calendario(${dia_number+1})" type="button" class="btn btn-secondary">${dia_number+1}/${fec}<br></button>
-              <button id=${dia_number+2} onclick="cambiar_fecha_calendario(${dia_number+2})" type="button" class="btn btn-secondary">${dia_number+2}/${fec}</button>
-              <button id=${dia_number+3} onclick="cambiar_fecha_calendario(${dia_number+3})" type="button" class="btn btn-secondary">${dia_number+3}/${fec}</button>
-              <button id=${dia_number+4} onclick="cambiar_fecha_calendario(${dia_number+4})" type="button" class="btn btn-secondary">${dia_number+4}/${fec}</button>
+              <button id=${dia_number} onclick="cambiar_fecha_calendario(${dia_number})" type="button" class="btn btn-secondary">${new Date(ano_number, mes_number-1, dia_number).toLocaleDateString('es',{weekday:"short"}).toUpperCase()}<br>${fecha_completa}</button>
+              <button id=${dia_number+1} onclick="cambiar_fecha_calendario(${dia_number+1})" type="button" class="btn btn-secondary">${new Date(ano_number, mes_number-1, dia_number+1).toLocaleDateString('es',{weekday:"short"}).toUpperCase()}<br>${dia_number+1}/${fec}<br></button>
+              <button id=${dia_number+2} onclick="cambiar_fecha_calendario(${dia_number+2})" type="button" class="btn btn-secondary">${new Date(ano_number, mes_number-1, dia_number+2).toLocaleDateString('es',{weekday:"short"}).toUpperCase()}<br>${dia_number+2}/${fec}</button>
+              <button id=${dia_number+3} onclick="cambiar_fecha_calendario(${dia_number+3})" type="button" class="btn btn-secondary">${new Date(ano_number, mes_number-1, dia_number+3).toLocaleDateString('es',{weekday:"short"}).toUpperCase()}<br>${dia_number+3}/${fec}</button>
+              <button id=${dia_number+4} onclick="cambiar_fecha_calendario(${dia_number+4})" type="button" class="btn btn-secondary">${new Date(ano_number, mes_number-1, dia_number+4).toLocaleDateString('es',{weekday:"short"}).toUpperCase()}<br>${dia_number+4}/${fec}</button>
               
           </div>
           </div>
           <div class="carousel-item">
             <div class="btn-group-sm calendario_group" role="group" aria-label="Basic example">
-            <button id=${dia_number+5} onclick="cambiar_fecha_calendario(${dia_number+5})" type="button" class="btn btn-secondary">${dia_number+1}/${fec}</button>
-            <button id=${dia_number+6} onclick="cambiar_fecha_calendario(${dia_number+6})" type="button" class="btn btn-secondary">${dia_number+6}/${fec}<br></button>
-            <button id=${dia_number+7} onclick="cambiar_fecha_calendario(${dia_number+7})" type="button" class="btn btn-secondary">${dia_number+7}/${fec}</button>
-            <button id=${dia_number+8} onclick="cambiar_fecha_calendario(${dia_number+8})" type="button" class="btn btn-secondary">${dia_number+8}/${fec}</button>
-            <button id=${dia_number+9} onclick="cambiar_fecha_calendario(${dia_number+9})" type="button" class="btn btn-secondary">${dia_number+9}/${fec}</button>
+            <button id=${dia_number+5} onclick="cambiar_fecha_calendario(${dia_number+5})" type="button" class="btn btn-secondary">${new Date(ano_number, mes_number-1, dia_number+5).toLocaleDateString('es',{weekday:"short"}).toUpperCase()}<br>${dia_number+5}/${fec}</button>
+            <button id=${dia_number+6} onclick="cambiar_fecha_calendario(${dia_number+6})" type="button" class="btn btn-secondary">${new Date(ano_number, mes_number-1, dia_number+6).toLocaleDateString('es',{weekday:"short"}).toUpperCase()}<br>${dia_number+6}/${fec}<br></button>
+            <button id=${dia_number+7} onclick="cambiar_fecha_calendario(${dia_number+7})" type="button" class="btn btn-secondary">${new Date(ano_number, mes_number-1, dia_number+7).toLocaleDateString('es',{weekday:"short"}).toUpperCase()}<br>${dia_number+7}/${fec}</button>
+            <button id=${dia_number+8} onclick="cambiar_fecha_calendario(${dia_number+8})" type="button" class="btn btn-secondary">${new Date(ano_number, mes_number-1, dia_number+8).toLocaleDateString('es',{weekday:"short"}).toUpperCase()}<br>${dia_number+8}/${fec}</button>
+            <button id=${dia_number+9} onclick="cambiar_fecha_calendario(${dia_number+9})" type="button" class="btn btn-secondary">${new Date(ano_number, mes_number-1, dia_number+9).toLocaleDateString('es',{weekday:"short"}).toUpperCase()}<br>${dia_number+9}/${fec}</button>
           </div>
           
           </div>
@@ -366,13 +373,9 @@ function ordenarPor(){
 }
 
 function cerrarBusqueda(){
-  let cerrarBusqueda=document.getElementById('cerrarBusqueda');
-  
-
-  
   let buscador=document.getElementById('buscador')
   buscador.classList.toggle('cerrarBusqueda')
-  cerrarBusqueda.classList.toggle('cerrarBusqueda')
+  
   
 }
 function observacion(){
@@ -400,13 +403,11 @@ function cambiar_fecha_calendario(fecha){
   let q=param.get("fecha_salida")
   let origen=param.get("origen")
   let destino=param.get("destino")
-  let dias=new Date().toLocaleDateString('es',{weekday:"long"})
+  let dias=new Date(q).toLocaleDateString('es',{weekday:"long"})
   let dia_number=new Date().toLocaleDateString('es',{day:"numeric"})
   let fec=(new Date().toLocaleDateString('es', { dias, year:"numeric", month:"2-digit", dia_number}))
   let new_fecha=q.substring(0, q.length-2)
   let fecha_reemplaza=new_fecha+fecha
-  
-  console.log(fecha_reemplaza)
-  console.log(q.value=fecha_reemplaza)
+  alert(dias)
   window.location=`../buscador_pasajes.html?origen=${origen}&destino=${destino}&fecha_salida=${fecha_reemplaza}`
 }

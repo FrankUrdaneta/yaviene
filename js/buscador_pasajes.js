@@ -36,10 +36,13 @@ function mostrarBarraBuscador() {
 
       <div class="col-lg-2 col-sm-6">
       <a type="submit" id="buscar_pasajes" class="btn ov-btn-grow-skew  ">Buscar</a>
+      
       </div>
       
     </form>
-
+    ${window.location.pathname=="/index.html"?``:`
+    <button id="cerrarBusqueda" onclick="cerrarBusqueda()" class="btn ov-btn-grow-skew ">Cancelar</button>`}
+    
 
     </div>
     </div> `

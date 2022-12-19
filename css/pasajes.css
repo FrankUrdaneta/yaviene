@@ -128,12 +128,12 @@
   .ol-zoom {
     top: 2.5em;
   }
-  #cerrarBusqueda {
+  /* #cerrarBusqueda {
     width: 10% !important;
     left: -4px !important;
     margin-top: -25% !important;
     z-index: 2;
-  }
+  } */
   .imgCordobaMuni {
     max-width: 100% !important;
     width: 310px !important;
@@ -279,11 +279,11 @@
   .ol-zoom {
     top: 2.5em;
   }
-  #cerrarBusqueda {
+  /* #cerrarBusqueda {
     left: -5px !important;
     margin-top: -25% !important;
     width: 10% !important;
-  }
+  } */
   .imgCordobaMuni {
     width: 280px;
     display: flex;
@@ -435,11 +435,11 @@
   .ol-zoom {
     top: 2em;
   }
-  #cerrarBusqueda {
+  /* #cerrarBusqueda {
     left: 1px !important;
     margin-top: -23% !important;
     width: 40px !important;
-  }
+  } */
   .origenPasaje {
     margin-bottom: 2px;
     width: 155% !important;
@@ -575,11 +575,11 @@
   .ol-zoom {
     top: 2em;
   }
-  #cerrarBusqueda {
+  /* #cerrarBusqueda {
     left: 1px !important;
     margin-top: -25% !important;
     width: 40px !important;
-  }
+  } */
   .origenPasaje {
     margin-bottom: 2px;
     width: 155% !important;
@@ -714,11 +714,11 @@
   .ol-zoom {
     top: 2em;
   }
-  #cerrarBusqueda {
+  /* #cerrarBusqueda {
     left: 1px !important;
     margin-top: -110px !important;
     width: 40px !important;
-  }
+  } */
   #buscador > div > form > div:nth-child(2) > div {
     margin-top: 20px;
     margin-left: -9px;
@@ -863,11 +863,11 @@
   .ol-zoom {
     top: 2em;
   }
-  #cerrarBusqueda {
+  /* #cerrarBusqueda {
     left: 1px !important;
     margin-top: -17% !important;
     width: 40px !important;
-  }
+  } */
   #buscador > div.forma.mt-2.position-sticky > form > div:nth-child(2) > div {
     margin-top: 20px;
     margin-left: -9px;
@@ -1017,11 +1017,11 @@
   .ol-zoom {
     top: 2em;
   }
-  #cerrarBusqueda {
+  /* #cerrarBusqueda {
     left: 1px !important;
     margin-top: -17% !important;
     width: 40px !important;
-  }
+  } */
   #buscador > div.forma.mt-2.position-sticky > form > div:nth-child(2) > div {
     margin-top: 20px;
     margin-left: -9px;
@@ -1210,11 +1210,11 @@
   .ol-zoom {
     top: 2em;
   }
-  #cerrarBusqueda {
+  /* #cerrarBusqueda {
     left: 1px !important;
     margin-top: -7% !important;
     width: 30px !important;
-  }
+  } */
   #buscador > div.forma.mt-2.position-sticky > form > div:nth-child(2) > div {
     margin-left: -9px;
   }
@@ -1464,11 +1464,11 @@
   .ol-zoom {
     top: 2em;
   }
-  #cerrarBusqueda {
+  /* #cerrarBusqueda {
     left: 1px !important;
     margin-top: -2.5% !important;
     width: 30px !important;
-  }
+  } */
   #buscador {
     position: relative;
     top: 70px !important;
@@ -1600,11 +1600,11 @@
   .ol-zoom {
     top: 2em;
   }
-  #cerrarBusqueda {
+  /* #cerrarBusqueda {
     left: 2px !important;
     margin-top: -3.5% !important;
     width: 30px !important;
-  }
+  } */
   #buscador {
     position: relative;
     top: 6.5% !important;
@@ -1748,11 +1748,11 @@
   .ol-zoom {
     top: 2em;
   }
-  #cerrarBusqueda {
+  /* #cerrarBusqueda {
     left: 2px !important;
     margin-top: -3.5% !important;
     width: 30px !important;
-  }
+  } */
   #buscador {
     position: relative;
     top: 6.5% !important;
@@ -1898,11 +1898,11 @@
   .ol-zoom {
     top: 2em;
   }
-  #cerrarBusqueda {
+  /* #cerrarBusqueda {
     left: 2px !important;
     margin-top: -3.5% !important;
     width: 30px !important;
-  }
+  } */
   #buscador {
     position: relative;
     top: 6.5% !important;
@@ -2020,11 +2020,11 @@
   .ol-zoom {
     top: 2em;
   }
-  #cerrarBusqueda {
+  /* #cerrarBusqueda {
     left: 2px !important;
     margin-top: -3.5% !important;
     width: 30px !important;
-  }
+  } */
   #buscador {
     position: relative;
     top: 6.5% !important;
@@ -2142,11 +2142,11 @@
   .ol-zoom {
     top: 2em;
   }
-  #cerrarBusqueda {
+  /* #cerrarBusqueda {
     left: 2px !important;
     margin-top: -3.5% !important;
     width: 30px !important;
-  }
+  } */
   #buscador {
     position: relative;
     top: 2.5% !important;
@@ -2265,11 +2265,11 @@
   .ol-zoom {
     top: 2em;
   }
-  #cerrarBusqueda {
+  /* #cerrarBusqueda {
     left: 2px !important;
     margin-top: -3.5% !important;
     width: 30px !important;
-  }
+  } */
   #buscador {
     position: relative;
     top: 1.5% !important;
@@ -2399,11 +2399,11 @@
   .ol-zoom {
     top: 2em;
   }
-  #cerrarBusqueda {
+  /* #cerrarBusqueda {
     left: 2px !important;
     margin-top: -3.5% !important;
     width: 30px !important;
-  }
+  } */
   #buscador {
     position: relative;
     top: 1.5% !important;
