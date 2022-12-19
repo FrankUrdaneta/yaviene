@@ -41,7 +41,7 @@ function mostrarBarraBuscador() {
       
     </form>
     ${window.location.pathname=='/yaviene/' || window.location.pathname=='/index.html'?``:`
-    <button id="cerrarBusqueda" onclick="cerrarBusqueda()" class="btn ov-btn-grow-skew ">Cancelar</button>`}
+    <button id="cerrarBusqueda" onclick="cerrarBusqueda()" class="btn ov-btn-grow-skew ">Cerrar</button>`}
     
 
     </div>
