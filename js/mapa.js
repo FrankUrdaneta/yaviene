@@ -104,7 +104,7 @@
       
 
       const dibujaTraza = (servicio)=>{
-        fetch('./js/traza.json?servicio='+servicio)
+        fetch('./js/traza2.json?servicio='+servicio)
         .then(a=>a.json())
         .then(res=>{
           if(res.ok){
