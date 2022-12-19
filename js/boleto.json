@@ -17,7 +17,7 @@
         "servicio": 169,
         "coche": 69,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 2
       },
 
@@ -36,7 +36,7 @@
         "servicio": 142,
         "coche": 201,
         "rampa": false,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 129
       },
       {
@@ -54,7 +54,7 @@
         "servicio": 122,
         "coche": 62,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 2
       },
       {
@@ -72,7 +72,7 @@
         "servicio": 90,
         "coche": 999,
         "rampa": false,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 129
       },
       {
@@ -90,7 +90,7 @@
         "servicio": 992,
         "coche": 2001,
         "rampa": false,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 3
       },
       {
@@ -108,7 +108,7 @@
         "servicio": 142,
         "coche": 2000,
         "rampa": false,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 6
       },
       {
@@ -126,7 +126,7 @@
         "servicio": 12,
         "coche": 11,
         "rampa": false,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 102
       },
       {
@@ -144,7 +144,7 @@
         "servicio": 1,
         "coche": 92,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 95
       },
       {
@@ -162,7 +162,7 @@
         "servicio": 22,
         "coche": 12,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 129
       },
       {
@@ -180,7 +180,7 @@
         "servicio": 12,
         "coche": 22,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 102
       },
       {
@@ -198,7 +198,7 @@
         "servicio": 12,
         "coche": 32,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 102
       },
       {
@@ -216,7 +216,7 @@
         "servicio": 1,
         "coche": 6,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 129
       },
       {
@@ -234,7 +234,7 @@
         "servicio": 101,
         "coche": 9,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 3
       },
       {
@@ -252,7 +252,7 @@
         "servicio": 1001,
         "coche": 50,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 6
       },
       {
@@ -270,7 +270,7 @@
         "servicio": 1,
         "coche": 6,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 95
       },
       {
@@ -288,7 +288,7 @@
         "servicio": 122,
         "coche": 62,
         "rampa": false,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 2
       },
       {
@@ -306,7 +306,7 @@
         "servicio": 1,
         "coche": 6,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 129
       },
       {
@@ -324,7 +324,7 @@
         "servicio": 101,
         "coche": 9,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 3
       },
       {
@@ -342,7 +342,7 @@
         "servicio": 1001,
         "coche": 50,
         "rampa": false,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 6
       },
       {
@@ -360,7 +360,7 @@
         "servicio": 12,
         "coche": 32,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 102
       },
       {
@@ -378,7 +378,7 @@
         "servicio": 1,
         "coche": 6,
         "rampa": false,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 95
       },
       {
@@ -396,7 +396,7 @@
         "servicio": 122,
         "coche": 62,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 2
       },
       {
@@ -414,7 +414,7 @@
         "servicio": 1,
         "coche": 6,
         "rampa": false,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 129
       },
       {
@@ -432,7 +432,7 @@
         "servicio": 101,
         "coche": 9,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 3
       },
       {
@@ -450,7 +450,7 @@
         "servicio": 1001,
         "coche": 50,
         "rampa": false,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 6
       },
       {
@@ -468,7 +468,7 @@
         "servicio": 12,
         "coche": 32,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 102
       },
       {
@@ -486,7 +486,7 @@
         "servicio": 1,
         "coche": 6,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 95
       },
       {
@@ -504,7 +504,7 @@
         "servicio": 122,
         "coche": 62,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 2
       },
       {
@@ -522,7 +522,7 @@
         "servicio": 1,
         "coche": 6,
         "rampa": false,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 129
       },
       {
@@ -540,7 +540,7 @@
         "servicio": 101,
         "coche": 9,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 3
       },
       {
@@ -558,7 +558,7 @@
         "servicio": 1001,
         "coche": 50,
         "rampa": false,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 6
       },
       {
@@ -576,7 +576,7 @@
         "servicio": 12,
         "coche": 32,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 102
       },
       {
@@ -594,7 +594,7 @@
         "servicio": 1,
         "coche": 6,
         "rampa": false,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 95
       },
       {
@@ -612,7 +612,7 @@
         "servicio": 122,
         "coche": 62,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 2
       },
       {
@@ -630,7 +630,7 @@
         "servicio": 1,
         "coche": 6,
         "rampa": false,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 129
       },
       {
@@ -648,7 +648,7 @@
         "servicio": 101,
         "coche": 9,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 3
       },
       {
@@ -666,7 +666,7 @@
         "servicio": 1001,
         "coche": 50,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 6
       },
       {
@@ -684,7 +684,7 @@
         "servicio": 12,
         "coche": 32,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 102
       },
       {
@@ -702,7 +702,7 @@
         "servicio": 1,
         "coche": 6,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 95
       },
       {
@@ -720,7 +720,7 @@
         "servicio": 122,
         "coche": 62,
         "rampa": false,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 2
       },
       {
@@ -738,7 +738,7 @@
         "servicio": 1,
         "coche": 6,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 129
       },
       {
@@ -756,7 +756,7 @@
         "servicio": 101,
         "coche": 9,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 3
       },
       {
@@ -774,7 +774,7 @@
         "servicio": 1001,
         "coche": 50,
         "rampa": false,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 6
       },
       {
@@ -792,7 +792,7 @@
         "servicio": 12,
         "coche": 32,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 102
       },
       {
@@ -810,7 +810,7 @@
         "servicio": 1,
         "coche": 6,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 95
       },
       {
@@ -828,7 +828,7 @@
         "servicio": 122,
         "coche": 62,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 2
       },
       {
@@ -846,7 +846,7 @@
         "servicio": 1,
         "coche": 6,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 129
       },
       {
@@ -864,7 +864,7 @@
         "servicio": 101,
         "coche": 9,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 3
       },
       {
@@ -882,7 +882,7 @@
         "servicio": 1001,
         "coche": 50,
         "rampa": false,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 6
       },
       {
@@ -900,7 +900,7 @@
         "servicio": 12,
         "coche": 32,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 102
       },
       {
@@ -918,7 +918,7 @@
         "servicio": 1,
         "coche": 6,
         "rampa": false,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 95
       },
       {
@@ -936,7 +936,7 @@
         "servicio": 122,
         "coche": 62,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 2
       },
       {
@@ -954,7 +954,7 @@
         "servicio": 1,
         "coche": 6,
         "rampa": false,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 129
       },
       {
@@ -972,7 +972,7 @@
         "servicio": 101,
         "coche": 9,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 3
       },
       {
@@ -990,7 +990,7 @@
         "servicio": 1001,
         "coche": 50,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 6
       },
       {
@@ -1008,7 +1008,7 @@
         "servicio": 12,
         "coche": 32,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 102
       },
       {
@@ -1026,7 +1026,7 @@
         "servicio": 1,
         "coche": 6,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 95
       },
       {
@@ -1044,7 +1044,7 @@
         "servicio": 122,
         "coche": 62,
         "rampa": false,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 2
       },
       {
@@ -1062,7 +1062,7 @@
         "servicio": 1,
         "coche": 6,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 129
       },
       {
@@ -1080,7 +1080,7 @@
         "servicio": 101,
         "coche": 9,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 3
       },
       {
@@ -1098,7 +1098,7 @@
         "servicio": 1001,
         "coche": 50,
         "rampa": false,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 6
       },
       {
@@ -1116,7 +1116,7 @@
         "servicio": 12,
         "coche": 32,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 102
       },
       {
@@ -1134,7 +1134,7 @@
         "servicio": 1,
         "coche": 6,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 95
       },
       {
@@ -1152,7 +1152,7 @@
         "servicio": 122,
         "coche": 62,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 2
       },
       {
@@ -1170,7 +1170,7 @@
         "servicio": 1,
         "coche": 6,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 129
       },
       {
@@ -1188,7 +1188,7 @@
         "servicio": 101,
         "coche": 9,
         "rampa": true,
-        "fecha_salida": "2022-12-18",
+        "fecha_salida": "2022-12-20",
         "codigo_empresa": 3
       },
       {

@@ -408,6 +408,6 @@ function cambiar_fecha_calendario(fecha){
   let fec=(new Date().toLocaleDateString('es', { dias, year:"numeric", month:"2-digit", dia_number}))
   let new_fecha=q.substring(0, q.length-2)
   let fecha_reemplaza=new_fecha+fecha
-  alert(dias)
+  
   window.location=`../buscador_pasajes.html?origen=${origen}&destino=${destino}&fecha_salida=${fecha_reemplaza}`
 }

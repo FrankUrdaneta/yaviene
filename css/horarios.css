@@ -347,14 +347,16 @@ body > div.btn-group-sm.calendario_group > button {
   border: 1px solid white;
 }
 .carousel-control-next-icon {
-  right: -15px !important;
   position: relative;
 }
 .carousel-control-prev-icon {
-  left: -15px !important;
   position: relative;
 }
 
 div.card > div > h6 > span > a:hover {
   color: black !important;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  width: 4%;
 }
