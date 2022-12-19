@@ -40,7 +40,7 @@ function mostrarBarraBuscador() {
       </div>
       
     </form>
-    ${window.location.pathname=="/index.html"?``:`
+    ${window.location.pathname=='/' || window.location.pathname=='/index.html'?``:`
     <button id="cerrarBusqueda" onclick="cerrarBusqueda()" class="btn ov-btn-grow-skew ">Cancelar</button>`}
     
 
