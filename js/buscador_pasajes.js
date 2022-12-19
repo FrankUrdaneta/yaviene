@@ -40,7 +40,7 @@ function mostrarBarraBuscador() {
       </div>
       
     </form>
-    ${window.location.pathname=="/index.html"?``:`
+    ${window.location.pathname=='/yaviene/' || window.location.pathname=='/index.html' ?``:`
     <button id="cerrarBusqueda" onclick="cerrarBusqueda()" class="btn ov-btn-grow-skew ">Cancelar</button>`}
     
 
@@ -67,7 +67,7 @@ function mostrarBarraBuscador() {
     document.getElementById('inputDestino').focus
     return false;
    }
-    window.location=`../buscador_pasajes.html?origen=${origen}&destino=${destino}&fecha_salida=${fecha_salida}`
+    window.location=`../yaviene/buscador_pasajes.html?origen=${origen}&destino=${destino}&fecha_salida=${fecha_salida}`
  
     
    })

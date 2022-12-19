@@ -409,5 +409,5 @@ function cambiar_fecha_calendario(fecha){
   let new_fecha=q.substring(0, q.length-2)
   let fecha_reemplaza=new_fecha+fecha
   
-  window.location=`../buscador_pasajes.html?origen=${origen}&destino=${destino}&fecha_salida=${fecha_reemplaza}`
+  window.location=`../yaviene/buscador_pasajes.html?origen=${origen}&destino=${destino}&fecha_salida=${fecha_reemplaza}`
 }
