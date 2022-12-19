@@ -67,7 +67,7 @@ function mostrarBarraBuscador() {
     document.getElementById('inputDestino').focus
     return false;
    }
-    window.location=`../buscador_pasajes.html?origen=${origen}&destino=${destino}&fecha_salida=${fecha_salida}`
+    window.location=`../yaviene/buscador_pasajes.html?origen=${origen}&destino=${destino}&fecha_salida=${fecha_salida}`
  
     
    })
