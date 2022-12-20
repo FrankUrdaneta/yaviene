@@ -30,3 +30,13 @@ function capturarFechaCalendario(){
       let fec=(new Date().toLocaleDateString('es', {  year:"numeric", month:"2-digit", dia_number}))
 
 }
+
+function horaActual(){
+    new Date().toLocaleTimeString('es')
+    //con esto podemos calcular la hora en curso hora minutos segundos
+}
+
+function horaActualMilitar(){
+    new Intl.DateTimeFormat(undefined, { timeStyle: "short" }).format(new Date());
+    //solo muestro hora y minutos
+}

@@ -269,9 +269,9 @@
   justify-content: center !important;
   align-items: center !important;
   position: relative;
-  margin-left: 12px;
-  margin-top: 3% !important;
-  width: 92%;
+  left: 10px;
+  margin-top: 3%;
+  width: 91%;
   color: var(--main-primary-color);
   background-color: white !important;
   border: 1px solid var(--main-secondary-color);
@@ -343,7 +343,7 @@ body > div.btn-group-sm.calendario_group > button {
 
 #carouselExampleIndicators > div > div > div > button {
   background-color: var(--main-primary-color);
-  padding: 1px 10px 0.5px 5px !important;
+  /* padding: 1px 5px 0.5px 5px !important; */
   border: 1px solid white;
 }
 .carousel-control-next-icon {
@@ -363,4 +363,13 @@ div.card > div > h6 > span > a:hover {
 
 .rd-navbar-wrap {
   height: 0% !important;
+}
+
+.card-button {
+  display: flex;
+  justify-content: center;
+}
+#pruebaBoleto button {
+  /* width: 60%; */
+  font-size: large;
 }

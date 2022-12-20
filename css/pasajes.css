@@ -55,7 +55,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-
+  z-index: 100;
   left: 2%;
 }
 
@@ -1485,10 +1485,6 @@
 /*FINALIZA MODO TELEFONO*/
 /*INICIA MODO PC*/
 @media (min-width: 992px) and (max-width: 1080px) {
-  #calendarios_botones {
-    display: flex !important;
-    position: relative !important;
-  }
   body > div.buscarHorario > #buscador > .forma {
     font-size: small !important;
     position: relative !important;

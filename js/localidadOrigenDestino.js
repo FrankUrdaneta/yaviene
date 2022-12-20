@@ -164,7 +164,7 @@ function mostrarBoleto(boletos,data,origen, destino, fecha_salida, ordenSale) {
       let q=param.get("fecha_salida")
       let dias=new Date(q).toLocaleDateString('es',{weekday:"long"})
 
-       document.getElementById('calendarios_botones').innerHTML=`${document.documentElement.clientWidth<991?`
+       document.getElementById('calendarios_botones').innerHTML=`${document.documentElement.clientWidth<721?`
        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <div id="carousel_calendario" class="carousel-inner" role="listbox">
           <div class="carousel-item active">
@@ -217,10 +217,10 @@ function mostrarBoleto(boletos,data,origen, destino, fecha_salida, ordenSale) {
        
        
        `
-
+      let hora_actual=new Intl.DateTimeFormat(undefined, { timeStyle: "short" }).format(new Date());
       for (let i of boletos) {
         if (origen === i.origen && destino === i.destino && fecha_salida === i.fecha_salida) {
-         
+         console.log(hora_actual<i.sale)
          document.getElementById(`${i.codigo_empresa}`).style=`display='flex`
           
  

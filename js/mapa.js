@@ -73,8 +73,9 @@
     });
       var vista = new ol.View({
         projection: "EPSG:4326",
-        center: [-64.18624728349602, -31.41453407563109],
-        zoom: 14,
+        center: [-65.588, -32.045],
+        zoom: 8,
+       
         //minZoom:11
       });
       var map = new ol.Map({
