@@ -18,7 +18,7 @@
         "coche": 69,
         "rampa": true,
         "fecha_salida": "2022-12-20",
-        "codigo_empresa": 2
+        "codigo_empresa": 33
       },
 
       {
@@ -55,7 +55,7 @@
         "coche": 62,
         "rampa": true,
         "fecha_salida": "2022-12-20",
-        "codigo_empresa": 2
+        "codigo_empresa": 33
       },
       {
         "refuerzo": false,
@@ -289,7 +289,7 @@
         "coche": 62,
         "rampa": false,
         "fecha_salida": "2022-12-20",
-        "codigo_empresa": 2
+        "codigo_empresa": 33
       },
       {
         "refuerzo": false,
@@ -397,7 +397,7 @@
         "coche": 62,
         "rampa": true,
         "fecha_salida": "2022-12-20",
-        "codigo_empresa": 2
+        "codigo_empresa": 33
       },
       {
         "refuerzo": false,
@@ -505,7 +505,7 @@
         "coche": 62,
         "rampa": true,
         "fecha_salida": "2022-12-20",
-        "codigo_empresa": 2
+        "codigo_empresa": 33
       },
       {
         "refuerzo": false,
@@ -613,7 +613,7 @@
         "coche": 62,
         "rampa": true,
         "fecha_salida": "2022-12-20",
-        "codigo_empresa": 2
+        "codigo_empresa": 33
       },
       {
         "refuerzo": false,
@@ -721,7 +721,7 @@
         "coche": 62,
         "rampa": false,
         "fecha_salida": "2022-12-20",
-        "codigo_empresa": 2
+        "codigo_empresa": 33
       },
       {
         "refuerzo": false,
@@ -829,7 +829,7 @@
         "coche": 62,
         "rampa": true,
         "fecha_salida": "2022-12-20",
-        "codigo_empresa": 2
+        "codigo_empresa": 33
       },
       {
         "refuerzo": false,
@@ -937,7 +937,7 @@
         "coche": 62,
         "rampa": true,
         "fecha_salida": "2022-12-20",
-        "codigo_empresa": 2
+        "codigo_empresa": 33
       },
       {
         "refuerzo": false,
@@ -1045,7 +1045,7 @@
         "coche": 62,
         "rampa": false,
         "fecha_salida": "2022-12-20",
-        "codigo_empresa": 2
+        "codigo_empresa": 33
       },
       {
         "refuerzo": false,
@@ -1153,7 +1153,7 @@
         "coche": 62,
         "rampa": true,
         "fecha_salida": "2022-12-20",
-        "codigo_empresa": 2
+        "codigo_empresa": 33
       },
       {
         "refuerzo": false,
@@ -1261,7 +1261,7 @@
         "coche": 69,
         "rampa": true,
         "fecha_salida": "2022-12-21",
-        "codigo_empresa": 2
+        "codigo_empresa": 33
       },
 
       {
@@ -1298,7 +1298,7 @@
         "coche": 62,
         "rampa": true,
         "fecha_salida": "2022-12-21",
-        "codigo_empresa": 2
+        "codigo_empresa": 33
       },
       {
         "refuerzo": true,
@@ -1532,7 +1532,7 @@
         "coche": 62,
         "rampa": false,
         "fecha_salida": "2022-12-21",
-        "codigo_empresa": 2
+        "codigo_empresa": 33
       },
       {
         "refuerzo": true,
@@ -1640,7 +1640,7 @@
         "coche": 62,
         "rampa": true,
         "fecha_salida": "2022-12-21",
-        "codigo_empresa": 2
+        "codigo_empresa": 33
       },
       {
         "refuerzo": true,
@@ -1748,7 +1748,7 @@
         "coche": 62,
         "rampa": true,
         "fecha_salida": "2022-12-21",
-        "codigo_empresa": 2
+        "codigo_empresa": 33
       },
       {
         "refuerzo": true,
@@ -1856,7 +1856,7 @@
         "coche": 62,
         "rampa": true,
         "fecha_salida": "2022-12-21",
-        "codigo_empresa": 2
+        "codigo_empresa": 33
       },
       {
         "refuerzo": true,
@@ -1964,7 +1964,7 @@
         "coche": 62,
         "rampa": false,
         "fecha_salida": "2022-12-21",
-        "codigo_empresa": 2
+        "codigo_empresa": 33
       },
       {
         "refuerzo": true,
@@ -2072,7 +2072,7 @@
         "coche": 62,
         "rampa": true,
         "fecha_salida": "2022-12-21",
-        "codigo_empresa": 2
+        "codigo_empresa": 33
       },
       {
         "refuerzo": false,
@@ -2180,7 +2180,7 @@
         "coche": 62,
         "rampa": true,
         "fecha_salida": "2022-12-21",
-        "codigo_empresa": 2
+        "codigo_empresa": 33
       },
       {
         "refuerzo": false,
@@ -2288,7 +2288,7 @@
         "coche": 62,
         "rampa": false,
         "fecha_salida": "2022-12-21",
-        "codigo_empresa": 2
+        "codigo_empresa": 33
       },
       {
         "refuerzo": false,
@@ -2396,7 +2396,7 @@
         "coche": 62,
         "rampa": true,
         "fecha_salida": "2022-12-21",
-        "codigo_empresa": 2
+        "codigo_empresa": 33
       },
       {
         "refuerzo": false,

@@ -328,10 +328,7 @@ fetch("./js/boleto.json")
     let boletos = data.data.boletos;
   
 //inicio ordenar boletos por salida
-let ordenSale=[]
-    for(let i=0; i<data.data.boletos.length; i++){
-      ordenSale.push(data.data.boletos[i].sale)
-    }
+
 
   // console.log(cerrarBusqueda())
 
