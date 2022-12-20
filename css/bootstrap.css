@@ -6736,19 +6736,9 @@ button.close {
   margin-top: auto !important;
 }
 
-.mr-auto,
-.mx-auto {
-  margin-right: auto !important;
-}
-
 .mb-auto,
 .my-auto {
   margin-bottom: auto !important;
-}
-
-.ml-auto,
-.mx-auto {
-  margin-left: auto !important;
 }
 
 @media (min-width: 576px) {

@@ -343,7 +343,7 @@ body > div.btn-group-sm.calendario_group > button {
 
 #carouselExampleIndicators > div > div > div > button {
   background-color: var(--main-primary-color);
-  padding: 1px 5px 0.5px 5px !important;
+  padding: 1px 10px 0.5px 5px !important;
   border: 1px solid white;
 }
 .carousel-control-next-icon {
