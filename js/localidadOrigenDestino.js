@@ -164,7 +164,7 @@ function mostrarBoleto(boletos,data,origen, destino, fecha_salida, ordenSale) {
       let q=param.get("fecha_salida")
       let dias=new Date(q).toLocaleDateString('es',{weekday:"long"})
 
-       document.getElementById('calendarios_botones').innerHTML=`
+       document.getElementById('calendarios_botones').innerHTML=`${document.documentElement.clientWidth<991?`
        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <div id="carousel_calendario" class="carousel-inner" role="listbox">
           <div class="carousel-item active">
@@ -198,6 +198,23 @@ function mostrarBoleto(boletos,data,origen, destino, fecha_salida, ordenSale) {
           <span class="sr-only">Next</span>
         </a>
       </div>
+       `:`
+       <div class="carousel-item active ">
+            
+            <div class="btn-group-sm calendario_group" role="group" aria-label="Basic example">
+              <button id=${dia_number} onclick="cambiar_fecha_calendario(${dia_number})" type="button" class="btn btn-secondary">${new Date(ano_number, mes_number-1, dia_number).toLocaleDateString('es',{weekday:"short"}).toUpperCase()}<br>${fecha_completa}</button>
+              <button id=${dia_number+1} onclick="cambiar_fecha_calendario(${dia_number+1})" type="button" class="btn btn-secondary">${new Date(ano_number, mes_number-1, dia_number+1).toLocaleDateString('es',{weekday:"short"}).toUpperCase()}<br>${dia_number+1}/${fec}<br></button>
+              <button id=${dia_number+2} onclick="cambiar_fecha_calendario(${dia_number+2})" type="button" class="btn btn-secondary">${new Date(ano_number, mes_number-1, dia_number+2).toLocaleDateString('es',{weekday:"short"}).toUpperCase()}<br>${dia_number+2}/${fec}</button>
+              <button id=${dia_number+3} onclick="cambiar_fecha_calendario(${dia_number+3})" type="button" class="btn btn-secondary">${new Date(ano_number, mes_number-1, dia_number+3).toLocaleDateString('es',{weekday:"short"}).toUpperCase()}<br>${dia_number+3}/${fec}</button>
+              <button id=${dia_number+4} onclick="cambiar_fecha_calendario(${dia_number+4})" type="button" class="btn btn-secondary">${new Date(ano_number, mes_number-1, dia_number+4).toLocaleDateString('es',{weekday:"short"}).toUpperCase()}<br>${dia_number+4}/${fec}</button>
+              <button id=${dia_number+5} onclick="cambiar_fecha_calendario(${dia_number+5})" type="button" class="btn btn-secondary">${new Date(ano_number, mes_number-1, dia_number+5).toLocaleDateString('es',{weekday:"short"}).toUpperCase()}<br>${dia_number+5}/${fec}</button>
+              <button id=${dia_number+6} onclick="cambiar_fecha_calendario(${dia_number+6})" type="button" class="btn btn-secondary">${new Date(ano_number, mes_number-1, dia_number+6).toLocaleDateString('es',{weekday:"short"}).toUpperCase()}<br>${dia_number+6}/${fec}<br></button>
+              <button id=${dia_number+7} onclick="cambiar_fecha_calendario(${dia_number+7})" type="button" class="btn btn-secondary">${new Date(ano_number, mes_number-1, dia_number+7).toLocaleDateString('es',{weekday:"short"}).toUpperCase()}<br>${dia_number+7}/${fec}</button>
+              <button id=${dia_number+8} onclick="cambiar_fecha_calendario(${dia_number+8})" type="button" class="btn btn-secondary">${new Date(ano_number, mes_number-1, dia_number+8).toLocaleDateString('es',{weekday:"short"}).toUpperCase()}<br>${dia_number+8}/${fec}</button>
+              <button id=${dia_number+9} onclick="cambiar_fecha_calendario(${dia_number+9})" type="button" class="btn btn-secondary">${new Date(ano_number, mes_number-1, dia_number+9).toLocaleDateString('es',{weekday:"short"}).toUpperCase()}<br>${dia_number+9}/${fec}</button>
+          </div>
+       `}
+       
        
        `
 
@@ -268,7 +285,8 @@ function mostrarBoleto(boletos,data,origen, destino, fecha_salida, ordenSale) {
           <span
               class="card-text pasaje"
               style="color: rgb(12, 12, 12); font-size: small"
-              >  Coche ${i.coche} ${i.rampa?"<i class='fa fa-wheelchair rampa' aria-hidden='true' style='color:#009ee2;'></i>":''} ${i.novedades_servicio!=``?`<a class=' btnObservacion' data-toggle='modal' data-target='#modalExample${i.codigo_empresa}'><i class='fas fa-exclamation-circle rampa' id='observacion' alt='Observacion del servicio' onclick='observacion()' ></i>
+              >  Coche ${i.coche} ${i.rampa?"<i class='fa fa-wheelchair rampa' aria-hidden='true' style='color:#009ee2;'></i>":''}
+              ${i.refuerzo?'Refuerzo':''} ${i.novedades_servicio!=``?`<a class=' btnObservacion' data-toggle='modal' data-target='#modalExample${i.codigo_empresa}'><i class='fas fa-exclamation-circle rampa' id='observacion' alt='Observacion del servicio' onclick='observacion()' ></i>
               ${i.novedades_servicio}
               <!-- Modal -->
               <div class='modal' id='modalExample${i.codigo_empresa}' tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true'>
@@ -291,7 +309,7 @@ function mostrarBoleto(boletos,data,origen, destino, fecha_salida, ordenSale) {
                 </div>
               </a>`:``}
             
-            ${i.refuerzo?'Refuerzo':''}</span>
+            </span>
           </h6>
         </div>
       </div>
