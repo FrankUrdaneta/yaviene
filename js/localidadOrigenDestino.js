@@ -165,8 +165,7 @@ function mostrarBoleto(boletos,data,origen, destino, fecha_salida, ordenSale) {
       let dias=new Date(q).toLocaleDateString('es',{weekday:"long"})
 
        document.getElementById('calendarios_botones').innerHTML=`
-       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <div id="carousel_calendario" class="carousel-inner" role="listbox">
+       
           <div class="carousel-item active">
             
             <div class="btn-group-sm calendario_group" role="group" aria-label="Basic example">
@@ -176,28 +175,13 @@ function mostrarBoleto(boletos,data,origen, destino, fecha_salida, ordenSale) {
               <button id=${dia_number+3} onclick="cambiar_fecha_calendario(${dia_number+3})" type="button" class="btn btn-secondary">${new Date(ano_number, mes_number-1, dia_number+3).toLocaleDateString('es',{weekday:"short"}).toUpperCase()}<br>${dia_number+3}/${fec}</button>
               <button id=${dia_number+4} onclick="cambiar_fecha_calendario(${dia_number+4})" type="button" class="btn btn-secondary">${new Date(ano_number, mes_number-1, dia_number+4).toLocaleDateString('es',{weekday:"short"}).toUpperCase()}<br>${dia_number+4}/${fec}</button>
               
-          </div>
-          </div>
-          <div class="carousel-item">
-            <div class="btn-group-sm calendario_group" role="group" aria-label="Basic example">
-            <button id=${dia_number+5} onclick="cambiar_fecha_calendario(${dia_number+5})" type="button" class="btn btn-secondary">${new Date(ano_number, mes_number-1, dia_number+5).toLocaleDateString('es',{weekday:"short"}).toUpperCase()}<br>${dia_number+5}/${fec}</button>
-            <button id=${dia_number+6} onclick="cambiar_fecha_calendario(${dia_number+6})" type="button" class="btn btn-secondary">${new Date(ano_number, mes_number-1, dia_number+6).toLocaleDateString('es',{weekday:"short"}).toUpperCase()}<br>${dia_number+6}/${fec}<br></button>
-            <button id=${dia_number+7} onclick="cambiar_fecha_calendario(${dia_number+7})" type="button" class="btn btn-secondary">${new Date(ano_number, mes_number-1, dia_number+7).toLocaleDateString('es',{weekday:"short"}).toUpperCase()}<br>${dia_number+7}/${fec}</button>
-            <button id=${dia_number+8} onclick="cambiar_fecha_calendario(${dia_number+8})" type="button" class="btn btn-secondary">${new Date(ano_number, mes_number-1, dia_number+8).toLocaleDateString('es',{weekday:"short"}).toUpperCase()}<br>${dia_number+8}/${fec}</button>
-            <button id=${dia_number+9} onclick="cambiar_fecha_calendario(${dia_number+9})" type="button" class="btn btn-secondary">${new Date(ano_number, mes_number-1, dia_number+9).toLocaleDateString('es',{weekday:"short"}).toUpperCase()}<br>${dia_number+9}/${fec}</button>
-          </div>
+          
+          
           
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
+        
+      
        
        `
 
