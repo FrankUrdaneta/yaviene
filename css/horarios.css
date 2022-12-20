@@ -360,3 +360,7 @@ div.card > div > h6 > span > a:hover {
 .carousel-control-next {
   width: 4%;
 }
+
+.rd-navbar-wrap {
+  height: 0% !important;
+}
