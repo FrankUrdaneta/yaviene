@@ -8,6 +8,10 @@
   display: flex;
   justify-content: center;
   transition: all 1s ease;
+  margin-left: 5px;
+  box-shadow: rgb(0 0 0 / 61%) 0px 3px 6px, rgb(0 0 0 / 50%) 0px 3px 6px;
+  margin-top: 10px;
+  width: 97%;
   /* z-index: 1; */
 }
 .card-group:hover {
@@ -106,6 +110,12 @@
 
   .card-group {
     margin-bottom: 1.5px !important;
+    margin-left: 8px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-top: 3px;
+    width: 96%;
   }
   #navbarScroll {
     margin-top: 20% !important;
@@ -290,6 +300,19 @@
   }
   .card-group {
     margin-bottom: 1.5px !important;
+    margin-left: 8px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-top: 3px;
+    width: 96%;
+    /* border: 1px solid red; */
+  }
+  .card-button {
+    display: flex;
+    justify-content: center;
+    width: 98%;
+    margin-left: 3px;
   }
   #navbarScroll {
     margin-top: 20% !important;
@@ -473,6 +496,12 @@
   }
   .card-group {
     margin-bottom: 1.5px !important;
+    margin-left: 8px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-top: 3px;
+    width: 96%;
   }
   #navbarScroll {
     margin-top: 20% !important;
@@ -644,6 +673,12 @@
   }
   .card-group {
     margin-bottom: 1.5px !important;
+    margin-left: 8px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-top: 3px;
+    width: 96%;
   }
   #navbarScroll {
     margin-top: 20% !important;
@@ -834,6 +869,12 @@
   }
   .card-group {
     margin-bottom: 1.5px !important;
+    margin-left: 8px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-top: 3px;
+    width: 96%;
   }
   #navbarScroll {
     margin-top: 15% !important;
@@ -1037,6 +1078,12 @@
   }
   .card-group {
     margin-bottom: 1.5px !important;
+    margin-left: 8px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-top: 3px;
+    width: 96%;
   }
   #navbarScroll {
     margin-top: 15% !important;
@@ -1255,6 +1302,12 @@
   }
   .card-group {
     margin-bottom: 1.5px !important;
+    margin-left: 8px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-top: 3px;
+    width: 96%;
   }
   #navbarScroll {
     margin-top: 15% !important;
