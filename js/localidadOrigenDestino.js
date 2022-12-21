@@ -323,6 +323,7 @@ function mostrarBoleto(boletos,data,origen, destino, fecha_salida, ordenSale) {
           "class='btn ov-btn-grow-skew  coche'>Ver Coche <i class='fa fa-bus' aria-hidden='true'></i>":
           "class='btn ov-btn-grow-skew buscar_gps'>Ver Ruta <i class='fa fa-map-marker' aria-hidden='true'></i>"} </button>
       </div>
+      
               `
         }
       }
